@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Lifting vector bundles | Sanath Devalapurkar’s home page</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Lifting vector bundles" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Graduate student in math." />
+<meta property="og:description" content="Graduate student in math." />
+<link rel="canonical" href="http://localhost:4000/blog/algebraic-geometry/2019/02/15/vector-bundles.html" />
+<meta property="og:url" content="http://localhost:4000/blog/algebraic-geometry/2019/02/15/vector-bundles.html" />
+<meta property="og:site_name" content="Sanath Devalapurkar’s home page" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2019-02-15T00:00:00-08:00" />
+<script type="application/ld+json">
+{"url":"http://localhost:4000/blog/algebraic-geometry/2019/02/15/vector-bundles.html","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/blog/algebraic-geometry/2019/02/15/vector-bundles.html"},"description":"Graduate student in math.","headline":"Lifting vector bundles","dateModified":"2019-02-15T00:00:00-08:00","datePublished":"2019-02-15T00:00:00-08:00","@type":"BlogPosting","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Sanath Devalapurkar's home page" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Sanath Devalapurkar&#39;s home page</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/blog/">Blog</a><a class="page-link" href="/">Home</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Lifting vector bundles</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2019-02-15T00:00:00-08:00" itemprop="datePublished">Feb 15, 2019
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
+
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-109004213-1"></script>
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+        gtag('config', 'UA-109004213-1');
+</script>
+
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+<script type="math/tex; mode=display">\newcommand{\KO}{\mathrm{KO}} \newcommand{\TMF}{\mathrm{TMF}}
+\newcommand{\KU}{\mathrm{KU}} \newcommand{\Mfg}{M_\mathrm{fg}}
+\newcommand{\spec}{\mathrm{Spec}\ } \newcommand{\dX}{\mathcal{X}}
+\newcommand{\co}{\mathcal{O}} \newcommand{\Z}{\mathbf{Z}}
+\newcommand{\top}{\mathrm{top}} \newcommand{\E}{\mathbf{E}}
+\newcommand{\GG}{\mathbf{G}} \newcommand{\DD}{\mathbf{D}}
+\newcommand{\Mell}{M_\mathrm{ell}} \newcommand{\ce}{\mathcal{E}}
+\newcommand{\H}{\mathrm{H}} \newcommand{\dR}{\mathrm{dR}}
+\newcommand{\cf}{\mathcal{F}} \newcommand{\FF}{\mathbf{F}}
+\newcommand{\spf}{\mathrm{Spf}\ } \newcommand{\cA}{\mathcal{A}}
+\newcommand{\Mcub}{M_\mathrm{cub}} \newcommand{\Mqd}{M_\mathrm{qd}}
+\newcommand{\Aut}{\mathrm{Aut}} \newcommand{\tmf}{\mathrm{tmf}}
+\newcommand{\Tmf}{\mathrm{Tmf}} \newcommand{\Map}{\mathrm{Map}}
+\newcommand{\Ext}{\mathrm{Ext}} \newcommand{\End}{\mathrm{End}}
+\newcommand{\cg}{\mathcal{G}} \newcommand{\Hom}{\mathrm{Hom}}</script>
+
+<p>There’s a very nice classical theorem of Bousfield’s, stating that every finite
+<script type="math/tex">\KO</script>-module which is free upon base-changing to <script type="math/tex">\KU</script> is equivalent to a
+wedge of shifts of <script type="math/tex">\KO, \KU</script>, and <script type="math/tex">\KU^{h\Z} = \KO \wedge C\eta^2</script>. In
+section 7 of his
+<a href="http://www.staff.science.uu.nl/~meier007/Thesis-FinalVersionb.pdf">thesis</a>,
+Lennart Meier provides a modern proof of this theorem. This is a topological
+analogue of the classification of integral <script type="math/tex">\Z/2</script>-representations, i.e., the
+classification of vector bundles over <script type="math/tex">B\Z/2</script>. In light of this result, it’s
+interesting to ask about lifting vector bundles on a Deligne-Mumford stack
+<script type="math/tex">X</script> to an even-periodic refinement of <script type="math/tex">X</script>.</p>
+
+<p>To this end, we can make the following statement. Let <script type="math/tex">\dX</script> be an
+even-periodic Deligne-Mumford stack with underlying quasi-compact and separated
+Deligne-Mumford stack <script type="math/tex">X</script>. Suppose that <script type="math/tex">X</script> is Gorenstein of Krull
+dimension <script type="math/tex">\leq 2</script>, and that <script type="math/tex">\pi_{2k} \co_\dX</script> is ample for some <script type="math/tex">k\in
+\Z</script> (let’s call this assumption <script type="math/tex">(\ast)</script>). Then, for any <script type="math/tex">\Z/2</script>-graded
+perfect complex <script type="math/tex">\cf</script> on <script type="math/tex">X</script> concentrated in homological degree zero, there
+is a perfect <script type="math/tex">\co_\dX</script>-module <script type="math/tex">\widetilde{\cf}</script> with <script type="math/tex">\pi_0
+\widetilde{\cf} \oplus \pi_1 \widetilde{\cf} \cong \cf</script>.</p>
+
+<p>Note that the ampleness assumption is satisfied in an important example, namely
+when <script type="math/tex">\dX</script> is the even-periodic refinement of the compactified moduli stack
+<script type="math/tex">\overline{\Mell}</script> giving <script type="math/tex">\Tmf</script>. Moreover, in this case, the underlying
+stack <script type="math/tex">X</script> is smooth (hence Gorenstein) and of Krull dimension <script type="math/tex">\leq 2</script>
+(note that <script type="math/tex">B\Z/2</script> has Krull dimension <script type="math/tex">1</script> and <script type="math/tex">\overline{\Mell}</script> has
+Krull dimension <script type="math/tex">2</script>).</p>
+
+<p>Also note that the situation is easier in the connective case: if <script type="math/tex">A</script> is a
+<em>connective</em> <script type="math/tex">\E_\infty</script>-ring, then there is a map <script type="math/tex">A\to \pi_0 A</script>. Suppose
+<script type="math/tex">A</script> is coherent, so that <script type="math/tex">\pi_0 A</script> is coherent and <script type="math/tex">\pi_k A</script> is a
+finitely presented <script type="math/tex">\pi_0 A</script>-module for each <script type="math/tex">k</script>. Then <script type="math/tex">\pi_0 A</script> is
+almost perfect over <script type="math/tex">A</script>, so if <script type="math/tex">\pi_0 A</script> is of finite Tor-amplitude as an
+<script type="math/tex">A</script>-module, then Proposition 7.2.4.23(4) of <em>Higher Algebra</em> proves that
+<script type="math/tex">\pi_0 A</script> is perfect as an <script type="math/tex">A</script>-module. It follows that the functor
+<script type="math/tex">\mathrm{Mod}(\pi_0 A) \to \mathrm{Mod}(A)</script> preserves perfectness. The
+nonconnective/even-periodic statement above is not as easy, because in this
+setting, there is no map <script type="math/tex">A\to \pi_0 A</script>.</p>
+
+<p>Let’s now try to prove the claim made above. Write <script type="math/tex">\cf = \cf_0 \oplus
+\cf_1</script>, so that our assumptions on <script type="math/tex">\cf</script> imply that <script type="math/tex">\cf_0</script> and <script type="math/tex">\cf_1</script>
+are both perfect complexes on <script type="math/tex">X</script> concentrated in homological degree zero.
+The general case will therefore follow if for any perfect complex <script type="math/tex">\cf</script>
+concentrated in homological degree zero, there is a perfect <script type="math/tex">\co_\dX</script>-module
+<script type="math/tex">\widetilde{\cf}</script> with <script type="math/tex">\pi_\mathrm{odd} \widetilde{\cf} = 0</script> and <script type="math/tex">\pi_0
+\widetilde{\cf} \cong \cf</script>. We shall argue by induction on the projective
+dimension <script type="math/tex">\mathrm{pd}(\cf)</script> of <script type="math/tex">\cf</script>. (Recall that a perfect complex is
+quasi-isomorphic to a bounded complex of locally free <script type="math/tex">\co_X</script>-modules, and
+the length of a minimal such complex is the projective dimension of this
+perfect complex.)</p>
+
+<p>We make a further reduction: it suffices to assume that <script type="math/tex">\cf</script> is generated by
+global sections. Indeed, suppose that the desired result is true for every
+perfect complex concentrated in homological degree zero which is generated by
+global sections. Then, for any <script type="math/tex">\cf</script>, we know that there is some <script type="math/tex">m\gg 0</script>
+for which <script type="math/tex">\cf\otimes (\pi_{2k} \co_\dX)^{\otimes m}</script> is generated by its
+global sections, and therefore can be realized by some <script type="math/tex">\widetilde{\cf}'</script>. It
+follows that <script type="math/tex">\widetilde{\cf} := \Sigma^{-2km} \widetilde{\cf}'</script> is
+concentrated in even degrees and <script type="math/tex">\pi_0 \widetilde{\cf} = \cf</script>.</p>
+
+<p>If <script type="math/tex">\cf</script> is a finitely generated free <script type="math/tex">\co_X</script>-module, then
+<script type="math/tex">\widetilde{\cf}</script> can be chosen to be the free <script type="math/tex">\co_\dX</script>-module on a finite
+set of generators for <script type="math/tex">\cf</script>. If <script type="math/tex">\mathrm{pd}(\cf) = 0</script>, then <script type="math/tex">\cf</script> is a
+locally free <script type="math/tex">\co_X</script>-module, which we can assume is generated by global
+sections. Say <script type="math/tex">\cf</script> is locally free of rank <script type="math/tex">n</script>. We claim that <script type="math/tex">\cf</script> is a
+summand of <script type="math/tex">\co_X^n</script>. Indeed, choose a surjection <script type="math/tex">s:\co_X^n \to \cf</script>; this
+exists because <script type="math/tex">\cf</script> is generated by global sections. The map <script type="math/tex">s</script> splits
+because <script type="math/tex">\cf</script> is a vector bundle, so <script type="math/tex">\cf</script> is a summand of <script type="math/tex">\co_X^n</script>.
+Therefore, there is an idempotent <script type="math/tex">e\in \End_X(\co_X^n) = \pi_0
+\End_\dX(\co_\dX^n)</script> which executes this splitting. It follows that the
+idempotent <script type="math/tex">e</script> lifts to one on <script type="math/tex">\co_\dX^n</script>, so that there is a perfect
+<script type="math/tex">\co_\dX</script>-module <script type="math/tex">\widetilde{\cf}</script> (which is concentrated in even degrees)
+such that <script type="math/tex">\pi_0 \widetilde{\cf} = \cf</script>, as desired. Note that this did not
+use the Gorenstein or the Krull dimension assumptions.</p>
+
+<p>For the inductive step, assume <script type="math/tex">\mathrm{pd}(\cf)>0</script>. As proved above, we can
+assume that <script type="math/tex">\cf</script> is generated by global sections. Choose generators for
+<script type="math/tex">\cf</script>, so we get a surjection <script type="math/tex">\co_X^n \to \cf</script> from a finitely generated
+free <script type="math/tex">\co_X</script>-module. Let <script type="math/tex">\cg</script> denote the kernel of this map, so that
+<script type="math/tex">% <![CDATA[
+\mathrm{pd}(\cg) < \mathrm{pd}(\cf) %]]></script>. The inductive hypothesis implies that
+we can lift <script type="math/tex">\cg</script> to a perfect <script type="math/tex">\co_\dX</script>-module <script type="math/tex">\widetilde{\cg}</script>. To
+lift <script type="math/tex">\cf</script>, it remains to lift the map <script type="math/tex">\cg\to \co_X^n</script> to a map
+<script type="math/tex">\widetilde{\cg} \to \co_\dX^n</script>. There is a spectral sequence</p>
+
+<script type="math/tex; mode=display">E_2^{s,t} = \mathrm{Ext}^s_X(\pi_0 \cf, \pi_t \cg) \Rightarrow \pi_{t-s}
+\mathrm{Map}_\dX(\cf, \cg),</script>
+
+<p>where <script type="math/tex">\cf</script> and <script type="math/tex">\cg</script> are evenly concentrated quasicoherent
+<script type="math/tex">\co_\dX</script>-modules. We need to lift an element of <script type="math/tex">E_2^{0,0} = \Hom_X(\cg,
+\co_X^n)</script> to an element of <script type="math/tex">\pi_0 \Map_\dX(\widetilde{\cg}, \co_\dX^n)</script>, so
+it suffices to prove that all differentials off of <script type="math/tex">E_2^{0,0}</script> vanish. The
+<script type="math/tex">d_r</script>-differential (note <script type="math/tex">r\geq 2</script>) lands in <script type="math/tex">E_r^{r,r-1}</script>, and this
+target is a quotient of <script type="math/tex">E_2^{r,r-1}</script>. However, <script type="math/tex">E_2^{r,r-1} = \Ext^r_X(\cg,
+\pi_{r-1} \co_\dX^n)</script>.  By evenness, <script type="math/tex">E_2^{2r,2r-1} = 0</script> for all <script type="math/tex">r</script>, so
+it suffices to prove that <script type="math/tex">E_2^{2r+1,2r} = 0</script> for all <script type="math/tex">r\geq 1</script>. Since
+<script type="math/tex">\dX</script> is even <em>periodic</em>, <script type="math/tex">\pi_{2r} \co_\dX</script> is an invertible
+<script type="math/tex">\co_X</script>-module for all <script type="math/tex">r</script>; therefore</p>
+
+<script type="math/tex; mode=display">E_2^{2r+1,2r} = \Ext^{2r+1}_X(\cg, \pi_{2r} \co_\dX^n) \cong
+\bigoplus_{i=1}^n \Ext^{2r+1}_X(\cg\otimes \pi_{-2r} \co_\dX, \co_X).</script>
+
+<p>Since the Krull dimension of <script type="math/tex">X</script> is at most <script type="math/tex">2</script> and <script type="math/tex">X</script> is Gorenstein,
+the injective dimension of <script type="math/tex">\co_X</script> as a <script type="math/tex">\co_X</script>-module coincides with the
+Krull dimension, so <script type="math/tex">\Ext^i_X(\cf', \co_X) = 0</script> for <script type="math/tex">i\geq 3</script> for any
+quasicoherent <script type="math/tex">\co_X</script>-module <script type="math/tex">\cf'</script>. In particular, <script type="math/tex">E_2^{2r+1,2r} = 0</script>
+for <script type="math/tex">r\geq 1</script>, as desired.</p>
+
+<p>Note that we do not make any Noetherian assumption. The above discussion in
+fact shows that if <script type="math/tex">\dX</script> is an even-periodic Deligne-Mumford stack with
+underlying quasi-compact and separated Deligne-Mumford stack (no Noetherian,
+Krull dimension, or smoothness assumptions!) <script type="math/tex">X</script> such that <script type="math/tex">\pi_{2k} \co_\dX
+= (\pi_2 \co_\dX)^{\otimes k}</script> is ample for some <script type="math/tex">k\in \Z</script> (let’s call this
+assumption <script type="math/tex">(\ast\ast)</script>, then <em>every</em>
+<script type="math/tex">\Z/2</script>-graded vector bundle <script type="math/tex">\cf</script> can be realized as <script type="math/tex">\pi_0
+\widetilde{\cf} \oplus \pi_1 \widetilde{\cf}</script> for some vector bundle
+<script type="math/tex">\widetilde{\cf}</script> on <script type="math/tex">\dX</script>.</p>
+
+<p>How about morphisms? Suppose that <script type="math/tex">\cf</script> and <script type="math/tex">\cg</script> are <script type="math/tex">\Z/2</script>-graded
+vector bundles on <script type="math/tex">X</script>, with <script type="math/tex">X</script> satisfying assumption <script type="math/tex">(\ast\ast)</script>, and
+let <script type="math/tex">f_0:\cf \to \cg</script> be a morphism of vector bundles. We can then ask when
+<script type="math/tex">f_0</script> lifts to a map <script type="math/tex">f:\widetilde{\cf} \to \widetilde{\cg}</script> of vector
+bundles on <script type="math/tex">\dX</script>. There is a descent spectral sequence</p>
+
+<script type="math/tex; mode=display">E_2^{s,t} = \H^s(X; \pi_t \underline{\Hom}_X(\widetilde{\cf}, \widetilde{\cg})) \Rightarrow
+\pi_{t-s} \Hom_\dX(\widetilde{\cf}, \widetilde{\cg}).</script>
+
+<p>We know that</p>
+
+<script type="math/tex; mode=display">% <![CDATA[
+\pi_t \underline{\Hom}_X(\widetilde{\cf}, \widetilde{\cg}) \cong \underline{\Hom}_X(\cf,
+\pi_t \widetilde{\cg}) \cong \begin{cases}
+    \underline{\Hom}_X(\cf, \cg\otimes \omega^{\otimes t/2}) & \text{ if
+    }t\text{ is even}\\
+	0 & \text{else}.
+\end{cases} %]]></script>
+
+<p>In general, there is a spectral sequence</p>
+
+<script type="math/tex; mode=display">\H^i(X; \underline{\Ext}^j_X(\cf,\cg)) \Rightarrow \Ext^{i+j}_X(\cf, \cg);</script>
+
+<p>since <script type="math/tex">\cf</script> is a vector bundle, we conclude that <script type="math/tex">E_2^{s,2t} = \Ext^s_X(\cf,
+\cg\otimes \omega^{\otimes t})</script>. If the stronger assumption <script type="math/tex">(\ast)</script> is
+satisfied, then the same argument as in the proof of the claim at the beginning
+of this post shows that <em>any element</em> of <script type="math/tex">\Hom_X(\cf, \cg)</script> is a permanent
+cycle, and lifts to an element of <script type="math/tex">\pi_0 \Hom_\dX(\widetilde{\cf},
+\widetilde{\cg})</script>.</p>
+
+<p>Now suppose <script type="math/tex">\cf</script> is a <script type="math/tex">\Z/2</script>-graded vector bundle on <script type="math/tex">X</script> satisfying
+assumption <script type="math/tex">(\ast\ast)</script> which splits as <script type="math/tex">\cf_1 \oplus \cf_2</script> in the
+category of <script type="math/tex">\Z/2</script>-graded vector bundles. Then we can lift <script type="math/tex">\cf,\cf_1</script>, and
+<script type="math/tex">\cf_2</script> to vector bundles <script type="math/tex">\widetilde{\cf}, \widetilde{\cf_1}</script>, and
+<script type="math/tex">\widetilde{\cf_2}</script> by the discussion above. Moreover, the map <script type="math/tex">\cf_1\oplus
+\cf_2 \to \cf</script> lifts to a map <script type="math/tex">\phi:\widetilde{\cf_1} \oplus
+\widetilde{\cf_2} \to \widetilde{\cf}</script> such that the map on <script type="math/tex">\pi_\ast</script> is an
+isomorphism; therefore, <script type="math/tex">\phi</script> itself is an equivalence.</p>
+
+<p>Finally, let <script type="math/tex">\widetilde{\cf}'</script> be a vector bundle on <script type="math/tex">\dX</script>, and let <script type="math/tex">\cf
+= \pi_0 \widetilde{\cf}' \oplus \pi_1 \widetilde{\cf}'</script> be the associated
+<script type="math/tex">\Z/2</script>-graded vector bundle on <script type="math/tex">X</script>. Let <script type="math/tex">\widetilde{\cf}</script> be the
+associated vector bundle on <script type="math/tex">\dX</script>. The identity map on <script type="math/tex">\cf</script> lifts to a map
+<script type="math/tex">\widetilde{\cf}\to \widetilde{\cf}'</script> which is an isomorphism on homotopy. It
+follows that the map <script type="math/tex">\widetilde{\cf}\to \widetilde{\cf}'</script> is an equivalence.
+In other words, the lift constructed above of the <script type="math/tex">\Z/2</script>-graded bundle
+determined by <script type="math/tex">\pi_0\oplus \pi_1</script> of a vector bundle on <script type="math/tex">\dX</script> is equivalent
+to the original vector bundle.</p>
+
+  </div><a class="u-url" href="/blog/algebraic-geometry/2019/02/15/vector-bundles.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Sanath Devalapurkar&#39;s home page</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Sanath Devalapurkar&#39;s home page</li><li><a class="u-email" href="mailto:sanathdevalapurkar@g.harvard.edu">sanathdevalapurkar@g.harvard.edu</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>Graduate student in math.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

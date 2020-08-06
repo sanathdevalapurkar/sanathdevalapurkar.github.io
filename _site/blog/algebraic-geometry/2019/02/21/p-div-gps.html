@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>The moduli of p-divisible groups | Sanath Devalapurkar’s home page</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="The moduli of p-divisible groups" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Graduate student in math." />
+<meta property="og:description" content="Graduate student in math." />
+<link rel="canonical" href="http://localhost:4000/blog/algebraic-geometry/2019/02/21/p-div-gps.html" />
+<meta property="og:url" content="http://localhost:4000/blog/algebraic-geometry/2019/02/21/p-div-gps.html" />
+<meta property="og:site_name" content="Sanath Devalapurkar’s home page" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2019-02-21T00:00:00-08:00" />
+<script type="application/ld+json">
+{"url":"http://localhost:4000/blog/algebraic-geometry/2019/02/21/p-div-gps.html","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/blog/algebraic-geometry/2019/02/21/p-div-gps.html"},"description":"Graduate student in math.","headline":"The moduli of p-divisible groups","dateModified":"2019-02-21T00:00:00-08:00","datePublished":"2019-02-21T00:00:00-08:00","@type":"BlogPosting","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Sanath Devalapurkar's home page" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Sanath Devalapurkar&#39;s home page</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/blog/">Blog</a><a class="page-link" href="/">Home</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">The moduli of p-divisible groups</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2019-02-21T00:00:00-08:00" itemprop="datePublished">Feb 21, 2019
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
+
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-109004213-1"></script>
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+        gtag('config', 'UA-109004213-1');
+</script>
+
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+<script type="math/tex; mode=display">\newcommand{\KO}{\mathrm{KO}} \newcommand{\TMF}{\mathrm{TMF}}
+\newcommand{\KU}{\mathrm{KU}} \newcommand{\Mfg}{M_\mathrm{fg}}
+\newcommand{\spec}{\mathrm{Spec}\ } \newcommand{\dX}{\mathcal{X}}
+\newcommand{\co}{\mathcal{O}} \newcommand{\Z}{\mathbf{Z}}
+\newcommand{\top}{\mathrm{top}} \newcommand{\E}{\mathbf{E}}
+\newcommand{\GG}{\mathbf{G}} \newcommand{\DD}{\mathbf{D}}
+\newcommand{\Mell}{M_\mathrm{ell}} \newcommand{\ce}{\mathcal{E}}
+\newcommand{\H}{\mathrm{H}} \newcommand{\dR}{\mathrm{dR}}
+\newcommand{\cf}{\mathcal{F}} \newcommand{\FF}{\mathbf{F}}
+\newcommand{\spf}{\mathrm{Spf}\ } \newcommand{\cA}{\mathcal{A}}
+\newcommand{\Mcub}{M_\mathrm{cub}} \newcommand{\Mqd}{M_\mathrm{qd}}
+\newcommand{\Aut}{\mathrm{Aut}} \newcommand{\tmf}{\mathrm{tmf}}
+\newcommand{\Tmf}{\mathrm{Tmf}} \newcommand{\Map}{\mathrm{Map}}
+\newcommand{\Ext}{\mathrm{Ext}} \newcommand{\End}{\mathrm{End}}
+\newcommand{\cg}{\mathcal{G}} \newcommand{\Hom}{\mathrm{Hom}}
+\newcommand{BP}[1]{\mathrm{BP}\langle #1\rangle} \newcommand{\QQ}{\mathbf{Q}}
+\newcommand{\PP}{\mathbf{P}} \newcommand{\Gal}{\mathrm{Gal}}
+\newcommand{\proj}{\mathrm{Proj}\ } \newcommand{\Ltwo}{L_{K(2)}}
+\newcommand{\Eoo}{\mathbf{E}_\infty} \newcommand{\ol}[1]{\overline #1}
+\newcommand{\pic}{\mathrm{Pic}} \newcommand{\d}{\mathrm{d}}
+\newcommand{\F}{\mathrm{F}} \newcommand{\wt}[1]{\widetilde #1}
+\newcommand{\AA}{\mathbf{A}} \newcommand{\PP}{\mathbf{P}}
+\newcommand{\top}{\mathrm{top}} \newcommand{\der}{\mathrm{der}}
+\newcommand{\M}{M} \newcommand{\colim}{\mathrm{colim}\ }
+\newcommand{\GL}{\mathrm{GL}} \newcommand{\W}{\mathrm{W}}
+\newcommand{\et}{\mathrm{et}} \newcommand{\im}{\mathrm{im}}</script>
+
+<p>I want to write down some facts about the moduli stack of (<script type="math/tex">1</script>-dimensional)
+<script type="math/tex">p</script>-divisible groups. Recall that a <script type="math/tex">p</script>-divisible group <script type="math/tex">G</script> of height
+<script type="math/tex">n</script> over a <script type="math/tex">p</script>-adic ring <script type="math/tex">R</script> is an fppf sheaf of abelian groups such that</p>
+
+<ul>
+  <li><script type="math/tex">[p^k]:G\to G</script> is surjective for all <script type="math/tex">k</script>;</li>
+  <li>The kernel <script type="math/tex">G[p^k]</script> of <script type="math/tex">[p^k]:G\to G</script> is a finite flat group scheme over
+<script type="math/tex">R</script> of rank <script type="math/tex">p^{nk}</script>; and</li>
+  <li><script type="math/tex">\colim G[p^k] \cong G</script>.</li>
+</ul>
+
+<p>We say that <script type="math/tex">G</script> is a <script type="math/tex">1</script>-dimensional <script type="math/tex">p</script>-divisible group if the
+completion of <script type="math/tex">G</script> at the identity is a formal group of dimension <script type="math/tex">1</script>. Let
+<script type="math/tex">\M_p(n)</script> denote the moduli of <script type="math/tex">1</script>-dimensional <script type="math/tex">p</script>-divisible groups of
+height <script type="math/tex">n</script>. The goal of this post is to prove that <script type="math/tex">\M_p(n)</script> is an fpqc
+stack over <script type="math/tex">\spec \Z_p</script>; moreover, it is a <em>pro-Artin stack</em>: there are Artin
+stacks <script type="math/tex">\dX_i</script> for <script type="math/tex">i\geq 1</script> along with morphisms <script type="math/tex">\dX_i \to \dX_{i-1}</script>
+and <script type="math/tex">\M_p(n) \to \dX_i</script> such that the map <script type="math/tex">\M_p(n) \to \varprojlim \dX_i</script>
+is an isomorphism.</p>
+
+<p>For <script type="math/tex">k\geq 2</script>, let <script type="math/tex">\dX_k</script> denote the moduli of <script type="math/tex">1</script>-dimensional
+<script type="math/tex">k</script>-truncated Barsotti-Tate groups, i.e., finite flat <script type="math/tex">p^k</script>-torsion schemes
+<script type="math/tex">G</script> of rank <script type="math/tex">p^{nk}</script> such that <script type="math/tex">G</script> is a flat <script type="math/tex">\Z/p^k</script>-module. Let
+<script type="math/tex">\dX_1</script> denote the moduli of <script type="math/tex">1</script>-dimensional <script type="math/tex">1</script>-truncated Barsotti-Tate
+groups, i.e., <script type="math/tex">p</script>-torsion finite flat group schemes <script type="math/tex">G</script> of rank <script type="math/tex">p^n</script>
+such that if <script type="math/tex">S_0\subseteq S</script> is the vanishing locus of <script type="math/tex">p</script> and <script type="math/tex">G_0 =
+G\times_S S_0</script>, then the sequence</p>
+
+<script type="math/tex; mode=display">G_0 \xrightarrow{F} G_0^{(p)} \xrightarrow{V} G_0</script>
+
+<p>is exact. There is a map <script type="math/tex">\dX_k \to \dX_{k-1}</script> sending <script type="math/tex">G</script> to
+<script type="math/tex">G[p^{k-1}]</script>.  It follows from classical descent theory that both <script type="math/tex">\M_p(n)</script>
+and <script type="math/tex">\dX_k</script> are fpqc stacks, and it is also clear that <script type="math/tex">\M_p(n) \to
+\varprojlim \dX_k</script> is an isomorphism. It therefore suffices to show that
+<script type="math/tex">\dX_k</script> is an Artin stack for each <script type="math/tex">k</script>.</p>
+
+<p>Let us fix some <script type="math/tex">k\geq 1</script>, and argue that <script type="math/tex">\dX_k</script> is an Artin stack. Define
+a stack <script type="math/tex">\wt{\dX}_k</script> as follows: an <script type="math/tex">S</script>-point of <script type="math/tex">\wt{\dX}_k</script> is a
+<script type="math/tex">1</script>-dimensional <script type="math/tex">k</script>-truncated Barsotti-Tate group <script type="math/tex">q:G\to S</script> along with
+an isomorphism <script type="math/tex">\alpha:q_\ast \co_X \xrightarrow{\sim} \co_S^{p^{nk}}</script> of
+<script type="math/tex">\co_S</script>-modules. There is clearly a morphism of stacks <script type="math/tex">f:\wt{\dX}_k \to
+\dX_k</script>, which makes <script type="math/tex">\wt{\dX}_k</script> into an fppf <script type="math/tex">\GL_{p^{nk}}</script>-torsor over
+<script type="math/tex">\dX_k</script>. By definition, <script type="math/tex">\dX_k</script> is the stack quotient
+<script type="math/tex">\wt{\dX}_k/\GL_{p^{nk}}</script>, so by Example 4.6.1 of
+<a href="https://link.springer.com/book/10.1007%2F978-3-540-24899-6">Laumon–Moret-Bailly</a>,
+it suffices to show that <script type="math/tex">\wt{\dX}_k</script> is a scheme. In fact, we will show that
+<script type="math/tex">\wt{\dX}_k</script> is a quasi-affine scheme of finite type over <script type="math/tex">\spec \Z_p</script>.</p>
+
+<p>The moduli problem <script type="math/tex">\wt{\dX}_k</script> lands in sets, and so we have to show that
+the fpqc sheaf <script type="math/tex">\wt{\dX}_k</script> is representable by a quasi-affine scheme of
+finite type. We do so by proving that there is a open immersion from
+<script type="math/tex">\wt{\dX}_k</script> into a quasi-affine scheme of finite type. Let <script type="math/tex">Y</script> denote the
+finite type quasi-affine scheme over <script type="math/tex">\spec \Z_p</script> classifying finite flat
+group schemes <script type="math/tex">G=\spec A</script> along with an isomorphism <script type="math/tex">A\simeq
+\co_S^{p^{nk}}</script>. To apply this to <script type="math/tex">\wt{\dX}_k</script>, we also need to require
+that the completion of <script type="math/tex">A</script> at the group identity is <script type="math/tex">1</script>-dimensional over
+<script type="math/tex">S</script>; but this is a closed condition, so we obtain a cloed subscheme <script type="math/tex">Z</script> of
+<script type="math/tex">Y</script>. Asking that <script type="math/tex">A</script> be killed by <script type="math/tex">p^k</script> defines a closed subscheme <script type="math/tex">Z(k)</script>
+of <script type="math/tex">Z</script>. There is a canonical morphism <script type="math/tex">\wt{\dX}_k \to Z(k)</script>, so it suffices
+to prove that this is a open immersion. The only condition missing from the
+moduli problem defining <script type="math/tex">Z(k)</script> is the condition that the <script type="math/tex">p^k</script>-torsion
+group scheme <script type="math/tex">G</script> be flat over <script type="math/tex">\Z/p^k</script>.</p>
+
+<p>By Lemma I.1.1 of <a href="https://link.springer.com/book/10.1007/BFb0058301">Messing</a>,
+this is equivalent to asking for the exactness of the sequence</p>
+
+<script type="math/tex; mode=display">G\xrightarrow{[p^i]} G \xrightarrow{[p^{n-i}]} G</script>
+
+<p>for <script type="math/tex">k\geq 2</script>, and the exactness of</p>
+
+<script type="math/tex; mode=display">G\times_S S_0 \xrightarrow{F} (G\times_S S_0)^{(p)} \xrightarrow{V} G\times_S
+S_0</script>
+
+<p>for <script type="math/tex">k=1</script>, over <script type="math/tex">S</script>, where, as before, <script type="math/tex">S_0</script> is the vanishing locus of
+<script type="math/tex">p</script> in <script type="math/tex">S</script>. There is an induced map <script type="math/tex">[p^i]':G \to \ker([p^{n-i}])</script> if
+<script type="math/tex">k\geq 2</script> (resp. <script type="math/tex">F':G\times_S S_0 \to \ker(V)</script> if <script type="math/tex">k=1</script>). We know that
+<script type="math/tex">\wt{\dX}_k(S)</script> is the set of <script type="math/tex">s\in S</script> such that <script type="math/tex">[p^i]'</script> (resp. <script type="math/tex">F'</script>)
+is an epimorphism at <script type="math/tex">s</script>; this is equal to the set of <script type="math/tex">s\in S</script> for which
+<script type="math/tex">[p^i]'</script> (resp. <script type="math/tex">F'</script>) is faithfully flat at <script type="math/tex">s</script>. By Proposition 12.3.3 of
+EGA IV, we know that <script type="math/tex">\wt{\dX}_k(S)</script> is open in <script type="math/tex">Z(k)(S)</script>, as desired.</p>
+
+<p>Note that the generic fiber <script type="math/tex">\dX_k\otimes \QQ</script> is a Deligne-Mumford stack (so
+that the generic fiber of <script type="math/tex">\M_p(n)</script> is a pro-Deligne-Mumford stack). Indeed,
+in characteristic zero, every <script type="math/tex">1</script>-dimensional <script type="math/tex">p^k</script>-torsion group scheme is
+finite etale, so it is etale locally isomorphic to the constant sheaf
+<script type="math/tex">(\Z/p^k)^n</script>.  Therefore, <script type="math/tex">\dX_k\otimes \QQ</script> is isomorphic to
+<script type="math/tex">\spec(\QQ)/\Aut((\Z/p^k)^n)</script>; since <script type="math/tex">\Aut((\Z/p^k)^n) = \GL_n(\Z/p^k)</script> is
+a finite constant group scheme, the assertion follows. In particular, we
+conclude that <script type="math/tex">\wt{\dX}_k</script> has relative dimension <script type="math/tex">\dim(\GL_{p^{nk}}) =
+p^{2nk}</script> over <script type="math/tex">\Z_p</script>, so <script type="math/tex">\dX_k</script> has relative dimension zero over
+<script type="math/tex">\Z_p</script>.</p>
+
+<p>The stack <script type="math/tex">\M_p(n)</script> is relevant to chromatic homotopy theory, because there
+is a map <script type="math/tex">\M_p(n) \to \Mfg</script>, which sends a <script type="math/tex">p</script>-divisible group to its
+completion at the identity. This map, however, is pretty terribly
+nonrepresentable. Consider a map <script type="math/tex">\spec A\to \Mfg</script>, classifying a
+<script type="math/tex">1</script>-dimensional formal group <script type="math/tex">H</script> of height <script type="math/tex">\leq n</script>. Then an <script type="math/tex">R</script>-point
+of the pullback <script type="math/tex">\spec A\times_{\Mfg} \M_p(n)</script> is a <script type="math/tex">p</script>-divisible group
+<script type="math/tex">G</script> over <script type="math/tex">R</script> of height <script type="math/tex">n</script> along with an isomorphism of the completion of
+<script type="math/tex">G</script> at the identity with the pullback of <script type="math/tex">H</script> along the unit map <script type="math/tex">f:A\to
+R</script>.  Equivalently, this is the data of an extension over <script type="math/tex">R</script> of <script type="math/tex">f^\ast H</script>
+by an etale <script type="math/tex">p</script>-divisible group. The representability of <script type="math/tex">\M_p(n) \to
+\Mfg</script> would imply that an automorphism of such an extension which is the
+identity on <script type="math/tex">f^\ast H</script> is necessarily trivial. However, this is evidently
+false: if <script type="math/tex">H</script> is of height <script type="math/tex">h</script> and <script type="math/tex">G</script> is the extension of <script type="math/tex">f^\ast H</script>
+by a constant <script type="math/tex">p</script>-divisible group (of height <script type="math/tex">n-h</script>), then the group of
+automorphisms of <script type="math/tex">G</script> which restrict to the identity on <script type="math/tex">f^\ast H</script> is
+isomorphic to <script type="math/tex">\GL_{n-h}(\Z_p)</script>.</p>
+
+<p>Nonetheless, the morphism <script type="math/tex">f:\M_p(n) \to \Mfg</script> is flat, in the following
+sense: the map <script type="math/tex">\M_p(n)^\wedge_x \to (\Mfg)^\wedge_{f(x)}</script> is flat for every
+geometric point <script type="math/tex">x:\spec k \to \M_p(n)</script>. We can assume that <script type="math/tex">k</script> is perfect.
+Now suppose that completion of <script type="math/tex">x</script> at the identity is of height <script type="math/tex">t\leq n</script>;
+then, <script type="math/tex">(\Mfg)^\wedge_{f(x)}</script> is affine, and its coordinate ring is isomorphic
+to a formal power series ring <script type="math/tex">\W(k)[\![u_1,\cdots,u_{t-1}]\!]</script>, and
+<script type="math/tex">\M_p(n)^\wedge_x</script> is isomorphic to a formal power series ring
+<script type="math/tex">\W(k)[\![u_1,\cdots,u_{n-1}]\!]</script>. The induced map
+<script type="math/tex">\W(k)[\![u_1,\cdots,u_{t-1}]\!] \to \W(k)[\![u_1,\cdots,u_{n-1}]\!]</script> sends
+<script type="math/tex">u_i</script> to <script type="math/tex">u_i</script>, and is therefore flat.</p>
+
+<p>Why is <script type="math/tex">\M_p(n)</script> a better stack than the moduli of formal groups? An
+important difference between the two comes from <em>smoothness</em>: the moduli stack
+<script type="math/tex">\Mfg^{\leq n}</script> of formal groups of height at most <script type="math/tex">n</script> is not smooth. This
+is because the dimension of <script type="math/tex">\Mfg^{\leq n}</script> varies from point to point.
+Indeed, if <script type="math/tex">\Mfg^{\leq n}</script> was smooth, then the cotangent complex
+<script type="math/tex">L_{\Mfg^{\leq n}}</script> (of <script type="math/tex">\Mfg^{\leq n}</script> over <script type="math/tex">\Z_p</script>) would be perfect
+over <script type="math/tex">\Z_p</script>. But the fiber over a height <script type="math/tex">t</script> point is a
+<script type="math/tex">(t-1)</script>-dimensional vector space, so this is impossible. However, I believe
+that <script type="math/tex">\M_p(n)</script> is pro-smooth. Indeed, if we write <script type="math/tex">\M_p(n)</script> as an inverse
+limit of Artin stacks <script type="math/tex">\dX_k</script> as above, then <script type="math/tex">\dX_k</script> is a quotient by the
+action of <script type="math/tex">\GL_{p^{nk}}</script> of a quasi-affine scheme <script type="math/tex">\wt{\dX}_k</script> of finite
+type over <script type="math/tex">\Z_p</script>. Now, <script type="math/tex">\GL_{p^{nk}}</script> is flat and of finite presentation
+over <script type="math/tex">\Z_p</script>, so it suffices to show that <script type="math/tex">\wt{\dX}_k</script> is smooth. I think
+that this is true, but I haven’t worked out a full proof yet.</p>
+
+<p>In topology, the utility of the moduli stack <script type="math/tex">\M_p(n)</script> comes from the
+following theorem of Lurie’s.</p>
+
+<p><strong>Theorem (Lurie):</strong> Let <script type="math/tex">\M_p(n)^\et</script> denote the site of formally etale
+maps <script type="math/tex">X\to \Mfg</script> where <script type="math/tex">X</script> is a locally Noetherian separated
+Deligne-Mumford stack over a complete local ring with perfect residue field.
+Then, there is an even-periodic refinement of <script type="math/tex">\M_p(n)^\et</script>; i.e., there is a
+sheaf <script type="math/tex">\co^\der</script> of even-periodic <script type="math/tex">\Eoo</script>-rings on <script type="math/tex">\M_p(n)^\et</script> such that
+if <script type="math/tex">\spec A\to \M_p(n)</script> classifies a <script type="math/tex">p</script>-divisible group <script type="math/tex">G</script>, and <script type="math/tex">E =
+\co^\der(\spec A)</script>, then the completion of <script type="math/tex">G</script> at the identity is isomorphic
+to the formal group associated to <script type="math/tex">E</script>.</p>
+
+<p>Using the Serre-Tate theorem, which says that the map <script type="math/tex">\Mell \to \M_p(n)</script> is
+formally etale, we obtain a sheaf of <script type="math/tex">\Eoo</script>-rings <script type="math/tex">\co^\der</script> on the etale
+site of <script type="math/tex">\Mell</script>, which makes <script type="math/tex">(\Mell, \co^\der)</script> into an even-periodic
+refinement of <script type="math/tex">(\Mell, \co_{\Mell})</script>, whose global sections <script type="math/tex">\Gamma(\Mell,
+\co^\der)</script> is the <script type="math/tex">p</script>-complete <script type="math/tex">\Eoo</script>-ring <script type="math/tex">\TMF</script>.  Lurie’s theorem also
+allows for the construction of other even-periodic derived Deligne-Mumford
+stacks, including an even-periodic refinement of PEL-type Shimura varieties.
+Let us recall the construction of this moduli problem, following <a href="https://www3.nd.edu/~mbehren1/papers/handbook.pdf">this
+article</a>; see also
+<a href="https://www3.nd.edu/~mbehren1/papers/assembly3.pdf">Behrens-Lawson</a>.  Denote
+by <script type="math/tex">F</script> an imaginary quadratic extension of <script type="math/tex">\QQ_p</script> in which <script type="math/tex">p</script> splits as
+<script type="math/tex">u\ol{u}</script>. Let <script type="math/tex">V</script> be a <script type="math/tex">F</script>-vector space of dimension <script type="math/tex">n</script> along with a
+<script type="math/tex">\QQ</script>-valued nondegenerate Hermitian alternating form <script type="math/tex">\langle-,-\rangle</script>
+on <script type="math/tex">V</script> of signature <script type="math/tex">(1,n-1)</script> along with an <script type="math/tex">\co_F</script>-lattice
+<script type="math/tex">\Lambda\subseteq V</script> such that <script type="math/tex">\langle-,-\rangle</script> gives integer values on
+<script type="math/tex">\Lambda</script> and makes <script type="math/tex">\Lambda_{(p)}</script> self-dual. Then, define a functor
+<script type="math/tex">\dX_{V,L}</script> (the “PEL Shimura variety”) on <script type="math/tex">p</script>-adic schemes as follows: an
+<script type="math/tex">S</script>-point of <script type="math/tex">\dX_{V,L}</script> is a triple <script type="math/tex">(A,\lambda,\iota)</script>, where:</p>
+
+<ul>
+  <li><script type="math/tex">A</script> is an abelian scheme of dimension <script type="math/tex">n</script> over <script type="math/tex">S</script>;</li>
+  <li><script type="math/tex">\lambda:A \to A^\vee</script> is a polarization on <script type="math/tex">A</script> which is principal at
+<script type="math/tex">p</script> with Rosati involution (recall that this is defined as follows:
+given <script type="math/tex">f\in \End(A)_{(p)}</script>, we define <script type="math/tex">f^\dagger = \lambda f^\vee
+\lambda^{-1}</script>; note that we need <script type="math/tex">\lambda</script> to be principal at <script type="math/tex">p</script> in order
+for this definition to make sense) <script type="math/tex">\dagger</script> on <script type="math/tex">\End(A)_{(p)}</script>; and</li>
+  <li><script type="math/tex">\iota:\co_{F,(p)} \hookrightarrow \End(A)_{(p)}</script> is an injection of rings,
+such that <script type="math/tex">\iota(\ol{x}) = \iota(x)^\dagger</script>.</li>
+</ul>
+
+<p>This data is subject to the following conditions:</p>
+
+<ul>
+  <li>The splitting <script type="math/tex">\co_{F,(p)} = \co_{F,(u)} \times \co_{F,(\ol{u})}</script> induced
+by <script type="math/tex">p = u\ol{u}</script> gives a splitting <script type="math/tex">A[p^\infty] = A[u^\infty] \oplus
+A[\ol{u}^\infty]</script> such that <script type="math/tex">A[u^\infty]</script> is <script type="math/tex">1</script>-dimensional; and</li>
+  <li>For each geometric point <script type="math/tex">s\in S</script>, there is an <script type="math/tex">\co_F</script>-linear isomorphism
+<script type="math/tex">\prod_{\ell\neq p} \Lambda^\wedge_\ell \to \prod_{\ell\neq p} T_\ell(A_s)</script>
+which upon rationalization sends <script type="math/tex">\langle-,-\rangle</script> to an
+<script type="math/tex">(\AA^{p,\infty})^\times</script>-multiple of the <script type="math/tex">\lambda</script>-Weil pairing.</li>
+</ul>
+
+<p>There is therefore an isomorphism <script type="math/tex">\lambda_\ast:A[u^\infty] \to
+A[\ol{u}^\infty]^\vee</script>, so <script type="math/tex">A[u^\infty]</script> has height <script type="math/tex">n</script>. Moreover, the
+deformation theory of <script type="math/tex">A[p^\infty]</script> (and hence of <script type="math/tex">A</script>, by Serre-Tate for
+abelian varieties), is controlled by the <script type="math/tex">1</script>-dimensional height <script type="math/tex">n</script> summand
+<script type="math/tex">A[u^\infty]</script>. It follows that the map <script type="math/tex">\dX_{V,L} \to \M_p(n)</script> sending
+<script type="math/tex">(A,\lambda,\iota)</script> to <script type="math/tex">A[u^\infty]</script> is formally etale, so Lurie’s theorem
+shows that there is a sheaf <script type="math/tex">\co^\der</script> of <script type="math/tex">\Eoo</script>-rings on the etale site of
+<script type="math/tex">\dX_{V,L}</script>. This gives the <script type="math/tex">\Eoo</script>-ring spectra which are often grouped
+together into the term “topological automorphic forms”.</p>
+
+<p>In the general setting of Lurie’s theorem, the map <script type="math/tex">X\to \M_p(n)</script> is required
+to be formally etale. By our discussion above, the induced map <script type="math/tex">g:X\to \Mfg</script>
+is also flat. As discussed
+<a href="https://sites.math.northwestern.edu/~pgoerss/papers/banff.pdf">here</a>, one
+would also like <script type="math/tex">g</script> to be representable; however, this is not at all
+immediate from formal etaleness (a map of stacks can be formally etale without
+being representable; and even if the map to <script type="math/tex">\M_p(n)</script> is representable, the
+fact that the map <script type="math/tex">\M_p(n) \to \Mfg</script> is not representable shows that this
+does not guarantee that <script type="math/tex">g</script> is representable). Nonetheless, one can prove a
+few results; I learnt the following from Lennart Meier.</p>
+
+<p>Let <script type="math/tex">X</script> denote one of <script type="math/tex">\Mell</script> or the Shimura variety <script type="math/tex">\dX_{V,L}</script>
+described above. Then the morphism <script type="math/tex">g:X\to \Mfg</script> is representable if for
+every geometric point <script type="math/tex">x\in X</script>, the endomorphism ring <script type="math/tex">\End(x)</script> is
+right-cancellable. To show this, we need to show that for every geometric point
+<script type="math/tex">x\in X</script>, the map <script type="math/tex">\Aut(x) \to \Aut(g(x))</script> is an injection. Suppose that
+<script type="math/tex">f\in \Aut(x)</script> induces the identity on <script type="math/tex">g(x)</script>, and suppose that <script type="math/tex">f\neq
+1</script>. Since <script type="math/tex">X</script> is separated, the group <script type="math/tex">\Aut(x)</script> is finite. It follows that
+there is some <script type="math/tex">N\geq 1</script> for which <script type="math/tex">f^N = 1</script>; we are assuming that <script type="math/tex">N\neq
+1</script>. This implies that <script type="math/tex">(1+f+\cdots+f^{N-1})(f-1) = 0</script> in <script type="math/tex">\End(x)</script>, so
+since <script type="math/tex">\End(x)</script> is right-cancellable, we learn that <script type="math/tex">1+f+\cdots+f^{N-1} =
+0</script>. Applying <script type="math/tex">g</script>, we find that this implies that <script type="math/tex">N=0</script>, which is a
+contradiction.</p>
+
+<p>Let us consider the special case of the Shimura variety construction where the
+moduli problem restricts to abelian <em>surfaces</em>. In this case, the moduli
+problem can be succinctly stated as follows: fix an indefinite quaternion
+algebra <script type="math/tex">D</script> over <script type="math/tex">\QQ</script> and a maximal order <script type="math/tex">\Lambda\subseteq D</script>; then,
+<script type="math/tex">\dX_\Lambda</script> is the moduli problem classifying abelian surfaces <script type="math/tex">A</script> along
+with an action <script type="math/tex">\Lambda \to \End(A)</script> such that for any <script type="math/tex">A/R</script> and any <script type="math/tex">R
+\to R'</script> for which <script type="math/tex">\Lambda \otimes R' \cong M_2(R')</script>, the two summands of
+<script type="math/tex">R'\otimes_R T_e(A)</script> are locally free of rank <script type="math/tex">1</script>. See
+<a href="https://arxiv.org/abs/0902.2603">here</a>.</p>
+
+<p>Then, I claim that the maps <script type="math/tex">\ol{\Mell} \to \Mfg</script> and <script type="math/tex">\dX_\Lambda \to
+\Mfg</script> are representable; moreover, the first morphism is quasi-affine. (I
+don’t know if the map <script type="math/tex">\dX_\Lambda \to \Mfg</script> is quasi-affine in general.)
+Let’s first check that the morphisms are representable. In the case of
+<script type="math/tex">\Mell</script>, our discussion two paragraphs above shows that it suffices to show
+that <script type="math/tex">\End(E)</script> is a domain for all generalized elliptic curves <script type="math/tex">E</script> over a
+field <script type="math/tex">k</script>. This is precisely Proposition III.4.2(c) of
+<a href="https://www.springer.com/us/book/9780387094939">Silverman</a> (in the smooth
+case; the case of multiplicative reduction is not much harder). We now move on
+to <script type="math/tex">\dX_\Lambda</script>. Clearly, it suffices to show that every nonzero
+endomorphism of <script type="math/tex">A</script> preserving the action of <script type="math/tex">\Lambda</script> is surjective.
+Assume otherwise, and let <script type="math/tex">f:A\to A</script> be such a morphism.  First note that
+<script type="math/tex">A</script> cannot be simple: otherwise, <script type="math/tex">\im(f)</script> is an abelian subvariety of
+<script type="math/tex">A</script>, and hence would be zero. Therefore, <script type="math/tex">\im(f)</script> is an elliptic curve, and
+there is an action of <script type="math/tex">\Lambda</script> on <script type="math/tex">A</script>.  Since <script type="math/tex">\Lambda</script> is, by
+definition, simple, the morphism <script type="math/tex">\Lambda \to \End(\im(f))</script> is injective.
+Therefore, <script type="math/tex">\End(\im(f))</script> must have rank four (Corollary III.7.5 of
+Silverman), and so this map must be an isomorphism. This is, however,
+impossible: <script type="math/tex">\Lambda</script> is indefinite, hence unramified at <script type="math/tex">\infty</script>, while
+<script type="math/tex">\End(\im(f))</script> is ramified at <script type="math/tex">\infty</script>.</p>
+
+<p>It remains to show that <script type="math/tex">\ol{\Mell} \to \Mfg</script> is quasi-affine. We first prove
+that <script type="math/tex">\ol{\Mell}\times_{\Mfg} \spec L</script> is a scheme. By representability, it
+is an algebraic space. The map <script type="math/tex">\ol{\Mell}\to \ol{\Mell}^\mathrm{coarse}</script> is
+quasi-finite, so the map <script type="math/tex">\ol{\Mell}\times_{\Mfg} \spec L\to
+\ol{\Mell}^\mathrm{coarse}\times_{\Mfg} \spec L</script> is quasi-finite. It is also
+separated. A theorem of Knutson’s says that algebraic spaces locally
+quasi-finite and separated over schemes are schemes, so
+<script type="math/tex">\ol{\Mell}\times_{\Mfg} \spec L</script> is itself a scheme. This is a faithfully
+flat cover of <script type="math/tex">\ol{\Mell}</script>, and so it suffices to show that this is
+quasi-affine. Consider the Hodge line bundle <script type="math/tex">\omega</script> on <script type="math/tex">\ol{\Mell}</script>. This
+is an ample line bundle, since the non-vanishing loci of the modular forms
+<script type="math/tex">c_4\in \Gamma(\ol{\Mell}, \omega^{\otimes 4})</script> and <script type="math/tex">\Delta\in
+\Gamma(\ol{\Mell}, \omega^{\otimes 12})</script> cover <script type="math/tex">\ol{\Mell}</script> and have affine
+coarse moduli space. After pulling back to <script type="math/tex">\ol{\Mell}\times_{\Mfg} \spec L</script>,
+this bundle is trivialized, so the structure sheaf of <script type="math/tex">\ol{\Mell}\times_{\Mfg}
+\spec L</script> is ample, which implies that <script type="math/tex">\ol{\Mell}\times_{\Mfg} \spec L</script> is
+quasi-affine. The quasi-affineness of the map <script type="math/tex">\ol{\Mell} \to \Mfg</script> is useful
+if one wants to apply the main theorem of
+<a href="https://arxiv.org/abs/1311.0514">Mathew-Meier</a>, for instance.</p>
+
+  </div><a class="u-url" href="/blog/algebraic-geometry/2019/02/21/p-div-gps.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Sanath Devalapurkar&#39;s home page</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Sanath Devalapurkar&#39;s home page</li><li><a class="u-email" href="mailto:sanathdevalapurkar@g.harvard.edu">sanathdevalapurkar@g.harvard.edu</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>Graduate student in math.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

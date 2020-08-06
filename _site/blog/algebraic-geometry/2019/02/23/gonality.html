@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Gonality of modular curves | Sanath Devalapurkar’s home page</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Gonality of modular curves" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Graduate student in math." />
+<meta property="og:description" content="Graduate student in math." />
+<link rel="canonical" href="http://localhost:4000/blog/algebraic-geometry/2019/02/23/gonality.html" />
+<meta property="og:url" content="http://localhost:4000/blog/algebraic-geometry/2019/02/23/gonality.html" />
+<meta property="og:site_name" content="Sanath Devalapurkar’s home page" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2019-02-23T00:00:00-08:00" />
+<script type="application/ld+json">
+{"url":"http://localhost:4000/blog/algebraic-geometry/2019/02/23/gonality.html","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/blog/algebraic-geometry/2019/02/23/gonality.html"},"description":"Graduate student in math.","headline":"Gonality of modular curves","dateModified":"2019-02-23T00:00:00-08:00","datePublished":"2019-02-23T00:00:00-08:00","@type":"BlogPosting","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Sanath Devalapurkar's home page" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Sanath Devalapurkar&#39;s home page</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/blog/">Blog</a><a class="page-link" href="/">Home</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Gonality of modular curves</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2019-02-23T00:00:00-08:00" itemprop="datePublished">Feb 23, 2019
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
+
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-109004213-1"></script>
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+        gtag('config', 'UA-109004213-1');
+</script>
+
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+<script type="math/tex; mode=display">\newcommand{\KO}{\mathrm{KO}} \newcommand{\TMF}{\mathrm{TMF}}
+\newcommand{\KU}{\mathrm{KU}} \newcommand{\Mfg}{M_\mathrm{fg}}
+\newcommand{\spec}{\mathrm{Spec}\ } \newcommand{\dX}{\mathcal{X}}
+\newcommand{\co}{\mathcal{O}} \newcommand{\Z}{\mathbf{Z}}
+\newcommand{\top}{\mathrm{top}} \newcommand{\E}{\mathbf{E}}
+\newcommand{\GG}{\mathbf{G}} \newcommand{\DD}{\mathbf{D}}
+\newcommand{\Mell}{M_\mathrm{ell}} \newcommand{\ce}{\mathcal{E}}
+\newcommand{\H}{\mathrm{H}} \newcommand{\dR}{\mathrm{dR}}
+\newcommand{\cf}{\mathcal{F}} \newcommand{\FF}{\mathbf{F}}
+\newcommand{\spf}{\mathrm{Spf}\ } \newcommand{\cA}{\mathcal{A}}
+\newcommand{\Mcub}{M_\mathrm{cub}} \newcommand{\Mqd}{M_\mathrm{qd}}
+\newcommand{\Aut}{\mathrm{Aut}} \newcommand{\tmf}{\mathrm{tmf}}
+\newcommand{\Tmf}{\mathrm{Tmf}} \newcommand{\Map}{\mathrm{Map}}
+\newcommand{\Ext}{\mathrm{Ext}} \newcommand{\End}{\mathrm{End}}
+\newcommand{\cg}{\mathcal{G}} \newcommand{\Hom}{\mathrm{Hom}}
+\newcommand{BP}[1]{\mathrm{BP}\langle #1\rangle} \newcommand{\QQ}{\mathbf{Q}}
+\newcommand{\PP}{\mathbf{P}} \newcommand{\Gal}{\mathrm{Gal}}
+\newcommand{\proj}{\mathrm{Proj}\ } \newcommand{\Ltwo}{L_{K(2)}}
+\newcommand{\Eoo}{\mathbf{E}_\infty} \newcommand{\ol}[1]{\overline #1}
+\newcommand{\pic}{\mathrm{Pic}} \newcommand{\d}{\mathrm{d}}
+\newcommand{\F}{\mathrm{F}} \newcommand{\wt}[1]{\widetilde #1}
+\newcommand{\AA}{\mathbf{A}} \newcommand{\PP}{\mathbf{P}}
+\newcommand{\top}{\mathrm{top}} \newcommand{\der}{\mathrm{der}}
+\newcommand{\M}{M} \newcommand{\colim}{\mathrm{colim}\ }
+\newcommand{\GL}{\mathrm{GL}} \newcommand{\W}{\mathrm{W}}
+\newcommand{\et}{\mathrm{et}} \newcommand{\im}{\mathrm{im}}
+\newcommand{\tors}{\mathrm{tors}} \renewcommand{\div}{\mathrm{div}}</script>
+
+<p>This semester, I’m working on a project under <a href="http://math.mit.edu/~drew/">Drew
+Sutherland</a> and <a href="http://maartenderickx.nl">Maarten
+Derickx</a> that hopes to extend <a href="http://www.numdam.org/article/PMIHES_1977__47__33_0.pdf">Mazur’s
+classification</a> of
+torsion subgroups of elliptic curves. Fix a number field <script type="math/tex">K</script>, and let <script type="math/tex">E</script>
+be an elliptic curve over <script type="math/tex">K</script>. The Mordell-Weil theorem states that <script type="math/tex">E(K)</script>
+is a finitely generated abelian group, and it is classical that the torsion
+subgroup is generated by two elements; therefore, the torsion subgroup
+<script type="math/tex">E(K)_\tors</script> is isomorphic to <script type="math/tex">\Z/m \oplus \Z/mn</script> for some pair of integers
+<script type="math/tex">m,n\geq 1</script>. It is known by work of Merel that for a fixed degree <script type="math/tex">d</script>,
+there is only a finite set <script type="math/tex">\Phi(d)</script> of possibilites of pairs <script type="math/tex">(m,mn)</script> of
+torsion points of elliptic curves over number fields of degree <script type="math/tex">d</script>.</p>
+
+<p>Mazur’s groundbreaking result computes all possibilities of <script type="math/tex">m</script> and <script type="math/tex">mn</script>
+when <script type="math/tex">d=1</script>: he shows that</p>
+
+<script type="math/tex; mode=display">\Phi(1) = \{(1,n):1\leq n\leq 12, n\neq 11\} \cup \{(2,2n): 1\leq n\leq
+4\}.</script>
+
+<p>Computing <script type="math/tex">\Phi(d)</script> for general values of <script type="math/tex">d</script> is harder, so one can instead
+attempt to solve the weaker problem of computing the subset <script type="math/tex">\Phi^\infty(d)
+\subseteq \Phi(d)</script> of torsion subgroups which arise for infinitely many
+<em><script type="math/tex">\ol{\QQ}</script>-isomorphism classes</em> of elliptic curves over number fields of
+degree <script type="math/tex">d</script>. <a href="https://arxiv.org/abs/1608.07549">Derickx and Sutherland</a>
+provided a method of computing <script type="math/tex">\Phi^\infty(d)</script>, which we now recall.</p>
+
+<p>The (rational model for the) modular curve <script type="math/tex">X_1(m,mn)</script> naturally lives (via
+the Weil pairing) over <script type="math/tex">K_m := \QQ(\zeta_m)</script>, and one can prove that the pair
+<script type="math/tex">(m,mn)</script> lives in <script type="math/tex">\Phi^\infty(d)</script> if the function field <script type="math/tex">K_m(X_1(m,mn))</script>
+contains a point of degree <script type="math/tex">d/\phi(m)</script>. The converse is true if the Jacobian
+<script type="math/tex">J_1(m,mn)</script> is of rank zero (i.e., is entirely torsion). Suppose that we want
+to prove that <script type="math/tex">\Phi^\infty(d)</script> is equal to a set <script type="math/tex">T</script> of pairs <script type="math/tex">(m,mn)</script>.
+Then the above discussion suggests that one should first prove that for each
+<script type="math/tex">(m,mn)\in T</script>, the field <script type="math/tex">K_m(X_1(m,mn))</script> contains a point of degree
+<script type="math/tex">d/\phi(m)</script>. Then, define a set <script type="math/tex">T_1 = \{(m,mn):\phi(d)|m, \ B(m,mn) \leq
+2d\}</script>, where <script type="math/tex">B(m,mn)</script> is the Abramovich-Kim-Sarnak bound. If the Jacobian
+<script type="math/tex">J_1(m,mn)</script> is of rank zero for all <script type="math/tex">(m,mn)\in T_1</script>, the above discussion
+implies that <script type="math/tex">K_m(X_1(m,mn))</script> has a point of degree <script type="math/tex">d/\phi(m)</script> if and only
+if <script type="math/tex">(m,mn)\in \Phi^\infty(d)</script>. Let <script type="math/tex">T_2 = \{(m,mn):\phi(d)|m, \ B(m,mn) \leq
+d\} \subseteq T_1</script>, so that <script type="math/tex">\Phi^\infty(d) \subseteq T_2</script> by general
+theory. Then, to show that <script type="math/tex">\Phi^\infty(d)=T</script>, it suffices to prove that for
+each <script type="math/tex">(m,mn) \in T_2-T</script>, the field <script type="math/tex">K_m(X_1(m,mn))</script> has no functions of
+degree <script type="math/tex">d/\phi(m)</script>.</p>
+
+<p>For <script type="math/tex">d\leq 8</script>, all steps except for the final one have been completed by
+Derickx-Sutherland. The hardest part is showing that the field
+<script type="math/tex">K_m(X_1(m,mn))</script> has no functions of degree <script type="math/tex">d/\phi(m)</script>. For this, one
+relies on the general observation that since <script type="math/tex">J_1(m,mn)</script> has rank <script type="math/tex">0</script> for
+all <script type="math/tex">(m,mn) \in T_2\subseteq T_1</script>, we have <script type="math/tex">d(X_1(m,mn)) =
+\gamma(X_1(m,mn))</script>, where:</p>
+
+<ul>
+  <li><script type="math/tex">d(X)</script> is the least integer for which the set <script type="math/tex">\{x\in
+X(\ol{K}):[K(a):K]=d\}</script> has infinitely many elements; and</li>
+  <li><script type="math/tex">\gamma(X)</script> is the <em>gonality</em> of <script type="math/tex">X</script>, defined as the minimal degree of a
+finite morphism <script type="math/tex">X\to \PP^1</script>; equivalently (at least if <script type="math/tex">X</script> is smooth),
+this is the minimal degree of a line bundle on <script type="math/tex">X</script> generated by at least two
+global sections. If <script type="math/tex">X</script> is a curve over <script type="math/tex">\QQ</script> with minimal regular model
+<script type="math/tex">\dX</script> which has good reduction at <script type="math/tex">p</script>, then <script type="math/tex">\gamma(X) \geq
+\gamma(\dX_{\FF_p})</script>. This is essentially because the map
+<script type="math/tex">\mathrm{Pic}(\dX_{\Z_{(p)}}) \to \mathrm{Pic}(X)</script> is surjective, so you can
+choose a lift of a minimal “gonal” line bundle over <script type="math/tex">X</script> to
+<script type="math/tex">\dX_{\Z_{(p)}}</script>, and then specialize to the special fiber.</li>
+</ul>
+
+<p>To prove that <script type="math/tex">K_m(X_1(m,mn))</script> has no functions of degree <script type="math/tex">d/\phi(m)</script>, it
+therefore suffices to show that <script type="math/tex">\gamma(X_1(m,mn))>d/\phi(m)</script>. The curve
+<script type="math/tex">X_1(m,mn)</script> has good reduction at all primes not dividing <script type="math/tex">mn</script>, so if <script type="math/tex">p</script>
+is such a prime, then <script type="math/tex">\gamma(X_1(m,mn)_{\FF_p}) \leq \gamma(X_1(m,mn))</script>. It
+therefore suffices to prove that there is a prime <script type="math/tex">p\not{\mid} mn</script> such that
+<script type="math/tex">\gamma(X_1(m,mn)_{\FF_p})>d/\phi(m)</script>.</p>
+
+<p>Computing this gonality is the primary bottleneck: Derickx and Sutherland used
+a brute-force algorithm to compute <script type="math/tex">\gamma(X_1(m,mn)_{\FF_p})</script> for <script type="math/tex">d\leq
+6</script> by running over Riemann-Roch spaces, which we will now briefly describe.
+Let <script type="math/tex">X</script> be a curve over a field <script type="math/tex">k</script>; then, there is a nonconstant function
+<script type="math/tex">f:X\to \PP^1</script> of degree <script type="math/tex">d</script> if and only if there is a(n effective Cartier)
+divisor <script type="math/tex">D</script> on <script type="math/tex">X</script> of degree <script type="math/tex">d</script> such that <script type="math/tex">\H^0(X;\co_X(D))</script> contains
+a non-constant function, i.e., if and only if <script type="math/tex">\dim \H^0(X;\co_X(D)) \geq 2</script>.
+Therefore, if <script type="math/tex">\div_d(X) = \{\text{divisors }D\text{ on }X:D\geq 0, \ \deg(D)
+= d\}</script>, then <script type="math/tex">\gamma(X)>n</script> if and only if for all <script type="math/tex">1\leq d\leq n</script>, the
+Riemann-Roch space <script type="math/tex">\H^0(X;\co_X(D))</script> has dimension <script type="math/tex">1</script> for all <script type="math/tex">D\in
+\div_d(X)</script>. The algorithm, therefore, just runs over all <script type="math/tex">D\in \div_d(X)</script>
+(which is finite if <script type="math/tex">k</script> is a finite field) and checks if <script type="math/tex">\dim
+\H^0(X;\co_X(D)) = 1</script>; once this is false, we would have found <script type="math/tex">\gamma(X)</script>.
+There is a clear problem with this algorithm when applied to a curve <script type="math/tex">X</script> over
+a finite field <script type="math/tex">\FF_p</script>: it is too slow if <script type="math/tex">p</script> or the gonality of <script type="math/tex">X</script> is
+large.</p>
+
+<p>In fact, I think that this problem is <em>algorithmically</em> hard! Here is a
+heuristic argument, based on the following approach suggested by Maarten. Let
+<script type="math/tex">D</script> be a divisor on <script type="math/tex">X</script> of degree <script type="math/tex">n</script> which <em>dominates all divisors of
+degree <script type="math/tex">d</script></em>, i.e., for all divisors <script type="math/tex">D'</script> of degree <script type="math/tex">% <![CDATA[
+d'< d %]]></script>, we have
+<script type="math/tex">D'\leq D</script>. Then, there is a map <script type="math/tex">\H^0(X;\co_X(D)) \to
+\H^0(X;\co_X(D)/\co_X) \cong \FF_p^n</script>; let <script type="math/tex">V(D)</script> denote the subspace of
+<script type="math/tex">\FF_p^n</script> given by the image of this map. Write <script type="math/tex">D = \sum_{i=0}^k m_i P_i</script>,
+so that <script type="math/tex">n = \sum_{i=0}^k \sum_{j=0}^{m_j} b_{ij}</script>, where <script type="math/tex">b_i</script> is the
+degree of the field of definition of <script type="math/tex">P_i</script>. This defines a <em>generalized
+Hamming weight</em> <script type="math/tex">h_D</script> as follows: for <script type="math/tex">v = (v_{i,j}) \in \FF_p^n =
+\bigoplus_{i=0}^k \bigoplus_{j=0}^{m_j} \FF_p^{b_{ij}}</script>, let <script type="math/tex">h_D(v) =
+\sum_{i=0}^k \sum_{j=0}^{\ell_i} b_{ij}</script>, where for a fixed <script type="math/tex">i</script>, <script type="math/tex">\ell_i</script>
+is the largest <script type="math/tex">j</script> for which <script type="math/tex">v_{i,j} = 0</script>. It is then the case that
+<script type="math/tex">\gamma(C) = d'</script> for <script type="math/tex">d'\leq d</script> if and only if the minimum distance
+<script type="math/tex">\ell(V) = \min_{v\in V-\{0\}} h_D(v)</script> is <script type="math/tex">d'</script>. The problem of computing
+gonalities therefore reduces to the problem of computing the minimum distance
+of a linear subspace <script type="math/tex">V</script> of <script type="math/tex">\FF_p^n</script> with respect to the generalized
+Hamming weight given by a partition of <script type="math/tex">n</script> as <script type="math/tex">\sum_{i=0}^k \sum_{j=0}^{m_j}
+b_{ij}</script>.</p>
+
+<p>Getting back to number theory, another observation is that the algorithm above
+doesn’t really use the fact that the curve <script type="math/tex">X</script> under consideration is very
+special; let’s try to specialize to the cases where we need to compute the
+gonality. The first case not addressed by Derickx and Sutherland’s paper is
+<script type="math/tex">d=7</script>, and at the end of their introduction, they say that the outstanding
+problem in computing <script type="math/tex">\Phi^\infty(7)</script> is showing that
+<script type="math/tex">\gamma(X_1(2,2n)_\QQ)> 7</script> for <script type="math/tex">11\leq n\leq 15</script>. In these cases, it is
+pretty hard to use the algorithm above to prove such a lower bound on the
+gonality of <script type="math/tex">X_1(2,2n)</script> (which, I imagine, is why it isn’t done in the
+paper). One needs something a bit better.</p>
+
+<p>Instead of considering the curve <script type="math/tex">X_1(2,2n)</script>, let us consider the curve
+<script type="math/tex">X_1(2,n)</script> for <em>odd</em> <script type="math/tex">n</script>. Let <script type="math/tex">M_{\Gamma_1(n;2)}</script> be the associated
+moduli stack over <script type="math/tex">\Z</script>, so that <script type="math/tex">\M_{\Gamma_1(n;2)}</script> is a proper flat
+regular Artin stack (see Theorem 1.2.1
+<a href="http://math.stanford.edu/~conrad/papers/kmpaper.pdf">here</a>). Then by Theorem
+13.7.6 of
+<a href="https://www.dropbox.com/s/30m4quzm3h79ywx/katz-mazur.pdf?raw=1">Katz-Mazur</a>
+(one of my favorite books of all time), the fiber <script type="math/tex">X_1(2,n)_{\ol{\FF_2}}</script> of
+the Artin stack <script type="math/tex">\M_{\Gamma_1(n;2)}</script> is a gluing of two copies of
+<script type="math/tex">X_1(n)_{\ol{\FF_2}}^{(2)}</script> — the extension of scalars of
+<script type="math/tex">X_1(n)_{\ol{\FF_2}}</script> by Frobenius — at the supersingular points. (Think in
+analogy to the famous picture of <script type="math/tex">X_0(p)_{\ol{\FF_p}}</script> as being two copies of
+<script type="math/tex">\PP^1_{\ol{\FF_p}} = X(1)_{\ol{\FF_p}}</script> glued at the supersingular point.)
+This is good, because we <a href="https://arxiv.org/abs/1307.5719">know</a> the gonality
+of <script type="math/tex">X_1(n)</script>, at least for small <script type="math/tex">n</script>. However, it is not so clear how one
+might compare the gonality of a curve (in our case, <script type="math/tex">X_1(2,n)</script>) and the
+gonality of a minimal regular model of it over a prime of <em>bad</em> reduction. In
+any case, I proposed this idea to Maarten, and he pointed me to a <a href="https://www.universiteitleiden.nl/binaries/content/assets/science/mi/scripties/master/algant/2016-2017/noordman-master_thesis.pdf">masters
+thesis</a>
+which implements exactly this idea. I haven’t had a chance to read the paper in
+detail, but it seems like the fact that the curve <script type="math/tex">X_1(n)_{\ol{\FF_2}}</script> is
+<em>smooth</em> (which is true because <script type="math/tex">n</script> was assumed to be odd) is key. This is no
+longer true for the fiber over <script type="math/tex">\ol{\FF_2}</script> of the curve <script type="math/tex">X_1(2,n)</script> for
+<em>even</em> <script type="math/tex">n</script>. I don’t know if this fiber has been studied (I don’t know how to
+google this sort of thing), but as far as I know, it isn’t covered in
+Katz-Mazur, at least. Nonetheless, it might be possible to modify the portions
+of the proof in Chapter 13 of their book to obtain some partial results that’d
+be sufficient to use techniques similar to the thesis linked to above in order
+to obtain lower bounds on <script type="math/tex">\gamma(X_1(2,n))</script>.</p>
+
+  </div><a class="u-url" href="/blog/algebraic-geometry/2019/02/23/gonality.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Sanath Devalapurkar&#39;s home page</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Sanath Devalapurkar&#39;s home page</li><li><a class="u-email" href="mailto:sanathdevalapurkar@g.harvard.edu">sanathdevalapurkar@g.harvard.edu</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>Graduate student in math.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>How to prove the nilpotence theorem | Sanath Devalapurkar’s home page</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="How to prove the nilpotence theorem" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Graduate student in math." />
+<meta property="og:description" content="Graduate student in math." />
+<link rel="canonical" href="http://localhost:4000/blog/algebraic-topology/2020/04/04/nilpotence.html" />
+<meta property="og:url" content="http://localhost:4000/blog/algebraic-topology/2020/04/04/nilpotence.html" />
+<meta property="og:site_name" content="Sanath Devalapurkar’s home page" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-04-04T00:00:00-07:00" />
+<script type="application/ld+json">
+{"url":"http://localhost:4000/blog/algebraic-topology/2020/04/04/nilpotence.html","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/blog/algebraic-topology/2020/04/04/nilpotence.html"},"description":"Graduate student in math.","headline":"How to prove the nilpotence theorem","dateModified":"2020-04-04T00:00:00-07:00","datePublished":"2020-04-04T00:00:00-07:00","@type":"BlogPosting","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Sanath Devalapurkar's home page" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Sanath Devalapurkar&#39;s home page</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/blog/">Blog</a><a class="page-link" href="/">Home</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">How to prove the nilpotence theorem</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2020-04-04T00:00:00-07:00" itemprop="datePublished">Apr 4, 2020
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
+
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-109004213-1"></script>
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+        gtag('config', 'UA-109004213-1');
+</script>
+
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+<script type="math/tex; mode=display">\newcommand{\KO}{\mathrm{KO}} \newcommand{\TMF}{\mathrm{TMF}}
+\newcommand{\KU}{\mathrm{KU}} \newcommand{\Mfg}{M_\mathrm{fg}}
+\newcommand{\spec}{\mathrm{Spec}} \newcommand{\dX}{\mathcal{X}}
+\newcommand{\co}{\mathcal{O}} \newcommand{\Z}{\mathbf{Z}}
+\newcommand{\top}{\mathrm{top}} \newcommand{\E}{\mathbf{E}}
+\newcommand{\GG}{\mathbf{G}} \newcommand{\DD}{\mathbf{D}}
+\newcommand{\Mell}{M_\mathrm{ell}} \newcommand{\ce}{\mathcal{E}}
+\newcommand{\H}{\mathrm{H}} \newcommand{\dR}{\mathrm{dR}}
+\newcommand{\cf}{\mathcal{F}} \newcommand{\FF}{\mathbf{F}}
+\newcommand{\spf}{\mathrm{Spf}\ } \newcommand{\cA}{\mathcal{A}}
+\newcommand{\Mcub}{M_\mathrm{cub}} \newcommand{\Mqd}{M_\mathrm{qd}}
+\newcommand{\Aut}{\mathrm{Aut}} \newcommand{\tmf}{\mathrm{tmf}}
+\newcommand{\Tmf}{\mathrm{Tmf}} \newcommand{\Map}{\mathrm{Map}}
+\newcommand{\Ext}{\mathrm{Ext}} \newcommand{\End}{\mathrm{End}}
+\newcommand{\cg}{\mathcal{G}} \newcommand{\Hom}{\mathrm{Hom}}
+\newcommand{BP}[1]{\mathrm{BP}\langle #1\rangle} \newcommand{\QQ}{\mathbf{Q}}
+\newcommand{\PP}{\mathbf{P}} \newcommand{\Gal}{\mathrm{Gal}}
+\newcommand{\proj}{\mathrm{Proj}\ } \newcommand{\Ltwo}{L_{K(2)}}
+\newcommand{\Eoo}{\mathbf{E}_\infty} \newcommand{\ol}[1]{\overline #1}
+\newcommand{\pic}{\mathrm{Pic}} \newcommand{\RP}{\mathbf{R}P}
+\newcommand{\BO}{\mathrm{BO}} \newcommand{\cc}{\mathbf{C}}
+\newcommand{\CP}{\mathbf{C}P} \newcommand{\wt}[1]{\widetilde #1}
+\newcommand{\RR}{\mathbf{R}} \renewcommand{\S}{\mathbb{S}}
+\newcommand{\Lone}{L_{K(1)}} \newcommand{\Ltwo}{L_{K(2)}}
+\newcommand{\gl}{\mathrm{gl}} \newcommand{\Lk}{L_{K(n)}}
+\newcommand{\ku}{\mathrm{ku}} \newcommand{\ko}{\mathrm{ko}}
+\newcommand{\GL}{\mathrm{GL}} \newcommand{\Ln}{L_n} \newcommand{\Lt}{L_{K(t)}}
+\newcommand{\W}{\mathrm{W}} \newcommand{\BU}{\mathrm{BU}}
+\newcommand{\SU}{\mathrm{SU}} \newcommand{\MU}{\mathrm{MU}}
+\newcommand{\ul}[1]{\underline #1} \newcommand{\Sq}{\mathrm{Sq}}
+\newcommand{\Tr}{\mathrm{Tr}} \newcommand{\d}{\mathrm{d}}
+\newcommand{\HP}{\mathbf{H}P} \newcommand{\cL}{\mathcal{L}}
+\newcommand{\cs}{\mathrm{cs}} \newcommand{\cd}{\mathcal{D}}
+\newcommand{\Bord}{\mathrm{Bord}} \newcommand{\SO}{\mathrm{SO}}
+\newcommand{\cC}{\mathcal{C}} \newcommand{\Sp}{\mathrm{Sp}}
+\newcommand{\Lkd}{L_{K(d)}} \newcommand{\Mod}{\mathrm{Mod}}
+\newcommand{\cH}{\mathcal{H}} \newcommand{\ket}[1]{|#1 \rangle}
+\newcommand{\Bun}{\mathrm{Bun}} \newcommand{\cM}{\mathcal{M}}
+\newcommand{\MTH}{\mathrm{MT}H} \newcommand{\MSO}{\mathrm{MSO}}
+\newcommand{\twsm}{\ \widetilde{\wedge} \ } \newcommand{\BSpin}{\mathrm{BSpin}}
+\newcommand{\MSpin}{\mathrm{MSpin}} \newcommand{\BString}{\mathrm{BString}}
+\newcommand{\MString}{\mathrm{MString}} \newcommand{\B}{\mathrm{B}}
+\newcommand{\der}{\mathrm{der}} \newcommand{\Cat}{\mathrm{Cat}}
+\newcommand{\QCoh}{\mathrm{QCoh}} \newcommand{\LMod}{\mathrm{LMod}}
+\newcommand{\Rep}{\mathrm{Rep}} \newcommand{\HH}{\mathrm{HH}}
+\newcommand{\ZZ}{\mathfrak{Z}} \newcommand{\fr}{\mathrm{fr}}
+\newcommand{\BSO}{\mathrm{BSO}} \newcommand{\BSU}{\mathrm{BSU}}
+\newcommand{\id}{\mathrm{id}} \newcommand{\Top}{\mathrm{Top}}
+\newcommand{\cP}{\mathcal{P}} \newcommand{\U}{\mathrm{U}}
+\newcommand{\Sym}{\mathrm{Sym}} \newcommand{\coker}{\mathrm{coker}}
+\newcommand{\Vect}{\mathrm{Vect}} \newcommand{\Fun}{\mathrm{Fun}}
+\newcommand{\cT}{\mathcal{T}} \newcommand{\cJ}{\mathcal{J}}
+\newcommand{\Res}{\mathrm{Res}} \newcommand{\Ind}{\mathrm{Ind}}
+\newcommand{\MO}{\mathrm{MO}} \newcommand{\MSO}{\mathrm{MSO}}
+\newcommand{\colim}{\mathrm{colim}} \newcommand{\hocolim}{\mathrm{hocolim}}
+\newcommand{\fin}{\mathrm{fin}} \newcommand{\Tot}{\mathrm{Tot}}
+\newcommand{\im}{\mathrm{im}} \newcommand{\FT}{\mathrm{FT}}
+\newcommand{\AA}{\mathbf{A}} \newcommand{\Frob}{\mathrm{Frob}}
+\newcommand{\ex}{\mathrm{ex,pr}} \newcommand{\fil}{\mathrm{fil}}
+\newcommand{\gr}{\mathrm{gr}} \newcommand{\un}{\mathrm{un}}
+\newcommand{\Syn}{\mathrm{Syn}} \newcommand{\Cart}{\mathrm{Cart}}
+\newcommand{\bo}{\mathrm{bo}} \newcommand{\mmod}{/\!\!/}
+\newcommand{\bsp}{\mathrm{bsp}} \newcommand{\BPP}{\mathrm{BP}}
+\newcommand{\CAlg}{\mathrm{CAlg}} \newcommand{\TCart}{\mathrm{TCart}}
+\newcommand{\BW}{\mathrm{BW}} \newcommand{\Br}{\mathrm{Br}}
+\newcommand{\Pic}{\mathrm{Pic}} \newcommand{\ext}{\mathrm{ext}}
+\newcommand{\Cl}{\mathrm{Cl}} \newcommand{\disc}{\mathrm{disc}}
+\newcommand{\dir}{D\!\!\!\!/} \newcommand{\bb}{\mathrm{bb}}
+\newcommand{\Ran}{\mathrm{Ran}} \newcommand{\cu}{\mathcal{U}}
+\newcommand{\Gr}{\mathrm{Gr}} \newcommand{\Alg}{\mathrm{Alg}}
+\newcommand{\G}{\Gamma} \newcommand{\dY}{\mathcal{Y}}
+\newcommand{\Line}{\mathrm{Line}} \newcommand{\MUP}{\mathrm{MUP}}
+\newcommand{\Bl}{\mathrm{Bl}} \newcommand{\St}{\mathrm{St}}
+\newcommand{\cB}{\mathcal{B}} \newcommand{\SL}{\mathrm{SL}}
+\newcommand{\XX}{\mathrm{X}} \newcommand{\gp}{\mathrm{gp}}
+\newcommand{\Q}{\mathrm{Q}} \newcommand{\cI}{\mathcal{I}}
+\newcommand{\T}{\mathrm{T}} \newcommand{\D}{\mathrm{D}}
+\newcommand{\Aff}{\mathrm{Aff}} \newcommand{\BGL}{\mathrm{BGL}}</script>
+
+<p>In a bunch of posts a while back (see, e.g., <a href="/algebraic-topology/2019/04/18/cmn.html">this
+one</a>), we talked about a particular
+element <script type="math/tex">\sigma_{n-1}\in \pi_{|v_n|-1} X(p^n-1)</script> is in the <script type="math/tex">\E_3</script>-center
+<script type="math/tex">\ZZ_{n-1}</script> of <script type="math/tex">X(p^n-1)</script>. In this post, we will describe how this
+conjecture simplifies the main part of the proof of the nilpotence theorem due
+to <a href="https://www.jstor.org/stable/1971440">Devinatz-Hopkins-Smith</a>. I am
+currently writing a paper (which is 99% done, I think) about the implications of
+the centrality conjecture (and applications to the string orientation), and will
+expand on the stuff in this post in a future paper. We will work at <script type="math/tex">p=2</script> for
+this post — this is very important for the arguments to work as stated
+(although, as you might expect, slight modifications work at odd primes)!</p>
+
+<p>We need to show that if <script type="math/tex">R</script> is a homotopy commutative ring, and <script type="math/tex">x\in
+\pi_d(R)</script> (with <script type="math/tex">d>0</script>) is in the kernel of the map <script type="math/tex">h:\pi_\ast(R)\to
+\BPP_\ast(R)</script>, then <script type="math/tex">x</script> is nilpotent. Since <script type="math/tex">\BPP</script> is a filtered colimit of
+the <script type="math/tex">T(n)</script>s, and the sphere is compact, the map <script type="math/tex">h(x):S^d\to \BPP\wedge R</script>
+factors through some <script type="math/tex">T(n) \wedge R</script>. (Remember that <script type="math/tex">T(n)</script> is a summand of
+<script type="math/tex">X(p^{n+1}-1)</script> — so, we will abusively write <script type="math/tex">\alpha\in \pi_\ast
+X(p^{n+1}-1)</script> to also mean <script type="math/tex">\alpha\in \pi_\ast T(n)</script> if <script type="math/tex">\alpha</script> is nonzero
+in <script type="math/tex">T(n)</script>.) To recall the strategy in Devinatz-Hopkins-Smith, we need to
+introduce some notation.</p>
+
+<p>Remember that these <script type="math/tex">T(n)</script>s can be constructed inductively: there is an element
+<script type="math/tex">\sigma_{n-1}\in \pi_{2p^n-3} T(n-1)</script>, and the resulting map <script type="math/tex">S^{2p^n-2} \to
+\BGL_1(T(n-1))</script> factors through a map <script type="math/tex">\mu: \Omega S^{2p^n-1} \to
+\BGL_1(T(n-1))</script>. The Thom spectrum <script type="math/tex">(\Omega S^{2p^n-1})^\mu</script> is equivalent to
+<script type="math/tex">T(n)</script>. The space <script type="math/tex">\Omega S^{2p^n-1}</script> admits a filtration, given by the
+James construction; define</p>
+
+<script type="math/tex; mode=display">G_k := \mathrm{Thom}(J_{p^k-1}(S^{2p^n-2}) \to \Omega S^{2p^n-1}
+\xrightarrow{\sigma_n} \BGL_1(T(n-1))).</script>
+
+<p>Therefore, <script type="math/tex">G_0 = T(n-1)</script>, and <script type="math/tex">\colim G_k = T(n)</script>; these <script type="math/tex">G_k</script> are the
+<script type="math/tex">T(n-1)</script>-module skeleta of <script type="math/tex">T(n)</script>.</p>
+
+<p>The strategy of proof of the nilpotence theorem is the following. Let
+<script type="math/tex">h_n:\S\to T(n)</script> denote the Hurewicz map, so <script type="math/tex">h_n(x) \in T(n)_\ast(R)</script> is
+zero for some <script type="math/tex">n\gg 0</script> by the preceding discussion. In other words, <script type="math/tex">T(n)
+\wedge R[1/x]</script> is zero. Then, it suffices to show:</p>
+
+<ul>
+  <li>(“Step II” in DHS) If <script type="math/tex">h_n(x) = 0</script>, then there is some <script type="math/tex">k\gg 0</script> such that
+<script type="math/tex">G_k \wedge R[1/x] = 0</script>.</li>
+  <li>(“Step III” in DHS) If <script type="math/tex">F</script> is a spectrum such that <script type="math/tex">G_k \wedge F = 0</script>,
+then <script type="math/tex">G_{k-1} \wedge F = 0</script>.</li>
+</ul>
+
+<p>The first part (“Step II”) essentially boils down to algebra (or the EHP
+sequence, depending on how you choose to prove it), and the centrality
+conjecture has nothing to do with it. The second part (“Step III”), however, is
+the real meat of the nilpotence theorem, and that’s where centrality comes in.</p>
+
+<p>Let us sketch how this works. The key point is that <script type="math/tex">G_k</script> is built from
+<script type="math/tex">G_{k-1}</script> via iterated cofibers of a particular self-map</p>
+
+<script type="math/tex; mode=display">\sigma_{n-1,p^{k-1}}: \Sigma^{p^{k-1}|v_n|-1} G_{k-1} \to G_{k-1}.</script>
+
+<p>This map is multiplication by a particular element <script type="math/tex">\sigma_{n-1, p^{k-1}}\in
+\pi_{p^{k-1}|v_n|-1} X(p^n-1)</script>, which is constructed from the element
+<script type="math/tex">\sigma_{n-1}\in \pi_{|v_n|-1} X(p^n-1)</script> in the same way that the
+<script type="math/tex">\alpha</script>-family is constructed from <script type="math/tex">\alpha_1</script> as explained in <a href="/algebraic-topology/2020/02/12/alpha.html">this
+post</a>. (As I said, details will
+appear in my paper.) The upshots of this construction are the following:</p>
+
+<ul>
+  <li>the nilpotence theorem follows if we can show that all the <script type="math/tex">\sigma_{n-1,
+p^{k}}</script> are nilpotent.</li>
+  <li>there is a relation <script type="math/tex">Q_1(\sigma_{n-1,p^{k-1}}) = \sigma_{n-1,p^{k}}</script>.</li>
+  <li>the centrality conjecture (i.e., that <script type="math/tex">\sigma_{n-1}</script> lifts to the
+<script type="math/tex">\E_3</script>-center <script type="math/tex">\ZZ_{n-1}</script>) implies that <script type="math/tex">\sigma_{n-1,p^{k-1}}</script> lifts to
+<script type="math/tex">\ZZ_{n-1}</script>.</li>
+</ul>
+
+<p>The second and third facts allow us to induct on <script type="math/tex">k</script>, because of the following
+nice fact. If <script type="math/tex">R</script> is any <script type="math/tex">\E_3</script>-ring, and <script type="math/tex">x\in \pi_\ast(R)</script>, then
+<script type="math/tex">Q_1(x)^2 = Q_2(x^2)</script>. Therefore, in the <script type="math/tex">\E_3</script>-center <script type="math/tex">\ZZ_{n-1}</script>, we
+have the following relation for any integer <script type="math/tex">N</script>:</p>
+
+<script type="math/tex; mode=display">N\sigma_{n-1,p^k}^2 = Q_2(N\sigma_{n-1,p^{k-1}}^2).</script>
+
+<p>In other words, if <script type="math/tex">\sigma_{n-1, p^{k-1}}^2</script> is killed by <script type="math/tex">N</script>, then so is
+<script type="math/tex">\sigma_{n-1, p^k}</script>. We also know by the classical Hopkins-Mahowald
+<script type="math/tex">\H\FF_p</script>-theorem that if an element in a (<script type="math/tex">p</script>-local) <script type="math/tex">\E_2</script>-ring is
+killed by <script type="math/tex">p</script>, then it is nilpotent. So the nilpotency of the <script type="math/tex">\sigma_{n-1,
+p^k}</script>s will follow by induction if we can just show that <script type="math/tex">p</script> kills
+<script type="math/tex">\sigma_{n-1}^2</script>. (This feels like cheating — somehow, we’re appealing to
+the Hopkins-Mahowald <script type="math/tex">\H\FF_p</script>-theorem, which is a “height zero” phenomenon,
+to this story for general heights <script type="math/tex">n</script>. More on this next time.)</p>
+
+<p>There are lots of ways to show this. In fact, we claim that <script type="math/tex">2</script> kills
+<script type="math/tex">\sigma_{n-1}^2</script>. To see this, let’s make the following general observation.</p>
+
+<p>Let <script type="math/tex">R</script> be an <script type="math/tex">\E_{1}</script>-ring, and let <script type="math/tex">\alpha\in \pi_d R</script>. Then <script type="math/tex">\alpha</script>
+defines a map <script type="math/tex">S^{d+1} \to \BGL_1(R)</script>, and it is natural to ask when
+<script type="math/tex">\alpha</script> extends along <script type="math/tex">S^{d+1} \to \Omega S^{d+2}</script>, or at least along
+<script type="math/tex">S^{d+1} \to J_k(S^{d+1})</script> for some <script type="math/tex">k</script>. This is automatic if <script type="math/tex">R</script> is an
+<script type="math/tex">\E_{2}</script>-ring, but not necessarily so if <script type="math/tex">R</script> is only an <script type="math/tex">\E_{1}</script>-ring.
+Recall that there is a cofiber sequence</p>
+
+<script type="math/tex; mode=display">S^{(k+1)(d+1)-1} \to J_k(S^{d+1})\to J_{k+1}(S^{d+1}),</script>
+
+<p>where the first map is the <script type="math/tex">(k+1)</script>-fold Whitehead product <script type="math/tex">[\iota_{d+1},
+[\cdots, [\iota_{d+1}, \iota_{d+1}]], \cdots]</script>. In particular, the map
+<script type="math/tex">S^{d+1} \to \BGL_1(R)</script> extends along the map <script type="math/tex">S^{d+1} \to J_k(S^{d+1})</script> if
+and only if there are compatible nullhomotopies of the <script type="math/tex">n</script>-fold Whitehead
+products <script type="math/tex">[\alpha, [\cdots, [\alpha, \alpha]], \cdots] \in \pi_\ast \BGL_1(R)</script>
+for <script type="math/tex">n\leq k</script>. These amount to properties of Toda brackets in the homotopy of
+<script type="math/tex">R</script>. We note, for instance, that the Whitehead bracket <script type="math/tex">[\alpha, \alpha]\in
+\pi_{2d+1} \BGL_1(R) \cong \pi_{2d} R</script> is the element <script type="math/tex">2\alpha^2</script>; therefore,
+the map <script type="math/tex">S^{d+1}\to \BGL_1(R)</script> extends to <script type="math/tex">J_2(S^{d+1})</script> if and only if
+<script type="math/tex">2\alpha^2 = 0</script>.</p>
+
+<p>So, <script type="math/tex">2\sigma_{n-1}^2 = 0</script> follows from the known fact that <script type="math/tex">\sigma_{n-1}:
+S^{|v_n|} \to \BGL_1(X(p^n-1))</script> extends not just to <script type="math/tex">J_2(S^{|v_n|})</script>, but all
+the way to <script type="math/tex">\Omega S^{|v_n|+1}</script>. Depending on your style, this is how we
+<a href="/algebraic-topology/2019/04/01/mrs.html"><em>defined</em></a> <script type="math/tex">\sigma_{n-1}</script>. That
+finishes the proof that all the <script type="math/tex">\sigma_{n-1, p^{k}}</script> are nilpotent, and hence
+(“Step III” of) the nilpotence theorem.</p>
+
+  </div><a class="u-url" href="/blog/algebraic-topology/2020/04/04/nilpotence.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Sanath Devalapurkar&#39;s home page</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Sanath Devalapurkar&#39;s home page</li><li><a class="u-email" href="mailto:sanathdevalapurkar@g.harvard.edu">sanathdevalapurkar@g.harvard.edu</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>Graduate student in math.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

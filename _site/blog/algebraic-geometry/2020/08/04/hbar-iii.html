@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Bott = Planck = sheared Rees, part iii | Sanath Devalapurkar’s home page</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Bott = Planck = sheared Rees, part iii" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Graduate student in math." />
+<meta property="og:description" content="Graduate student in math." />
+<link rel="canonical" href="http://localhost:4000/blog/algebraic-geometry/2020/08/04/hbar-iii.html" />
+<meta property="og:url" content="http://localhost:4000/blog/algebraic-geometry/2020/08/04/hbar-iii.html" />
+<meta property="og:site_name" content="Sanath Devalapurkar’s home page" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-08-04T00:00:00-07:00" />
+<script type="application/ld+json">
+{"url":"http://localhost:4000/blog/algebraic-geometry/2020/08/04/hbar-iii.html","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/blog/algebraic-geometry/2020/08/04/hbar-iii.html"},"description":"Graduate student in math.","headline":"Bott = Planck = sheared Rees, part iii","dateModified":"2020-08-04T00:00:00-07:00","datePublished":"2020-08-04T00:00:00-07:00","@type":"BlogPosting","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Sanath Devalapurkar's home page" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Sanath Devalapurkar&#39;s home page</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/blog/">Blog</a><a class="page-link" href="/">Home</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Bott = Planck = sheared Rees, part iii</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2020-08-04T00:00:00-07:00" itemprop="datePublished">Aug 4, 2020
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+<script type="math/tex; mode=display">\newcommand{\KO}{\mathrm{KO}} \newcommand{\TMF}{\mathrm{TMF}}
+\newcommand{\KU}{\mathrm{KU}} \newcommand{\Mfg}{M_\mathrm{fg}}
+\newcommand{\spec}{\mathrm{Spec}} \newcommand{\dX}{\mathcal{X}}
+\newcommand{\co}{\mathcal{O}} \newcommand{\Z}{\mathbf{Z}}
+\newcommand{\top}{\mathrm{top}} \newcommand{\E}{\mathbf{E}}
+\newcommand{\GG}{\mathbf{G}} \newcommand{\DD}{\mathbf{D}}
+\newcommand{\Mell}{M_\mathrm{ell}} \newcommand{\ce}{\mathcal{E}}
+\newcommand{\H}{\mathrm{H}} \newcommand{\dR}{\mathrm{dR}}
+\newcommand{\cf}{\mathcal{F}} \newcommand{\FF}{\mathbf{F}}
+\newcommand{\spf}{\mathrm{Spf}\ } \newcommand{\cA}{\mathcal{A}}
+\newcommand{\Mcub}{M_\mathrm{cub}} \newcommand{\Mqd}{M_\mathrm{qd}}
+\newcommand{\Aut}{\mathrm{Aut}} \newcommand{\tmf}{\mathrm{tmf}}
+\newcommand{\Tmf}{\mathrm{Tmf}} \newcommand{\Map}{\mathrm{Map}}
+\newcommand{\Ext}{\mathrm{Ext}} \newcommand{\End}{\mathrm{End}}
+\newcommand{\cg}{\mathcal{G}} \newcommand{\Hom}{\mathrm{Hom}}
+\newcommand{BP}[1]{\mathrm{BP}\langle #1\rangle} \newcommand{\QQ}{\mathbf{Q}}
+\newcommand{\PP}{\mathbf{P}} \newcommand{\Gal}{\mathrm{Gal}}
+\newcommand{\proj}{\mathrm{Proj}\ } \newcommand{\Ltwo}{L_{K(2)}}
+\newcommand{\Eoo}{\mathbf{E}_\infty} \newcommand{\ol}[1]{\overline #1}
+\newcommand{\pic}{\mathrm{Pic}} \newcommand{\RP}{\mathbf{R}P}
+\newcommand{\BO}{\mathrm{BO}} \newcommand{\cc}{\mathbf{C}}
+\newcommand{\CP}{\mathbf{CP}} \newcommand{\wt}[1]{\widetilde #1}
+\newcommand{\RR}{\mathbf{R}} \renewcommand{\S}{\mathbb{S}}
+\newcommand{\Lone}{L_{K(1)}} \newcommand{\Ltwo}{L_{K(2)}}
+\newcommand{\gl}{\mathrm{gl}} \newcommand{\Lk}{L_{K(n)}}
+\newcommand{\ku}{\mathrm{ku}} \newcommand{\ko}{\mathrm{ko}}
+\newcommand{\GL}{\mathrm{GL}} \newcommand{\Ln}{L_n} \newcommand{\Lt}{L_{K(t)}}
+\newcommand{\W}{\mathrm{W}} \newcommand{\BU}{\mathrm{BU}}
+\newcommand{\SU}{\mathrm{SU}} \newcommand{\MU}{\mathrm{MU}}
+\newcommand{\ul}[1]{\underline #1} \newcommand{\Sq}{\mathrm{Sq}}
+\newcommand{\Tr}{\mathrm{Tr}} \newcommand{\d}{\mathrm{d}}
+\newcommand{\HP}{\mathrm{HP}} \newcommand{\cL}{\mathcal{L}}
+\newcommand{\cs}{\mathrm{cs}} \newcommand{\cd}{\mathcal{D}}
+\newcommand{\Bord}{\mathrm{Bord}} \newcommand{\SO}{\mathrm{SO}}
+\newcommand{\cC}{\mathcal{C}} \newcommand{\Sp}{\mathrm{Sp}}
+\newcommand{\Lkd}{L_{K(d)}} \newcommand{\Mod}{\mathrm{Mod}}
+\newcommand{\cH}{\mathcal{H}} \newcommand{\ket}[1]{|#1 \rangle}
+\newcommand{\Bun}{\mathrm{Bun}} \newcommand{\cM}{\mathcal{M}}
+\newcommand{\MTH}{\mathrm{MT}H} \newcommand{\MSO}{\mathrm{MSO}}
+\newcommand{\twsm}{\ \widetilde{\wedge} \ } \newcommand{\BSpin}{\mathrm{BSpin}}
+\newcommand{\MSpin}{\mathrm{MSpin}} \newcommand{\BString}{\mathrm{BString}}
+\newcommand{\MString}{\mathrm{MString}} \newcommand{\B}{\mathrm{B}}
+\newcommand{\der}{\mathrm{der}} \newcommand{\Cat}{\mathrm{Cat}}
+\newcommand{\QCoh}{\mathrm{QCoh}} \newcommand{\LMod}{\mathrm{LMod}}
+\newcommand{\Rep}{\mathrm{Rep}} \newcommand{\HH}{\mathrm{HH}}
+\newcommand{\ZZ}{\mathfrak{Z}} \newcommand{\fr}{\mathrm{fr}}
+\newcommand{\BSO}{\mathrm{BSO}} \newcommand{\BSU}{\mathrm{BSU}}
+\newcommand{\id}{\mathrm{id}} \newcommand{\Top}{\mathrm{Top}}
+\newcommand{\cP}{\mathcal{P}} \newcommand{\U}{\mathrm{U}}
+\newcommand{\Sym}{\mathrm{Sym}} \newcommand{\coker}{\mathrm{coker}}
+\newcommand{\Vect}{\mathrm{Vect}} \newcommand{\Fun}{\mathrm{Fun}}
+\newcommand{\cT}{\mathcal{T}} \newcommand{\cJ}{\mathcal{J}}
+\newcommand{\Res}{\mathrm{Res}} \newcommand{\Ind}{\mathrm{Ind}}
+\newcommand{\MO}{\mathrm{MO}} \newcommand{\MSO}{\mathrm{MSO}}
+\newcommand{\colim}{\mathrm{colim}} \newcommand{\hocolim}{\mathrm{hocolim}}
+\newcommand{\fin}{\mathrm{fin}} \newcommand{\Tot}{\mathrm{Tot}}
+\newcommand{\im}{\mathrm{im}} \newcommand{\FT}{\mathrm{FT}}
+\newcommand{\AA}{\mathbf{A}} \newcommand{\Frob}{\mathrm{Frob}}
+\newcommand{\ex}{\mathrm{ex,pr}} \newcommand{\fil}{\mathrm{fil}}
+\newcommand{\gr}{\mathrm{gr}} \newcommand{\un}{\mathrm{un}}
+\newcommand{\Syn}{\mathrm{Syn}} \newcommand{\Cart}{\mathrm{Cart}}
+\newcommand{\bo}{\mathrm{bo}} \newcommand{\mmod}{/\!\!/}
+\newcommand{\bsp}{\mathrm{bsp}} \newcommand{\BPP}{\mathrm{BP}}
+\newcommand{\CAlg}{\mathrm{CAlg}} \newcommand{\TCart}{\mathrm{TCart}}
+\newcommand{\BW}{\mathrm{BW}} \newcommand{\Br}{\mathrm{Br}}
+\newcommand{\Pic}{\mathrm{Pic}} \newcommand{\ext}{\mathrm{ext}}
+\newcommand{\Cl}{\mathrm{Cl}} \newcommand{\disc}{\mathrm{disc}}
+\newcommand{\dir}{D\!\!\!\!/} \newcommand{\bb}{\mathrm{bb}}
+\newcommand{\Ran}{\mathrm{Ran}} \newcommand{\cu}{\mathcal{U}}
+\newcommand{\Gr}{\mathrm{Gr}} \newcommand{\Alg}{\mathrm{Alg}}
+\newcommand{\G}{\Gamma} \newcommand{\dY}{\mathcal{Y}}
+\newcommand{\Line}{\mathrm{Line}} \newcommand{\MUP}{\mathrm{MUP}}
+\newcommand{\Bl}{\mathrm{Bl}} \newcommand{\St}{\mathrm{St}}
+\newcommand{\cB}{\mathcal{B}} \newcommand{\SL}{\mathrm{SL}}
+\newcommand{\XX}{\mathrm{X}} \newcommand{\gp}{\mathrm{gp}}
+\newcommand{\Q}{\mathrm{Q}} \newcommand{\cI}{\mathcal{I}}
+\newcommand{\T}{\mathrm{T}} \newcommand{\D}{\mathrm{D}}
+\newcommand{\Aff}{\mathrm{Aff}} \newcommand{\BGL}{\mathrm{BGL}}
+\newcommand{\an}{\mathrm{an}} \newcommand{\Tel}{\mathrm{Tel}}
+\renewcommand{\|}{|} \newcommand{\MGL}{\mathrm{MGL}}
+\newcommand{\CH}{\mathrm{CH}} \newcommand{\fr}[1]{\mathfrak #1}
+\newcommand{\ch}{\mathrm{ch}} \newcommand{\Td}{\mathrm{Td}}
+\newcommand{\Spin}{\mathrm{Spin}} \newcommand{\G}{\mathrm{G}}
+\newcommand{\cHH}{\mathcal{H}} \newcommand{\F}{\mathrm{F}}
+\newcommand{\B}{\mathrm{B}} \newcommand{\HC}{\mathrm{HC}}
+\newcommand{\fib}{\mathrm{fib}} \newcommand{\tr}{\mathrm{tr}}
+\newcommand{\TR}{\mathrm{TR}} \newcommand{\THH}{\mathrm{THH}}
+\newcommand{\TP}{\mathrm{TP}} \newcommand{\crys}{\mathrm{crys}}
+\newcommand{\even}{\mathrm{even}} \newcommand{\odd}{\mathrm{odd}}
+\newcommand{\hodge}{\mathrm{Hodge}} \newcommand{\V}{\mathrm{V}}
+\newcommand{\C}{C} \newcommand{\K}{K} \newcommand{\M}{M} \newcommand{\X}{X}
+\newcommand{\h}{h} \newcommand{\TC}{\mathrm{TC}} \newcommand{\t}{t}
+\newcommand{\DC}{\mathrm{DC}} \newcommand{\str}{\mathrm{str}}
+\newcommand{\gen}{\mathrm{gen}} \newcommand{\Cyc}{\mathrm{CycSp}}
+\newcommand{\DA}{\mathrm{DA}} \newcommand{\AG}{\mathbf{A}^1/\mathbf{G}_m}
+\newcommand{\Crys}{\mathrm{Crys}} \newcommand{\cV}{\mathcal{V}}
+\newcommand{\can}{\mathrm{can}} \newcommand{\Coh}{\mathrm{Coh}}
+\newcommand{\SH}{\mathrm{SH}}</script>
+
+<p>We will pick up straight from <a href="/blog/algebraic-geometry/2020/08/03/hbar-ii.html">last
+time</a>.</p>
+
+<h3 id="part-three-uthe-trusty-circle">Part three: <script type="math/tex">u</script>/the trusty circle</h3>
+
+<p>So far, we have seen that the <script type="math/tex">\lambda</script> in <script type="math/tex">\lambda</script>-connections (which
+encodes the Hodge filtration) should be viewed as <script type="math/tex">\hbar</script> from deformation
+quantization/Bogomolov-Tian-Todorov, which we saw is the same thing as the Bott
+element. In this post, I would like to take this one step further, and argue
+that the Bott class is/should be the key object around which the stories of
+quantization and filtrations/Rees objects revolves. (I’m certain that this is
+something that experts like Kontsevich know, but it’s been pretty hard to track
+down references where this is explicitly said.) One of the reasons for this
+perspective is that the Bott class admits a canonical “lift to the sphere
+spectrum”, and as such tells us how to approach quantization and friends in
+characteristic <script type="math/tex">p</script> (or, more generally, over any structured ring spectrum).</p>
+
+<p>To motivate this perspective, let us look at the Bogomolov-Tian-Todorov theorem
+and Hodge-de Rham degeneration in characteristic <script type="math/tex">p</script>, as a way of inching
+closer to the universal base <script type="math/tex">S^0</script>. There’s a
+<a href="http://reh.math.uni-duesseldorf.de/~schroeer/publications_pdf/lifting.pdf">version</a>
+of BTT for Calabi-Yaus in characteristic <script type="math/tex">p</script>, albeit under some rather strong
+assumptions: the Calabi-Yau should lift to the Witt vectors, and the de Rham
+cohomology of this lift should be free (well, this is <em>almost</em> the condition).
+Using the perspective on BTT as coming from the triviality of the <script type="math/tex">S^1</script>-action
+on Hochschild homology that we described in our last post, it is possible to
+extend Schroer’s result to the milder assumptions that <script type="math/tex">p</script> is larger than the
+dimension of our Calabi-Yau <script type="math/tex">X</script>, and that <script type="math/tex">X</script> lifts to <script type="math/tex">W_2(k)</script>.</p>
+
+<p>These assumptions also showed up in work of Deligne-Illusie, where (in one of my
+favorite papers ever) they showed that these assumptions on <script type="math/tex">X</script> (not
+necessarily Calabi-Yau, just smooth and proper over a perfect field <script type="math/tex">k</script> of
+characteristic <script type="math/tex">p>0</script>) implies that the Hodge-de Rham spectral sequence
+degenerates. We already saw in the previous post that the relationship between
+<script type="math/tex">\lambda</script> (the parameter keeping track of the Hodge filtration) and the Bott
+element <script type="math/tex">u</script> manifests itself as the relationship between the Hodge-de Rham
+spectral sequence and the Tate spectral sequence for Hochschild homology;
+therefore, one might expect that for certain smooth and proper <script type="math/tex">k</script>-linear
+stable presentable <script type="math/tex">\infty</script>-categories, the Tate spectral sequence for
+Hochschild homology degenerates. This is in fact the case, and a readable
+exposition is <a href="https://arxiv.org/abs/1710.09045">here</a>.</p>
+
+<p>(The careful reader might notice that the situation might actually be slightly
+worse than in the characteristic zero case, where the problem stems not from the
+Tate or Hodge-de Rham spectral sequences, but rather from the HKR spectral
+sequence. In characteristic zero, the HKR spectral sequence degenerated at
+<script type="math/tex">E_1</script>, and so we could conclude from our square of spectral sequences that the
+Tate spectral sequence degenerates for <script type="math/tex">\HH(X/k)</script> if and only if the Hodge-de
+Rham spectral sequence degenerates. As it turns out, though, the HKR spectral
+sequence need <em>not</em> degenerate at the <script type="math/tex">E_1</script>-page for arbitrary smooth proper
+<script type="math/tex">k</script>-schemes. It <em>does</em> degenerate, however, once <script type="math/tex">% <![CDATA[
+\dim(X)< p %]]></script>. This is one
+of the Deligne-Illusie assumptions, and so if those conditions are satisfied,
+then the Tate spectral sequence degenerates if and only if the Hodge-de Rham
+spectral sequence degenerates.)</p>
+
+<p>We can then ask for a categorified version of Hodge theory (i.e., nonabelian
+Hodge theory) in characteristic <script type="math/tex">p</script>. We briefly discussed this
+<a href="/blog/algebraic-topology/2020/07/18/nah-redux.html">here</a>, so the reader should
+read that post. The restrictions on the nilpotence order there are nothing but
+categorifications of the Deligne-Illusie conditions; see section 2.5 in
+<a href="https://arxiv.org/abs/math/0507476">Ogus-Vologodsky</a> for the precise
+conditions. Given that the Hodge filtration is measured by <script type="math/tex">\lambda</script>, and
+<script type="math/tex">\lambda = u</script>, we can finally ask for a “<script type="math/tex">2</script>-periodic version” of the
+nonabelian Hodge correspondence in characteristic <script type="math/tex">p</script>. Again, we discussed
+this <a href="/blog/algebraic-topology/2020/07/18/nah-redux.html">here</a>, so I’ll refer
+the reader there again, rather than repeat what I wrote.</p>
+
+<p>It will be important for our discussion to note that the <em>non-degeneration</em> of
+the HKR spectral sequence means that Hochschild homology in characteristic <script type="math/tex">p</script>
+is not necessarily formal (as an <script type="math/tex">\Eoo</script>-<script type="math/tex">k</script>-algebra). In other words,
+<script type="math/tex">\HH(X/k)</script> is not equivalent to <script type="math/tex">\gr(\tau_{\geq \star} \HH(X/k)) =
+\Omega^\bullet_X</script>. The <script type="math/tex">S^1</script>-action on <script type="math/tex">\HH(X/k)</script> is supposed to give the
+de Rham differential on <script type="math/tex">\Omega^\bullet_X</script> — but <em>unlike</em> in characteristic
+zero, the datum of a differential is <em>not</em> equivalent to an <script type="math/tex">S^1</script>-action. This
+is because <script type="math/tex">C_\ast(S^1;k)</script> is <em>not</em> equivalent to <script type="math/tex">\H_\ast(S^1;k) \simeq
+k[\epsilon]/\epsilon^2</script> as an <script type="math/tex">\Eoo</script>-ring; in other words, <script type="math/tex">S^1</script> is not
+formal.</p>
+
+<p>This is a very important fact to remember. There is a way to fix this, described
+in <a href="https://arxiv.org/abs/2007.02576">this paper</a>: rather than worrying about
+proving formality, one just keeps track of the entire Whitehead filtration, and
+works in the world of filtered <script type="math/tex">\Eoo</script>-<script type="math/tex">k</script>-algebras. (If the algebras under
+consideration are formal, then the Whitehead filtration collapses, and so this
+amounts to just working in graded <script type="math/tex">k</script>-algebras.) In particular, rather than
+trying (and failing, because it’s not true) to prove formality of Hochschild
+homology with its <script type="math/tex">S^1</script>-action in characteristic <script type="math/tex">p</script>, we should just work
+with the <em>filtered</em> object <script type="math/tex">\tau_{\geq \star} \HH(X/k)</script> with the action of
+<script type="math/tex">\tau_{\geq \star} k[S^1]</script> instead. The associated graded of this is
+<script type="math/tex">\gr(\tau_{\geq \star} \HH(X/k)) = \Omega^\ast_X</script> with its <script type="math/tex">\gr(\tau_{\geq
+\star} k[S^1]) = \H_\ast(S^1;k) = k[\epsilon]/\epsilon^2</script>-action by the de Rham
+differential.</p>
+
+<p>The HKR spectral sequence collapses in characteristic <script type="math/tex">p</script> in <em>some</em> cases,
+namely when <script type="math/tex">% <![CDATA[
+\dim(X)< p %]]></script>. This means that there can’t be a
+<script type="math/tex">d_r</script>-differential if <script type="math/tex">% <![CDATA[
+r < p %]]></script>, and that Hochschild homology is formal for
+these schemes. The <script type="math/tex">S^1</script>-action is also formal, in the following sense: under
+the equivalence <script type="math/tex">\Fun(BS^1, \Mod(k)) \simeq \Mod(k^{hS^1})</script>, we can view
+<script type="math/tex">\HH(X/k)</script> with its <script type="math/tex">S^1</script>-action (at least, as a Borel <script type="math/tex">S^1</script>-spectrum) as
+a <script type="math/tex">k^{hS^1}</script>-module. Now, <script type="math/tex">k^{hS^1} = C^\ast(\CP^\infty;k)</script> is the
+<script type="math/tex">\E_1</script>-Koszul dual of <script type="math/tex">k[S^1] = C_\ast(S^1;k)</script>, and so the non-formality of
+<script type="math/tex">C_\ast(S^1;k)</script> is the same as the non-formality of <script type="math/tex">C^\ast(\CP^\infty;k)</script>.
+The desired formality statement is then that even though
+<script type="math/tex">C^\ast(\CP^\infty;k)</script> is not formal, it is formal <em>through a range</em>: the
+<script type="math/tex">\Eoo</script>-<script type="math/tex">k</script>-algebra <script type="math/tex">\tau_{\leq 2p-4} C^\ast(\CP^\infty;k)</script> is formal.</p>
+
+<p>Before we proceed, let us briefly digress to discuss the characteristic <script type="math/tex">p</script>
+analogue of Kontsevich’s result. Again, the HKR spectral sequence collapses in
+characteristic <script type="math/tex">p</script> in some cases. In characteristic zero, the HKR spectral
+sequence collapsing was the first step (literally, the first Taylor
+approximation) to Kontsevich’s quasi-isomorphism between the Hochschild
+cohomology dg-Lie algebra and its homotopy (the algebra of polyvector fields).
+We saw that this formality stems from the rational formality of the
+<script type="math/tex">\E_2</script>-operad. I recently came across <a href="https://arxiv.org/pdf/1903.09191.pdf">this
+paper</a>, which says that the
+<script type="math/tex">\E_2</script>-operad is formal through a range. In particular, Corollary A of this
+paper should lead to a proof of:</p>
+
+<p><strong>Informal Conjecture:</strong> Kontsevich formality (i.e., <script type="math/tex">\HH(X/k)[1]</script> is
+equivalent as a dg-Lie algebra to its homotopy) holds for smooth proper schemes
+<script type="math/tex">X</script> over a perfect field of characteristic <script type="math/tex">p</script> for which <script type="math/tex">% <![CDATA[
+\dim(X)< p %]]></script>.</p>
+
+<hr />
+
+<p>Let’s now return to the main program. We’ve seen that, in characteristic zero,
+the Bott class is just the filtration parameter <script type="math/tex">\lambda</script>, which in turn is
+the deformation quantization parameter <script type="math/tex">\hbar</script>. However, this fails in a sense
+in characteristic <script type="math/tex">p</script>: we have seen that the Bott class is really a
+consequence of having an <script type="math/tex">S^1</script>-action (e.g., <script type="math/tex">\pi_\ast \HP(X/k)</script> is a
+<script type="math/tex">k^{tS^1}</script>-module because <script type="math/tex">S^1</script> acts on <script type="math/tex">\HH(X/k)</script>). However, because
+<script type="math/tex">C^\ast(\CP^\infty;k) = k^{hS^1}</script> is not formal, we cannot really say that the
+Bott class “lives in” <script type="math/tex">\HP(X/k)</script>, only that it lives in <script type="math/tex">\pi_\ast \HP(X/k)</script>.
+Since, in characteristic <script type="math/tex">p</script>, we cannot get by with only knowing the action of
+<script type="math/tex">u</script> (which is sufficient in characteristic zero by formality), we really need
+to keep track of the entire <script type="math/tex">S^1</script>-action. This allows to finally arrive at the
+thesis of these posts:</p>
+
+<p><strong>Slogan:</strong> The datum of an <script type="math/tex">S^1</script>-action on an object <script type="math/tex">M</script> is the homotopical
+version of the datum of a filtration. Moreover, the triviality of this
+<script type="math/tex">S^1</script>-action is analogous to the existence of a deformation quantization. (The
+first sentence relates <script type="math/tex">u</script> and <script type="math/tex">\lambda</script>, while the second relates <script type="math/tex">u</script> and
+<script type="math/tex">\hbar</script>.)</p>
+
+<p>We can make this slogan a little more precise, but to do so, we need to revisit
+something we briefly mentioned at the end of the previous post. Recall that if
+<script type="math/tex">\F^\star A</script> is a filtered <script type="math/tex">k</script>-algebra, then the Rees construction is the
+filtered <script type="math/tex">k[\lambda]</script>-module <script type="math/tex">\bigoplus_{i\geq 0} (\F^i A) \lambda^i</script>. In
+other words, powers of <script type="math/tex">\lambda</script> keep track of the filtration on <script type="math/tex">A</script>.
+Therefore, ccording to our equation <script type="math/tex">\lambda = u</script>, powers of <script type="math/tex">u</script> should keep
+track of a filtration on the homotopy fixed points <script type="math/tex">\pi_\ast(M^{hS^1})</script> of an
+<script type="math/tex">S^1</script>-action on <script type="math/tex">M</script>. This filtration isn’t terribly surprising: it is
+exactly the filtration coming from the homotopy fixed points spectral sequence</p>
+
+<script type="math/tex; mode=display">E_2^{\ast,\ast} = \H^\ast(\CP^\infty; \pi_\ast M) \Rightarrow
+\pi_\ast(M^{hS^1}).</script>
+
+<p>(Note that if <script type="math/tex">M</script> is a <script type="math/tex">k</script>-algebra, then the <script type="math/tex">E_2</script>-page is <script type="math/tex">(\pi_\ast
+M)[\![u]\!]</script>.) This filtration is exactly the resulting <script type="math/tex">u</script>-adic filtration
+on <script type="math/tex">\pi_\ast(M^{hS^1})</script>. We said above that the action of <script type="math/tex">u</script> on
+<script type="math/tex">\pi_\ast(M^{hS^1})</script> isn’t really “sufficient” for studying <script type="math/tex">S^1</script>-actions
+away from characteristic zero, so we should be looking for a homotopical version
+of the <script type="math/tex">u</script>-adic filtration on a <script type="math/tex">k^{hS^1}</script>-module <script type="math/tex">M^{hS^1}</script>.</p>
+
+<p>Luckily, we already know of such a thing: just look at the filtration on
+<script type="math/tex">M^{hS^1}</script> induced by the filtration</p>
+
+<script type="math/tex; mode=display">\F^i k^{hS^1} = \F^i C^\ast(\CP^\infty;k) = C^\ast(\CP^\infty_i; k).</script>
+
+<p>Computing the effect on homotopy shows that this is indeed a homotopical
+refinement of the <script type="math/tex">u</script>-adic filtration.  This allows us to arrive at the
+following refined slogan.</p>
+
+<p><strong>Slightly refined slogan:</strong> An <script type="math/tex">S^1</script>-action on a <script type="math/tex">k</script>-module <script type="math/tex">M</script> gives
+rise to the “<script type="math/tex">\CP</script>-filtration” on <script type="math/tex">M^{hS^1}</script>, and the resulting filtration
+on homotopy is analogous to the datum of a filtration. Moreover,
+the triviality of this <script type="math/tex">S^1</script>-action is analogous to the existence of a
+deformation quantization.</p>
+
+<p>One very appealing aspect of this slogan is that the <script type="math/tex">\CP</script>-filtration is not
+only defined on <script type="math/tex">k</script>-modules with an <script type="math/tex">S^1</script>-action, but on all spectra with an
+<script type="math/tex">S^1</script>-action. In other words, this slogan allows us to study “deformation
+quantization over the sphere spectrum”.</p>
+
+<p>Before we get too excited, there are some subtleties that we need to discuss.
+First, if <script type="math/tex">M</script> is a <script type="math/tex">k</script>-module with an <script type="math/tex">S^1</script>-action, we get a filtered
+<script type="math/tex">\F^\star k^{hS^1}</script>-module <script type="math/tex">\F^\star M^{hS^1}</script>, as described above.
+<em>However</em>, as discussed
+<a href="https://www.math.ias.edu/~lurie/papers/Waldhaus.pdf">here</a>, the <em>filtered</em>
+spectrum <script type="math/tex">\F^\star k^{hS^1}</script> over an arbitrary <script type="math/tex">\Eoo</script>-ring <script type="math/tex">k</script> will only
+be a <em>filtered <script type="math/tex">\E_2</script>-ring spectrum</em> via the diagonal on <script type="math/tex">\{\CP^\infty_n\}</script>,
+and <em>not</em> a filtered <script type="math/tex">\Eoo</script>-ring (or even a filtered <script type="math/tex">\E_3</script>-ring, although
+Lurie only states this and doesn’t prove it).</p>
+
+<p>Next, one might be a tad bit surprised to see the claim that “modules over
+<script type="math/tex">k^{hS^1}</script>” are supposed to be homotopical versions of filtrations, for the
+following reason. If <script type="math/tex">\Sp_\gr</script> is the category of graded spectra and
+<script type="math/tex">\Sp_\fil</script> the category of filtered spectra, then there is a canonical
+<script type="math/tex">\Eoo</script>-algebra <script type="math/tex">S^0[t]\in \CAlg(\Sp_\gr)</script> such that modules over <script type="math/tex">S^0[t]</script>
+in graded spectra are filtered spectra. Indeed, just let the <script type="math/tex">n</script>th graded
+piece of <script type="math/tex">S^0[t]</script> be <script type="math/tex">S^0</script> if <script type="math/tex">n\geq 0</script>, and zero if <script type="math/tex">% <![CDATA[
+n<0 %]]></script>. The action
+of “<script type="math/tex">t</script>” (which generates the copy of <script type="math/tex">S^0</script> in graded degree <script type="math/tex">1</script>) on the
+graded spectrum gives the transition maps necessary to get a filtered spectrum
+out of the graded spectrum.</p>
+
+<p>On the other hand, modules over <script type="math/tex">k^{hS^1}</script> (or, rather, <script type="math/tex">\gr(\F^\star
+k^{hS^1}) = k[u]</script>) in graded spectra are graded <script type="math/tex">k</script>-modules <script type="math/tex">\bigoplus_n
+M_n</script> along with maps <script type="math/tex">M_n \to \Sigma^2 M_{n+1}</script>. We see that <script type="math/tex">S^0[t]</script> looks
+rather different from <script type="math/tex">k^{hS^1}</script>: in a sense, it is a “sheared” version of
+<script type="math/tex">S^0[t]</script>. This was mentioned at the end of the previous post, where we said
+that fixing the grading in the nonabelian Hodge correspondence (to get the Rees
+variable <script type="math/tex">\lambda</script> to live in degree <script type="math/tex">2</script>) is a sort of shearing procedure.
+We can now see why this isn’t exactly how one should be thinking of the passage
+from <script type="math/tex">S^0[t]</script>-modules: for instance, while <script type="math/tex">k[t] = k\otimes_{S^0} S^0[t]</script> is
+a filtered <script type="math/tex">\Eoo</script>-ring, <script type="math/tex">\F^\star k^{hS^1}</script> is only <script type="math/tex">\E_2</script>; moreover, it’s
+not obvious how one might start with a filtered spectrum and then “shear” it.</p>
+
+<p>Nonetheless, the passage isn’t <em>completely</em> mysterious: the underlying object of
+<script type="math/tex">S^0[t]</script> is the suspension spectrum <script type="math/tex">\Sigma^\infty_+ \Z_{\geq 0}</script>, and this
+is an augmented <script type="math/tex">\E_2</script>-algebra. We can then take its 2-fold bar construction
+(i.e., the <script type="math/tex">\E_2</script>-Koszul dual), and this gives <script type="math/tex">(S^0)^{hS^1}</script>. All of this
+works in the filtered setting, too: if <script type="math/tex">\Sigma^\infty_+ \Z_{\geq 0}</script> is given
+the filtration <script type="math/tex">\F^n \Sigma^\infty_+ \Z_{\geq 0} = \Sigma^\infty_+ \{0, \cdots,
+n\}</script>, then the <script type="math/tex">\E_2</script>-Koszul dual in filtered spectra is <script type="math/tex">\F^\star
+(S^0)^{hS^1} = C^\ast(\CP^\infty_\star; S^0)</script>.</p>
+
+<p>At this point, it is apt to remark that the connection between deformation
+quantization and the fact that <script type="math/tex">\gr(\F^\star k^{hS^1}) = k[\![u]\!]</script> is the
+<script type="math/tex">\E_2</script>-Koszul dual of <script type="math/tex">k[t]</script> has already been studied by many. See, for
+instance, Theorem 5.1 in Toen’s 2014 <a href="https://arxiv.org/abs/1403.6995">ICM
+address</a>: if <script type="math/tex">k</script> is a field of characteristic
+zero, the deformation theory of a compactly generated <script type="math/tex">k</script>-linear dg-category
+<script type="math/tex">\cC</script> is controlled by the Hochschild cohomology of <script type="math/tex">\cC</script>, and deformations
+of <script type="math/tex">\cC</script> to <script type="math/tex">k[t]</script> are the same as <script type="math/tex">k[\![u]\!]</script>-module structures on
+<script type="math/tex">\cC</script>.  We can now see that our slogan allows us to generalize Toen’s
+statement to arbitary <script type="math/tex">\Eoo</script>-rings <script type="math/tex">R</script>: the deformation theory of a
+compactly generated <script type="math/tex">R</script>-linear presentable stable <script type="math/tex">\infty</script>-category <script type="math/tex">\cC</script>
+is controlled by the Hochschild cohomology, and deformations of <script type="math/tex">\cC</script> to
+<script type="math/tex">R[t] = R \otimes_{S^0} S^0[t]</script> are the same as <script type="math/tex">R^{hS^1}</script>-linear structures
+on <script type="math/tex">\cC</script>, or rather <script type="math/tex">R</script>-linear presentable stable <script type="math/tex">\infty</script>-categories
+<script type="math/tex">\cd</script> with an <script type="math/tex">S^1</script>-action such that <script type="math/tex">\cC \simeq \cd^{hS^1}</script>. Because
+<script type="math/tex">k[\![u]\!]</script> is the associated graded of the <script type="math/tex">\CP</script>-filtration on
+<script type="math/tex">k^{hS^1}</script>, and it <em>is</em> <script type="math/tex">k^{hS^1}</script> in characteristic zero, this reduces to
+Toen’s result in characteristic zero. The above statement, however, works for
+any <script type="math/tex">\Eoo</script>-ring, and hence in particular for any field (regardless of
+characteristic).</p>
+
+<p>In the next post, we will explore what happens in characteristic <script type="math/tex">p</script>. Let’s
+end this post with a remark. In previous posts, we focused primarily on what
+happens when we set <script type="math/tex">\hbar = 0</script> (which corresponds to going from quantum
+mechanics to classical mechanics) and <script type="math/tex">\lambda = 0</script> (which corresponds to
+taking the associated graded). However, it is common in quantum mechanics to set
+<script type="math/tex">\hbar = 1</script> — this goes by the name “natural units”. Our main equation tells
+us that this corresponds to setting <script type="math/tex">\lambda = 1</script> in the filtered world; this
+just means “working with the underlying unfiltered object”.  Unfortunately, in
+the homotopical world, it doesn’t really make sense to “set <script type="math/tex">u</script> to <script type="math/tex">1</script>”,
+because <script type="math/tex">u</script> lives in degree 2, while <script type="math/tex">1</script> lives in degree 0. But this isn’t
+that big of a deal: we can just <em>invert</em> <script type="math/tex">u</script> instead, and this amounts to
+taking the Tate construction in <script type="math/tex">S^1</script>-homotopy theory. We’ve already seen this
+perspective in action in <a href="/blog/algebraic-topology/2020/07/18/nah-redux.html">this
+post</a>, where we argued that
+a homotopical version of the (characteristic <script type="math/tex">p</script>) nonabelian Hodge
+correspondence is really supposed to be a Frobenius-linear equivalence between a
+certain subcategory of <script type="math/tex">\fr{Z}(\cC) \otimes_k k^{tS^1}</script> and
+<script type="math/tex">\fr{Z}(\cC)^{hS^1} \otimes_{k^{hS^1}} k^{tS^1}</script>, where <script type="math/tex">\cC</script> is a
+<script type="math/tex">k</script>-linear stable presentable category and <script type="math/tex">\fr{Z}(\cC)</script> denotes its
+<script type="math/tex">\E_2</script>-center.</p>
+
+  </div><a class="u-url" href="/blog/algebraic-geometry/2020/08/04/hbar-iii.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Sanath Devalapurkar&#39;s home page</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Sanath Devalapurkar&#39;s home page</li><li><a class="u-email" href="mailto:sanathdevalapurkar@g.harvard.edu">sanathdevalapurkar@g.harvard.edu</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>Graduate student in math.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

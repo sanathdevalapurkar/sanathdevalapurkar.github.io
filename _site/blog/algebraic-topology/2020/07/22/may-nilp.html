@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Norms and transfers | Sanath Devalapurkar’s home page</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Norms and transfers" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Graduate student in math." />
+<meta property="og:description" content="Graduate student in math." />
+<link rel="canonical" href="http://localhost:4000/blog/algebraic-topology/2020/07/22/may-nilp.html" />
+<meta property="og:url" content="http://localhost:4000/blog/algebraic-topology/2020/07/22/may-nilp.html" />
+<meta property="og:site_name" content="Sanath Devalapurkar’s home page" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-07-22T00:00:00-07:00" />
+<script type="application/ld+json">
+{"url":"http://localhost:4000/blog/algebraic-topology/2020/07/22/may-nilp.html","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/blog/algebraic-topology/2020/07/22/may-nilp.html"},"description":"Graduate student in math.","headline":"Norms and transfers","dateModified":"2020-07-22T00:00:00-07:00","datePublished":"2020-07-22T00:00:00-07:00","@type":"BlogPosting","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Sanath Devalapurkar's home page" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Sanath Devalapurkar&#39;s home page</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/blog/">Blog</a><a class="page-link" href="/">Home</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Norms and transfers</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2020-07-22T00:00:00-07:00" itemprop="datePublished">Jul 22, 2020
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
+
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-109004213-1"></script>
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+        gtag('config', 'UA-109004213-1');
+</script>
+
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+<script type="math/tex; mode=display">\newcommand{\KO}{\mathrm{KO}} \newcommand{\TMF}{\mathrm{TMF}}
+\newcommand{\KU}{\mathrm{KU}} \newcommand{\Mfg}{M_\mathrm{fg}}
+\newcommand{\spec}{\mathrm{Spec}} \newcommand{\dX}{\mathcal{X}}
+\newcommand{\co}{\mathcal{O}} \newcommand{\Z}{\mathbf{Z}}
+\newcommand{\top}{\mathrm{top}} \newcommand{\E}{\mathbf{E}}
+\newcommand{\GG}{\mathbf{G}} \newcommand{\DD}{\mathbf{D}}
+\newcommand{\Mell}{M_\mathrm{ell}} \newcommand{\ce}{\mathcal{E}}
+\newcommand{\H}{\mathrm{H}} \newcommand{\dR}{\mathrm{dR}}
+\newcommand{\cf}{\mathcal{F}} \newcommand{\FF}{\mathbf{F}}
+\newcommand{\spf}{\mathrm{Spf}\ } \newcommand{\cA}{\mathcal{A}}
+\newcommand{\Mcub}{M_\mathrm{cub}} \newcommand{\Mqd}{M_\mathrm{qd}}
+\newcommand{\Aut}{\mathrm{Aut}} \newcommand{\tmf}{\mathrm{tmf}}
+\newcommand{\Tmf}{\mathrm{Tmf}} \newcommand{\Map}{\mathrm{Map}}
+\newcommand{\Ext}{\mathrm{Ext}} \newcommand{\End}{\mathrm{End}}
+\newcommand{\cg}{\mathcal{G}} \newcommand{\Hom}{\mathrm{Hom}}
+\newcommand{BP}[1]{\mathrm{BP}\langle #1\rangle} \newcommand{\QQ}{\mathbf{Q}}
+\newcommand{\PP}{\mathbf{P}} \newcommand{\Gal}{\mathrm{Gal}}
+\newcommand{\proj}{\mathrm{Proj}\ } \newcommand{\Ltwo}{L_{K(2)}}
+\newcommand{\Eoo}{\mathbf{E}_\infty} \newcommand{\ol}[1]{\overline #1}
+\newcommand{\pic}{\mathrm{Pic}} \newcommand{\RP}{\mathbf{R}P}
+\newcommand{\BO}{\mathrm{BO}} \newcommand{\cc}{\mathbf{C}}
+\newcommand{\CP}{\mathrm{CP}} \newcommand{\wt}[1]{\widetilde #1}
+\newcommand{\RR}{\mathbf{R}} \renewcommand{\S}{\mathbb{S}}
+\newcommand{\Lone}{L_{K(1)}} \newcommand{\Ltwo}{L_{K(2)}}
+\newcommand{\gl}{\mathrm{gl}} \newcommand{\Lk}{L_{K(n)}}
+\newcommand{\ku}{\mathrm{ku}} \newcommand{\ko}{\mathrm{ko}}
+\newcommand{\GL}{\mathrm{GL}} \newcommand{\Ln}{L_n} \newcommand{\Lt}{L_{K(t)}}
+\newcommand{\W}{\mathrm{W}} \newcommand{\BU}{\mathrm{BU}}
+\newcommand{\SU}{\mathrm{SU}} \newcommand{\MU}{\mathrm{MU}}
+\newcommand{\ul}[1]{\underline #1} \newcommand{\Sq}{\mathrm{Sq}}
+\newcommand{\Tr}{\mathrm{Tr}} \newcommand{\d}{\mathrm{d}}
+\newcommand{\HP}{\mathrm{HP}} \newcommand{\cL}{\mathcal{L}}
+\newcommand{\cs}{\mathrm{cs}} \newcommand{\cd}{\mathcal{D}}
+\newcommand{\Bord}{\mathrm{Bord}} \newcommand{\SO}{\mathrm{SO}}
+\newcommand{\cC}{\mathcal{C}} \newcommand{\Sp}{\mathrm{Sp}}
+\newcommand{\Lkd}{L_{K(d)}} \newcommand{\Mod}{\mathrm{Mod}}
+\newcommand{\cH}{\mathcal{H}} \newcommand{\ket}[1]{|#1 \rangle}
+\newcommand{\Bun}{\mathrm{Bun}} \newcommand{\cM}{\mathcal{M}}
+\newcommand{\MTH}{\mathrm{MT}H} \newcommand{\MSO}{\mathrm{MSO}}
+\newcommand{\twsm}{\ \widetilde{\wedge} \ } \newcommand{\BSpin}{\mathrm{BSpin}}
+\newcommand{\MSpin}{\mathrm{MSpin}} \newcommand{\BString}{\mathrm{BString}}
+\newcommand{\MString}{\mathrm{MString}} \newcommand{\B}{\mathrm{B}}
+\newcommand{\der}{\mathrm{der}} \newcommand{\Cat}{\mathrm{Cat}}
+\newcommand{\QCoh}{\mathrm{QCoh}} \newcommand{\LMod}{\mathrm{LMod}}
+\newcommand{\Rep}{\mathrm{Rep}} \newcommand{\HH}{\mathrm{HH}}
+\newcommand{\ZZ}{\mathfrak{Z}} \newcommand{\fr}{\mathrm{fr}}
+\newcommand{\BSO}{\mathrm{BSO}} \newcommand{\BSU}{\mathrm{BSU}}
+\newcommand{\id}{\mathrm{id}} \newcommand{\Top}{\mathrm{Top}}
+\newcommand{\cP}{\mathcal{P}} \newcommand{\U}{\mathrm{U}}
+\newcommand{\Sym}{\mathrm{Sym}} \newcommand{\coker}{\mathrm{coker}}
+\newcommand{\Vect}{\mathrm{Vect}} \newcommand{\Fun}{\mathrm{Fun}}
+\newcommand{\cT}{\mathcal{T}} \newcommand{\cJ}{\mathcal{J}}
+\newcommand{\Res}{\mathrm{Res}} \newcommand{\Ind}{\mathrm{Ind}}
+\newcommand{\MO}{\mathrm{MO}} \newcommand{\MSO}{\mathrm{MSO}}
+\newcommand{\colim}{\mathrm{colim}} \newcommand{\hocolim}{\mathrm{hocolim}}
+\newcommand{\fin}{\mathrm{fin}} \newcommand{\Tot}{\mathrm{Tot}}
+\newcommand{\im}{\mathrm{im}} \newcommand{\FT}{\mathrm{FT}}
+\newcommand{\AA}{\mathbf{A}} \newcommand{\Frob}{\mathrm{Frob}}
+\newcommand{\ex}{\mathrm{ex,pr}} \newcommand{\fil}{\mathrm{fil}}
+\newcommand{\gr}{\mathrm{gr}} \newcommand{\un}{\mathrm{un}}
+\newcommand{\Syn}{\mathrm{Syn}} \newcommand{\Cart}{\mathrm{Cart}}
+\newcommand{\bo}{\mathrm{bo}} \newcommand{\mmod}{/\!\!/}
+\newcommand{\bsp}{\mathrm{bsp}} \newcommand{\BPP}{\mathrm{BP}}
+\newcommand{\CAlg}{\mathrm{CAlg}} \newcommand{\TCart}{\mathrm{TCart}}
+\newcommand{\BW}{\mathrm{BW}} \newcommand{\Br}{\mathrm{Br}}
+\newcommand{\Pic}{\mathrm{Pic}} \newcommand{\ext}{\mathrm{ext}}
+\newcommand{\Cl}{\mathrm{Cl}} \newcommand{\disc}{\mathrm{disc}}
+\newcommand{\dir}{D\!\!\!\!/} \newcommand{\bb}{\mathrm{bb}}
+\newcommand{\Ran}{\mathrm{Ran}} \newcommand{\cu}{\mathcal{U}}
+\newcommand{\Gr}{\mathrm{Gr}} \newcommand{\Alg}{\mathrm{Alg}}
+\newcommand{\G}{\Gamma} \newcommand{\dY}{\mathcal{Y}}
+\newcommand{\Line}{\mathrm{Line}} \newcommand{\MUP}{\mathrm{MUP}}
+\newcommand{\Bl}{\mathrm{Bl}} \newcommand{\St}{\mathrm{St}}
+\newcommand{\cB}{\mathcal{B}} \newcommand{\SL}{\mathrm{SL}}
+\newcommand{\XX}{\mathrm{X}} \newcommand{\gp}{\mathrm{gp}}
+\newcommand{\Q}{\mathrm{Q}} \newcommand{\cI}{\mathcal{I}}
+\newcommand{\T}{\mathrm{T}} \newcommand{\D}{\mathrm{D}}
+\newcommand{\Aff}{\mathrm{Aff}} \newcommand{\BGL}{\mathrm{BGL}}
+\newcommand{\an}{\mathrm{an}} \newcommand{\Tel}{\mathrm{Tel}}
+\renewcommand{\|}{|} \newcommand{\MGL}{\mathrm{MGL}}
+\newcommand{\CH}{\mathrm{CH}} \newcommand{\fr}[1]{\mathfrak #1}
+\newcommand{\ch}{\mathrm{ch}} \newcommand{\Td}{\mathrm{Td}}
+\newcommand{\Spin}{\mathrm{Spin}} \newcommand{\G}{\mathrm{G}}
+\newcommand{\cHH}{\mathcal{H}} \newcommand{\F}{\mathrm{F}}
+\newcommand{\B}{\mathrm{B}} \newcommand{\HC}{\mathrm{HC}}
+\newcommand{\fib}{\mathrm{fib}} \newcommand{\tr}{\mathrm{tr}}
+\newcommand{\TR}{\mathrm{TR}} \newcommand{\THH}{\mathrm{THH}}
+\newcommand{\TP}{\mathrm{TP}} \newcommand{\crys}{\mathrm{crys}}
+\newcommand{\even}{\mathrm{even}} \newcommand{\odd}{\mathrm{odd}}
+\newcommand{\hodge}{\mathrm{Hodge}} \newcommand{\V}{\mathrm{V}}
+\newcommand{\C}{C} \newcommand{\K}{K} \newcommand{\M}{M} \newcommand{\X}{X}
+\newcommand{\h}{h} \newcommand{\TC}{\mathrm{TC}} \newcommand{\t}{t}
+\newcommand{\DC}{\mathrm{DC}} \newcommand{\str}{\mathrm{str}}
+\newcommand{\gen}{\mathrm{gen}} \newcommand{\Cyc}{\mathrm{CycSp}}
+\newcommand{\DA}{\mathrm{DA}} \newcommand{\AG}{\mathbf{A}^1/\mathbf{G}_m}
+\newcommand{\Crys}{\mathrm{Crys}} \newcommand{\cV}{\mathcal{V}}
+\newcommand{\can}{\mathrm{can}} \newcommand{\Coh}{\mathrm{Coh}}</script>
+
+<p>I suggested in <a href="/blog/algebraic-topology/2020/04/24/may.html">this post</a> that it
+may be possible to prove May nilpotence by a Devinatz-Hopkins-Smith style
+nilpotence argument, by going up the symmetric power filtration of <script type="math/tex">\H\Z</script>. The
+suggestion in that post doesn’t exactly work as written, but
+<a href="http://web.mit.edu/~jhahn01/www/">Jeremy</a> observed a fix in a special case that
+might generalize. I’d like to explain this observation in this post.</p>
+
+<p>First, setup. Let <script type="math/tex">R</script> be an <script type="math/tex">\Eoo</script>-ring, and let <script type="math/tex">\H\Z \otimes R = 0</script>. We
+want to show that <script type="math/tex">R = 0</script>. Let’s localize at <script type="math/tex">2</script>. Note that <script type="math/tex">R\otimes \H\QQ
+= 0</script>, so we can assume that <script type="math/tex">2^n = 0</script> in <script type="math/tex">\pi_0 R</script> for some <script type="math/tex">n</script>. Then, we
+just need to show that <script type="math/tex">2^{n-1} = 0</script>.</p>
+
+<p>Now, the symmetric power filtration <script type="math/tex">\Sym^{2^n}(\S) \to \H\Z</script> is filtered, so
+the unit <script type="math/tex">\S \to R\to R\otimes \H\Z</script> factors through some <script type="math/tex">\Sym^{2^n}(\S)
+\otimes R</script>. Jeremy’s argument assumes that the unit factors through
+<script type="math/tex">\Sym^2(\S)\otimes R</script>. Since <script type="math/tex">R\otimes \H\Z</script> is zero, the unit is null, and
+so the map <script type="math/tex">\S\to R\to \Sym^2(\S)\otimes R</script> is null. <em>If</em> <script type="math/tex">\Sym^2(\S)\otimes
+R</script> was a ring, then this would immediately imply that <script type="math/tex">\Sym^2(\S)\otimes R</script>
+is zero; but it’s not (and this was the problem in the previous post).</p>
+
+<p><em>However</em>, one can still argue that if the map <script type="math/tex">\S\to R\to \Sym^2(\S)\otimes
+R</script> is null (and <script type="math/tex">2^n = 0\in \pi_0(R)</script>), then <script type="math/tex">2^{n-1} = 0\in \pi_0(R)</script>. To
+see this, note that there is a cofiber sequence</p>
+
+<script type="math/tex; mode=display">\RP^\infty \xrightarrow{\tr} \S \to \Sym^2(\S),</script>
+
+<p>and so the fact that the unit in <script type="math/tex">R\otimes \Sym^2(\S)</script> is null implies that
+the unit map <script type="math/tex">\S\to R</script> lifts along the transfer <script type="math/tex">\tr:\RP^\infty \otimes R
+\to R</script>; in other words, there is a map <script type="math/tex">f:\S\to \RP^\infty \otimes R</script> such
+that the composite</p>
+
+<script type="math/tex; mode=display">\S\xrightarrow{f} \RP^\infty \otimes R \xrightarrow{\tr} R</script>
+
+<p>is the unit.</p>
+
+<p>Now, we know that <script type="math/tex">2^n = 0\in \pi_0(R)</script>. In general, if <script type="math/tex">N: \pi_0(R) \to
+\pi_0(R^{\RP^\infty_+})</script> is the norm, then there is a relation <script type="math/tex">N(x+y) =
+N(x)+N(y) + \tr(xy)</script>. At an odd prime, we get</p>
+
+<script type="math/tex; mode=display">N(x+y) = N(x) + N(y) + \Tr\left(\sum_{i\leq p-i} \frac{1}{p} \binom{p}{i} x^i
+y^{p-i}\right);</script>
+
+<p>this is basically the binomial theorem. In any case, we see that</p>
+
+<script type="math/tex; mode=display">N(a) = a + \frac{a^p - a}{p} \Tr(1)</script>
+
+<p>for any integer <script type="math/tex">a</script>, so <script type="math/tex">N(2^n) \equiv 2^{n-1}\tr(1) \pmod{2^n}</script>, and thus
+<script type="math/tex">\tr(2^{n-1}) = 0</script> in <script type="math/tex">R</script>. Since the unit of <script type="math/tex">R</script> factors through the
+transfer, this forces <script type="math/tex">2^{n-1} = 0\in \pi_0(R)</script>, as desired.</p>
+
+<p>In a future post, we will discuss what happens if the unit factors through
+<script type="math/tex">R\otimes \Sym^4(\S)</script> instead.</p>
+
+  </div><a class="u-url" href="/blog/algebraic-topology/2020/07/22/may-nilp.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Sanath Devalapurkar&#39;s home page</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Sanath Devalapurkar&#39;s home page</li><li><a class="u-email" href="mailto:sanathdevalapurkar@g.harvard.edu">sanathdevalapurkar@g.harvard.edu</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>Graduate student in math.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

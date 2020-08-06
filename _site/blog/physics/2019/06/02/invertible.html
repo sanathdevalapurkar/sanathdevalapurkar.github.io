@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Invertible TQFTs | Sanath Devalapurkar’s home page</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Invertible TQFTs" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Graduate student in math." />
+<meta property="og:description" content="Graduate student in math." />
+<link rel="canonical" href="http://localhost:4000/blog/physics/2019/06/02/invertible.html" />
+<meta property="og:url" content="http://localhost:4000/blog/physics/2019/06/02/invertible.html" />
+<meta property="og:site_name" content="Sanath Devalapurkar’s home page" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2019-06-02T00:00:00-07:00" />
+<script type="application/ld+json">
+{"url":"http://localhost:4000/blog/physics/2019/06/02/invertible.html","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/blog/physics/2019/06/02/invertible.html"},"description":"Graduate student in math.","headline":"Invertible TQFTs","dateModified":"2019-06-02T00:00:00-07:00","datePublished":"2019-06-02T00:00:00-07:00","@type":"BlogPosting","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Sanath Devalapurkar's home page" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Sanath Devalapurkar&#39;s home page</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/blog/">Blog</a><a class="page-link" href="/">Home</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Invertible TQFTs</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2019-06-02T00:00:00-07:00" itemprop="datePublished">Jun 2, 2019
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
+
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-109004213-1"></script>
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+        gtag('config', 'UA-109004213-1');
+</script>
+
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+<script type="math/tex; mode=display">\newcommand{\KO}{\mathrm{KO}} \newcommand{\TMF}{\mathrm{TMF}}
+\newcommand{\KU}{\mathrm{KU}} \newcommand{\Mfg}{M_\mathrm{fg}}
+\newcommand{\spec}{\mathrm{Spec}\ } \newcommand{\dX}{\mathcal{X}}
+\newcommand{\co}{\mathcal{O}} \newcommand{\Z}{\mathbf{Z}}
+\newcommand{\top}{\mathrm{top}} \newcommand{\E}{\mathbf{E}}
+\newcommand{\GG}{\mathbf{G}} \newcommand{\DD}{\mathbf{D}}
+\newcommand{\Mell}{M_\mathrm{ell}} \newcommand{\ce}{\mathcal{E}}
+\newcommand{\H}{\mathrm{H}} \newcommand{\dR}{\mathrm{dR}}
+\newcommand{\cf}{\mathcal{F}} \newcommand{\FF}{\mathbf{F}}
+\newcommand{\spf}{\mathrm{Spf}\ } \newcommand{\cA}{\mathcal{A}}
+\newcommand{\Mcub}{M_\mathrm{cub}} \newcommand{\Mqd}{M_\mathrm{qd}}
+\newcommand{\Aut}{\mathrm{Aut}} \newcommand{\tmf}{\mathrm{tmf}}
+\newcommand{\Tmf}{\mathrm{Tmf}} \newcommand{\Map}{\mathrm{Map}}
+\newcommand{\Ext}{\mathrm{Ext}} \newcommand{\End}{\mathrm{End}}
+\newcommand{\cg}{\mathcal{G}} \newcommand{\Hom}{\mathrm{Hom}}
+\newcommand{BP}[1]{\mathrm{BP}\langle #1\rangle} \newcommand{\QQ}{\mathbf{Q}}
+\newcommand{\PP}{\mathbf{P}} \newcommand{\Gal}{\mathrm{Gal}}
+\newcommand{\proj}{\mathrm{Proj}\ } \newcommand{\Ltwo}{L_{K(2)}}
+\newcommand{\Eoo}{\mathbf{E}_\infty} \newcommand{\ol}[1]{\overline #1}
+\newcommand{\pic}{\mathrm{Pic}} \newcommand{\RP}{\mathbf{R}P}
+\newcommand{\BO}{\mathrm{BO}} \newcommand{\cc}{\mathbf{C}}
+\newcommand{\CP}{\mathbf{C}P} \newcommand{\wt}[1]{\widetilde #1}
+\newcommand{\RR}{\mathbf{R}} \renewcommand{\S}{\mathbb{S}}
+\newcommand{\Lone}{L_{K(1)}} \newcommand{\Ltwo}{L_{K(2)}}
+\newcommand{\gl}{\mathrm{gl}} \newcommand{\Lk}{L_{K(n)}}
+\newcommand{\ku}{\mathrm{ku}} \newcommand{\ko}{\mathrm{ko}}
+\newcommand{\GL}{\mathrm{GL}} \newcommand{\Ln}{L_n}
+\newcommand{\Lt}{L_{K(t)}} \newcommand{\W}{\mathrm{W}}
+\newcommand{\BU}{\mathrm{BU}} \newcommand{\SU}{\mathrm{SU}}
+\newcommand{\MU}{\mathrm{MU}} \newcommand{\ul}[1]{\underline #1}
+\newcommand{\Sq}{\mathrm{Sq}} \newcommand{\Tr}{\mathrm{Tr}}
+\newcommand{\d}{\mathrm{d}} \newcommand{\HP}{\mathbf{H}P}
+\newcommand{\cL}{\mathcal{L}} \newcommand{\cs}{\mathrm{cs}}
+\newcommand{\cd}{\mathcal{D}} \newcommand{\Bord}{\mathrm{Bord}}
+\newcommand{\SO}{\mathrm{SO}} \newcommand{\cC}{\mathcal{C}}
+\newcommand{\Sp}{\mathrm{Sp}} \newcommand{\Lkd}{L_{K(d)}}
+\newcommand{\Mod}{\mathrm{Mod}} \newcommand{\cH}{\mathcal{H}}
+\newcommand{\ket}[1]{|#1 \rangle} \newcommand{\Bun}{\mathrm{Bun}}
+\newcommand{\cM}{\mathcal{M}} \newcommand{\MTH}{\mathrm{MT}H}
+\newcommand{\MSO}{\mathrm{MSO}}</script>
+
+<p>Most of this post will be heuristic arguments; we will initially only consider
+non-extended TQFTs (i.e., TQFTs in the sense of Atiyah), and then move on to
+extended TQFTs. Consider a closed <script type="math/tex">n</script>-manifold <script type="math/tex">M</script> (often <script type="math/tex">n=3</script>) with
+finitely many <script type="math/tex">0</script>-cells <script type="math/tex">\Delta^0</script>. Consider a quantum system defined on
+<script type="math/tex">M</script>: let <script type="math/tex">\cH</script> denote the Hilbert space <script type="math/tex">\bigotimes_{v\in \Delta^0} \cH_v</script>
+(we will often just consider a finite-dimensional space, and assume that
+<script type="math/tex">\cH_v</script> are all of the saame dimension), and let <script type="math/tex">H</script> be the Hamiltonian of
+the system. The Ising model, for instance, corresponds to the case when each
+<script type="math/tex">\cH_v</script> is <script type="math/tex">2</script>-dimensional (with basis <script type="math/tex">\ket{\uparrow}</script> and
+<script type="math/tex">\ket{\downarrow}</script>). In this case, one choice for the Hamiltonian <script type="math/tex">H</script> is</p>
+
+<script type="math/tex; mode=display">H = -J\sum_{e\in \Delta^1, \ \partial e = i,j} \sigma^z_i \sigma^z_j -
+h\sum_{v\in \Delta^0} \sigma^x_v,</script>
+
+<p>where <script type="math/tex">h</script> and <script type="math/tex">J</script> are nonzero constants, and the <script type="math/tex">\sigma</script>s are the Pauli
+matrices (generators of <script type="math/tex">\mathfrak{su}_2</script>). The first term is a spin-spin
+interaction term, while the second corresponds to a magnetic field. Studying he
+Ising model shows that there’s a symmetry breaking when <script type="math/tex">h</script> is turned on.</p>
+
+<p>The ground state of this system is when all sites (vertices) have the same spin,
+and the first excited state is when only one of the spins is different. Let us
+suppose for simplicity that <script type="math/tex">J=0</script>; then, turning on one of the spins creates
+an energy gap of <script type="math/tex">2h</script> between the ground state and the first excited state.
+Thanks to this property, the quantum system is said to be “gapped” (somewhat
+more precisely, the lowest energy eigenvalue is an isolated point of the
+spectrum of the Hamiltonian). Note that there is a unique ground state in this
+system; we distinguish the case <script type="math/tex">J=0</script> by saying that the system is in the
+<em>trivial phase</em>. More generally, all sites are in the same state in the ground
+state of the trivial phase.</p>
+
+<p>It is interesting to consider an equivalence relation on Hamiltonians: two
+Hamiltonians <script type="math/tex">H</script> and <script type="math/tex">H'</script> are in the same gapped phase if there is a smooth
+deformation between <script type="math/tex">H</script> and <script type="math/tex">H'</script>, i.e., there is a smooth path of gapped
+Hamiltonians <script type="math/tex">H(\lambda)</script> for <script type="math/tex">\lambda\in [0,1]</script> with <script type="math/tex">H(0) = H</script> and
+<script type="math/tex">H(1) = H'</script>. Equivalently, if <script type="math/tex">H_0</script> is a Hamiltonian acting on a state space
+<script type="math/tex">\cH_0</script> in the trivial phase, then <script type="math/tex">H</script> acting on a state space <script type="math/tex">\cH</script> is in
+the same phase as <script type="math/tex">H+H_0</script> acting on the state space <script type="math/tex">\cH\otimes \cH_0</script>. This
+suggests the following definition: if <script type="math/tex">H</script> is a gapped Hamiltonian acting on
+the state space <script type="math/tex">\cH</script>, then <script type="math/tex">H</script> is said to be in an invertible phase if
+there is a Hamiltonian <script type="math/tex">H'</script> with state space <script type="math/tex">\cH'</script> for which <script type="math/tex">H+H'</script>
+acting on <script type="math/tex">\cH\otimes \cH'</script> is in the same phase as the trivial phase. If
+<script type="math/tex">H</script> is in an invertible phase, then it admits a
+unique ground state, because <script type="math/tex">H+H'</script> deforms to the trivial phase, which has a
+unique ground state — and, crucially, the deformation does not close the gap.
+In particular, for a system in an invertible
+phase, there is an energy gap, and the Hilbert space of ground states is
+one-dimensional. I think that such a system is also said to be in an SPT
+(symmetry-protected topological) phase.</p>
+
+<p>A system in an invertible phase is short-range entangled. <a href="https://arxiv.org/pdf/1004.3835.pdf">One
+definition</a>of this latter term (the
+original one) is that it is in the same gapped phase as an unentangled state
+(the all-up or all-down states in the Ising model). With this definition, there
+is a unique ground state, and in fact in <a href="http://online.kitp.ucsb.edu/online/topomat11/kitaev/">this
+talk</a>, this is taken to be
+the definition of a short-range entangled state. (A small <script type="math/tex">J</script> or <script type="math/tex">h</script> can
+only affect the ground state of the Ising model locally.) I think that Freed and
+Hopkins use this latter definition. I don’t fully understand the physics behind
+this stuff, but hopefully I will soon.</p>
+
+<p>Let’s now briefly shift gears; consider a system in a gapped phase. Often, the
+infrared (low energy) limit (the “effective field theory”) of such a system
+gives rise to a TQFT. (Note that in natural units, since <script type="math/tex">\hbar</script> has units of
+<script type="math/tex">\mathrm{mass}\times \mathrm{length}^2/\mathrm{time}</script> and <script type="math/tex">c</script> has units of
+<script type="math/tex">\mathrm{length}/\mathrm{time}</script>, the low energy limit is the same as the
+long-distance limit.) There is a general heuristic that <em>the low-energy limit of
+a gapped system is approximated by a TQFT</em>, i.e., that there is a TQFT <script type="math/tex">Z</script>
+whose value <script type="math/tex">Z(M)</script> on a closed <script type="math/tex">(n-1)</script>-manifold is <script type="math/tex">\ker(H:\cH\to \cH)</script>.
+For instance, Chern-Simons theory is the effective field theory of a fractional
+quantum Hall liquid.</p>
+
+<p>Here is a heuristic argument for why the low-energy limit of a system should be
+described by a TQFT. Let <script type="math/tex">M</script> be a closed Riemannian <script type="math/tex">n</script>-manifold with metric
+<script type="math/tex">g</script>, and let <script type="math/tex">x\in M</script>. Let <script type="math/tex">\epsilon>0</script>, and consider <script type="math/tex">S_\epsilon(x)</script>, a
+sphere of radius <script type="math/tex">\epsilon</script> around <script type="math/tex">x</script>. If <script type="math/tex">Z</script> is a quantum field theory,
+then <script type="math/tex">Z(S_\epsilon(x))</script> is a state space of observables around <script type="math/tex">x</script>; the
+space of point observables <script type="math/tex">V_x</script> is the inverse limit of <script type="math/tex">Z(S_\epsilon(x))</script>
+as <script type="math/tex">\epsilon\to 0</script>. If <script type="math/tex">x_1,\cdots,x_n</script> are points in <script type="math/tex">M</script>, then
+<script type="math/tex">M\setminus \{x_1,\cdots,x_n\}</script> is a compact manifold which is a(n oriented,
+if <script type="math/tex">M</script> has an orientation) cobordism between <script type="math/tex">\coprod S_\epsilon(x_i)</script> and
+<script type="math/tex">\emptyset</script>; therefore, <script type="math/tex">Z</script> defines a map <script type="math/tex">V_{x_1}\otimes \cdots \otimes
+V_{x_n} \to \cc</script>. The value on operators is the <script type="math/tex">n</script>-point function <script type="math/tex">\langle
+\co_{x_1} \cdots \co_{x_n}\rangle</script>. If <script type="math/tex">Z</script> is a <em>topological</em> quantum field
+theory, then <script type="math/tex">Z(S_\epsilon(x))</script> is independent of <script type="math/tex">\epsilon</script>.</p>
+
+<p>Now, it is a general fact that the energy-momentum tensor <script type="math/tex">T_{\mu\nu}</script>
+satisfies the property</p>
+
+<script type="math/tex; mode=display">\frac{\delta}{\delta g^{\mu\nu}(x)} \langle \co_{x_1} \cdots \co_{x_n}\rangle
+= \langle \co_{x_1} \cdots \co_{x_n} T_{\mu\nu} (x)\rangle.</script>
+
+<p>If <script type="math/tex">T=0</script>, then you end up with a topological field theory: the <script type="math/tex">n</script>-point
+functions do not depend on the metric <script type="math/tex">g</script> on <script type="math/tex">M</script>. One way to approximate
+<script type="math/tex">T=0</script> is to go to the low-energy limit.</p>
+
+<p>Consider, for instance, the toric code/lattice gauge theory associated to a
+finite group <script type="math/tex">G</script> and a character <script type="math/tex">\chi:G\to \cc^\times</script>. This is a quantum
+system defined on every closed manifold <script type="math/tex">M</script> with a triangulation (defining a
+CW-structure). Let <script type="math/tex">M^{(n)}</script> denote the <script type="math/tex">n</script>-skeleton of <script type="math/tex">M</script>, and let
+<script type="math/tex">\Delta^k</script> be the set of <script type="math/tex">k</script>-cells of <script type="math/tex">M</script>. Define the space of fields
+<script type="math/tex">\Bun_G(M^{(1)}; M^{(0)})</script> to be the groupoid of <script type="math/tex">G</script>-bundles <script type="math/tex">P</script> over
+<script type="math/tex">M^{(1)}</script> equipped with a section <script type="math/tex">s</script> over <script type="math/tex">M^{(0)}</script> (i.e., a
+trivialization over the zero-skeleton of <script type="math/tex">M</script>). The space of states <script type="math/tex">\cH</script> is
+defined to be the (finite-dimensional) space <script type="math/tex">\cc[\Bun_G(M^{(1)}; M^{(0)})]</script>
+of complex functions. For each <script type="math/tex">v\in M^{(0)}</script>, there is a map
+<script type="math/tex">\sigma_v:\Bun_G(M^{(1)}; M^{(0)})\to \Bun_G(M^{(1)}; M^{(0)})</script> defined as
+follows: <script type="math/tex">\sigma_v(P,s)</script> is defined to be the pair <script type="math/tex">(P,s_v)</script>, where <script type="math/tex">s_v</script>
+is the same as the section <script type="math/tex">s</script> on <script type="math/tex">M^{(0)}\setminus \{v\}</script>, and is
+<script type="math/tex">s(v)+1</script> on <script type="math/tex">v</script>. This defines a map <script type="math/tex">\sigma_v^\ast:\cH\to \cH</script>. The
+Hamiltonian of the system is then defined as the sum <script type="math/tex">J_1\sum_{v\in M^{(0)}}
+H_v + J_2\sum_{f\in \Delta^2} H_f</script>, where <script type="math/tex">J_1</script> and <script type="math/tex">J_2</script> are nonnegative
+constants and</p>
+
+<script type="math/tex; mode=display">H_v \psi = \frac{1}{2} (\psi - \sigma_v^\ast \psi), \ H_f \psi = \frac{1 -
+(-1)^{\mathrm{Hol}_P(f)}}{2} \psi,</script>
+
+<p>where <script type="math/tex">\mathrm{Hol}_P(f)</script> is the holonomy of <script type="math/tex">P</script> around <script type="math/tex">\partial f</script> with
+respect to the character <script type="math/tex">\chi:G\to \cc^\times</script>: it is the evaluation of the
+composite of the map <script type="math/tex">\pi_1(M) \to G</script> (induced from the classifying map <script type="math/tex">M\to
+BG</script> of <script type="math/tex">P</script>) with <script type="math/tex">\chi</script> on the <script type="math/tex">1</script>-cycle <script type="math/tex">\partial f</script>. (The classical
+toric code corresponds to <script type="math/tex">G = \Z/2</script> and <script type="math/tex">\chi</script> being the canonical
+inclusion <script type="math/tex">\Z/2\subseteq \cc^\times</script>).</p>
+
+<p>What is the ground state of the toric code? If <script type="math/tex">H_v\psi = 0</script>, then <script type="math/tex">\psi =
+\sigma_v^\ast \psi</script>; therefore, <script type="math/tex">\psi:\Bun_G(M^{(1)}; M^{(0)}) \to \cc</script> does
+not depend on the value of <script type="math/tex">s</script> around <script type="math/tex">v</script>, i.e., <script type="math/tex">\psi</script> is a function on
+<script type="math/tex">\Bun_G(M^{(1)})</script>. If <script type="math/tex">H_f\psi = 0</script>, then <script type="math/tex">\psi = (-1)^{\mathrm{Hol}_P(f)}
+\psi</script>, so <script type="math/tex">\psi</script> must vanish on all bundles in <script type="math/tex">\Bun_G(M^{(1)})</script> with
+nontrivial holonomy around <script type="math/tex">\partial f</script>. So at least in the <script type="math/tex">2</script>-dimensional
+case, the space of ground states of the toric model is a purely topological
+invariant of <script type="math/tex">M</script>. As such, we expect there to be a topological field theory
+whose value is this space of ground states.</p>
+
+<p>Back to the <a href="https://arxiv.org/pdf/1604.06527.pdf">main plot</a>. If we’re
+interested in understanding the low energy limit of gapped systems in an
+invertible phase, then we should try to understand topological quantum field
+theories whose value on a closed <script type="math/tex">(n-1)</script>-dimensional manifold (spacelike
+slice) is <script type="math/tex">1</script>-dimensional. (In order to get something physical, we need to add
+more conditions, like unitarity; we’ll get to that later.) Such TQFTs are known
+as invertible; we’d like to understand these objects. Since the field theories
+under consideration might have symmetry, we will define a generalized bordism
+<script type="math/tex">(\infty,n)</script>-category <script type="math/tex">\Bord^{(X,\xi)}_n</script> associated to a space <script type="math/tex">X</script> with a
+real bundle <script type="math/tex">\xi</script> of dimension <script type="math/tex">n</script> as follows: a <script type="math/tex">k</script>-morphism is a
+<script type="math/tex">k</script>-dimensional manifold <script type="math/tex">M</script> with corners with a map <script type="math/tex">f:M\to X</script> equipped
+with an isomorphism <script type="math/tex">f^\ast \xi \cong \tau_M\oplus \epsilon^{n-k}</script>.</p>
+
+<p>We’ll now consider extended TQFTs. If <script type="math/tex">\cC</script> is a symmetric monoidal
+<script type="math/tex">(\infty,n)</script>-category, then a TQFT <script type="math/tex">Z:\Bord^{(X,\xi)}_n\to \cC</script> is said to
+be invertible if <script type="math/tex">Z</script> factors through the Picard space <script type="math/tex">\pic(\cC)</script>. The data
+of a symmetric monoidal functor <script type="math/tex">\Bord^{(X,\xi)}_n\to \pic(\cC)</script> is the same
+as an infinite loop map <script type="math/tex">|\Bord^{(X,\xi)}_n| \to \pic(\cC)</script>, where <script type="math/tex">|\cdot|</script>
+denotes geometric realization. In <a href="https://arxiv.org/pdf/1712.08029.pdf">this
+paper</a>, Schommer-Pries shows that
+<script type="math/tex">|\Bord^{(X,\xi)}_n|</script> is the infinite loop space <script type="math/tex">\Omega^{\infty-n}
+X^{-\xi}</script>, where <script type="math/tex">X^{-\xi}</script> is the Thom spectrum of the virtual bundle
+<script type="math/tex">-\xi</script>.</p>
+
+<p>Great — what about the target <script type="math/tex">\pic(\cC)</script>? Since finding target symmetric
+monoidal <script type="math/tex">(\infty,n)</script>-categories is a hard task, we should try consider some
+sort of “physical” universal target. What happens for low <script type="math/tex">n</script>? For the
+degenerate case <script type="math/tex">n=0</script>, <script type="math/tex">\cC</script> is just the vector space <script type="math/tex">\cc</script> (just assign a
+number to a point). For <script type="math/tex">n=1</script>, <script type="math/tex">\cC</script> is <script type="math/tex">\mathrm{Vect}_\cc</script>; for <script type="math/tex">n=2</script>,
+<script type="math/tex">\cC</script> is the category of <script type="math/tex">\cc</script>-algebras, bimodules, and bimodule
+homomorphisms (as we discussed <a href="/physics/2019/06/01/tqft.html">last time</a>).
+Let’s denote the universal “physical” target <script type="math/tex">(\infty,n)</script>-category by
+<script type="math/tex">\cC_n</script>; then, in each of these cases, the automorphism
+<script type="math/tex">(\infty,n-1)</script>-category of the unit object is <script type="math/tex">\cC_{n-1}</script>. In other words,
+<script type="math/tex">\cC_{n-1}</script> is “<script type="math/tex">\Omega \cC_n</script>”. This is literally true at the level of
+Picard spaces: <script type="math/tex">\pic(\cC_{n-1}) = \Omega \pic(\cC_n)</script>. As such,
+<script type="math/tex">\{\pic(\cC_n)\}</script> forms an <script type="math/tex">\Omega</script>-spectrum, which we will just denote by
+<script type="math/tex">\pic(\cC)</script>. (Note that this isn’t the Picard space (it’s not even a space!)
+of any <script type="math/tex">\cC</script>.)</p>
+
+<p>What are the homotopy groups of this spectrum? Since <script type="math/tex">\pi_k \pic(\cC)</script> is the
+homotopy of the zeroth space, which is <script type="math/tex">\pic(\cC_0) = \pic(\cc) = \cc^\times</script>,
+we find that if we impose the discrete topology on <script type="math/tex">\cc^\times</script>, then <script type="math/tex">\pi_k
+\pic(\cC) = 0</script> for <script type="math/tex">k>0</script>, and is <script type="math/tex">\cc^\times</script> for <script type="math/tex">k=0</script>. This is good: we
+know that an invertible field theory is an infinite loop map <script type="math/tex">\Omega^{\infty-n}
+X^{-\xi}\to \Omega^\infty \pic(\cC)</script>, i.e., a map of spectra <script type="math/tex">\Sigma^n
+X^{-\xi} \to \pic(\cC)</script>. If we demand that the partition function determines
+the invertible TQFT (discussed below), then this infinite loop map should be
+recoverable upon taking <script type="math/tex">\pi_0</script>. Taking <script type="math/tex">\pi_0</script> defines a map <script type="math/tex">\pi_{-n}
+X^{-\xi}\to \cc^\times</script>. Since <script type="math/tex">\cc^\times</script> is an injective abelian group,
+there is an isomorphism <script type="math/tex">[E, I_{\cc^\times}] \to [\pi_0 E, \pi_0
+I_{\cc^\times}]</script>, where <script type="math/tex">I_{\cc^\times}</script> is the Brown-Comenetz dualizing
+spectrum (they have the same <script type="math/tex">p</script>-completion for every prime <script type="math/tex">p</script>); therefore,
+the map on <script type="math/tex">\pi_0</script> lifts to a map <script type="math/tex">\Sigma^n X^{-\xi} \to \Sigma^n
+I_{\cc^\times}</script>.  Consequently, we hypothesize that <script type="math/tex">\pic(\cC) =
+I_{\cc^\times}</script>, i.e., that <script type="math/tex">\pic(\cC_n) = \Omega^{\infty-n} I_{\cc^\times}</script>,
+and therefore that an (isomorphism class of an) invertible <script type="math/tex">n</script>-dimensional
+TQFT with source <script type="math/tex">\Bord^{(X,\xi)}_n</script> is a map of spectra <script type="math/tex">X^{-\xi} \to
+I_{\cc^\times}</script>. Another way to say this is as follows: let <script type="math/tex">\cM(X,\xi)</script>
+denote the moduli space of invertible <script type="math/tex">n</script>-dimensional TQFTs with source
+<script type="math/tex">\Bord^{(X,\xi)}_n</script>; then <script type="math/tex">\pi_0 \cM(X,\xi) = [X^{-\xi}, I_{\cc^\times}]</script>.
+Since we imposed the discrete topology on <script type="math/tex">\cc^\times</script>, these should really be
+called <em>discrete</em> invertible TQFTs. There is a fiber sequence</p>
+
+<script type="math/tex; mode=display">H\cc\to I_{\cc^\times} \to \Sigma I_\Z.</script>
+
+<p>Let <script type="math/tex">Z_0,Z_1:X^{-\xi} \to I_{\cc^\times}</script> be invertible TQFTs; then <script type="math/tex">Z_0</script>
+and <script type="math/tex">Z_1</script> are said to be deformation equivalent if there is an element of
+<script type="math/tex">[X^{-\xi}, H\cc]</script> whose image in <script type="math/tex">[X^{-\xi}, I_{\cc^\times}]</script> is the
+difference <script type="math/tex">Z_0-Z_1</script>. In other words, a deformation of an invertible TQFT
+<script type="math/tex">\Sigma^n X^{-\xi} \to \Sigma^n I_{\cc^\times}</script> factors through <script type="math/tex">\Sigma^n
+H\cc</script>, so <script type="math/tex">\pi_0</script> of the moduli of deformation classes of discrete invertible
+<script type="math/tex">n</script>-dimensional TQFTs is <script type="math/tex">[\Sigma^n X^{-\xi}, \Sigma^{n+1}
+I_{\Z}]_\mathrm{tor}</script>, the torsion subgroup of <script type="math/tex">[\Sigma^n X^{-\xi},
+\Sigma^{n+1} I_{\Z}]</script> (the restriction stems from the fact that we’re looking
+at the image of <script type="math/tex">[\Sigma^n X^{-\xi}, \Sigma^n I_{\cc^\times}]</script>). Studying
+deformation classes of invertible TQFTs is important because this corresponds to
+understanding deformation classes (the equivalence relation on gapped phases we
+discussed earlier) of invertible (SPT, really) phases. As such, Freed and
+Hopkins hypothesize that a <em>continuous</em> invertible <script type="math/tex">n</script>-dimensional extended
+TQFT (with symmetry <script type="math/tex">(X,\xi)</script>) is a map <script type="math/tex">\Sigma^n X^{-\xi} \to \Sigma^{n+1}
+I_{\Z}</script>.</p>
+
+<p>(I want to make an unexplained observation at this point. Let <script type="math/tex">E</script> denote a
+Morava <script type="math/tex">E</script>-theory of height <script type="math/tex">n</script> with algebraically closed residue field;
+then, the fiber of the map <script type="math/tex">\gl_1(E) \to L_n \gl_1(E)</script> agrees with the
+homotopy of <script type="math/tex">\Sigma^n I_{\QQ_p/\Z_p}</script> in nonnegative degrees, and so the fiber
+of the map <script type="math/tex">\gl_1(E) \to L_n \gl_1(E)</script> agrees with the homotopy of
+<script type="math/tex">\Sigma^{n+1} I_{\Z_p}</script>. Surely the appearance of <script type="math/tex">\Sigma^{n+1} I_{\Z_p}</script> in
+both of these places isn’t a coincidence!)</p>
+
+<p>In order to test these claims against the known calculations of deformation
+classes of invertible phases, we need to make an appropriate choice of <script type="math/tex">X</script> and
+<script type="math/tex">\xi</script>. To impose some sort of geometric structure on our manifold, one often
+lets <script type="math/tex">X</script> be a classifying space <script type="math/tex">BH_n</script> (where <script type="math/tex">n</script> corresponds to the
+dimension of the TQFT), and <script type="math/tex">\xi</script> be the bundle induced by a group
+homomorphism <script type="math/tex">H_n \to \mathrm{O}(n)</script>. One moreover requires that the image of
+this homomorphism contain <script type="math/tex">\mathrm{SO}(n)</script>; the kernel <script type="math/tex">K</script> of this
+homomorphism is the group of internal symmetries. One can “stabilize” the map
+<script type="math/tex">H_n\to \mathrm{O}(n)</script>: it can be shown that for every <script type="math/tex">m\geq n</script>, there are
+compact Lie groups <script type="math/tex">H_m</script> and maps <script type="math/tex">H_m\to \mathrm{O}(m)</script> such that
+<script type="math/tex">H_{m-1}</script> is the pullback <script type="math/tex">H_m\times_{\mathrm{O}(m)} \mathrm{O}(m-1)</script>. Let
+<script type="math/tex">H</script> denote the colimit of the maps <script type="math/tex">H_{m-1} \to H_m</script>, and let <script type="math/tex">\xi</script> denote
+the map <script type="math/tex">H\to \mathrm{O}</script>.</p>
+
+<p>Let <script type="math/tex">\MTH_n</script> denote the associated Thom spectra <script type="math/tex">\mathrm{B}H_n^{-\xi}</script>, so
+we obtain maps of spectra <script type="math/tex">\Sigma^n \MTH_n\to \Sigma^{n+1} \MTH_{n+1}</script>. Let
+<script type="math/tex">\MTH = \mathrm{B}H^{-\xi}</script> denote the colimit. An <script type="math/tex">n</script>-dimensional
+invertible TQFT <script type="math/tex">Z:\Sigma^n \MTH_n\to \Sigma^n I_{\cc^\times}</script> is said to be
+stable if it factors through <script type="math/tex">\MTH</script>. There is a cofiber sequence
+<script type="math/tex">\Sigma^{\infty+n}_+ \mathrm{B}H_{n+1} \to \Sigma^n \MTH_n \to \Sigma^{n+1}
+\MTH_{n+1}</script>; this can be used to show that an <script type="math/tex">n</script>-dimensional invertible TQFT
+is stable if and only if <script type="math/tex">Z(S^n) = 1</script>.</p>
+
+<p>It turns out that stability is related to a naturally arising physical
+condition, called “reflection positivity” (this is Wick-rotated unitarity; I’ll
+talk about in the next post). In Theorem 8.20 of their paper, Freed and Hopkins
+show that the space of stable continuous <script type="math/tex">n</script>-dimensional TQFTs is the same as
+the space of continuous reflection positive <script type="math/tex">n</script>-dimensional extended TQFTs. In
+particular, after combining with the discussion above, we obtain the main
+theorem of <a href="https://arxiv.org/pdf/1604.06527.pdf">this paper</a>: <script type="math/tex">\pi_0</script> of the
+moduli space <script type="math/tex">\cM_u(\mathrm{B}H,\xi)</script> of deformation classes of reflection
+positive extended invertible <script type="math/tex">n</script>-dimensional TQFTs with symmetry <script type="math/tex">(H_n,\xi)</script>
+is <script type="math/tex">[\MTH, \Sigma^{n+1} I_\Z]_\mathrm{tor}</script>.</p>
+
+<p>I’ll conclude with the following. During the derivation of the identification
+<script type="math/tex">\pi_0 \cM_u(BH,\xi) = [\MTH, \Sigma^n I_{\cc^\times}]</script>, we demanded that the
+partition function determines the invertible TQFT. Can we make this explicit?
+Namely, given an element <script type="math/tex">Z</script> of <script type="math/tex">[\MTH, \Sigma^n I_{\cc^\times}] = \Map(\pi_n
+\MTH, \cc^\times)</script>, can we explicitly construct a TQFT? Let us only attempt to
+do this in the <em>non-extended</em> setting, in the case <script type="math/tex">\MTH = \MSO</script>. We know in
+this case that <script type="math/tex">\pi_{n-1} \MTH = \pi_{n-1} \MSO</script> is a finitely generated
+abelian group, say <script type="math/tex">\Z^r\oplus \bigoplus_{i=r+1}^{r+k} \Z/m_i \Z</script>, where <script type="math/tex">k</script>
+and <script type="math/tex">m_i</script> are some finite integers. Choose generators <script type="math/tex">M_1,\cdots,M_{r+k}</script>
+of these <script type="math/tex">r+k</script> groups, so that an arbitrary <script type="math/tex">n</script>-dimensional “<script type="math/tex">H</script>-manifold”
+<script type="math/tex">M</script> is cobordant to some <script type="math/tex">M_i</script>; define <script type="math/tex">Z(M)</script> to be the following quotient
+of the free <script type="math/tex">\cc</script>-vector space <script type="math/tex">V(M)</script> with basis given by the set
+<script type="math/tex">\Map_{\Bord_{[n-1,n]}}(M, M_i)</script>. Let <script type="math/tex">v_X</script> and <script type="math/tex">v_Y</script> be two elements of
+<script type="math/tex">V(M)</script> corresponding to bordisms <script type="math/tex">X,Y: M\to M_i</script>; then, define a closed
+manifold <script type="math/tex">B</script> as follows: compose the bordism <script type="math/tex">\emptyset \to -M\sqcup M</script> with
+<script type="math/tex">-X\sqcup Y: -M\sqcup M \to -M_i \sqcup M_i</script> with <script type="math/tex">-M_i \sqcup M_i \to
+\emptyset</script>. Identify <script type="math/tex">v_X</script> and <script type="math/tex">v_Y</script> if <script type="math/tex">v_X = Z(B) v_Y</script>, where <script type="math/tex">Z(B)</script>
+is the evaluation of <script type="math/tex">Z:\pi_n \MTH \to \cc^\times</script> on <script type="math/tex">B</script>. It is not hard to
+see that <script type="math/tex">Z(M)</script> defined as above is in fact a one-dimensional <script type="math/tex">\cc</script>-vector
+space. To define an unextended TQFT, we need to define a linear transformation
+<script type="math/tex">Z(M) \to Z(M')</script> associated to each bordism <script type="math/tex">B:M' \to M</script>. But this is easy
+(it’s why the above construction was chosen): we just send the vector in
+<script type="math/tex">Z(M)</script> corresponding to <script type="math/tex">X</script> to the vector in <script type="math/tex">Z(M')</script> corresponding to the
+composite <script type="math/tex">B\circ X'</script>.</p>
+
+  </div><a class="u-url" href="/blog/physics/2019/06/02/invertible.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Sanath Devalapurkar&#39;s home page</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Sanath Devalapurkar&#39;s home page</li><li><a class="u-email" href="mailto:sanathdevalapurkar@g.harvard.edu">sanathdevalapurkar@g.harvard.edu</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>Graduate student in math.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

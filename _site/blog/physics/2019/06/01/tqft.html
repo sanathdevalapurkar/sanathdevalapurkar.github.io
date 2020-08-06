@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Dijkgraaf-Witten theory | Sanath Devalapurkar’s home page</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Dijkgraaf-Witten theory" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Graduate student in math." />
+<meta property="og:description" content="Graduate student in math." />
+<link rel="canonical" href="http://localhost:4000/blog/physics/2019/06/01/tqft.html" />
+<meta property="og:url" content="http://localhost:4000/blog/physics/2019/06/01/tqft.html" />
+<meta property="og:site_name" content="Sanath Devalapurkar’s home page" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2019-06-01T00:00:00-07:00" />
+<script type="application/ld+json">
+{"url":"http://localhost:4000/blog/physics/2019/06/01/tqft.html","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/blog/physics/2019/06/01/tqft.html"},"description":"Graduate student in math.","headline":"Dijkgraaf-Witten theory","dateModified":"2019-06-01T00:00:00-07:00","datePublished":"2019-06-01T00:00:00-07:00","@type":"BlogPosting","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Sanath Devalapurkar's home page" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Sanath Devalapurkar&#39;s home page</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/blog/">Blog</a><a class="page-link" href="/">Home</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Dijkgraaf-Witten theory</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2019-06-01T00:00:00-07:00" itemprop="datePublished">Jun 1, 2019
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
+
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-109004213-1"></script>
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+        gtag('config', 'UA-109004213-1');
+</script>
+
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+<script type="math/tex; mode=display">\newcommand{\KO}{\mathrm{KO}} \newcommand{\TMF}{\mathrm{TMF}}
+\newcommand{\KU}{\mathrm{KU}} \newcommand{\Mfg}{M_\mathrm{fg}}
+\newcommand{\spec}{\mathrm{Spec}\ } \newcommand{\dX}{\mathcal{X}}
+\newcommand{\co}{\mathcal{O}} \newcommand{\Z}{\mathbf{Z}}
+\newcommand{\top}{\mathrm{top}} \newcommand{\E}{\mathbf{E}}
+\newcommand{\GG}{\mathbf{G}} \newcommand{\DD}{\mathbf{D}}
+\newcommand{\Mell}{M_\mathrm{ell}} \newcommand{\ce}{\mathcal{E}}
+\newcommand{\H}{\mathrm{H}} \newcommand{\dR}{\mathrm{dR}}
+\newcommand{\cf}{\mathcal{F}} \newcommand{\FF}{\mathbf{F}}
+\newcommand{\spf}{\mathrm{Spf}\ } \newcommand{\cA}{\mathcal{A}}
+\newcommand{\Mcub}{M_\mathrm{cub}} \newcommand{\Mqd}{M_\mathrm{qd}}
+\newcommand{\Aut}{\mathrm{Aut}} \newcommand{\tmf}{\mathrm{tmf}}
+\newcommand{\Tmf}{\mathrm{Tmf}} \newcommand{\Map}{\mathrm{Map}}
+\newcommand{\Ext}{\mathrm{Ext}} \newcommand{\End}{\mathrm{End}}
+\newcommand{\cg}{\mathcal{G}} \newcommand{\Hom}{\mathrm{Hom}}
+\newcommand{BP}[1]{\mathrm{BP}\langle #1\rangle} \newcommand{\QQ}{\mathbf{Q}}
+\newcommand{\PP}{\mathbf{P}} \newcommand{\Gal}{\mathrm{Gal}}
+\newcommand{\proj}{\mathrm{Proj}\ } \newcommand{\Ltwo}{L_{K(2)}}
+\newcommand{\Eoo}{\mathbf{E}_\infty} \newcommand{\ol}[1]{\overline #1}
+\newcommand{\pic}{\mathrm{Pic}} \newcommand{\RP}{\mathbf{R}P}
+\newcommand{\BO}{\mathrm{BO}} \newcommand{\cc}{\mathbf{C}}
+\newcommand{\CP}{\mathbf{C}P} \newcommand{\wt}[1]{\widetilde #1}
+\newcommand{\RR}{\mathbf{R}} \renewcommand{\S}{\mathbb{S}}
+\newcommand{\Lone}{L_{K(1)}} \newcommand{\Ltwo}{L_{K(2)}}
+\newcommand{\gl}{\mathrm{gl}} \newcommand{\Lk}{L_{K(n)}}
+\newcommand{\ku}{\mathrm{ku}} \newcommand{\ko}{\mathrm{ko}}
+\newcommand{\GL}{\mathrm{GL}} \newcommand{\Ln}{L_n}
+\newcommand{\Lt}{L_{K(t)}} \newcommand{\W}{\mathrm{W}}
+\newcommand{\BU}{\mathrm{BU}} \newcommand{\SU}{\mathrm{SU}}
+\newcommand{\MU}{\mathrm{MU}} \newcommand{\ul}[1]{\underline #1}
+\newcommand{\Sq}{\mathrm{Sq}} \newcommand{\Tr}{\mathrm{Tr}}
+\newcommand{\d}{\mathrm{d}} \newcommand{\HP}{\mathbf{H}P}
+\newcommand{\cL}{\mathcal{L}} \newcommand{\cs}{\mathrm{cs}}
+\newcommand{\cd}{\mathcal{D}} \newcommand{\Bord}{\mathrm{Bord}}
+\newcommand{\SO}{\mathrm{SO}} \newcommand{\cC}{\mathcal{C}}
+\newcommand{\Sp}{\mathrm{Sp}} \newcommand{\Lkd}{L_{K(d)}}
+\newcommand{\Mod}{\mathrm{Mod}}</script>
+
+<p>Summer’s begun (finally!). I want to try to explain some concepts in topological
+QFT which I’ve been reading about. This past semester, I took MIT’s 8.06
+(quantum physics III), for which we had to write a final paper on a topic of our
+choosing. I <a href="http://www.mit.edu/~sanathd/final-paper.pdf">wrote about</a> anyons,
+which are particles with fractional statistics — they only exist in two
+spatial dimensions, thanks to the nontriviality of the fundamental group of the
+configuration space of points in the plane (equivalently, thanks to the
+triviality of the angular momentum commutation relations in two dimensions). In
+my writeup, I discussed how one can construct anyonic particles from a conserved
+charged matter current and a gauge field by adding a <em>Chern-Simons</em> term to the
+Lagrangian; the Euler-Lagrange equation which this additional term contributes
+to forces the magnetic field (associated to the gauge field) and the charge to
+be related, and the Aharonov-Bohm effect then forces the resulting physics to be
+that of an anyon.</p>
+
+<p>The term that’s added to the Lagrangian is the “Chern-Simons term”</p>
+
+<script type="math/tex; mode=display">\cL_\cs = \gamma \epsilon^{\mu\nu\rho} A_\mu \partial_\nu A_\rho + A_\mu
+j^\mu,</script>
+
+<p>where <script type="math/tex">j^\mu</script> is the conserved current and <script type="math/tex">A_\mu</script> is the gauge field. The
+pure Chern-Simons action is</p>
+
+<script type="math/tex; mode=display">S = \int_M \epsilon^{\mu\nu\rho} A_\mu \partial_\nu A_\rho \ \d^3 x,</script>
+
+<p>where <script type="math/tex">M</script> is the background <script type="math/tex">(2+1)</script>-dimensional (closed, oriented) manifold.
+This action is special: it does not depend on the metric at all — the
+Chern-Simons theory is purely topological. The associated quantum field theory,
+with path integral/partition function <script type="math/tex">\int e^{iS[A]} \cd[A]</script> only depends on
+the topology of the manifold. As such, Chern-Simons theory should be accessible
+through topology.</p>
+
+<p>The Chern-Simons Lagrangian can be rephrased more mathematically as follows. Let
+<script type="math/tex">G = \SU(n)</script>, and let <script type="math/tex">A</script> be a connection on the trivial <script type="math/tex">G</script>-bundle over
+the <script type="math/tex">3</script>-dimensional spacetime <script type="math/tex">M</script> (all we need right now is that <script type="math/tex">M</script> be
+closed and oriented), so <script type="math/tex">A\in \Omega^1(M;\mathfrak{g})</script>. The Lagrangian is
+then <script type="math/tex">\mathrm{Trace}(A\wedge \d A)</script>; this is a <script type="math/tex">3</script>-form on <script type="math/tex">M</script>. The action
+is the integral of this <script type="math/tex">3</script>-form; if we think of this <script type="math/tex">3</script>-form as a singular
+cochain, then the integral is just the evaluation of this cochain (or rather,
+its image in cohomology) on the fundamental class of <script type="math/tex">M</script> (recall, we assumed
+<script type="math/tex">M</script> oriented).</p>
+
+<p>Setting it up in this level of generality provides us a path to follow. Let’s
+(obviously) work with general <script type="math/tex">n</script>-dimensional closed oriented manifolds.
+Replace <script type="math/tex">\SU(n)</script> with a finite group <script type="math/tex">G</script> (then the Lie algebra
+<script type="math/tex">\mathfrak{g}</script> is trivial, but that’s OK). Instead of the Chern-Simons
+Lagrangian, we’d like to have a top-dimensional cohomology class defined on all
+closed connected <script type="math/tex">n</script>-manifolds (“spacetimes”), so that the action is the
+pairing of this class with the fundamental class. The natural choice for this
+class is a choice of cohomology class <script type="math/tex">\alpha\in \H^{n+1}(BG;\Z) \cong
+\H^n(BG;\QQ/\Z)</script>; every <script type="math/tex">G</script>-bundle <script type="math/tex">P</script> with connection on <script type="math/tex">M</script> determines
+an element of <script type="math/tex">\H^n(M;\QQ/\Z)</script>, hence <script type="math/tex">\QQ/\Z</script> (by integration). This should
+be thought of as the exponentiated action of the field <script type="math/tex">P</script>.</p>
+
+<p>In order to define the path integral, we need to define a measure on the
+collection of <script type="math/tex">G</script>-bundles on <script type="math/tex">M</script>. As is ubiquitous in math, we weight the
+term associated to <script type="math/tex">P</script> by <script type="math/tex">|\Aut(P)|</script>. Concretely, the exponentiated action
+is <script type="math/tex">\langle [M], \alpha(P)\rangle</script>, and the associated path integral is</p>
+
+<script type="math/tex; mode=display">Z(M) = \sum_{P\in [M, BG]} \frac{1}{|\Aut(P)|} \langle [M],
+\alpha(P)\rangle.</script>
+
+<p>This is the <script type="math/tex">\sigma</script>-model known as Dijkgraaf-Witten theory; it’s a prototype
+for the general Chern-Simons theory. It’s a rather accessible topological
+quantum field theory.  In an <script type="math/tex">n</script>-dimensional TQFT, one assigns a number to a
+closed oriented <script type="math/tex">n</script>-manifold, a complex vector space to a closed oriented
+<script type="math/tex">(n-1)</script>-manifold, and a linear transformation to a cobordism between
+<script type="math/tex">(n-1)</script>-manifolds; what is the associated vector space in the case of
+Dijkgraaf-Witten theory?</p>
+
+<p>Let <script type="math/tex">N</script> be an oriented <script type="math/tex">(n-1)</script>-manifold. There is a map <script type="math/tex">N\times \Map(N,
+BG) \to BG</script>, which defines a class in <script type="math/tex">\H^n(N\times \Map(N, BG);\QQ/\Z)</script>. We
+can push this cohomology class along the projection map <script type="math/tex">N\times \Map(N, BG)
+\to N</script>; this defines an element of <script type="math/tex">\H^1(\Map(N,BG);\QQ/\Z)</script>, and hence an
+element of <script type="math/tex">\H^1(\Map(N,BG);\cc^\times)</script>. Associated to this class is a line
+bundle <script type="math/tex">\cL_N</script> over <script type="math/tex">\Map(N,BG)</script>, and <script type="math/tex">Z(N)</script> is defined to be the
+<script type="math/tex">\cc</script>-vector space of global sections of <script type="math/tex">\cL_N</script>.</p>
+
+<p>If <script type="math/tex">M</script> and <script type="math/tex">N</script> are closed oriented <script type="math/tex">(n-1)</script>-manifolds, and <script type="math/tex">B</script> is an
+oriented bordism from <script type="math/tex">M</script> to <script type="math/tex">N</script>, we need an associated linear
+transformation <script type="math/tex">Z(B):\H^0(\Map(M,BG),\cL_M) \to \H^0(\Map(N,BG),\cL_N)</script>. There
+are maps <script type="math/tex">\pi_M,\pi_N: \Map(B,BG) \to \Map(M,BG), \Map(N,BG)</script>, so we get a map
+<script type="math/tex">\H^0(\Map(M,BG),\cL_M) \to \H^0(\Map(B,BG),\pi_M^\ast \cL_M)</script> — however,
+there is no obvious map</p>
+
+<script type="math/tex; mode=display">\H^0(\Map(B,BG),\pi_M^\ast \cL_M) \cong \H^0(\Map(B,BG),\pi_N^\ast \cL_N)\to
+\H^0(\Map(N,BG),\cL_N).</script>
+
+<p>We are saved, though: there are canonical isomorphisms</p>
+
+<script type="math/tex; mode=display">\H^0(\Map(N,BG),\cL_N) \cong \H_0(\Map(N,BG),\cL_N), \mathrm{and} \ \H^0(\Map(B,BG),\pi_N^\ast \cL_N) \cong \H_0(\Map(B,BG),\pi_N^\ast \cL_N).</script>
+
+<p>The covariant functoriality of homology now does the trick.</p>
+
+<p>At some point, it was realized that extending <script type="math/tex">n</script>-dimensional TQFTs to
+prescribe algebraic invariants to manifolds of lower dimensions (<script type="math/tex">n-2, n-3</script>,
+etc.) was a mathematically useful thing to do. An extended <script type="math/tex">n</script>-dimensional
+TQFT is then defined as a symmetric monoidal functor <script type="math/tex">\Bord^\SO_n \to \cC</script>,
+where <script type="math/tex">\Bord^\SO_n</script> is the <script type="math/tex">(\infty,n)</script>-category of oriented points,
+oriented bordisms of oriented points, oriented bordisms between these
+<script type="math/tex">1</script>-morphisms, etc., and <script type="math/tex">\cC</script> is a symmetric monoidal
+<script type="math/tex">(\infty,n)</script>-category. The utility of this definition comes from the cobordism
+hypothesis: extended <script type="math/tex">n</script>-dimensional TQFTs with values in <script type="math/tex">\cC</script> are the same
+as fully dualizable objects of <script type="math/tex">\cC</script>.</p>
+
+<p>In the case of <script type="math/tex">n</script>-dimensional Chern-Simons theory, we described above what
+one might attach to an <script type="math/tex">(n-1)</script>-manifold (the <script type="math/tex">(n-1)</script>-morphisms in
+<script type="math/tex">\Bord^\SO_n</script>) and a <script type="math/tex">n</script>-manifold (the <script type="math/tex">n</script>-morphisms in <script type="math/tex">\Bord^\SO_n</script>).
+What does one attach to manifolds of lower dimensions? Let’s specialize to the
+case when <script type="math/tex">n=2</script>. In this case, we’re asking what one might assign to
+(oriented) points. To begin with, we need to make a choice of <script type="math/tex">\cC</script>: it will
+be the <script type="math/tex">(\infty,2)</script>-category of algebras, bimodules, and morphisms of
+bimodules. The classification of (extended) <script type="math/tex">2</script>-dimensional TQFTs via the
+cobordism hypothesis says that an extended <script type="math/tex">2</script>-dimensional TQFT is determined
+by a Frobenius algebra (i.e., a finite-dimensional <script type="math/tex">\cc</script>-algebra equipped with
+a nondegenerate trace). Therefore, <script type="math/tex">2 = (1+1)</script>-dimensional Dijkgraaf-Witten
+theory must be determined by such a Frobenius algebra. Choose a cocycle
+representative, also denoted <script type="math/tex">\alpha</script>, for our cohomology class <script type="math/tex">\alpha</script> —
+note that this isn’t a crazy thing to ask for, since the <script type="math/tex">3</script>-dimensional
+Chern-Simons action explicitly used a <script type="math/tex">3</script>-form, and not just a <script type="math/tex">3</script>-cocycle
+— and let <script type="math/tex">A</script> be the twisted group ring <script type="math/tex">\cc^\alpha[G]</script>. The underlying
+complex vector space is the same as the usual group ring <script type="math/tex">\cc[G]</script>, but the
+multiplication is twisted by <script type="math/tex">\alpha</script>:</p>
+
+<script type="math/tex; mode=display">\left(\sum_{g\in G} a_g g\right) \left(\sum_{h\in G} b_h h\right) =
+\sum_{k\in G} \left(\sum_{gh=k} \alpha(gh) a_g b_h\right) k.</script>
+
+<p>This twisted group algebra <script type="math/tex">\cc^\alpha[G]</script> has a canonical trace, and hence
+admits the structure of a Frobenius algebra; the associated <script type="math/tex">2</script>-dimensional
+TQFT is Dijkgraaf-Witten theory. Of course, one can run the same story for
+extended <script type="math/tex">3</script>-dimensional Dijkgraaf-Witten theory; for an appropriate choice of
+target <script type="math/tex">(\infty,3)</script>-category, one finds that the associated extended
+<script type="math/tex">3</script>-dimensional TQFT is determined by a twisted group algebra with
+coefficients in the category of complex vector spaces.</p>
+
+<p>Let’s go back to our definition of the partition function <script type="math/tex">Z(M)</script> on a closed
+oriented <script type="math/tex">n</script>-manifold <script type="math/tex">M</script>. Associated to a principal <script type="math/tex">G</script>-bundle <script type="math/tex">P</script> on
+<script type="math/tex">M</script> was the classical (exponentiated) action, defined as the integral of the
+characteristic class <script type="math/tex">\alpha(P)</script>. The quantization of this theory was defined
+as a weighted sum over isomorphism classes of principal <script type="math/tex">G</script>-bundles of this
+action. Consider the (for simplicity, <script type="math/tex">1</script>-)category <script type="math/tex">\Bord^\SO_n(G)</script> of
+closed oriented <script type="math/tex">1</script>-manifolds with a <script type="math/tex">G</script>-bundle and compact oriented
+<script type="math/tex">2</script>-manifolds with a <script type="math/tex">G</script>-bundle; then the classical action defines a
+symmetric monoidal functor <script type="math/tex">\Bord^\SO_n(G) \to \mathrm{Vect}_\cc</script>, sending an
+<script type="math/tex">(n-1)</script>-manifold <script type="math/tex">N</script> and a principal <script type="math/tex">G</script>-bundle <script type="math/tex">P</script> to the
+<script type="math/tex">\cc</script>-vector space given by the fiber <script type="math/tex">(\cL_N)_P</script> of the bundle <script type="math/tex">\cL_N</script>
+over <script type="math/tex">P\in \pi_0\Map(N,BG)</script>. The quantization of this classical theory can be
+thought of as a sort of right Kan extension of the functor <script type="math/tex">\Bord^\SO_n(G) \to
+\mathrm{Vect}_\cc</script> along the forgetful functor <script type="math/tex">\Bord^\SO_n(G) \to
+\Bord^\SO_n</script> (where the target is now the <script type="math/tex">1</script>-category obtained by truncating
+the <script type="math/tex">(\infty,n)</script>-category of bordisms).</p>
+
+<p>We can adopt a slightly different viewpoint of this quantization procedure in
+the following manner: rather than assigning a number (the action) to each field
+(principal <script type="math/tex">G</script>-bundle) on a manifold (spacetime), we can assign to each
+spacetime the <em>space</em> of all fields, and sum the action over this space with
+respect to a particular measure. A little more precisely, let <script type="math/tex">B</script> be an
+<script type="math/tex">((n-1)+1)</script>-dimensional spacetime, and let <script type="math/tex">\cf(B)</script> be the space of fields
+on <script type="math/tex">B</script> (in the Dijkgraaf-Witten story, this was <script type="math/tex">\Map(B,BG)</script>). Let <script type="math/tex">M</script> and
+<script type="math/tex">N</script> be spacelike slices of <script type="math/tex">B</script>, so <script type="math/tex">B</script> is an oriented bordism between
+<script type="math/tex">M</script> and <script type="math/tex">N</script>. There are spaces (groupoids, really) <script type="math/tex">\cf(M)</script> and <script type="math/tex">\cf(N)</script>
+of fields on <script type="math/tex">M</script> and <script type="math/tex">N</script>, but on which there is no classical action; there
+are also maps <script type="math/tex">\cf(B) \to \cf(M), \cf(N)</script>. We may view <script type="math/tex">\cf</script> as defining a
+functor from <script type="math/tex">\Bord^\SO_n</script> to the category of correspondences of groupoids. In
+the Dijkgraaf-Witten theory, <script type="math/tex">\cf(M)</script> had more structure: it was equipped with
+a local system <script type="math/tex">\cL_M</script> of complex vector spaces (such that the global sections
+of <script type="math/tex">\cL_M</script> was the space of states on <script type="math/tex">M</script>), i.e., a functor <script type="math/tex">\cf(M) \to
+\mathrm{Vect}_\cc</script>.</p>
+
+<p>A <a href="https://arxiv.org/pdf/0905.0731.pdf">natural generalization</a>, therefore, is
+to generalize the (<script type="math/tex">(\infty,n)</script>-, really) category of correspondences of
+groupoids to the <script type="math/tex">(\infty,n)</script>-category <script type="math/tex">\mathrm{Fam}_n(\cC)</script> of groupoids
+equipped a functor to the target <script type="math/tex">(\infty,n)</script>-category <script type="math/tex">\cC</script> — or, more
+generally, some data of “<script type="math/tex">\cC</script>-local systems on <script type="math/tex">X</script>”. A classical theory is
+a symmetric monoidal functor <script type="math/tex">\cf:\Bord^\SO_n\to \mathrm{Fam}_n(\cC)</script>. What,
+then, is the quantization of this theory?  It is an extension of the functor
+<script type="math/tex">\Bord^\SO_n\to \mathrm{Fam}_n(\cC)</script> to a functor <script type="math/tex">\Bord^\SO_n \to \cC</script>, via
+the functor <script type="math/tex">\mathrm{Fam}_n(\cC) \to \cC</script> sending a groupoid <script type="math/tex">X</script> and a
+functor <script type="math/tex">\cL_X:X\to \cC</script> to the limit <script type="math/tex">\lim_X \cL_X</script> (so <script type="math/tex">\cC</script> must admit
+limits; let’s also assume that it admits colimits). It’s not clear that this
+assignment even defines a functor <script type="math/tex">\mathrm{Fam}_n(\cC) \to \cC</script>, for the same
+reason as in the Dijkgraaf-Witten situation: the limit <script type="math/tex">\lim_X \cL_X</script> is the
+cohomology of <script type="math/tex">\cL_X</script> over <script type="math/tex">X</script>, but cohomology is contravariant. In this
+Dijkgraaf-Witten case, this was resolved by noting that there was an isomorphism
+between homology and cohomology — we need a similar coincidence to take place
+in <script type="math/tex">\cC</script>. (See <a href="https://arxiv.org/pdf/1003.5603.pdf">this paper</a> for a proof
+that the construction sketched out above in fact agrees with Dijkgraaf-Witten
+theory.)</p>
+
+<p>More precisely, suppose that <script type="math/tex">B</script> is a bordism between <script type="math/tex">M</script> and <script type="math/tex">N</script>; then,
+there is a map <script type="math/tex">\lim_{\cf(M)} \cL_M \to \lim_{\cf(B)} \cL_B</script>. Let <script type="math/tex">f:\cf(B)
+\to \cf(N)</script> be the map induced from the bordism; what we are seeking is a map
+<script type="math/tex">\lim_{\cf(B)} \cL_B = \lim_{\cf(B)} f^\ast \cL_N \to \lim_{\cf(N)} \cL_N</script>.
+Suppose that the map <script type="math/tex">f</script> is <script type="math/tex">\cC</script>-ambidextrous; what this means is that the
+left and right Kan extensions <script type="math/tex">f_!,f_\ast:\mathrm{Fun}(\cf(B), \cC) \to
+\mathrm{Fun}(\cf(N), \cC)</script> (respectively) are equivalent via the norm map. If
+<script type="math/tex">p:\cf(N) \to \ast</script> is the terminal map, then <script type="math/tex">p_\ast</script> (resp. <script type="math/tex">p_\ast
+f_\ast</script>) is the global sections (i.e., “take the limit”) functor on
+<script type="math/tex">\mathrm{Fun}(\cf(N), \cC)</script> (resp. <script type="math/tex">\mathrm{Fun}(\cf(B), \cC)</script>). In
+particular, the map we’d want would be automatic from the existence of a map
+<script type="math/tex">f_\ast \cL_B \to \cL_N</script> of <script type="math/tex">\cC</script>-valued local systems on <script type="math/tex">\cf(N)</script>. By
+<script type="math/tex">\cC</script>-ambidexterity,</p>
+
+<script type="math/tex; mode=display">f_\ast \cL_B \cong f_! \cL_B \cong f_! f^\ast \cL_N;</script>
+
+<p>we therefore obtain a canonical map <script type="math/tex">f_! f^\ast \cL_N \to \cL_N</script>, since
+<script type="math/tex">f_!</script> is left adjoint to <script type="math/tex">f^\ast</script>. In order to obtain an interesting TQFT,
+we should therefore: choose a nice symmetric monoidal <script type="math/tex">(\infty,n)</script>-category
+admitting limits by groupoids, and define a classical theory <script type="math/tex">\cf:\Bord^\SO_n
+\to \mathrm{Fam}_n(\cC)</script> such that bordisms induce <script type="math/tex">\cC</script>-ambidextrous
+morphisms of groupoids. Phrased another way to place emphasis more on the
+category <script type="math/tex">\cC</script> than on the morphisms, one would like a functor/classical
+theory <script type="math/tex">\cf</script> and an <script type="math/tex">(\infty,n)</script>-category <script type="math/tex">\cC</script> for which every morphism
+of <script type="math/tex">\pi</script>-finite groupoids is <script type="math/tex">\cC</script>-ambidextrous. (If we’re generalizing
+anyway, I don’t see why we should restrict to the category
+<script type="math/tex">\mathrm{Fam}_n(\cC)</script> of <em>groupoids</em> and <script type="math/tex">\cC</script>-local systems on them;
+perhaps physical considerations suggest looking at a category of
+<script type="math/tex">(\infty,d)</script>-categories for <script type="math/tex">% <![CDATA[
+d < n %]]></script> and <script type="math/tex">\cC</script>-local systems on them, i.e.,
+assigning to a manifold an <script type="math/tex">(\infty,d)</script>-category of “fields”.)</p>
+
+<p>This is where the ambidexterity results of Hopkins and Lurie comes into play.
+Let <script type="math/tex">\cC = \Lkd \Sp</script> denote the <script type="math/tex">(\infty,n=1)</script>-category of <script type="math/tex">K(d)</script>-local
+spectra. Then Hopkins-Lurie prove that every map <script type="math/tex">f:X\to Y</script> of <script type="math/tex">\pi</script>-finite
+spaces (i.e., spaces with finitely many homotopy groups, each of which are
+finite) is <script type="math/tex">\cC</script>-ambidextrous. It follows that if <script type="math/tex">\cf:\Bord^\SO_n \to
+\mathrm{Fam}_1(\Lkd \Sp)</script> is a classical theory taking values in <script type="math/tex">\pi</script>-finite
+spaces/groupoids, then there is an associated TQFT taking values in <script type="math/tex">\Lkd
+\Sp</script>. We can either view this as a (boring) <script type="math/tex">1</script>-dimensional TQFT, or as a
+non-extended <script type="math/tex">n</script>-dimensional TQFT for any <script type="math/tex">n</script>. Note that this TQFT is
+determined by a fully dualizable (i.e., dualizable) object in <script type="math/tex">\Lkd \Sp</script>, aka
+a spectrum whose <script type="math/tex">K(d)</script>-homology is finite-dimensional over <script type="math/tex">K(d)_\ast</script>.</p>
+
+<p>One can further generalize this story: let <script type="math/tex">A</script> be an <script type="math/tex">\Eoo</script>-ring, and let
+<script type="math/tex">\GG</script> be an oriented <script type="math/tex">p</script>-divisible group over <script type="math/tex">A</script> (for a fixed prime
+<script type="math/tex">p</script>). Let <script type="math/tex">\cC</script> be the <script type="math/tex">\infty</script>-category of <script type="math/tex">A</script>-modules. For every space
+<script type="math/tex">X</script>, one can associate an <script type="math/tex">\infty</script>-category <script type="math/tex">\mathrm{LocSys}_\GG(X)</script> of
+<script type="math/tex">\GG</script>-tempered local systems (these should be thought of as “twisted” local
+systems of <script type="math/tex">A</script>-modules on <script type="math/tex">X</script>). Lurie proves in <a href="http://www.math.harvard.edu/~lurie/papers/Elliptic-III-Tempered.pdf">Elliptic
+III</a> that
+if <script type="math/tex">f:X\to Y</script> is a map of <script type="math/tex">p</script>-finite spaces (i.e., <script type="math/tex">\pi</script>-finite with all
+homotopy groups assumed to be finite abelian <script type="math/tex">p</script>-groups), then the functors
+<script type="math/tex">f_!, f_\ast: \mathrm{LocSys}_\GG(X)\to \mathrm{LocSys}_\GG(Y)</script> are equivalent
+via the norm map. In other words, if <script type="math/tex">\cf:\Bord^\SO_n \to
+\mathrm{Fam}_1(\Mod(A))</script> is a classical theory taking values in <script type="math/tex">p</script>-finite
+spaces/groupoids, where <script type="math/tex">\Bord^\SO_n</script> is the ordinary <script type="math/tex">1</script>-category of
+cobordisms, then there is an associated TQFT taking values in <script type="math/tex">\Mod(A)</script>.  As
+before, this TQFT is determined by a fully dualizable (i.e., dualizable) object
+in <script type="math/tex">\Mod(A)</script>.</p>
+
+<p>How can we construct a functor <script type="math/tex">\Bord^\SO_n\to \mathrm{Fam}_1(\Mod(A))</script>? One
+way to do so is to generalize the Dijkgraaf-Witten story. Namely, choose a
+<script type="math/tex">\pi</script>-finite space <script type="math/tex">X</script>, and send <script type="math/tex">M</script> to the <script type="math/tex">\pi</script>-finite space <script type="math/tex">\Map(M,
+X)</script>. Of course, we need to define a functor <script type="math/tex">\Map(M, X)\to \Mod(A)</script> for every
+<script type="math/tex">(n-1)</script>-manifold <script type="math/tex">M</script>. In order to do this, we run a construction similar to
+the classical (untwisted) situation: simply choose an <script type="math/tex">A</script>-module <script type="math/tex">\cL</script>, and
+let the local system over <script type="math/tex">\Map(M,X)</script> be the constant one.</p>
+
+<p>If we choose <script type="math/tex">A = \H\cc</script>, then the value of the resulting TQFT on a closed
+<script type="math/tex">n</script>-manifold <script type="math/tex">M</script> (i.e., the partition function of <script type="math/tex">M</script>) is</p>
+
+<script type="math/tex; mode=display">Z(M) = \sum_{x\in \pi_0\Map(M,X)} \prod_{k\geq 1} |\pi_k(\Map(M,X),
+x)|^{(-1)^k}\in \QQ_{\geq 0}.</script>
+
+<p>This is alternatively the homotopy cardinality of <script type="math/tex">\Map(M,X)</script>.</p>
+
+<p>It’d be very interesting to find <script type="math/tex">(\infty,n)</script>-categories for which similar
+ambidexterity results hold, consequently generalizing Dijkgraaf-Witten theory.
+I’d also like to know whether physical considerations lead to conjectural target
+<script type="math/tex">(\infty,n)</script>-categories.</p>
+
+  </div><a class="u-url" href="/blog/physics/2019/06/01/tqft.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Sanath Devalapurkar&#39;s home page</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Sanath Devalapurkar&#39;s home page</li><li><a class="u-email" href="mailto:sanathdevalapurkar@g.harvard.edu">sanathdevalapurkar@g.harvard.edu</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>Graduate student in math.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

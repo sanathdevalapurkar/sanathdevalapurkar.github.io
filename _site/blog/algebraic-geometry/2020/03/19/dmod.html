@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>D-modules | Sanath Devalapurkar’s home page</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="D-modules" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Graduate student in math." />
+<meta property="og:description" content="Graduate student in math." />
+<link rel="canonical" href="http://localhost:4000/blog/algebraic-geometry/2020/03/19/dmod.html" />
+<meta property="og:url" content="http://localhost:4000/blog/algebraic-geometry/2020/03/19/dmod.html" />
+<meta property="og:site_name" content="Sanath Devalapurkar’s home page" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-03-19T00:00:00-07:00" />
+<script type="application/ld+json">
+{"url":"http://localhost:4000/blog/algebraic-geometry/2020/03/19/dmod.html","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/blog/algebraic-geometry/2020/03/19/dmod.html"},"description":"Graduate student in math.","headline":"D-modules","dateModified":"2020-03-19T00:00:00-07:00","datePublished":"2020-03-19T00:00:00-07:00","@type":"BlogPosting","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Sanath Devalapurkar's home page" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Sanath Devalapurkar&#39;s home page</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/blog/">Blog</a><a class="page-link" href="/">Home</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">D-modules</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2020-03-19T00:00:00-07:00" itemprop="datePublished">Mar 19, 2020
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
+
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-109004213-1"></script>
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+        gtag('config', 'UA-109004213-1');
+</script>
+
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+<script type="math/tex; mode=display">\newcommand{\KO}{\mathrm{KO}} \newcommand{\TMF}{\mathrm{TMF}}
+\newcommand{\KU}{\mathrm{KU}} \newcommand{\Mfg}{M_\mathrm{fg}}
+\newcommand{\spec}{\mathrm{Spec}} \newcommand{\dX}{\mathcal{X}}
+\newcommand{\co}{\mathcal{O}} \newcommand{\Z}{\mathbf{Z}}
+\newcommand{\top}{\mathrm{top}} \newcommand{\E}{\mathbf{E}}
+\newcommand{\GG}{\mathbf{G}} \newcommand{\DD}{\mathbf{D}}
+\newcommand{\Mell}{M_\mathrm{ell}} \newcommand{\ce}{\mathcal{E}}
+\newcommand{\H}{\mathrm{H}} \newcommand{\dR}{\mathrm{dR}}
+\newcommand{\cf}{\mathcal{F}} \newcommand{\FF}{\mathbf{F}}
+\newcommand{\spf}{\mathrm{Spf}\ } \newcommand{\cA}{\mathcal{A}}
+\newcommand{\Mcub}{M_\mathrm{cub}} \newcommand{\Mqd}{M_\mathrm{qd}}
+\newcommand{\Aut}{\mathrm{Aut}} \newcommand{\tmf}{\mathrm{tmf}}
+\newcommand{\Tmf}{\mathrm{Tmf}} \newcommand{\Map}{\mathrm{Map}}
+\newcommand{\Ext}{\mathrm{Ext}} \newcommand{\End}{\mathrm{End}}
+\newcommand{\cg}{\mathcal{G}} \newcommand{\Hom}{\mathrm{Hom}}
+\newcommand{BP}[1]{\mathrm{BP}\langle #1\rangle} \newcommand{\QQ}{\mathbf{Q}}
+\newcommand{\PP}{\mathbf{P}} \newcommand{\Gal}{\mathrm{Gal}}
+\newcommand{\proj}{\mathrm{Proj}\ } \newcommand{\Ltwo}{L_{K(2)}}
+\newcommand{\Eoo}{\mathbf{E}_\infty} \newcommand{\ol}[1]{\overline #1}
+\newcommand{\pic}{\mathrm{Pic}} \newcommand{\RP}{\mathbf{R}P}
+\newcommand{\BO}{\mathrm{BO}} \newcommand{\cc}{\mathbf{C}}
+\newcommand{\CP}{\mathbf{C}P} \newcommand{\wt}[1]{\widetilde #1}
+\newcommand{\RR}{\mathbf{R}} \renewcommand{\S}{\mathbb{S}}
+\newcommand{\Lone}{L_{K(1)}} \newcommand{\Ltwo}{L_{K(2)}}
+\newcommand{\gl}{\mathrm{gl}} \newcommand{\Lk}{L_{K(n)}}
+\newcommand{\ku}{\mathrm{ku}} \newcommand{\ko}{\mathrm{ko}}
+\newcommand{\GL}{\mathrm{GL}} \newcommand{\Ln}{L_n} \newcommand{\Lt}{L_{K(t)}}
+\newcommand{\W}{\mathrm{W}} \newcommand{\BU}{\mathrm{BU}}
+\newcommand{\SU}{\mathrm{SU}} \newcommand{\MU}{\mathrm{MU}}
+\newcommand{\ul}[1]{\underline #1} \newcommand{\Sq}{\mathrm{Sq}}
+\newcommand{\Tr}{\mathrm{Tr}} \newcommand{\d}{\mathrm{d}}
+\newcommand{\HP}{\mathbf{H}P} \newcommand{\cL}{\mathcal{L}}
+\newcommand{\cs}{\mathrm{cs}} \newcommand{\cd}{\mathcal{D}}
+\newcommand{\Bord}{\mathrm{Bord}} \newcommand{\SO}{\mathrm{SO}}
+\newcommand{\cC}{\mathcal{C}} \newcommand{\Sp}{\mathrm{Sp}}
+\newcommand{\Lkd}{L_{K(d)}} \newcommand{\Mod}{\mathrm{Mod}}
+\newcommand{\cH}{\mathcal{H}} \newcommand{\ket}[1]{|#1 \rangle}
+\newcommand{\Bun}{\mathrm{Bun}} \newcommand{\cM}{\mathcal{M}}
+\newcommand{\MTH}{\mathrm{MT}H} \newcommand{\MSO}{\mathrm{MSO}}
+\newcommand{\twsm}{\ \widetilde{\wedge} \ } \newcommand{\BSpin}{\mathrm{BSpin}}
+\newcommand{\MSpin}{\mathrm{MSpin}} \newcommand{\BString}{\mathrm{BString}}
+\newcommand{\MString}{\mathrm{MString}} \newcommand{\B}{\mathrm{B}}
+\newcommand{\der}{\mathrm{der}} \newcommand{\Cat}{\mathrm{Cat}}
+\newcommand{\QCoh}{\mathrm{QCoh}} \newcommand{\LMod}{\mathrm{LMod}}
+\newcommand{\Rep}{\mathrm{Rep}} \newcommand{\HH}{\mathrm{HH}}
+\newcommand{\ZZ}{\mathfrak{Z}} \newcommand{\fr}{\mathrm{fr}}
+\newcommand{\BSO}{\mathrm{BSO}} \newcommand{\BSU}{\mathrm{BSU}}
+\newcommand{\id}{\mathrm{id}} \newcommand{\Top}{\mathrm{Top}}
+\newcommand{\cP}{\mathcal{P}} \newcommand{\U}{\mathrm{U}}
+\newcommand{\Sym}{\mathrm{Sym}} \newcommand{\coker}{\mathrm{coker}}
+\newcommand{\Vect}{\mathrm{Vect}} \newcommand{\Fun}{\mathrm{Fun}}
+\newcommand{\cT}{\mathcal{T}} \newcommand{\cJ}{\mathcal{J}}
+\newcommand{\Res}{\mathrm{Res}} \newcommand{\Ind}{\mathrm{Ind}}
+\newcommand{\MO}{\mathrm{MO}} \newcommand{\MSO}{\mathrm{MSO}}
+\newcommand{\colim}{\mathrm{colim}} \newcommand{\hocolim}{\mathrm{hocolim}}
+\newcommand{\fin}{\mathrm{fin}} \newcommand{\Tot}{\mathrm{Tot}}
+\newcommand{\im}{\mathrm{im}} \newcommand{\FT}{\mathrm{FT}}
+\newcommand{\AA}{\mathbf{A}} \newcommand{\Frob}{\mathrm{Frob}}
+\newcommand{\ex}{\mathrm{ex,pr}} \newcommand{\fil}{\mathrm{fil}}
+\newcommand{\gr}{\mathrm{gr}} \newcommand{\un}{\mathrm{un}}
+\newcommand{\Syn}{\mathrm{Syn}} \newcommand{\Cart}{\mathrm{Cart}}
+\newcommand{\bo}{\mathrm{bo}} \newcommand{\mmod}{/\!\!/}
+\newcommand{\bsp}{\mathrm{bsp}} \newcommand{\BPP}{\mathrm{BP}}
+\newcommand{\CAlg}{\mathrm{CAlg}} \newcommand{\TCart}{\mathrm{TCart}}
+\newcommand{\BW}{\mathrm{BW}} \newcommand{\Br}{\mathrm{Br}}
+\newcommand{\Pic}{\mathrm{Pic}} \newcommand{\ext}{\mathrm{ext}}
+\newcommand{\Cl}{\mathrm{Cl}} \newcommand{\disc}{\mathrm{disc}}
+\newcommand{\dir}{D\!\!\!\!/} \newcommand{\bb}{\mathrm{bb}}
+\newcommand{\Ran}{\mathrm{Ran}} \newcommand{\cu}{\mathcal{U}}
+\newcommand{\Gr}{\mathrm{Gr}} \newcommand{\Alg}{\mathrm{Alg}}
+\newcommand{\G}{\Gamma} \newcommand{\dY}{\mathcal{Y}}
+\newcommand{\Line}{\mathrm{Line}} \newcommand{\MUP}{\mathrm{MUP}}
+\newcommand{\Bl}{\mathrm{Bl}} \newcommand{\St}{\mathrm{St}}
+\newcommand{\cB}{\mathcal{B}} \newcommand{\SL}{\mathrm{SL}}
+\newcommand{\XX}{\mathrm{X}} \newcommand{\gp}{\mathrm{gp}}
+\newcommand{\Q}{\mathrm{Q}} \newcommand{\cI}{\mathcal{I}}
+\newcommand{\T}{\mathrm{T}}</script>
+
+<p>I’m supposed to be giving a talk this weekend over Zoom about the
+Riemann-Hilbert correspondence, for the <a href="http://people.math.harvard.edu/~zyao/seminar/MHM/">mixed Hodge modules
+seminar</a>. I have some notes
+<a href="http://www.mit.edu/~sanathd/riemann-hilbert.pdf">here</a> and slides
+<a href="http://www.mit.edu/~sanathd/rh-slides.pdf">here</a>. In this post, I would like to
+try to understand D-modules. Recall the usual definition of D-modules on a
+smooth complex variety <script type="math/tex">X</script>: if <script type="math/tex">\Theta_X = (\Omega^1_X)^\vee</script> denotes the
+tangent sheaf regarded as a subsheaf of <script type="math/tex">\End_\cc(\co_X)</script>, then <script type="math/tex">\cd_X</script> is
+the subsheaf of <script type="math/tex">\Theta_X</script> generated by <script type="math/tex">\co_X</script> and <script type="math/tex">\Theta_X</script>. Note that
+the order of a differential operator supplies <script type="math/tex">\cd_X</script> with a filtration <script type="math/tex">F_i
+\cd_X</script>. If <script type="math/tex">\cf</script> is a <script type="math/tex">\cd_X</script>-module, then the action of <script type="math/tex">\Theta_x</script>
+defines a connection <script type="math/tex">\nabla: \cf\to \Omega^1_X\otimes_{\co_X} \cf</script>, and this
+connection can be checked to be flat. So <script type="math/tex">\cd_X</script>-modules are just
+<script type="math/tex">\co_X</script>-modules equipped with a flat connection.</p>
+
+<p>Another perspective on <script type="math/tex">\cd_X</script>-modules comes from the de Rham space.  Recall
+the de Rham space <script type="math/tex">X_\dR</script>, whose functor of points <script type="math/tex">\CAlg_\cc\to
+\mathrm{Set}</script> may be defined by <script type="math/tex">X_\dR(R) = X(R/I)</script>, where <script type="math/tex">I</script> is the
+nilradical of <script type="math/tex">R</script>.  Then (see the paper by Gaitsgory-Rozenblyum, for
+instance):</p>
+
+<p><strong>Theorem (Grothendieck):</strong> There is an equivalence of categories
+<script type="math/tex">\QCoh(X_\dR) \simeq \Mod(\cd_X)</script>.  Recall how this equivalence goes (see
+these
+<a href="http://people.math.harvard.edu/~gaitsgde/grad_2009/SeminarNotes/Nov17-19(Crystals).pdf">notes</a>
+by Jacob Lurie).</p>
+
+<p>A quasicoherent sheaf <script type="math/tex">\cf\in \QCoh(X_\dR)</script> is the data of a quasicoherent
+sheaf <script type="math/tex">\cf</script> on <script type="math/tex">X</script> along with compatible isomorphisms <script type="math/tex">\cf(x) \to \cf(y)</script>
+for every pair of ``infinitesimally close’’ <script type="math/tex">R</script>-points <script type="math/tex">x,y\in X(R)</script> (i.e.,
+points whose image under <script type="math/tex">X(R)\to X(R/I)</script> are the same, where <script type="math/tex">I</script> is the
+nilradical of <script type="math/tex">R</script>).  More precisely, if the pair <script type="math/tex">(x,y)</script> is thought of as
+an <script type="math/tex">R</script>-point of <script type="math/tex">X\times X</script>, then <script type="math/tex">x</script> and <script type="math/tex">y</script> are infinitesimally close
+if and only if they are the same in some thickening of the diagonal
+<script type="math/tex">\Delta:X\to X\times X</script>. Therefore, if <script type="math/tex">\cI</script> denotes the ideal sheaf of
+<script type="math/tex">\Delta</script>, then <script type="math/tex">x</script> and <script type="math/tex">y</script> are infinitesimally close if and only if for
+every <script type="math/tex">\cc</script>-algebra <script type="math/tex">R</script>, the ideal <script type="math/tex">(x,y)^\ast \cI^n</script> is zero in <script type="math/tex">R</script>
+for <script type="math/tex">n\gg 0</script>, where <script type="math/tex">(x,y):\spec(R)\to X\times X</script>.</p>
+
+<p>Let <script type="math/tex">X^{(n)}</script> denote the closed subscheme of <script type="math/tex">X\times X</script> defined by
+<script type="math/tex">\cI^{n+1}</script>.  Let <script type="math/tex">p_i</script> denote the projections <script type="math/tex">(X\times X)^\wedge_X =
+\colim X^{(n)} \to X</script>, and let <script type="math/tex">p_i^{(n)}</script> denote the induced maps
+<script type="math/tex">X^{(n)}\to X</script>. A quasicoherent sheaf <script type="math/tex">\cf\in \QCoh(X_\dR)</script> is therefore a
+quasicoherent sheaf <script type="math/tex">\cf</script> on <script type="math/tex">X</script> along with the data of compatible
+isomorphisms <script type="math/tex">(p_1^{(n)})^\ast \cf \to (p_2^{(n)})^\ast \cf</script>. This, in turn,
+is the same as a map <script type="math/tex">\cf\to (p_1^{(n)})_\ast (p_2^{(n)})^\ast \cf \cong
+\co_{X^{(n)}}\otimes_{\co_X} \cf</script>.</p>
+
+<p>The key point, now, is that there is a canonical pairing <script type="math/tex">F_n
+\cd_X\otimes_{\co_X} \co_{X^{(n)}}\to \co_X</script>. Given a differential operator
+<script type="math/tex">D</script> and a function <script type="math/tex">f(x,y)</script> defined up to order <script type="math/tex">n+1</script> (i.e., a section of
+<script type="math/tex">\co_{X^{(n)}}</script>), we obtain a function on <script type="math/tex">X</script> by applying <script type="math/tex">D</script> to <script type="math/tex">f</script>
+(keeping the variable <script type="math/tex">y</script> constant) and evaluating on <script type="math/tex">(x,x)</script> (i.e.,
+<script type="math/tex">(Df)(x,x)</script>). When <script type="math/tex">X = \AA^1 = \spec \cc[t]</script>, we know that <script type="math/tex">F_n \cd_X</script>
+is the free <script type="math/tex">\cc[t]</script>-module generated by <script type="math/tex">\frac{\partial_t^k}{k!}</script> for
+<script type="math/tex">1\leq k\leq n</script>, and that <script type="math/tex">\co_{X^{(n)}}</script> is <script type="math/tex">\cc[t,z]/(t-z)^{n+1}</script>.
+Applying <script type="math/tex">\frac{\partial_t^k}{k!}</script> to the function <script type="math/tex">t^k z^j</script> in the manner
+described above produces the function <script type="math/tex">t^j</script> on <script type="math/tex">\AA^1</script>. In particular, the
+pairing can be checked to be perfect (and this is true over any smooth variety
+<script type="math/tex">X</script>). Therefore the maps <script type="math/tex">\cf\to \co_{X^{(n)}}\otimes_{\co_X} \cf</script> are the
+same as maps <script type="math/tex">F_n \cd_X\otimes_{\co_X} \cf\to \cf</script>, and these assemble into
+an action of <script type="math/tex">\cd_X</script> on <script type="math/tex">\cf</script>.</p>
+
+<p>Yet another perspective on <script type="math/tex">\cd_X</script>-modules comes from looking at
+<script type="math/tex">\lambda</script>-connections. Let <script type="math/tex">S</script> be a scheme, and <script type="math/tex">X\to S</script> be a smooth
+morphism. Recall (see e.g.
+<a href="https://www.math.wisc.edu/~arinkin/pdfs/lambda.pdf">here</a>) that a
+<script type="math/tex">\lambda</script>-connection is a vector bundle <script type="math/tex">\cf</script> over <script type="math/tex">X\times_S \AA^1_S</script>
+along with a <script type="math/tex">\co_S</script>-linear map <script type="math/tex">\nabla: \cf\to \cf \otimes_{\co_{X\times_S
+\AA^1_S}} \Omega^1_{X\times_S \AA^1_S/\AA^1_S}</script> such that</p>
+
+<script type="math/tex; mode=display">\nabla(fs) = \lambda s \otimes df + f\nabla(s)</script>
+
+<p>for <script type="math/tex">f\in \co_{X\times_S \AA^1_S}</script> and <script type="math/tex">s\in \cf</script>. A Higgs field is a
+connection for <script type="math/tex">\lambda = 0</script>. (Why is it called that??) We can further impose
+an integrability condition, namely that <script type="math/tex">\nabla^2 = 0</script>.  Let’s try to define
+the analogue of <script type="math/tex">\cd_X</script> for <script type="math/tex">\lambda</script>-connections.  Informally, this would
+be</p>
+
+<script type="math/tex; mode=display">\cd_X^\lambda = \sum_{k\geq 0} \co_X[t] t^k F_k\cd_X,</script>
+
+<p>the idea being that <script type="math/tex">t</script> acts as <script type="math/tex">\lambda</script>. To make this formal, consider the
+inclusion <script type="math/tex">j:(\GG_m)_S\hookrightarrow \AA^1_S</script>, and let <script type="math/tex">f:(\GG_m)_S \to S</script>
+denote the structure morphism. Then let <script type="math/tex">\cd_X^\lambda</script> be the subsheaf of
+<script type="math/tex">j_\ast f^\ast \cd_X</script> generated by sections which are locally of the form
+<script type="math/tex">t^k P</script> with <script type="math/tex">P\in F_k \cd_X</script>. (Here, <script type="math/tex">t</script> is the coordinate on
+<script type="math/tex">\AA^1_S</script>.)</p>
+
+<p>It’s rather straightforward to see that a <script type="math/tex">\cd_X^\lambda</script>-module structure on
+a <script type="math/tex">\co_{X\times_S \AA^1_S}</script>-module <script type="math/tex">\cf</script> is the same as a
+<script type="math/tex">\lambda</script>-connection on <script type="math/tex">\cf</script>. Indeed, a <script type="math/tex">\lambda</script>-connection on <script type="math/tex">\cf</script>
+is an action on <script type="math/tex">\cf</script> of the (noncommutative) <script type="math/tex">\co_{X\times_S
+\AA^1_S}</script>-module generated by <script type="math/tex">\Theta_{X/S}\otimes_X \co_X[t]</script>, along with
+relations of the form</p>
+
+<script type="math/tex; mode=display">PQ - QP = t[P,Q], \ Pf = tPf + fP.</script>
+
+<p>Sending a product of <script type="math/tex">k</script> elements of <script type="math/tex">\Theta_{X/S}\otimes_X \co_X[t]</script> to
+<script type="math/tex">t^k F_k\cd_X</script>, it is clear that this (noncommutative) <script type="math/tex">\co_{X\times_S
+\AA^1_S}</script>-module is isomorphic to <script type="math/tex">\cd_X^\lambda</script>.</p>
+
+<p>There is a <script type="math/tex">t</script>-adic filtration on <script type="math/tex">\cd_X^\lambda</script>. Its associated graded is</p>
+
+<script type="math/tex; mode=display">\gr(\cd_X^\lambda) = \sum_{k\geq 0} \co_X[t] t^k F_k\cd_X/\sum_{k\geq 0}
+\co_X[t] t^{k+1} F_k\cd_X = \sum_{k\geq 0} \co_X t^{k+1} F_k\cd_X/F_{k-1}
+\cd_X,</script>
+
+<p>By sending a differential operator to its symbol, we find that
+<script type="math/tex">\gr(\cd_X^\lambda)</script> is (basically) isomorphic to the pullback to <script type="math/tex">X\times_S
+\AA^1_S</script> of <script type="math/tex">\pi_\ast \co_{\T^\ast X}</script>, where <script type="math/tex">\pi:\T^\ast X\to X</script> is the
+cotangent bundle. (The “basically” comes from the fact that we’ve still got a
+<script type="math/tex">t</script> floating around.) To get rid of this <script type="math/tex">t</script>, the natural thing to do is to
+actually work over <script type="math/tex">\AA^1/\GG_m</script>, rather than over <script type="math/tex">\AA^1</script>. (For notational
+simplicity, we’ll write <script type="math/tex">\AA_\GG</script> to denote <script type="math/tex">\AA^1/\GG_m</script>.) Namely, we can
+redefine a <script type="math/tex">\lambda</script>-connection to be a vector bundle <script type="math/tex">\cf</script> over <script type="math/tex">X\times_S
+\AA_\GG</script> along with a <script type="math/tex">\co_S</script>-linear map <script type="math/tex">\nabla: \cf\to \cf
+\otimes_{\co_{X\times_S \AA_\GG}} \Omega^1_{X\times_S \AA_\GG/\AA_\GG}</script> such
+that</p>
+
+<script type="math/tex; mode=display">\nabla(fs) = \lambda s \otimes df + f\nabla(s)</script>
+
+<p>for <script type="math/tex">f\in \co_{X\times_S \AA_\GG}</script> and <script type="math/tex">s\in \cf</script>. Now, the action of
+<script type="math/tex">\lambda</script> should be interpreted as follows: if we interpret <script type="math/tex">\cf</script> living
+over <script type="math/tex">\AA_\GG = \AA^1/\GG_m</script> as equipping <script type="math/tex">\cf</script> (as a quasicoherent sheaf
+over <script type="math/tex">X</script>) with a filtration (see <a href="/algebraic-topology/2020/02/08/poset.html">this
+post</a> and the other posts about this
+stuff), then <script type="math/tex">\nabla</script> shifts the filtration by one. More precisely, a
+quasicoherent sheaf <script type="math/tex">\cf</script> over <script type="math/tex">X\times_S \AA_\GG</script> is equivalent to the
+datum of a quasicoherent sheaf <script type="math/tex">\cf</script> over <script type="math/tex">X</script> equipped with a <script type="math/tex">\Z</script>-indexed
+(<script type="math/tex">\co_S</script>-linear) filtration <script type="math/tex">F_i \cf</script>. The sheaf <script type="math/tex">\Omega^1_{X\times_S
+\AA_\GG/\AA_\GG}</script> is the sheaf whose <script type="math/tex">i</script>th step is <script type="math/tex">0</script> if <script type="math/tex">% <![CDATA[
+i<0 %]]></script>, and is
+<script type="math/tex">\Omega^1_{X/S}</script> if <script type="math/tex">i\geq 0</script>. The tensor product of two sheaves <script type="math/tex">\cf</script> and
+<script type="math/tex">\cg</script> over <script type="math/tex">X\times_S \AA_\GG</script> is the quasicoherent sheaf <script type="math/tex">\cf\otimes
+\cg</script> on <script type="math/tex">X</script>, and whose filtration is given by</p>
+
+<script type="math/tex; mode=display">F_n(\cf\otimes \cg) = \colim_{i+j\leq n} F_i \cf \otimes_{\co_X} F_j \cg.</script>
+
+<p>(We’re using an <em>increasing</em> filtration. Some people like to use a decreasing
+filtration.) A <script type="math/tex">\lambda</script>-connection on <script type="math/tex">\cf</script> is a map <script type="math/tex">\co_S</script>-linear map
+<script type="math/tex">\nabla: \cf\to \cf \otimes_{\co_X} \Omega^1_{X/S}</script> which increases the
+filtration, i.e., <script type="math/tex">\nabla</script> takes <script type="math/tex">F_i \cf</script> to <script type="math/tex">F_{i+1} (\cf \otimes
+\Omega^1_X)</script>. Ah, but now one realizes that this is just the Griffiths
+transversality condition! (The usual formulation of the Griffiths transversality
+condition uses a decreasing filtration.)</p>
+
+<p>The upshot is that this notion of a <script type="math/tex">\lambda</script>-connection via <script type="math/tex">\AA^1/\GG_m</script>
+is exactly imposing the existence of a Hodge filtration. We saw above that the
+associated graded of <script type="math/tex">\cd^\lambda_X</script> is <script type="math/tex">\pi_\ast \co_{\T^\ast X}</script>, and so
+the associated graded of a <script type="math/tex">\lambda</script>-connection is precisely a Higgs field.  I
+just learned that all this is part of Simpson et. al.’s story of <a href="https://arxiv.org/pdf/math/0510269v1.pdf">nonabelian
+Hodge theory</a>, which sounds
+terrifying.</p>
+
+<p>Here is an interesting question. Grothendieck told us that <script type="math/tex">\QCoh(X_\dR) \simeq
+\Mod(\cd_X)</script>. Is there a stack <script type="math/tex">X_\lambda</script> such that <script type="math/tex">\QCoh(X_\lambda)
+\simeq \Mod(\cd_X^\lambda)</script>? As <script type="math/tex">\lambda</script>-connections are most naturally
+defined over <script type="math/tex">\AA^1/\GG_m</script>, we would expect <script type="math/tex">X_\lambda</script> to live over
+<script type="math/tex">X\times_S \AA^1/\GG_m</script>. The fiber over <script type="math/tex">1</script> would be the de Rham space
+<script type="math/tex">X_\dR</script>, and the fiber over <script type="math/tex">0</script> would be <script type="math/tex">\T^\ast X</script> (because the
+associated graded of <script type="math/tex">\cd_X^\lambda</script> was <script type="math/tex">\pi_\ast \co_{\T^\ast X}</script>). We
+will discuss this in the next post.</p>
+
+<p>At this point, there are a lot of interesting questions that one could ask.
+D-modules on smooth complex varieties show up in a bunch of places, like the
+Riemann-Hilbert correspondence and the Beilinson-Bernstein theorem in
+representation theory. What are the deformations of these results to
+<script type="math/tex">\cd_X^\lambda</script>-modules? Are they interesting? Another set of questions that
+one could ask are in the direction of characteristic <script type="math/tex">p</script> phenomena: the
+appropriate analogue of D-modules in characteristic <script type="math/tex">p</script> are F-crystals, so one
+could ask these questions in that context as well. I’m gonna think about this
+more.</p>
+
+  </div><a class="u-url" href="/blog/algebraic-geometry/2020/03/19/dmod.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Sanath Devalapurkar&#39;s home page</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Sanath Devalapurkar&#39;s home page</li><li><a class="u-email" href="mailto:sanathdevalapurkar@g.harvard.edu">sanathdevalapurkar@g.harvard.edu</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>Graduate student in math.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

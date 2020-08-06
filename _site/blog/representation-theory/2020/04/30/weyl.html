@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>The Weyl character formula | Sanath Devalapurkar’s home page</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="The Weyl character formula" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Graduate student in math." />
+<meta property="og:description" content="Graduate student in math." />
+<link rel="canonical" href="http://localhost:4000/blog/representation-theory/2020/04/30/weyl.html" />
+<meta property="og:url" content="http://localhost:4000/blog/representation-theory/2020/04/30/weyl.html" />
+<meta property="og:site_name" content="Sanath Devalapurkar’s home page" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-04-30T00:00:00-07:00" />
+<script type="application/ld+json">
+{"url":"http://localhost:4000/blog/representation-theory/2020/04/30/weyl.html","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/blog/representation-theory/2020/04/30/weyl.html"},"description":"Graduate student in math.","headline":"The Weyl character formula","dateModified":"2020-04-30T00:00:00-07:00","datePublished":"2020-04-30T00:00:00-07:00","@type":"BlogPosting","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Sanath Devalapurkar's home page" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Sanath Devalapurkar&#39;s home page</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/blog/">Blog</a><a class="page-link" href="/">Home</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">The Weyl character formula</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2020-04-30T00:00:00-07:00" itemprop="datePublished">Apr 30, 2020
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
+
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-109004213-1"></script>
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+        gtag('config', 'UA-109004213-1');
+</script>
+
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+<script type="math/tex; mode=display">\newcommand{\KO}{\mathrm{KO}} \newcommand{\TMF}{\mathrm{TMF}}
+\newcommand{\KU}{\mathrm{KU}} \newcommand{\Mfg}{M_\mathrm{fg}}
+\newcommand{\spec}{\mathrm{Spec}} \newcommand{\dX}{\mathcal{X}}
+\newcommand{\co}{\mathcal{O}} \newcommand{\Z}{\mathbf{Z}}
+\newcommand{\top}{\mathrm{top}} \newcommand{\E}{\mathbf{E}}
+\newcommand{\GG}{\mathbf{G}} \newcommand{\DD}{\mathbf{D}}
+\newcommand{\Mell}{M_\mathrm{ell}} \newcommand{\ce}{\mathcal{E}}
+\newcommand{\H}{\mathrm{H}} \newcommand{\dR}{\mathrm{dR}}
+\newcommand{\cf}{\mathcal{F}} \newcommand{\FF}{\mathbf{F}}
+\newcommand{\spf}{\mathrm{Spf}\ } \newcommand{\cA}{\mathcal{A}}
+\newcommand{\Mcub}{M_\mathrm{cub}} \newcommand{\Mqd}{M_\mathrm{qd}}
+\newcommand{\Aut}{\mathrm{Aut}} \newcommand{\tmf}{\mathrm{tmf}}
+\newcommand{\Tmf}{\mathrm{Tmf}} \newcommand{\Map}{\mathrm{Map}}
+\newcommand{\Ext}{\mathrm{Ext}} \newcommand{\End}{\mathrm{End}}
+\newcommand{\cg}{\mathcal{G}} \newcommand{\Hom}{\mathrm{Hom}}
+\newcommand{BP}[1]{\mathrm{BP}\langle #1\rangle} \newcommand{\QQ}{\mathbf{Q}}
+\newcommand{\PP}{\mathbf{P}} \newcommand{\Gal}{\mathrm{Gal}}
+\newcommand{\proj}{\mathrm{Proj}\ } \newcommand{\Ltwo}{L_{K(2)}}
+\newcommand{\Eoo}{\mathbf{E}_\infty} \newcommand{\ol}[1]{\overline #1}
+\newcommand{\pic}{\mathrm{Pic}} \newcommand{\RP}{\mathbf{R}P}
+\newcommand{\BO}{\mathrm{BO}} \newcommand{\cc}{\mathbf{C}}
+\newcommand{\CP}{\mathbf{C}P} \newcommand{\wt}[1]{\widetilde #1}
+\newcommand{\RR}{\mathbf{R}} \renewcommand{\S}{\mathbb{S}}
+\newcommand{\Lone}{L_{K(1)}} \newcommand{\Ltwo}{L_{K(2)}}
+\newcommand{\gl}{\mathrm{gl}} \newcommand{\Lk}{L_{K(n)}}
+\newcommand{\ku}{\mathrm{ku}} \newcommand{\ko}{\mathrm{ko}}
+\newcommand{\GL}{\mathrm{GL}} \newcommand{\Ln}{L_n} \newcommand{\Lt}{L_{K(t)}}
+\newcommand{\W}{\mathrm{W}} \newcommand{\BU}{\mathrm{BU}}
+\newcommand{\SU}{\mathrm{SU}} \newcommand{\MU}{\mathrm{MU}}
+\newcommand{\ul}[1]{\underline #1} \newcommand{\Sq}{\mathrm{Sq}}
+\newcommand{\Tr}{\mathrm{Tr}} \newcommand{\d}{\mathrm{d}}
+\newcommand{\HP}{\mathbf{H}P} \newcommand{\cL}{\mathcal{L}}
+\newcommand{\cs}{\mathrm{cs}} \newcommand{\cd}{\mathcal{D}}
+\newcommand{\Bord}{\mathrm{Bord}} \newcommand{\SO}{\mathrm{SO}}
+\newcommand{\cC}{\mathcal{C}} \newcommand{\Sp}{\mathrm{Sp}}
+\newcommand{\Lkd}{L_{K(d)}} \newcommand{\Mod}{\mathrm{Mod}}
+\newcommand{\cH}{\mathcal{H}} \newcommand{\ket}[1]{|#1 \rangle}
+\newcommand{\Bun}{\mathrm{Bun}} \newcommand{\cM}{\mathcal{M}}
+\newcommand{\MTH}{\mathrm{MT}H} \newcommand{\MSO}{\mathrm{MSO}}
+\newcommand{\twsm}{\ \widetilde{\wedge} \ } \newcommand{\BSpin}{\mathrm{BSpin}}
+\newcommand{\MSpin}{\mathrm{MSpin}} \newcommand{\BString}{\mathrm{BString}}
+\newcommand{\MString}{\mathrm{MString}} \newcommand{\B}{\mathrm{B}}
+\newcommand{\der}{\mathrm{der}} \newcommand{\Cat}{\mathrm{Cat}}
+\newcommand{\QCoh}{\mathrm{QCoh}} \newcommand{\LMod}{\mathrm{LMod}}
+\newcommand{\Rep}{\mathrm{Rep}} \newcommand{\HH}{\mathrm{HH}}
+\newcommand{\ZZ}{\mathfrak{Z}} \newcommand{\fr}{\mathrm{fr}}
+\newcommand{\BSO}{\mathrm{BSO}} \newcommand{\BSU}{\mathrm{BSU}}
+\newcommand{\id}{\mathrm{id}} \newcommand{\Top}{\mathrm{Top}}
+\newcommand{\cP}{\mathcal{P}} \newcommand{\U}{\mathrm{U}}
+\newcommand{\Sym}{\mathrm{Sym}} \newcommand{\coker}{\mathrm{coker}}
+\newcommand{\Vect}{\mathrm{Vect}} \newcommand{\Fun}{\mathrm{Fun}}
+\newcommand{\cT}{\mathcal{T}} \newcommand{\cJ}{\mathcal{J}}
+\newcommand{\Res}{\mathrm{Res}} \newcommand{\Ind}{\mathrm{Ind}}
+\newcommand{\MO}{\mathrm{MO}} \newcommand{\MSO}{\mathrm{MSO}}
+\newcommand{\colim}{\mathrm{colim}} \newcommand{\hocolim}{\mathrm{hocolim}}
+\newcommand{\fin}{\mathrm{fin}} \newcommand{\Tot}{\mathrm{Tot}}
+\newcommand{\im}{\mathrm{im}} \newcommand{\FT}{\mathrm{FT}}
+\newcommand{\AA}{\mathbf{A}} \newcommand{\Frob}{\mathrm{Frob}}
+\newcommand{\ex}{\mathrm{ex,pr}} \newcommand{\fil}{\mathrm{fil}}
+\newcommand{\gr}{\mathrm{gr}} \newcommand{\un}{\mathrm{un}}
+\newcommand{\Syn}{\mathrm{Syn}} \newcommand{\Cart}{\mathrm{Cart}}
+\newcommand{\bo}{\mathrm{bo}} \newcommand{\mmod}{/\!\!/}
+\newcommand{\bsp}{\mathrm{bsp}} \newcommand{\BPP}{\mathrm{BP}}
+\newcommand{\CAlg}{\mathrm{CAlg}} \newcommand{\TCart}{\mathrm{TCart}}
+\newcommand{\BW}{\mathrm{BW}} \newcommand{\Br}{\mathrm{Br}}
+\newcommand{\Pic}{\mathrm{Pic}} \newcommand{\ext}{\mathrm{ext}}
+\newcommand{\Cl}{\mathrm{Cl}} \newcommand{\disc}{\mathrm{disc}}
+\newcommand{\dir}{D\!\!\!\!/} \newcommand{\bb}{\mathrm{bb}}
+\newcommand{\Ran}{\mathrm{Ran}} \newcommand{\cu}{\mathcal{U}}
+\newcommand{\Gr}{\mathrm{Gr}} \newcommand{\Alg}{\mathrm{Alg}}
+\newcommand{\G}{\Gamma} \newcommand{\dY}{\mathcal{Y}}
+\newcommand{\Line}{\mathrm{Line}} \newcommand{\MUP}{\mathrm{MUP}}
+\newcommand{\Bl}{\mathrm{Bl}} \newcommand{\St}{\mathrm{St}}
+\newcommand{\cB}{\mathcal{B}} \newcommand{\SL}{\mathrm{SL}}
+\newcommand{\XX}{\mathrm{X}} \newcommand{\gp}{\mathrm{gp}}
+\newcommand{\Q}{\mathrm{Q}} \newcommand{\cI}{\mathcal{I}}
+\newcommand{\T}{\mathrm{T}} \newcommand{\D}{\mathrm{D}}
+\newcommand{\Aff}{\mathrm{Aff}} \newcommand{\BGL}{\mathrm{BGL}}
+\newcommand{\an}{\mathrm{an}} \newcommand{\Tel}{\mathrm{Tel}}
+\renewcommand{\|}{|} \newcommand{\MGL}{\mathrm{MGL}}
+\newcommand{\CH}{\mathrm{CH}} \newcommand{\fr}[1]{\mathfrak #1}
+\newcommand{\ch}{\mathrm{ch}} \newcommand{\Td}{\mathrm{Td}}</script>
+
+<p>In this post, I would like to talk about a very nice and classical fact I
+probably should have learned about a long time ago: equivariant
+Grothendieck-Riemann-Roch on the flag variety of a simply-connected semisimple
+algebraic group is exactly the Weyl character formula. To set this up, we’ve
+gotta do the usual rep theory thing, and set up a bunch of notation. Let <script type="math/tex">G</script>
+be a simply-connected semisimple algebraic group, let <script type="math/tex">B</script> be a Borel inside
+<script type="math/tex">G</script>, and let <script type="math/tex">T</script> be a maximal torus contained in <script type="math/tex">T</script>. Let <script type="math/tex">\fr{g}</script>,
+<script type="math/tex">\fr{b}</script>, and <script type="math/tex">\fr{t}</script> denote the associated Lie algebras. Let <script type="math/tex">W</script> be the
+Weyl group. Let <script type="math/tex">\Phi^+</script> denote the positive roots, and let <script type="math/tex">\rho</script> denote
+the half sum of all the positive weights.</p>
+
+<p>Recall that there are two (commuting) natural group actions on <script type="math/tex">X</script>: namely,
+the maximal torus <script type="math/tex">T</script> acts on <script type="math/tex">G/B</script> in the canonical way, as does the Weyl
+group <script type="math/tex">W</script>. For a weight <script type="math/tex">\lambda</script>, there is an associated line bundle
+<script type="math/tex">\cL_\lambda</script> on <script type="math/tex">G/B</script>. This automatically admits a canonical
+<script type="math/tex">G</script>-equivariant structure. If <script type="math/tex">\lambda</script> is dominant, then Borel-Weil-Bott
+states that <script type="math/tex">\H^\ast(G/B;\cL_\lambda)</script> vanishes in nonzero degrees, and in
+degree zero is the irrep <script type="math/tex">V_\lambda</script> of <script type="math/tex">G</script> of height weight <script type="math/tex">\lambda</script>.
+So, the Chern character of <script type="math/tex">\Gamma(G/B;\cL_\lambda)</script> (the derived global
+sections, but this doesn’t matter by Borel-Weil-Bott) is just <script type="math/tex">\dim
+V_\lambda</script>. This is also true for the <script type="math/tex">T</script>-equivariant cohomology of
+<script type="math/tex">\cL_\lambda</script>; namely, the <script type="math/tex">T</script>-equivariant Chern character (which lands in
+<script type="math/tex">\H_T(\ast) = \Sym^\ast(\fr{t}^\vee)</script>) is given by <script type="math/tex">\sum_\lambda
+\dim(V_\lambda)_\lambda e^\lambda</script> as <script type="math/tex">\lambda</script> ranges over all weights.</p>
+
+<p>The equivariant Grothendieck-Riemann-Roch theorem tells us that</p>
+
+<script type="math/tex; mode=display">\sum_\lambda \dim(V_\lambda)_\lambda e^\lambda = \int_{G/B} \ch(\cL_\lambda)
+\Td(T_{G/B}).</script>
+
+<p>So, we need to determine <script type="math/tex">\ch(\cL_\lambda)</script>, <script type="math/tex">\Td(T_{G/B})</script>, and how to
+integrate. We begin with determining <script type="math/tex">\ch(\cL_\lambda)</script>: this is easy, it’s
+just <script type="math/tex">e^\lambda</script>. That’s because <script type="math/tex">\cL_\lambda</script> is a line bundle whose first
+Chern class is <script type="math/tex">\lambda</script>. Now recall that the Todd class is the product over
+all Chern roots <script type="math/tex">a</script> of <script type="math/tex">a/(1-e^{-a})</script>. So, what are the Chern roots? We know
+that the tangent space to <script type="math/tex">G/B</script> at the basepoint determined by the Borel <script type="math/tex">B</script>
+is <script type="math/tex">\fr{g/b}</script>. We also know that the weights of the <script type="math/tex">T</script>-action are exactly
+the negative roots, and this means that the Chern roots are the positive roots.
+Therefore,</p>
+
+<script type="math/tex; mode=display">\Td(T_{G/B}) = \prod_{\alpha\in \Phi^+} \frac{\alpha}{1-e^{-\alpha}}.</script>
+
+<p>Finally, what is integration? Let <script type="math/tex">f\in \cc[\![t^\vee]\!]</script> (so <script type="math/tex">f</script> defines
+an element of <script type="math/tex">\H^\ast(G/B;\cc)</script> under the canonical map
+<script type="math/tex">\cc[\![t^\vee]\!]\to \H^\ast(G/B;\cc)</script>); then, we claim that</p>
+
+<script type="math/tex; mode=display">\int_{G/B} f = \frac{\sum_{w\in W} (-1)^{\ell(w)} w^\ast(f)}{\prod_{\alpha\in
+\Phi^+} \alpha}.</script>
+
+<p>Indeed, we can average <script type="math/tex">f</script> over the Weyl group to write <script type="math/tex">f = |W|^{-1}
+\sum_{w\in W} (-1)^{\ell(w)} w^\ast(f)</script>. The reason for the sign
+<script type="math/tex">(-1)^{\ell(w)}</script> is that the Weyl group action reverses the orientation if it
+has odd length. Now, it’s somehow true that <script type="math/tex">f</script> is divisible by
+<script type="math/tex">\prod_{\alpha\in \Phi^+} \alpha</script>, but I don’t get why. If we assume this,
+then we find that it suffices to show that</p>
+
+<script type="math/tex; mode=display">\int_{G/B} \prod_{\alpha\in \Phi^+} \alpha = |W|.</script>
+
+<p>But we showed that the positive roots <script type="math/tex">\alpha</script> are the Chern roots of <script type="math/tex">G/B</script>.
+So their product is the top Chern class of <script type="math/tex">G/B</script>, and thus the above integral
+is computing the Euler characteristic of <script type="math/tex">G/B</script>. The Bruhat decomposition tells
+us that <script type="math/tex">G/B</script> has <script type="math/tex">|W|</script> cells, all of which live in even dimensions; this
+implies the desired claim.</p>
+
+<p>Putting all of this together, we find that</p>
+
+<script type="math/tex; mode=display">\sum_\lambda \dim(V_\lambda)_\lambda e^\lambda = \int_{G/B} \ch(\cL_\lambda)
+\Td(T_{G/B}) = \frac{\sum_{w\in W} (-1)^{\ell(w)} w^\ast(\ch(\cL_\lambda)
+\Td(T_{G/B}))}{\prod_{\alpha\in \Phi^+} \alpha}.</script>
+
+<p>But</p>
+
+<script type="math/tex; mode=display">\ch(\cL_\lambda) \Td(T_{G/B}) = e^\lambda \prod_{\alpha\in
+\Phi^+} \frac{\alpha}{1-e^{-\alpha}} = e^{\lambda+\rho} \prod_{\alpha\in
+\Phi^+} \frac{\alpha}{e^{\alpha/2}-e^{-\alpha/2}},</script>
+
+<p>so</p>
+
+<script type="math/tex; mode=display">w^\ast(\ch(\cL_\lambda) \Td(T_{G/B})) = e^{w(\lambda+\rho)} \prod_{\alpha\in
+\Phi^+} \frac{\alpha}{e^{\alpha/2}-e^{-\alpha/2}},</script>
+
+<p>because the product over the positive roots is <script type="math/tex">W</script>-invariant. Putting this
+back into the first equation let us win:</p>
+
+<script type="math/tex; mode=display">\sum_\lambda \dim(V_\lambda)_\lambda e^\lambda = \frac{\sum_{w\in W}
+(-1)^{\ell(w)} e^{w(\lambda+\rho)}}{\prod_{\alpha\in \Phi^+} e^{\alpha/2} -
+e^{-\alpha/2}}.</script>
+
+<p>There are many generalizations I’m curious about… For example, what happens if
+I use the affine flag variety <script type="math/tex">G(\!(t)\!)/I</script> (where <script type="math/tex">I</script> is the Iwahori
+subgroup given by a preimage of the Borel under <script type="math/tex">G[\![t]\!]\to G</script>)? (Do you
+get the Kac character formula?) It’s probably the “wrong thing” to try to apply
+the Grothendieck-Riemann-Roch theorem here. I think of Riemann-Roch as a special
+case of the Atiyah-Singer index theorem, and so in particular the above stuff is
+the analysis of the Dolbeaut operator on the flag variety. So, when working with
+the affine flag variety, probably the right thing to do would be to study the
+Witten genus on the affine flag variety as the “index of some operator on the
+affine flag variety”. Seems like it might be very interesting!</p>
+
+  </div><a class="u-url" href="/blog/representation-theory/2020/04/30/weyl.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Sanath Devalapurkar&#39;s home page</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Sanath Devalapurkar&#39;s home page</li><li><a class="u-email" href="mailto:sanathdevalapurkar@g.harvard.edu">sanathdevalapurkar@g.harvard.edu</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>Graduate student in math.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

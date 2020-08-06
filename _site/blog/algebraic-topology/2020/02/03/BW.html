@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Brauer-Wall spaces and algebraic K-theory | Sanath Devalapurkar’s home page</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Brauer-Wall spaces and algebraic K-theory" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Graduate student in math." />
+<meta property="og:description" content="Graduate student in math." />
+<link rel="canonical" href="http://localhost:4000/blog/algebraic-topology/2020/02/03/BW.html" />
+<meta property="og:url" content="http://localhost:4000/blog/algebraic-topology/2020/02/03/BW.html" />
+<meta property="og:site_name" content="Sanath Devalapurkar’s home page" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-02-03T00:00:00-08:00" />
+<script type="application/ld+json">
+{"url":"http://localhost:4000/blog/algebraic-topology/2020/02/03/BW.html","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/blog/algebraic-topology/2020/02/03/BW.html"},"description":"Graduate student in math.","headline":"Brauer-Wall spaces and algebraic K-theory","dateModified":"2020-02-03T00:00:00-08:00","datePublished":"2020-02-03T00:00:00-08:00","@type":"BlogPosting","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Sanath Devalapurkar's home page" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Sanath Devalapurkar&#39;s home page</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/blog/">Blog</a><a class="page-link" href="/">Home</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Brauer-Wall spaces and algebraic K-theory</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2020-02-03T00:00:00-08:00" itemprop="datePublished">Feb 3, 2020
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
+
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-109004213-1"></script>
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+        gtag('config', 'UA-109004213-1');
+</script>
+
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+<script type="math/tex; mode=display">\newcommand{\KO}{\mathrm{KO}} \newcommand{\TMF}{\mathrm{TMF}}
+\newcommand{\KU}{\mathrm{KU}} \newcommand{\Mfg}{M_\mathrm{fg}}
+\newcommand{\spec}{\mathrm{Spec}\ } \newcommand{\dX}{\mathcal{X}}
+\newcommand{\co}{\mathcal{O}} \newcommand{\Z}{\mathbf{Z}}
+\newcommand{\top}{\mathrm{top}} \newcommand{\E}{\mathbf{E}}
+\newcommand{\GG}{\mathbf{G}} \newcommand{\DD}{\mathbf{D}}
+\newcommand{\Mell}{M_\mathrm{ell}} \newcommand{\ce}{\mathcal{E}}
+\newcommand{\H}{\mathrm{H}} \newcommand{\dR}{\mathrm{dR}}
+\newcommand{\cf}{\mathcal{F}} \newcommand{\FF}{\mathbf{F}}
+\newcommand{\spf}{\mathrm{Spf}\ } \newcommand{\cA}{\mathcal{A}}
+\newcommand{\Mcub}{M_\mathrm{cub}} \newcommand{\Mqd}{M_\mathrm{qd}}
+\newcommand{\Aut}{\mathrm{Aut}} \newcommand{\tmf}{\mathrm{tmf}}
+\newcommand{\Tmf}{\mathrm{Tmf}} \newcommand{\Map}{\mathrm{Map}}
+\newcommand{\Ext}{\mathrm{Ext}} \newcommand{\End}{\mathrm{End}}
+\newcommand{\cg}{\mathcal{G}} \newcommand{\Hom}{\mathrm{Hom}}
+\newcommand{BP}[1]{\mathrm{BP}\langle #1\rangle} \newcommand{\QQ}{\mathbf{Q}}
+\newcommand{\PP}{\mathbf{P}} \newcommand{\Gal}{\mathrm{Gal}}
+\newcommand{\proj}{\mathrm{Proj}\ } \newcommand{\Ltwo}{L_{K(2)}}
+\newcommand{\Eoo}{\mathbf{E}_\infty} \newcommand{\ol}[1]{\overline #1}
+\newcommand{\pic}{\mathrm{Pic}} \newcommand{\RP}{\mathbf{R}P}
+\newcommand{\BO}{\mathrm{BO}} \newcommand{\cc}{\mathbf{C}}
+\newcommand{\CP}{\mathbf{C}P} \newcommand{\wt}[1]{\widetilde #1}
+\newcommand{\RR}{\mathbf{R}} \renewcommand{\S}{\mathbb{S}}
+\newcommand{\Lone}{L_{K(1)}} \newcommand{\Ltwo}{L_{K(2)}}
+\newcommand{\gl}{\mathrm{gl}} \newcommand{\Lk}{L_{K(n)}}
+\newcommand{\ku}{\mathrm{ku}} \newcommand{\ko}{\mathrm{ko}}
+\newcommand{\GL}{\mathrm{GL}} \newcommand{\Ln}{L_n} \newcommand{\Lt}{L_{K(t)}}
+\newcommand{\W}{\mathrm{W}} \newcommand{\BU}{\mathrm{BU}}
+\newcommand{\SU}{\mathrm{SU}} \newcommand{\MU}{\mathrm{MU}}
+\newcommand{\ul}[1]{\underline #1} \newcommand{\Sq}{\mathrm{Sq}}
+\newcommand{\Tr}{\mathrm{Tr}} \newcommand{\d}{\mathrm{d}}
+\newcommand{\HP}{\mathbf{H}P} \newcommand{\cL}{\mathcal{L}}
+\newcommand{\cs}{\mathrm{cs}} \newcommand{\cd}{\mathcal{D}}
+\newcommand{\Bord}{\mathrm{Bord}} \newcommand{\SO}{\mathrm{SO}}
+\newcommand{\cC}{\mathcal{C}} \newcommand{\Sp}{\mathrm{Sp}}
+\newcommand{\Lkd}{L_{K(d)}} \newcommand{\Mod}{\mathrm{Mod}}
+\newcommand{\cH}{\mathcal{H}} \newcommand{\ket}[1]{|#1 \rangle}
+\newcommand{\Bun}{\mathrm{Bun}} \newcommand{\cM}{\mathcal{M}}
+\newcommand{\MTH}{\mathrm{MT}H} \newcommand{\MSO}{\mathrm{MSO}}
+\newcommand{\twsm}{\ \widetilde{\wedge} \ } \newcommand{\BSpin}{\mathrm{BSpin}}
+\newcommand{\MSpin}{\mathrm{MSpin}} \newcommand{\BString}{\mathrm{BString}}
+\newcommand{\MString}{\mathrm{MString}} \newcommand{\B}{\mathrm{B}}
+\newcommand{\der}{\mathrm{der}} \newcommand{\Cat}{\mathrm{Cat}}
+\newcommand{\QCoh}{\mathrm{QCoh}} \newcommand{\LMod}{\mathrm{LMod}}
+\newcommand{\Rep}{\mathrm{Rep}} \newcommand{\HH}{\mathrm{HH}}
+\newcommand{\ZZ}{\mathfrak{Z}} \newcommand{\fr}{\mathrm{fr}}
+\newcommand{\BSO}{\mathrm{BSO}} \newcommand{\BSU}{\mathrm{BSU}}
+\newcommand{\id}{\mathrm{id}} \newcommand{\Top}{\mathrm{Top}}
+\newcommand{\cP}{\mathcal{P}} \newcommand{\U}{\mathrm{U}}
+\newcommand{\Sym}{\mathrm{Sym}} \newcommand{\coker}{\mathrm{coker}}
+\newcommand{\Vect}{\mathrm{Vect}} \newcommand{\Fun}{\mathrm{Fun}}
+\newcommand{\cT}{\mathcal{T}} \newcommand{\cJ}{\mathcal{J}}
+\newcommand{\Res}{\mathrm{Res}} \newcommand{\Ind}{\mathrm{Ind}}
+\newcommand{\MO}{\mathrm{MO}} \newcommand{\MSO}{\mathrm{MSO}}
+\newcommand{\colim}{\mathrm{colim}} \newcommand{\hocolim}{\mathrm{hocolim}}
+\newcommand{\fin}{\mathrm{fin}} \newcommand{\Tot}{\mathrm{Tot}}
+\newcommand{\im}{\mathrm{im}} \newcommand{\FT}{\mathrm{FT}}
+\newcommand{\AA}{\mathbf{A}} \newcommand{\Frob}{\mathrm{Frob}}
+\newcommand{\ex}{\mathrm{ex,pr}} \newcommand{\fil}{\mathrm{fil}}
+\newcommand{\gr}{\mathrm{gr}} \newcommand{\un}{\mathrm{un}}
+\newcommand{\Syn}{\mathrm{Syn}} \newcommand{\Cart}{\mathrm{Cart}}
+\newcommand{\bo}{\mathrm{bo}} \newcommand{\mmod}{/\!\!/}
+\newcommand{\bsp}{\mathrm{bsp}} \newcommand{\BPP}{\mathrm{BP}}
+\newcommand{\CAlg}{\mathrm{CAlg}} \newcommand{\TCart}{\mathrm{TCart}}
+\newcommand{\BW}{\mathrm{BW}} \newcommand{\Br}{\mathrm{Br}}
+\newcommand{\Pic}{\mathrm{Pic}} \newcommand{\ext}{\mathrm{ext}}
+\newcommand{\Cl}{\mathrm{Cl}} \newcommand{\disc}{\mathrm{disc}}</script>
+
+<p>I’m gonna force myself to write more often. I was working on a really
+interesting project this past month with a grad student in the physics
+department: we’re trying to understand anomaly cancellations via index theorems.
+I’ll write more in the next post (I hope), but roughly speaking, the parity
+anomaly for massless fermions (in odd dimensions) which are invariant under
+time-reversal can be cancelled by extending to a bulk of one dimension higher,
+and adding on “gravitational terms” (i.e., characteristic classes like the A-hat
+genus) — the cancellation stems from the Atiyah-Patodi-Singer index theorem on
+manifolds with boundary. It’s super cool stuff.</p>
+
+<p>But for now, I’d like to talk about something that’s been lying dormant for a
+while. Recently, I found <a href="https://mathoverflow.net/questions/87345/brauer-groups-and-k-theory/87384#87384">this
+answer</a>
+of Charles Rezk, which basically talks about the idea of this post which I had
+tried to work on last semester. That’s what motivated me to write up this post.</p>
+
+<p>Let <script type="math/tex">R</script> be an <script type="math/tex">\Eoo</script>-ring, and consider the Brauer space <script type="math/tex">\Br(R)</script> of
+<script type="math/tex">R</script>. This is the Picard space of the <script type="math/tex">(\infty,2)</script>-category <script type="math/tex">\Mod_{\Mod_R}</script>
+of stable <script type="math/tex">R</script>-linear <script type="math/tex">\infty</script>-categories. If <script type="math/tex">K(R)</script> denotes the algebraic
+K-theory of <script type="math/tex">R</script>, then there is a functor <script type="math/tex">\Mod_{\Mod_R} \to \Mod_{K(R)}</script>
+given by taking algebraic K-theory. The algebraic K-theory of a stable
+<script type="math/tex">R</script>-linear <script type="math/tex">\infty</script>-category is a <script type="math/tex">K(R)</script>-module because algebraic K-theory
+is lax symmetric monoidal. This also means that the functor <script type="math/tex">\Mod_{\Mod_R} \to
+\Mod_{K(R)}</script> is lax monoidal, and hence one can take Picard spaces to obtain an
+infinite loop map <script type="math/tex">\Br(R) \to \Pic(K(R))</script>.</p>
+
+<p>If <script type="math/tex">R = \cc</script> is the complex numbers, then this defines a map <script type="math/tex">\Br(\cc) \to
+\Pic(K(\cc))</script>. The source is easy to identify: <script type="math/tex">\Br(\cc) \simeq B^2 \cc^\times
+\simeq K(\cc^\times, 2)</script> as infinite loop spaces, where <script type="math/tex">\cc^\times</script> is given
+the discrete topology. This stems from the fact that the Brauer and Picard
+groups of <script type="math/tex">\cc</script> are trivial.</p>
+
+<p>There is a canonical <script type="math/tex">\Eoo</script>-ring map <script type="math/tex">K(\cc) \to \KU</script>, which Gabber-Suslin
+proved to be an equivalence upon <script type="math/tex">p</script>-completion for any prime <script type="math/tex">% <![CDATA[
+p<\infty %]]></script>.
+One might therefore be interested in studying the Picard space <script type="math/tex">\Pic(\KU)</script> —
+this is useful for a number of reasons, including studying <script type="math/tex">\Eoo</script>-maps into
+<script type="math/tex">\KU</script>.  One may explicitly identify <script type="math/tex">\Pic(\KU)</script> as an infinite loop space.
+We know that <script type="math/tex">\Omega^\infty \KU \simeq \Z\times \BU</script>, and <script type="math/tex">\BU^\otimes</script>
+(i.e., <script type="math/tex">\BU</script> with its H-space structure given by tensor product) decomposes as
+a product <script type="math/tex">\CP^\infty \times \BSU^\otimes \simeq \CP^\infty \times
+\BSU^\oplus</script>. The equivalence <script type="math/tex">\BSU^\otimes \simeq \BSU^\oplus</script> is a
+consequence of the tom Dieck/Rezk logarithm, and is also a consequence of work
+of Adams and Priddy on unique deloopings of infinite loop spaces. In any case,
+one finds that <script type="math/tex">\GL_1(\KU) \simeq \Z/2\times \CP^\infty \times \BSU</script>, and this
+gives</p>
+
+<script type="math/tex; mode=display">\Pic(\KU) \simeq \Z/2\times \RP^\infty \times K(\Z,3) \times B^2\SU.</script>
+
+<p>Again, this is an equivalence of infinite loop spaces.</p>
+
+<p>In particular, the coconnected cover <script type="math/tex">\tau_{\leq 3} \Pic(\KU)</script> splits off
+<script type="math/tex">\Pic(\KU)</script>. It can be explicitly identified with a certain moduli problem.
+Namely, if <script type="math/tex">R</script> is an <script type="math/tex">\Eoo</script>-ring, we can consider the
+<script type="math/tex">(\infty,2)</script>-category <script type="math/tex">\Mod_{\Mod^\gr_R}</script> of <script type="math/tex">\Z/2</script>-graded <script type="math/tex">R</script>-linear
+stable <script type="math/tex">\infty</script>-categories. The Brauer-Wall space <script type="math/tex">\BW(R)</script> of <script type="math/tex">R</script> is
+defined to be <script type="math/tex">\Pic(\Mod_{\Mod^\gr_R})</script>.  Then there is an equivalence of
+infinite loop spaces</p>
+
+<script type="math/tex; mode=display">\BW(\cc) \simeq \tau_{\leq 3} \Pic(\KU) \simeq \Z/2\times \RP^\infty \times
+K(\Z,3).</script>
+
+<p>Similarly, <script type="math/tex">\BW(\RR) \simeq \tau_{\leq 3} \Pic(\KO)</script>.</p>
+
+<p>There are a few ways one can prove this fact. Before I do so, I’m obligated to
+make a couple of comments. The homotopy groups of <script type="math/tex">\BW(\cc)</script> are</p>
+
+<script type="math/tex; mode=display">\pi_0(\BW(\cc)) \cong \Z/2, \ \pi_1(\BW(\cc)) \cong \Z/2, \ \pi_2(\BW(\cc))
+\cong 0, \ \pi_3(\BW(\cc)) \cong \Z.</script>
+
+<p>This is exactly the homotopy of <script type="math/tex">\Omega^\infty \Sigma^2 I_\Z</script>, where <script type="math/tex">I_\Z</script>
+is the Anderson dualizing spectrum. In fact, <script type="math/tex">\BW(\cc) \simeq \Omega^\infty
+\Sigma^3 I_\Z</script>. Moreover, unpublished work of Hopkins and Lurie identifies
+<script type="math/tex">\Omega^\infty \Sigma^2 I_\Z</script> with the fiber of the map <script type="math/tex">\gl_1(\KU) \to L_1
+\gl_1(\KU)</script>, at least after <script type="math/tex">p</script>-completion. One way to interpret the map
+<script type="math/tex">\BW(\cc) \to \Pic(\KU)</script> is via this overblown construction.</p>
+
+<p>The above identification of <script type="math/tex">\BW(\cc)</script> is originally (albeit not in this form)
+due to Atiyah, Bott, and Shapiro. There is a map <script type="math/tex">\Br(\cc) \to \BW(\cc)</script>, and
+the diagram</p>
+
+<script type="math/tex; mode=display">% <![CDATA[
+\begin{array}{ccc}
+\Br(\cc) & \to & \Pic(K(\cc)) \\
+\downarrow & & \downarrow\\
+\BW(\cc) & \to & \Pic(\KU)
+\end{array} %]]></script>
+
+<p>commutes. One might wonder if there is a moduli-theoretic description of the
+bottom map, since we gave a description of the top map in terms of algebraic
+K-theory. Here’s one way to do it.</p>
+
+<p>The motivation comes from Atiyah-Bott-Shapiro’s original construction. Let’s
+recall how that goes: let <script type="math/tex">\Cl_n</script> denote the complex Clifford algebra
+associated to the negative-definite quadratic form over <script type="math/tex">\cc^n</script>. This is a
+<script type="math/tex">\Z/2</script>-graded algebra. Given any <script type="math/tex">\Z/2</script>-graded <script type="math/tex">\Cl_n</script>-module <script type="math/tex">M^+\oplus
+M^-</script>, one can consider the constant vector bundles <script type="math/tex">\pi^\ast M^{\pm}</script> on
+<script type="math/tex">D^n</script>, which we will think of as the unit ball in <script type="math/tex">\RR^n</script>. One obtains a map
+<script type="math/tex">\sigma:\pi^\ast M^+ \to \pi^\ast M^-</script>, given over every point in <script type="math/tex">D^n</script> by
+multiplication by that vector. Since the map is an isomorphism on the boundary
+<script type="math/tex">\partial D^n = S^{n-1}</script> (because the norm squared of a point on the boundary
+is <script type="math/tex">-1</script>), one obtains an element of <script type="math/tex">\KU^0(D^n, S^{n-1}) \cong
+\wt{\KU}^0(S^n)</script>.</p>
+
+<p>Now, if the <script type="math/tex">\Cl_n</script>-module structure on <script type="math/tex">M^+\oplus M^-</script> extends to a
+<script type="math/tex">\Cl_{n+1}</script>-module structure, then the isomorphism <script type="math/tex">\sigma|_{S^{n-1}}</script>
+extends to the “upper hemisphere” of <script type="math/tex">S^n</script> (which is a <script type="math/tex">D^n</script>). It follows
+that <script type="math/tex">\sigma</script> is an isomorphism on <script type="math/tex">D^n</script> itself, so the resulting element of
+<script type="math/tex">\KU^0(S^n)</script> is trivial. In particular, we obtain a map</p>
+
+<script type="math/tex; mode=display">K_0(\Mod_{\Cl_n}^\gr)/K_0(\Mod_{\Cl_{n+1}}^\gr)
+=``K_0(\Mod_{\Cl_n}^\gr/\Mod_{\Cl_{n+1}}^\gr)" \to \pi_{-n} \KU,</script>
+
+<p>and Atiyah-Bott-Shapiro show that this map is an isomorphism.</p>
+
+<p>So, the question becomes: how do you characterize
+<script type="math/tex">\Mod_{\Cl_n}^\gr/\Mod_{\Cl_{n+1}}^\gr</script>? More precisely, how do you
+characterize the image of <script type="math/tex">\Mod_{\Cl_{n+1}}^\gr</script> in <script type="math/tex">\Mod_{\Cl_n}^\gr</script>? This
+isn’t so bad, based off the above discussion: a <script type="math/tex">M^+\oplus M^-\in
+\Mod_{\Cl_n}^\gr</script> comes from a graded <script type="math/tex">\Cl_{n+1}</script>-module if there is an
+endomorphism <script type="math/tex">\sigma:M^\pm\to M^\mp</script> (given by the action of <script type="math/tex">\Cl_n</script>) such
+that <script type="math/tex">\sigma^2</script>, which is an element of the <script type="math/tex">\cc</script>-vector space
+<script type="math/tex">\Map_\cc(M^\pm, M^\pm)</script>, is actually just a negative real (because the
+negative norm-squared of any nonzero complex number is a negative real). In
+particular, if we say that such a module <script type="math/tex">M^+\oplus M^-</script> is “extendible”, then
+we obtain a map from the Grothendieck group of <script type="math/tex">\Mod_{\Cl_n}^\gr</script> modulo
+extendible objects to <script type="math/tex">\pi_{-n} \KU</script> which is an isomorphism.</p>
+
+<p>The advantage of this definition is that it doesn’t use any explicit description
+of Clifford algebras: if <script type="math/tex">\cC</script> is a <script type="math/tex">\Z/2</script>-graded <script type="math/tex">\cc</script>-linear stable
+<script type="math/tex">\infty</script>-category, then we can still say that a <script type="math/tex">\Z/2</script>-graded object
+<script type="math/tex">M^+\oplus M^-\in \cC</script> is extendible if there is an endomorphism
+<script type="math/tex">\sigma:M^\pm\to M^\mp</script> such that <script type="math/tex">\sigma^2\in \Map_\cC(M^\pm, M^\pm)</script> is
+multiplication by a negative real. Let <script type="math/tex">\cC^\ext</script> denote the quotient of
+<script type="math/tex">\cC</script> by the extendible objects.  Then <script type="math/tex">\cC^\ext</script> is another <script type="math/tex">\Z/2</script>-graded
+<script type="math/tex">\cc</script>-linear stable <script type="math/tex">\infty</script>-category, and we can take <script type="math/tex">L_1
+K(\cC^\ext)^\wedge_p</script> for some fixed prime <script type="math/tex">p</script>. This defines a lax monoidal
+functor</p>
+
+<script type="math/tex; mode=display">\Mod_{\Mod_\cc^\gr} \to \Mod_{L_1 K((\Mod_\cc^\gr)^\ext)^\wedge_p}.</script>
+
+<p>However, <script type="math/tex">K((\Mod_\cc^\gr)^\ext) \cong K(\cc)</script>, and by Gabber-Suslin, <script type="math/tex">L_1
+K((\Mod_\cc^\gr)^\ext)^\wedge_p\cong \KU^\wedge_p</script> (as <script type="math/tex">\Eoo</script>-rings), so the
+procedure defined above gives a lax monoidal functor</p>
+
+<script type="math/tex; mode=display">\Mod_{\Mod_\cc^\gr} \to \Mod_{\KU^\wedge_p}.</script>
+
+<p>Taking Picard spaces, we obtain a map <script type="math/tex">\BW(\cc) \to \Pic(\KU^\wedge_p)</script>. This
+is the map we wanted to construct (upon composition with the map <script type="math/tex">\KU\to
+\KU^\wedge_p</script>).</p>
+
+<p>What’s the point of doing it this way? Well, once we do non-formal work to
+identify the invertible objects in <script type="math/tex">\Mod_{\Mod_\cc^\gr}</script> with
+<script type="math/tex">\Mod_{\Cl_n}^\gr</script> for varying <script type="math/tex">n</script> (in fact, all that matters in the complex
+case is <script type="math/tex">n=0,1</script>, and <script type="math/tex">n=0,\cdots,7</script> in the real case), we find that the
+Atiyah-Bott-Shapiro identification of <script type="math/tex">L_1
+K((\Mod_{\Cl_n}^\gr)^\ext)^\wedge_p</script> with <script type="math/tex">\Sigma^{-n} \KU^\wedge_p</script> (they do
+less than this, but the statement is still true) says that the map <script type="math/tex">\pi_0
+\BW(\cc) \cong \Z/2 \to \pi_0 \Pic(\KU^\wedge_p)</script> is an isomorphism. This is <em>a
+priori</em> not obvious at all: it says that the Brauer group grading agrees with
+the Picard group grading, and <em>is</em> Bott periodicity. All the stuff I said above
+goes through with the real numbers instead of <script type="math/tex">\cc</script>.</p>
+
+<p>One advantage of doing things in this way is that it suggests how one could go
+about generalizing it to algebraic K-theory. At this point, we hit an important
+roadblock. The reason <script type="math/tex">\Z/2</script>-gradings on our categories played so well is
+because there is an isomorphism <script type="math/tex">\RR^\times/(\RR^\times)^2 \cong
+\Z/2\{-1,1\}</script>; hence the simple definition of extendible objects. I’m not sure
+of the right way to define extendible objects in general <script type="math/tex">\Z/2</script>-graded
+<script type="math/tex">R</script>-linear stable <script type="math/tex">\infty</script>-categories. Such a notion would allow us to
+define a lax monoidal functor</p>
+
+<script type="math/tex; mode=display">\Mod_{\Mod_R^\gr} \to \Mod_{L_1 K(R)^\wedge_p}</script>
+
+<p>for every prime <script type="math/tex">p</script>, and upon taking Picard spaces produce a map</p>
+
+<script type="math/tex; mode=display">\BW(R) \to \Pic(L_1 K(R)^\wedge_p) \cong \Pic(K^\mathrm{et}(R)^\wedge_p).</script>
+
+<p>I promised to tell you how to identify <script type="math/tex">\BW(\cc)</script>. Let’s first identify the
+homotopy groups of this space. We know that if <script type="math/tex">R</script> is any ring, then <script type="math/tex">\pi_0
+\BW(R)</script> is the Brauer-Wall group of <script type="math/tex">R</script> (if <script type="math/tex">R = \cc</script> or <script type="math/tex">\RR</script>, this is
+the group of Clifford algebras modulo Morita equivalences, i.e., <script type="math/tex">\Z/2</script> or
+<script type="math/tex">\Z/8</script>).  Next, <script type="math/tex">\pi_1 \BW(R)</script> is the Picard group of <script type="math/tex">\Mod_R^\gr</script>. If <script type="math/tex">R
+= \cc</script>, then there are exactly two invertible <script type="math/tex">\Z/2</script>-graded <script type="math/tex">\cc</script>-vector
+spaces: <script type="math/tex">\cc</script> in degrees <script type="math/tex">0</script> and <script type="math/tex">1</script>, respectively. (Recall that the
+tensor product of <script type="math/tex">V^+\oplus V^-</script> and <script type="math/tex">W^+\oplus W^-</script> is <script type="math/tex">(V^+\otimes
+W^+)\oplus (V^-\otimes W^-)</script> in degree <script type="math/tex">0</script> and <script type="math/tex">(V^+\otimes W^-)\oplus
+(V^-\otimes W^+)</script>, respectively.) If we were working in the ordinary
+categorical setting (so mapping spaces had discrete topologies), then <script type="math/tex">\pi_2
+\BW(R)</script> would be <script type="math/tex">R^\times</script>. However, since <script type="math/tex">\BW(R)</script> is defined higher
+categorically, this is not true; rather, if <script type="math/tex">\BW^\disc(R)</script> denotes the
+“discrete” Brauer-Wall space, then there is a fiber sequence of spaces</p>
+
+<script type="math/tex; mode=display">\BW^\disc(\cc) \to \BW(\cc) \to K(\RR,3),</script>
+
+<p>where <script type="math/tex">\RR</script> has the discrete topology. The long exact sequence on homotopy
+gives</p>
+
+<script type="math/tex; mode=display">\cdots \to \pi_3 \BW^\disc(\cc) = 0 \to \pi_3 \BW(\cc) \to \RR\to \pi_2
+\BW^\disc(R) = \cc^\times\to \pi_2 \BW(\cc) \to 0,</script>
+
+<p>so <script type="math/tex">\pi_2 \BW(\cc) = 0</script> and <script type="math/tex">\pi_3 \BW(\cc) \cong \Z</script>.</p>
+
+<p>Now consider the map <script type="math/tex">\BW(\cc)\to \Pic(\KU)</script>. The fiber sequence involving
+<script type="math/tex">\BW(\cc)</script> and <script type="math/tex">\BW^\disc(\cc)</script> shows that this map factors through
+<script type="math/tex">\tau_{\leq 3} \Pic(\KU)</script>. We know that <script type="math/tex">\tau_{\leq 0} \BW(\cc) \cong
+\tau_{\leq 0} \Pic(\KU)</script> (because they’re both just <script type="math/tex">\Z/2</script>). To identify
+<script type="math/tex">\BW(\cc)</script>, we can induct up the Postnikov tower. Note that both <script type="math/tex">\tau_{\leq
+1} \BW(\cc)</script> and <script type="math/tex">\tau_{\leq 1} \Pic(\KU))</script> have both <script type="math/tex">\pi_0</script> and <script type="math/tex">\pi_1</script>
+given by <script type="math/tex">\Z/2</script>, and no other homotopy. Any such space <script type="math/tex">Y</script> sits in a fiber
+sequence involving <script type="math/tex">\RP^\infty</script> and <script type="math/tex">\Z/2</script> — but it is easy to see that
+the only spaces <script type="math/tex">Y</script> which could possibly sit in such a fiber sequence are the
+point and <script type="math/tex">\RP^\infty\times \Z/2</script>. Since our spaces have nontrivial homotopy,
+they must both be the latter.</p>
+
+<p>Neither <script type="math/tex">\BW(\cc)</script> nor <script type="math/tex">\tau_{\leq 3} \Pic(\KU)</script> have nontrivial <script type="math/tex">\pi_2</script>,
+and both have <script type="math/tex">\pi_3</script> given by <script type="math/tex">\Z</script>. Therefore, if we write <script type="math/tex">X</script> to denote
+either of these spaces, then there’s a fiber sequence</p>
+
+<script type="math/tex; mode=display">K(\Z,3) \to X \to \RP^\infty \times \Z/2.</script>
+
+<p>Since everything involved is an infinite loop space, to show that this fiber
+sequence splits, it suffices to construct a map <script type="math/tex">\RP^\infty\times \Z/2\to X</script>.
+This is equivalent to a map <script type="math/tex">\RP^\infty \to X</script>. We know that this map already
+exists for <script type="math/tex">\Pic(\KU)</script>: it’s the delooping of the inclusion</p>
+
+<script type="math/tex; mode=display">\Z/2\to \GL_1(\KU) \simeq \Z/2\times \CP^\infty \times \BSU</script>
+
+<p>composed with the canonical map <script type="math/tex">B\GL_1(\KU) \to \Pic(\KU)</script>. Similarly, we
+know that <script type="math/tex">\pi_0 \Pic(\Mod_\cc^\gr) \cong \Z/2</script>, and so we obtain a map
+<script type="math/tex">\RP^\infty \to B\Pic(\Mod_\cc^\gr)</script>. There is a fiber sequence</p>
+
+<script type="math/tex; mode=display">B\Pic(\cC)\to \Br(\cC)\to \pi_0 \Br(\cC)</script>
+
+<p>for any symmetric monoidal <script type="math/tex">\infty</script>-category <script type="math/tex">\cC</script>, so we obtain our desired
+splitting map <script type="math/tex">\RP^\infty \to \BW(\cc)</script>.</p>
+
+  </div><a class="u-url" href="/blog/algebraic-topology/2020/02/03/BW.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Sanath Devalapurkar&#39;s home page</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Sanath Devalapurkar&#39;s home page</li><li><a class="u-email" href="mailto:sanathdevalapurkar@g.harvard.edu">sanathdevalapurkar@g.harvard.edu</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>Graduate student in math.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

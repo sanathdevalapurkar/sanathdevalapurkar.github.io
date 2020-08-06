@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Nonabelian Hodge theory, redux | Sanath Devalapurkar’s home page</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Nonabelian Hodge theory, redux" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Graduate student in math." />
+<meta property="og:description" content="Graduate student in math." />
+<link rel="canonical" href="http://localhost:4000/blog/algebraic-topology/2020/07/18/nah-redux.html" />
+<meta property="og:url" content="http://localhost:4000/blog/algebraic-topology/2020/07/18/nah-redux.html" />
+<meta property="og:site_name" content="Sanath Devalapurkar’s home page" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-07-18T00:00:00-07:00" />
+<script type="application/ld+json">
+{"url":"http://localhost:4000/blog/algebraic-topology/2020/07/18/nah-redux.html","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/blog/algebraic-topology/2020/07/18/nah-redux.html"},"description":"Graduate student in math.","headline":"Nonabelian Hodge theory, redux","dateModified":"2020-07-18T00:00:00-07:00","datePublished":"2020-07-18T00:00:00-07:00","@type":"BlogPosting","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Sanath Devalapurkar's home page" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Sanath Devalapurkar&#39;s home page</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/blog/">Blog</a><a class="page-link" href="/">Home</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Nonabelian Hodge theory, redux</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2020-07-18T00:00:00-07:00" itemprop="datePublished">Jul 18, 2020
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
+
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-109004213-1"></script>
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+        gtag('config', 'UA-109004213-1');
+</script>
+
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+<script type="math/tex; mode=display">\newcommand{\KO}{\mathrm{KO}} \newcommand{\TMF}{\mathrm{TMF}}
+\newcommand{\KU}{\mathrm{KU}} \newcommand{\Mfg}{M_\mathrm{fg}}
+\newcommand{\spec}{\mathrm{Spec}} \newcommand{\dX}{\mathcal{X}}
+\newcommand{\co}{\mathcal{O}} \newcommand{\Z}{\mathbf{Z}}
+\newcommand{\top}{\mathrm{top}} \newcommand{\E}{\mathbf{E}}
+\newcommand{\GG}{\mathbf{G}} \newcommand{\DD}{\mathbf{D}}
+\newcommand{\Mell}{M_\mathrm{ell}} \newcommand{\ce}{\mathcal{E}}
+\newcommand{\H}{\mathrm{H}} \newcommand{\dR}{\mathrm{dR}}
+\newcommand{\cf}{\mathcal{F}} \newcommand{\FF}{\mathbf{F}}
+\newcommand{\spf}{\mathrm{Spf}\ } \newcommand{\cA}{\mathcal{A}}
+\newcommand{\Mcub}{M_\mathrm{cub}} \newcommand{\Mqd}{M_\mathrm{qd}}
+\newcommand{\Aut}{\mathrm{Aut}} \newcommand{\tmf}{\mathrm{tmf}}
+\newcommand{\Tmf}{\mathrm{Tmf}} \newcommand{\Map}{\mathrm{Map}}
+\newcommand{\Ext}{\mathrm{Ext}} \newcommand{\End}{\mathrm{End}}
+\newcommand{\cg}{\mathcal{G}} \newcommand{\Hom}{\mathrm{Hom}}
+\newcommand{BP}[1]{\mathrm{BP}\langle #1\rangle} \newcommand{\QQ}{\mathbf{Q}}
+\newcommand{\PP}{\mathbf{P}} \newcommand{\Gal}{\mathrm{Gal}}
+\newcommand{\proj}{\mathrm{Proj}\ } \newcommand{\Ltwo}{L_{K(2)}}
+\newcommand{\Eoo}{\mathbf{E}_\infty} \newcommand{\ol}[1]{\overline #1}
+\newcommand{\pic}{\mathrm{Pic}} \newcommand{\RP}{\mathbf{R}P}
+\newcommand{\BO}{\mathrm{BO}} \newcommand{\cc}{\mathbf{C}}
+\newcommand{\CP}{\mathrm{CP}} \newcommand{\wt}[1]{\widetilde #1}
+\newcommand{\RR}{\mathbf{R}} \renewcommand{\S}{\mathbb{S}}
+\newcommand{\Lone}{L_{K(1)}} \newcommand{\Ltwo}{L_{K(2)}}
+\newcommand{\gl}{\mathrm{gl}} \newcommand{\Lk}{L_{K(n)}}
+\newcommand{\ku}{\mathrm{ku}} \newcommand{\ko}{\mathrm{ko}}
+\newcommand{\GL}{\mathrm{GL}} \newcommand{\Ln}{L_n} \newcommand{\Lt}{L_{K(t)}}
+\newcommand{\W}{\mathrm{W}} \newcommand{\BU}{\mathrm{BU}}
+\newcommand{\SU}{\mathrm{SU}} \newcommand{\MU}{\mathrm{MU}}
+\newcommand{\ul}[1]{\underline #1} \newcommand{\Sq}{\mathrm{Sq}}
+\newcommand{\Tr}{\mathrm{Tr}} \newcommand{\d}{\mathrm{d}}
+\newcommand{\HP}{\mathrm{HP}} \newcommand{\cL}{\mathcal{L}}
+\newcommand{\cs}{\mathrm{cs}} \newcommand{\cd}{\mathcal{D}}
+\newcommand{\Bord}{\mathrm{Bord}} \newcommand{\SO}{\mathrm{SO}}
+\newcommand{\cC}{\mathcal{C}} \newcommand{\Sp}{\mathrm{Sp}}
+\newcommand{\Lkd}{L_{K(d)}} \newcommand{\Mod}{\mathrm{Mod}}
+\newcommand{\cH}{\mathcal{H}} \newcommand{\ket}[1]{|#1 \rangle}
+\newcommand{\Bun}{\mathrm{Bun}} \newcommand{\cM}{\mathcal{M}}
+\newcommand{\MTH}{\mathrm{MT}H} \newcommand{\MSO}{\mathrm{MSO}}
+\newcommand{\twsm}{\ \widetilde{\wedge} \ } \newcommand{\BSpin}{\mathrm{BSpin}}
+\newcommand{\MSpin}{\mathrm{MSpin}} \newcommand{\BString}{\mathrm{BString}}
+\newcommand{\MString}{\mathrm{MString}} \newcommand{\B}{\mathrm{B}}
+\newcommand{\der}{\mathrm{der}} \newcommand{\Cat}{\mathrm{Cat}}
+\newcommand{\QCoh}{\mathrm{QCoh}} \newcommand{\LMod}{\mathrm{LMod}}
+\newcommand{\Rep}{\mathrm{Rep}} \newcommand{\HH}{\mathrm{HH}}
+\newcommand{\ZZ}{\mathfrak{Z}} \newcommand{\fr}{\mathrm{fr}}
+\newcommand{\BSO}{\mathrm{BSO}} \newcommand{\BSU}{\mathrm{BSU}}
+\newcommand{\id}{\mathrm{id}} \newcommand{\Top}{\mathrm{Top}}
+\newcommand{\cP}{\mathcal{P}} \newcommand{\U}{\mathrm{U}}
+\newcommand{\Sym}{\mathrm{Sym}} \newcommand{\coker}{\mathrm{coker}}
+\newcommand{\Vect}{\mathrm{Vect}} \newcommand{\Fun}{\mathrm{Fun}}
+\newcommand{\cT}{\mathcal{T}} \newcommand{\cJ}{\mathcal{J}}
+\newcommand{\Res}{\mathrm{Res}} \newcommand{\Ind}{\mathrm{Ind}}
+\newcommand{\MO}{\mathrm{MO}} \newcommand{\MSO}{\mathrm{MSO}}
+\newcommand{\colim}{\mathrm{colim}} \newcommand{\hocolim}{\mathrm{hocolim}}
+\newcommand{\fin}{\mathrm{fin}} \newcommand{\Tot}{\mathrm{Tot}}
+\newcommand{\im}{\mathrm{im}} \newcommand{\FT}{\mathrm{FT}}
+\newcommand{\AA}{\mathbf{A}} \newcommand{\Frob}{\mathrm{Frob}}
+\newcommand{\ex}{\mathrm{ex,pr}} \newcommand{\fil}{\mathrm{fil}}
+\newcommand{\gr}{\mathrm{gr}} \newcommand{\un}{\mathrm{un}}
+\newcommand{\Syn}{\mathrm{Syn}} \newcommand{\Cart}{\mathrm{Cart}}
+\newcommand{\bo}{\mathrm{bo}} \newcommand{\mmod}{/\!\!/}
+\newcommand{\bsp}{\mathrm{bsp}} \newcommand{\BPP}{\mathrm{BP}}
+\newcommand{\CAlg}{\mathrm{CAlg}} \newcommand{\TCart}{\mathrm{TCart}}
+\newcommand{\BW}{\mathrm{BW}} \newcommand{\Br}{\mathrm{Br}}
+\newcommand{\Pic}{\mathrm{Pic}} \newcommand{\ext}{\mathrm{ext}}
+\newcommand{\Cl}{\mathrm{Cl}} \newcommand{\disc}{\mathrm{disc}}
+\newcommand{\dir}{D\!\!\!\!/} \newcommand{\bb}{\mathrm{bb}}
+\newcommand{\Ran}{\mathrm{Ran}} \newcommand{\cu}{\mathcal{U}}
+\newcommand{\Gr}{\mathrm{Gr}} \newcommand{\Alg}{\mathrm{Alg}}
+\newcommand{\G}{\Gamma} \newcommand{\dY}{\mathcal{Y}}
+\newcommand{\Line}{\mathrm{Line}} \newcommand{\MUP}{\mathrm{MUP}}
+\newcommand{\Bl}{\mathrm{Bl}} \newcommand{\St}{\mathrm{St}}
+\newcommand{\cB}{\mathcal{B}} \newcommand{\SL}{\mathrm{SL}}
+\newcommand{\XX}{\mathrm{X}} \newcommand{\gp}{\mathrm{gp}}
+\newcommand{\Q}{\mathrm{Q}} \newcommand{\cI}{\mathcal{I}}
+\newcommand{\T}{\mathrm{T}} \newcommand{\D}{\mathrm{D}}
+\newcommand{\Aff}{\mathrm{Aff}} \newcommand{\BGL}{\mathrm{BGL}}
+\newcommand{\an}{\mathrm{an}} \newcommand{\Tel}{\mathrm{Tel}}
+\renewcommand{\|}{|} \newcommand{\MGL}{\mathrm{MGL}}
+\newcommand{\CH}{\mathrm{CH}} \newcommand{\fr}[1]{\mathfrak #1}
+\newcommand{\ch}{\mathrm{ch}} \newcommand{\Td}{\mathrm{Td}}
+\newcommand{\Spin}{\mathrm{Spin}} \newcommand{\G}{\mathrm{G}}
+\newcommand{\cHH}{\mathcal{H}} \newcommand{\F}{\mathrm{F}}
+\newcommand{\B}{\mathrm{B}} \newcommand{\HC}{\mathrm{HC}}
+\newcommand{\fib}{\mathrm{fib}} \newcommand{\tr}{\mathrm{tr}}
+\newcommand{\TR}{\mathrm{TR}} \newcommand{\THH}{\mathrm{THH}}
+\newcommand{\TP}{\mathrm{TP}} \newcommand{\crys}{\mathrm{crys}}
+\newcommand{\even}{\mathrm{even}} \newcommand{\odd}{\mathrm{odd}}
+\newcommand{\hodge}{\mathrm{Hodge}} \newcommand{\V}{\mathrm{V}}
+\newcommand{\C}{C} \newcommand{\K}{K} \newcommand{\M}{M} \newcommand{\X}{X}
+\newcommand{\h}{h} \newcommand{\TC}{\mathrm{TC}} \newcommand{\t}{t}
+\newcommand{\DC}{\mathrm{DC}} \newcommand{\str}{\mathrm{str}}
+\newcommand{\gen}{\mathrm{gen}} \newcommand{\Cyc}{\mathrm{CycSp}}
+\newcommand{\DA}{\mathrm{DA}} \newcommand{\AG}{\mathbf{A}^1/\mathbf{G}_m}
+\newcommand{\Crys}{\mathrm{Crys}} \newcommand{\cV}{\mathcal{V}}
+\newcommand{\can}{\mathrm{can}} \newcommand{\Coh}{\mathrm{Coh}}</script>
+
+<p>In this post, I would like to discuss nonabelian Hodge theory in characteristic
+<script type="math/tex">p</script>, and the possibility of homotopifying it. Unlike in characteristic zero,
+the correspondence here is entirely in the algebraic world. Let’s begin by
+discussing the classical results of Ogus and Vologodsky. Let <script type="math/tex">A</script> be a smooth
+<script type="math/tex">k</script>-algebra over a perfect field <script type="math/tex">k</script>, and let <script type="math/tex">\wt{A}</script> be a flat lift of
+<script type="math/tex">A</script> to <script type="math/tex">W_2(k)</script> with a lift <script type="math/tex">\wt{A}\to \wt{A}</script> of the Frobenius on <script type="math/tex">A</script>.
+Let <script type="math/tex">X</script> be a scheme over <script type="math/tex">A</script>, along with a lift <script type="math/tex">\wt{X}</script> of <script type="math/tex">X</script> to
+<script type="math/tex">\wt{A}</script>. Suppose, further, that the relative Frobenius <script type="math/tex">F:X\to X^{(p)}</script>
+over <script type="math/tex">A</script> lifts to <script type="math/tex">\wt{F}:\wt{X}\to \wt{X}^{(p)}</script>.</p>
+
+<p>Then, Ogus and Vologodsky prove that there is an equivalence between the
+category of modules <script type="math/tex">(\cf, \nabla)</script> on <script type="math/tex">X</script> with a flat connection and
+modules <script type="math/tex">\cV</script> over <script type="math/tex">X^{(p)}</script> with a Higgs field <script type="math/tex">\theta:\cV\to
+\cV\otimes_A \Omega^1_{X^{(p)}/A}</script>. The correspondence goes as follows.</p>
+
+<ul>
+  <li>Suppose <script type="math/tex">(\cV, \theta)</script> is a module with a Higgs field over <script type="math/tex">X^{(p)}</script>.
+The lift <script type="math/tex">\wt{F}</script> defines the Deligne-Illusie lift <script type="math/tex">\phi:F^\ast
+\Omega^1_{X^{(p)}/A} \to \Omega^1_{X/A}</script> of the Cartier map, given by
+<script type="math/tex">\wt{F}^\ast/p</script>. The bundle <script type="math/tex">(\cf, \nabla)</script> over <script type="math/tex">X</script> is then given by
+<script type="math/tex">\cf = F^\ast \cV</script>, and <script type="math/tex">\nabla = \nabla_\can + \phi(F^\ast \theta)</script>. Here,
+<script type="math/tex">\nabla_\can</script> is the canonical Frobenius descent connection on <script type="math/tex">\cf</script>.</li>
+  <li>Suppose <script type="math/tex">(\cf, \nabla)</script> is a module with flat connection over <script type="math/tex">X</script>. Let
+<script type="math/tex">\psi:\cf\to \cf\otimes_A \Omega^1_{X/A}</script> denote the <script type="math/tex">p</script>-curvature of
+<script type="math/tex">\nabla</script>; this can be regarded as a map <script type="math/tex">\cf\to \cf\otimes_A F^\ast
+\Omega^1_{X^{(p)}/A}</script>. Then, the connection <script type="math/tex">\nabla-\phi(\psi)</script> has zero
+<script type="math/tex">p</script>-curvature, and so by Cartier/Frobenius descent, the pair <script type="math/tex">(\cf,
+\nabla-\phi(\psi))</script> descends a bundle <script type="math/tex">\cV</script> to <script type="math/tex">X^{(p)}</script>. The Higgs bundle
+associated to <script type="math/tex">(\cf, \nabla)</script> is then <script type="math/tex">(\cV, \psi)</script>.</li>
+</ul>
+
+<p>We would like to understand this from the point of view of Hochschild homology.
+To begin with, suppose <script type="math/tex">k</script> is of characteristic zero and <script type="math/tex">X</script> is a smooth
+<script type="math/tex">k</script>-scheme. Then, it was shown
+<a href="http://www.tolypreygel.com/papers/note_loop_short.pdf">here</a> that there is an
+equivalence of categories between <script type="math/tex">\Coh(LX/S^1) \otimes_{k^{hS^1}} k^{tS^1}</script>
+and <script type="math/tex">\Coh(\cd_X) \otimes_k k^{tS^1}</script> (this means a 2-periodic version of
+<em>right</em> D-modules). The proof of this result relies on two important non-formal
+statements: the formality of Hochschild homology in characteristic zero (which
+is related to the formality of <script type="math/tex">k^{hS^1}</script>), and the Atiyah-Bott localization
+theorem.</p>
+
+<p>Now, Preygel’s result can be refined a bit. Namely (again, <script type="math/tex">k</script> is of
+characteristic zero), the equivalence <script type="math/tex">\Coh(LX/S^1) \otimes_{k[\![u]\!]}
+k(\!(u)\!) \simeq \Coh(\cd_X) \otimes_k k(\!(u)\!)</script> refines to a filtered
+equivalence which keeps track of the Hodge filtration. Namely, there is an
+equivalence <script type="math/tex">\Coh(\cd_X) \otimes_k k(\!(u)\!) \simeq \Coh\left(\bigoplus_{j\geq
+0} \cd_X^{\leq i} u^i\right) \otimes_{k[\![u]\!]} k(\!(u)\!)</script>. Then, there is
+an equivalence between <em>filtered</em> coherent <script type="math/tex">\bigoplus_{j\geq 0} \cd_X^{\leq i}
+u^i</script>-modules and <em>filtered</em> coherent modules over <script type="math/tex">\F^\star_\CP \co_{LX/S^1}</script>
+(where this filtration comes from the <script type="math/tex">S^1</script>-homotopy fixed points spectral
+sequence, so <script type="math/tex">\F^i_\CP \co_{LX/S^1} = \fib(\co_{LX/S^1} \to \co_{LX/\Omega
+\CP^{i-1}}</script>). Taking the associated graded of this gives a
+<script type="math/tex">k[\![u]\!]</script>-linear equivalence between <script type="math/tex">\Sym_{\co_X}^\bullet(T_X \cdot
+u)</script>-modules and <script type="math/tex">\bigoplus_{j\geq 0} (\tau_{\geq j} \co_{LX/S^1})
+u^j</script>-modules.</p>
+
+<p>Preygel’s result is false in characteristic <script type="math/tex">p</script>, because Hochschild homology
+is not formal. However, there <em>is</em> an analogue of this result, which can be
+stated as follows. <a href="https://arxiv.org/pdf/1808.05246.pdf">Recall that</a>
+<script type="math/tex">\HC^-(X/A)</script> admits a filtration whose <script type="math/tex">n</script>th associated graded is
+<script type="math/tex">R\Gamma(X; \Omega^{\geq n}_{X/A}[2n])</script>. Negative cyclic homology is
+categorified by <script type="math/tex">\Coh(LX/S^1) = \Coh(LX)^{hS^1}</script>. This category admits an
+filtration, which comes from the filtered circle introduced
+<a href="https://arxiv.org/abs/2007.02576">here</a>. Note that this category is
+<script type="math/tex">k^{hS^1}</script>-linear.  Then, the analogue of Preygel’s result is the statement
+that the associated graded of this category is equivalent to
+<script type="math/tex">\Coh\left(\bigoplus_{j\geq 0} \cd_X^{\leq i} u^i\right)</script> as <script type="math/tex">\gr(k^{hS^1}) =
+k[\![u]\!]</script>-linear categories. (Here, <script type="math/tex">\cd_X</script> is the sheaf of crystalline
+differential operators.) We write this as <script type="math/tex">\Coh(\gr^\bullet_\B \co_{LX/S^1})
+\simeq \Coh\left(\bigoplus_{j\geq 0} \cd_X^{\leq i} u^i\right)</script>. Just as in
+characteristic zero, there is a <script type="math/tex">k[\![u]\!]</script>-linear equivalence between
+<script type="math/tex">\Sym_{\co_X}^\bullet(T_X\cdot u)</script>-modules and <script type="math/tex">\bigoplus_{j\geq 0}
+\gr^\bullet_\CP \gr^\bullet_\B \co_{LX/S^1}</script>-modules.</p>
+
+<p>So, from this point of view, the Ogus-Vologodsky equivalence can be
+``two-periodified’’ to a <script type="math/tex">k[\![u]\!]</script>-linear equivalence between
+<script type="math/tex">\Coh(\gr^\bullet_\B \co_{LX/S^1}) \otimes_{k[\![u]\!]} k(\!(u)\!)</script> (note that
+there is an equivalence <script type="math/tex">\gr^\bullet_\B k^{hS^1} = k[\![u]\!]</script>) and
+<script type="math/tex">\Coh\left(\gr^\bullet_\CP \gr^\bullet_\B \co_{LX^{(p)}/S^1}\right)
+\otimes_{k[\![u]\!]} k(\!(u)\!)</script>. It’s clear from phrasing this way that what
+we should be doing, in the case when <script type="math/tex">X</script> is affine (say <script type="math/tex">X = \spec(R)</script>), at
+least, is looking for a Cartier isomorphism <script type="math/tex">F^\ast \HH(R^{(p)})(\!(u)\!)
+\simeq \HP(R)</script> compatible with the filtrations on both sides. This was proved
+<a href="https://arxiv.org/abs/0708.1574">here</a> by Kaledin.</p>
+
+<p>To make this homotopical, we would want a homotopical analogue of this statement
+(as well as the categorification, but let’s set our sights on a simpler goal for
+now). Namely, if <script type="math/tex">\cC</script> is an <script type="math/tex">A</script>-linear stable <script type="math/tex">\infty</script>-category which
+lifts to <script type="math/tex">\wt{A}</script> (and satisfies some additional condition), we would like an
+equivalence <script type="math/tex">F^\ast \HH(\cC)(\!(u)\!) \simeq \HP(\cC)</script>. This is a
+generalization of Kaledin’s result to the categorical setting, but I don’t know
+how to prove it. By Proposition 2.15
+<a href="https://arxiv.org/pdf/1710.09045.pdf">here</a>, there is a Frobenius linear
+equivalence <script type="math/tex">\THH(\cC)[1/\sigma] \simeq \HP(\cC)</script>, where <script type="math/tex">\sigma</script> is the
+degree <script type="math/tex">2</script> generator of <script type="math/tex">\pi_\ast \THH(k) \cong \pi_\ast(k \otimes \Omega
+S^3_+)</script>. So, we are reduced to showing that there is a (linear) equivalence
+<script type="math/tex">\THH(\cC)[1/\sigma] \simeq \HH(\cC)(\!(u)\!)</script> for certain <script type="math/tex">\cC</script>. More
+generally, we can ask for an equivalence between <script type="math/tex">X(\!(u)\!)</script> and
+<script type="math/tex">X[1/\sigma]</script> for certain dualizable <script type="math/tex">\THH(k)</script>-modules <script type="math/tex">X</script> in cyclotomic
+spectra.</p>
+
+<p>I’m purposely being a little ambiguous here: I haven’t said exactly what
+<script type="math/tex">X(\!(u)\!)</script> means, but we can interpret it to mean ``Tate construction for
+the trivial <script type="math/tex">S^1</script>-action on <script type="math/tex">X</script>’’. (What I’d like, for instance, is a
+relationship between <script type="math/tex">A^{tS^1}</script> (where <script type="math/tex">S^1</script> acts trivially) and the
+localization of the free <script type="math/tex">\E_1</script>-<script type="math/tex">A</script>-algebra on a generator in degree <script type="math/tex">2</script>,
+localized at the degree <script type="math/tex">2</script> element (i.e., the localization of <script type="math/tex">A \otimes
+\Omega S^3_+</script> at the canonical degree <script type="math/tex">2</script> element), where <script type="math/tex">A</script> is some
+<script type="math/tex">\Eoo</script>-ring. I believe the relationship should go as follows. By Proposition
+5.4.9 <a href="https://www.math.ias.edu/~lurie/papers/Waldhaus.pdf">here</a>, the
+associated graded of the <script type="math/tex">S^1</script>-Tate spectral sequence filtration on <script type="math/tex">A^{tS^1}
+= A^{\CP^\infty_{-\infty}}</script> can be identified with the graded <script type="math/tex">\E_2</script>-algebra
+<script type="math/tex">A[\beta_{-2}]</script> in Section 3.4 of Lurie’s paper. Then, there should be a
+canonical equivalence <script type="math/tex">A[\beta_{-2}^{\pm 1}] \simeq A[\sigma^{\pm 1}]</script>. If
+<script type="math/tex">A</script> is actually a complex oriented ring, then the <script type="math/tex">S^1</script>-Tate spectral
+sequence just collapses, and we get <script type="math/tex">A^{tS^1} \simeq A(\!(u)\!)</script>. So, in this
+case, we get an equivalence <script type="math/tex">A(\!(u)\!) \simeq A[\sigma^{\pm 1}]</script>. This isn’t
+exactly the thing we wanted in the previous paragraph, but it certainly looks
+close.)</p>
+
+<p>Anyway, I’m not sure if this is even the right approach to homotopifying the
+nonabelian Hodge correspondence in characteristic <script type="math/tex">p</script>, but it seems
+interesting nonetheless.</p>
+
+<hr />
+
+<p>In general, the story above fits into a general paradigm, where the deformation
+quantization parameter <script type="math/tex">\hbar</script> (which appears as the <script type="math/tex">\lambda</script> in
+“<script type="math/tex">\lambda</script>-connection”) can be equated with the Bott element <script type="math/tex">u</script>. So, the
+homotopy-theoretic version of a deformation quantization is the datum of an
+<script type="math/tex">S^1</script>-action. The degeneration of the <script type="math/tex">\hbar</script>-adic spectral sequence (i.e.,
+the formality of the deformation quantization problem) is then the degeneration
+of the <script type="math/tex">S^1</script>-fixed points spectral sequence. Setting <script type="math/tex">\hbar = 0</script> (i.e.,
+looking at the associated graded) amounts to killing the Bott element (i.e.,
+looking at the underlying object on which <script type="math/tex">S^1</script>-action), while setting
+<script type="math/tex">\hbar=1</script> amounts to looking at the <script type="math/tex">S^1</script>-Tate construction. I’ll write
+about this in more detail later, but I did write a little bit about this
+perspective in Section 4
+<a href="https://sanathdevalapurkar.github.io/files/btt.pdf">here</a>.</p>
+
+  </div><a class="u-url" href="/blog/algebraic-topology/2020/07/18/nah-redux.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Sanath Devalapurkar&#39;s home page</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Sanath Devalapurkar&#39;s home page</li><li><a class="u-email" href="mailto:sanathdevalapurkar@g.harvard.edu">sanathdevalapurkar@g.harvard.edu</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>Graduate student in math.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

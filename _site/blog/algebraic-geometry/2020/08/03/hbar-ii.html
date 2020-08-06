@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Bott = Planck = sheared Rees, part ii | Sanath Devalapurkar’s home page</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Bott = Planck = sheared Rees, part ii" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Graduate student in math." />
+<meta property="og:description" content="Graduate student in math." />
+<link rel="canonical" href="http://localhost:4000/blog/algebraic-geometry/2020/08/03/hbar-ii.html" />
+<meta property="og:url" content="http://localhost:4000/blog/algebraic-geometry/2020/08/03/hbar-ii.html" />
+<meta property="og:site_name" content="Sanath Devalapurkar’s home page" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-08-03T00:00:00-07:00" />
+<script type="application/ld+json">
+{"url":"http://localhost:4000/blog/algebraic-geometry/2020/08/03/hbar-ii.html","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/blog/algebraic-geometry/2020/08/03/hbar-ii.html"},"description":"Graduate student in math.","headline":"Bott = Planck = sheared Rees, part ii","dateModified":"2020-08-03T00:00:00-07:00","datePublished":"2020-08-03T00:00:00-07:00","@type":"BlogPosting","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Sanath Devalapurkar's home page" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Sanath Devalapurkar&#39;s home page</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/blog/">Blog</a><a class="page-link" href="/">Home</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Bott = Planck = sheared Rees, part ii</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2020-08-03T00:00:00-07:00" itemprop="datePublished">Aug 3, 2020
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+<script type="math/tex; mode=display">\newcommand{\KO}{\mathrm{KO}} \newcommand{\TMF}{\mathrm{TMF}}
+\newcommand{\KU}{\mathrm{KU}} \newcommand{\Mfg}{M_\mathrm{fg}}
+\newcommand{\spec}{\mathrm{Spec}} \newcommand{\dX}{\mathcal{X}}
+\newcommand{\co}{\mathcal{O}} \newcommand{\Z}{\mathbf{Z}}
+\newcommand{\top}{\mathrm{top}} \newcommand{\E}{\mathbf{E}}
+\newcommand{\GG}{\mathbf{G}} \newcommand{\DD}{\mathbf{D}}
+\newcommand{\Mell}{M_\mathrm{ell}} \newcommand{\ce}{\mathcal{E}}
+\newcommand{\H}{\mathrm{H}} \newcommand{\dR}{\mathrm{dR}}
+\newcommand{\cf}{\mathcal{F}} \newcommand{\FF}{\mathbf{F}}
+\newcommand{\spf}{\mathrm{Spf}\ } \newcommand{\cA}{\mathcal{A}}
+\newcommand{\Mcub}{M_\mathrm{cub}} \newcommand{\Mqd}{M_\mathrm{qd}}
+\newcommand{\Aut}{\mathrm{Aut}} \newcommand{\tmf}{\mathrm{tmf}}
+\newcommand{\Tmf}{\mathrm{Tmf}} \newcommand{\Map}{\mathrm{Map}}
+\newcommand{\Ext}{\mathrm{Ext}} \newcommand{\End}{\mathrm{End}}
+\newcommand{\cg}{\mathcal{G}} \newcommand{\Hom}{\mathrm{Hom}}
+\newcommand{BP}[1]{\mathrm{BP}\langle #1\rangle} \newcommand{\QQ}{\mathbf{Q}}
+\newcommand{\PP}{\mathbf{P}} \newcommand{\Gal}{\mathrm{Gal}}
+\newcommand{\proj}{\mathrm{Proj}\ } \newcommand{\Ltwo}{L_{K(2)}}
+\newcommand{\Eoo}{\mathbf{E}_\infty} \newcommand{\ol}[1]{\overline #1}
+\newcommand{\pic}{\mathrm{Pic}} \newcommand{\RP}{\mathbf{R}P}
+\newcommand{\BO}{\mathrm{BO}} \newcommand{\cc}{\mathbf{C}}
+\newcommand{\CP}{\mathbf{CP}} \newcommand{\wt}[1]{\widetilde #1}
+\newcommand{\RR}{\mathbf{R}} \renewcommand{\S}{\mathbb{S}}
+\newcommand{\Lone}{L_{K(1)}} \newcommand{\Ltwo}{L_{K(2)}}
+\newcommand{\gl}{\mathrm{gl}} \newcommand{\Lk}{L_{K(n)}}
+\newcommand{\ku}{\mathrm{ku}} \newcommand{\ko}{\mathrm{ko}}
+\newcommand{\GL}{\mathrm{GL}} \newcommand{\Ln}{L_n} \newcommand{\Lt}{L_{K(t)}}
+\newcommand{\W}{\mathrm{W}} \newcommand{\BU}{\mathrm{BU}}
+\newcommand{\SU}{\mathrm{SU}} \newcommand{\MU}{\mathrm{MU}}
+\newcommand{\ul}[1]{\underline #1} \newcommand{\Sq}{\mathrm{Sq}}
+\newcommand{\Tr}{\mathrm{Tr}} \newcommand{\d}{\mathrm{d}}
+\newcommand{\HP}{\mathrm{HP}} \newcommand{\cL}{\mathcal{L}}
+\newcommand{\cs}{\mathrm{cs}} \newcommand{\cd}{\mathcal{D}}
+\newcommand{\Bord}{\mathrm{Bord}} \newcommand{\SO}{\mathrm{SO}}
+\newcommand{\cC}{\mathcal{C}} \newcommand{\Sp}{\mathrm{Sp}}
+\newcommand{\Lkd}{L_{K(d)}} \newcommand{\Mod}{\mathrm{Mod}}
+\newcommand{\cH}{\mathcal{H}} \newcommand{\ket}[1]{|#1 \rangle}
+\newcommand{\Bun}{\mathrm{Bun}} \newcommand{\cM}{\mathcal{M}}
+\newcommand{\MTH}{\mathrm{MT}H} \newcommand{\MSO}{\mathrm{MSO}}
+\newcommand{\twsm}{\ \widetilde{\wedge} \ } \newcommand{\BSpin}{\mathrm{BSpin}}
+\newcommand{\MSpin}{\mathrm{MSpin}} \newcommand{\BString}{\mathrm{BString}}
+\newcommand{\MString}{\mathrm{MString}} \newcommand{\B}{\mathrm{B}}
+\newcommand{\der}{\mathrm{der}} \newcommand{\Cat}{\mathrm{Cat}}
+\newcommand{\QCoh}{\mathrm{QCoh}} \newcommand{\LMod}{\mathrm{LMod}}
+\newcommand{\Rep}{\mathrm{Rep}} \newcommand{\HH}{\mathrm{HH}}
+\newcommand{\ZZ}{\mathfrak{Z}} \newcommand{\fr}{\mathrm{fr}}
+\newcommand{\BSO}{\mathrm{BSO}} \newcommand{\BSU}{\mathrm{BSU}}
+\newcommand{\id}{\mathrm{id}} \newcommand{\Top}{\mathrm{Top}}
+\newcommand{\cP}{\mathcal{P}} \newcommand{\U}{\mathrm{U}}
+\newcommand{\Sym}{\mathrm{Sym}} \newcommand{\coker}{\mathrm{coker}}
+\newcommand{\Vect}{\mathrm{Vect}} \newcommand{\Fun}{\mathrm{Fun}}
+\newcommand{\cT}{\mathcal{T}} \newcommand{\cJ}{\mathcal{J}}
+\newcommand{\Res}{\mathrm{Res}} \newcommand{\Ind}{\mathrm{Ind}}
+\newcommand{\MO}{\mathrm{MO}} \newcommand{\MSO}{\mathrm{MSO}}
+\newcommand{\colim}{\mathrm{colim}} \newcommand{\hocolim}{\mathrm{hocolim}}
+\newcommand{\fin}{\mathrm{fin}} \newcommand{\Tot}{\mathrm{Tot}}
+\newcommand{\im}{\mathrm{im}} \newcommand{\FT}{\mathrm{FT}}
+\newcommand{\AA}{\mathbf{A}} \newcommand{\Frob}{\mathrm{Frob}}
+\newcommand{\ex}{\mathrm{ex,pr}} \newcommand{\fil}{\mathrm{fil}}
+\newcommand{\gr}{\mathrm{gr}} \newcommand{\un}{\mathrm{un}}
+\newcommand{\Syn}{\mathrm{Syn}} \newcommand{\Cart}{\mathrm{Cart}}
+\newcommand{\bo}{\mathrm{bo}} \newcommand{\mmod}{/\!\!/}
+\newcommand{\bsp}{\mathrm{bsp}} \newcommand{\BPP}{\mathrm{BP}}
+\newcommand{\CAlg}{\mathrm{CAlg}} \newcommand{\TCart}{\mathrm{TCart}}
+\newcommand{\BW}{\mathrm{BW}} \newcommand{\Br}{\mathrm{Br}}
+\newcommand{\Pic}{\mathrm{Pic}} \newcommand{\ext}{\mathrm{ext}}
+\newcommand{\Cl}{\mathrm{Cl}} \newcommand{\disc}{\mathrm{disc}}
+\newcommand{\dir}{D\!\!\!\!/} \newcommand{\bb}{\mathrm{bb}}
+\newcommand{\Ran}{\mathrm{Ran}} \newcommand{\cu}{\mathcal{U}}
+\newcommand{\Gr}{\mathrm{Gr}} \newcommand{\Alg}{\mathrm{Alg}}
+\newcommand{\G}{\Gamma} \newcommand{\dY}{\mathcal{Y}}
+\newcommand{\Line}{\mathrm{Line}} \newcommand{\MUP}{\mathrm{MUP}}
+\newcommand{\Bl}{\mathrm{Bl}} \newcommand{\St}{\mathrm{St}}
+\newcommand{\cB}{\mathcal{B}} \newcommand{\SL}{\mathrm{SL}}
+\newcommand{\XX}{\mathrm{X}} \newcommand{\gp}{\mathrm{gp}}
+\newcommand{\Q}{\mathrm{Q}} \newcommand{\cI}{\mathcal{I}}
+\newcommand{\T}{\mathrm{T}} \newcommand{\D}{\mathrm{D}}
+\newcommand{\Aff}{\mathrm{Aff}} \newcommand{\BGL}{\mathrm{BGL}}
+\newcommand{\an}{\mathrm{an}} \newcommand{\Tel}{\mathrm{Tel}}
+\renewcommand{\|}{|} \newcommand{\MGL}{\mathrm{MGL}}
+\newcommand{\CH}{\mathrm{CH}} \newcommand{\fr}[1]{\mathfrak #1}
+\newcommand{\ch}{\mathrm{ch}} \newcommand{\Td}{\mathrm{Td}}
+\newcommand{\Spin}{\mathrm{Spin}} \newcommand{\G}{\mathrm{G}}
+\newcommand{\cHH}{\mathcal{H}} \newcommand{\F}{\mathrm{F}}
+\newcommand{\B}{\mathrm{B}} \newcommand{\HC}{\mathrm{HC}}
+\newcommand{\fib}{\mathrm{fib}} \newcommand{\tr}{\mathrm{tr}}
+\newcommand{\TR}{\mathrm{TR}} \newcommand{\THH}{\mathrm{THH}}
+\newcommand{\TP}{\mathrm{TP}} \newcommand{\crys}{\mathrm{crys}}
+\newcommand{\even}{\mathrm{even}} \newcommand{\odd}{\mathrm{odd}}
+\newcommand{\hodge}{\mathrm{Hodge}} \newcommand{\V}{\mathrm{V}}
+\newcommand{\C}{C} \newcommand{\K}{K} \newcommand{\M}{M} \newcommand{\X}{X}
+\newcommand{\h}{h} \newcommand{\TC}{\mathrm{TC}} \newcommand{\t}{t}
+\newcommand{\DC}{\mathrm{DC}} \newcommand{\str}{\mathrm{str}}
+\newcommand{\gen}{\mathrm{gen}} \newcommand{\Cyc}{\mathrm{CycSp}}
+\newcommand{\DA}{\mathrm{DA}} \newcommand{\AG}{\mathbf{A}^1/\mathbf{G}_m}
+\newcommand{\Crys}{\mathrm{Crys}} \newcommand{\cV}{\mathcal{V}}
+\newcommand{\can}{\mathrm{can}} \newcommand{\Coh}{\mathrm{Coh}}
+\newcommand{\SH}{\mathrm{SH}}</script>
+
+<p>We will pick up straight from <a href="/blog/algebraic-geometry/2020/08/02/hbar.html">last
+time</a>.</p>
+
+<h3 id="part-two-lambdahodge-theory">Part two: <script type="math/tex">\lambda</script>/Hodge theory</h3>
+
+<p>Let us focus on Kontsevich’s fact that the Hochschild cochains are formal,
+rather than the fact that the <script type="math/tex">\E_2</script>-operad is formal. There is a version of
+Kontsevich’s result in complex geometry, and it is due to
+Bogomolov-Tian-Todorov: if <script type="math/tex">X</script> is a Calabi-Yau variety, then the Hochschild
+cochains on <script type="math/tex">X</script>, equipped with the (shifted) Lie bracket structure, is
+(quasi-isomorphic to) a formal abelian dg-Lie algebra.  (This is usually stated
+in more classical language as the fact that deformations of Calabi-Yaus are
+unobstructed and smooth, even though the deformation groups are nonzero. This
+can be viewed as the complex analytic version of Kontsevich’s statement, because
+the condition of orientability (i.e., having a nowhere vanishing <script type="math/tex">n</script>-form) is
+replaced with being Calabi-Yau (i.e., having a nowhere vanishing holomorphic
+<script type="math/tex">n</script>-form).) I wrote up some notes about this
+<a href="https://sanathdevalapurkar.github.io/files/btt.pdf">here</a>. I’m going to focus
+on the BTT theorem rather than Kontsevich’s theorem (because it’s conceptually
+easier for me), but ultimately we’re just going to be talking about formality.
+One nice thing about BTT which I like is that working in the complex analytic
+gives us a bit more structure, and makes some formulae more transparent.</p>
+
+<p>I will state an abstract version of the BTT theorem (in terms of dg-Lie
+algebras); specializing to the Kodaira-Spencer dg-Lie algebra
+<script type="math/tex">\mathfrak{ks}(X)_q^\bullet = \H^0(X;\Omega^{0,q}\left(\bigwedge^\bullet
+T_X\right))</script> with the Lie bracket of vector fields and differential given by
+<script type="math/tex">\ol{\partial}</script> will give the BTT theorem. (Note the distinction from the
+smooth case, where the differential was just zero.) The additional structure of
+a volume form <script type="math/tex">\omega</script> on the Calabi-Yau variety gives a degree <script type="math/tex">-1</script>
+operator <script type="math/tex">\Delta</script>, by contracting with <script type="math/tex">\omega</script>, applying <script type="math/tex">\partial</script>, and
+contracting with (the dual of) <script type="math/tex">\omega</script>. This makes the Kodaira-Spencer dg-Lie
+algebra into a dg-BV-algebra: the bracket is actually given by the Gerstenhaber
+bracket</p>
+
+<script type="math/tex; mode=display">[f,g] = (-1)^{|f|} \Delta(fg) - (-1)^{|f|} \Delta(f) g - f\Delta(g);</script>
+
+<p>this statement is called the Tian-Todorov lemma, and is the key complex analytic
+input into the BTT theorem.</p>
+
+<p>Let <script type="math/tex">\fr{g}</script> be a dg-BV-algebra, with BV-operator <script type="math/tex">\Delta</script> (of degree
+<script type="math/tex">-1</script>). The above equation for the bracket makes <script type="math/tex">\fr{g}</script> into a dg-Lie
+algebra, and we can then “quantize” <script type="math/tex">\fr{g}</script> in the land of dg-Lie algebras:
+if <script type="math/tex">\hbar</script> is an element of degree <script type="math/tex">2</script>, then we get a new dg-Lie algebra
+<script type="math/tex">\fr{g}[\![\hbar]\!]</script> (which I denoted by <script type="math/tex">\fr{g}[\![\beta]\!]</script> in my notes
+<a href="https://sanathdevalapurkar.github.io/files/btt.pdf">here</a>, for the same reason
+that I’m writing this post), where the Lie bracket is just induced from
+<script type="math/tex">\fr{g}</script>, and where the differential is <script type="math/tex">d+\hbar\Delta</script>. (Haven’t we seen
+this before somewhere? Hmm…) Also, I didn’t know about this paper when writing
+my notes on BTT, but see also <a href="https://arxiv.org/abs/0707.1290">here</a>. There is
+a <script type="math/tex">\hbar</script>-adic spectral sequence</p>
+
+<script type="math/tex; mode=display">E_1^{\ast,\ast} = \H^\ast(\fr{g},d)[\![\hbar]\!] \Rightarrow
+\H^\ast(\fr{g}[\![\hbar]\!], d+\hbar\Delta).</script>
+
+<p>Then, the modern rephrasing of the BTT theorem states: <script type="math/tex">\fr{g}[\![\hbar]\!]</script>
+is quasi-isomorphic to a formal dg-Lie algebra with trivial Lie bracket if and
+only if the <script type="math/tex">\hbar</script>-adic spectral sequence degenerates at <script type="math/tex">E_1</script>. (Haven’t we
+also seen this before somewhere? Hmm…)</p>
+
+<p>For example, if <script type="math/tex">\Delta</script> and <script type="math/tex">d</script> satisfy the analogue of the
+<script type="math/tex">\partial</script>-<script type="math/tex">\ol{\partial}</script>-lemma (see Theorem 2.3.4 in my
+<a href="https://sanathdevalapurkar.github.io/files/btt.pdf">notes</a>), then it’s very
+easy to argue this result directly. Because it’s cute, I want to recall a proof
+(Proposition 4.1.9 in my notes) that if the <script type="math/tex">\hbar</script>-adic spectral sequence
+degenerates at <script type="math/tex">E_1</script>, then <script type="math/tex">\fr{g}[\![\hbar]\!]</script> is (quasi-isomorphic to)
+abelian. First, it is fairly easy to directly argue that degeneration implies
+that <script type="math/tex">\fr{g}</script> is formal. So to show abelianness, we can invert <script type="math/tex">\hbar</script>.
+Define a map <script type="math/tex">f</script> on the degree <script type="math/tex">1</script> elements in <script type="math/tex">\fr{g}[\![\hbar]\!]</script> by</p>
+
+<script type="math/tex; mode=display">f(x) = (d+\hbar\Delta) x + \frac{1}{2}[x,x].</script>
+
+<p>It suffices to show that there is some automorphism of <script type="math/tex">\fr{g}[\![\hbar]\!]</script>
+(i.e., coordinate reindexing/change of basis) such that <script type="math/tex">f(x) = (d+\hbar\Delta)
+x</script>. The idea is to look at</p>
+
+<script type="math/tex; mode=display">\phi(x) = \hbar(e^{x/\hbar}-1).</script>
+
+<p>Then, one can just calculate:</p>
+
+<script type="math/tex; mode=display">f(\phi(x)) = f(x) e^{x/\hbar} = \hbar((d+\hbar\Delta)(x\hbar^{-1}) +
+\hbar[x\hbar^{-1}, x\hbar^{-1}]) e^{x/\hbar} = \hbar \Delta(\phi(x)).</script>
+
+<p>(It’s strange that <script type="math/tex">\phi</script> is essentially the inverse of the Bernoulli series.)</p>
+
+<p>I’d like to move on to other things in a moment, but I want to just pause and
+summarize the story so far. Quantization in physics is, from the Heisenberg
+point of view, a deformation of classical mechanics, and Kontsevich proved that
+such quantizations always exist for smooth (closed, oriented) manifolds with a
+given Poisson structure. This has an algebraic/complex analytic analogue, given
+by the Bogomolov-Tian-Todorov theorem. Both the BTT theorem and Kontsevich’s
+theorem are given by the formality (and abelianness) of Hochschild homology,
+which we have seen is essentially the same as the degeneration of the
+<script type="math/tex">\hbar</script>-adic spectral sequence.</p>
+
+<p>We will now pick up from the degneration of the <script type="math/tex">\hbar</script>-adic spectral
+sequence, and our formula <script type="math/tex">d+\hbar\Delta</script> for the differential on
+<script type="math/tex">\fr{g}[\![\hbar]\!]</script>. Let’s first focus on the differential. Recall that a
+mixed complex is a dg-module over <script type="math/tex">C_\ast(S^1)</script>. Recall that we’re in
+characteristic zero, so <script type="math/tex">C_\ast(S^1) \simeq \H_\ast(S^1) \cong
+k[\epsilon]/\epsilon^2</script>. Therefore, a mixed complex is just a chain complex
+<script type="math/tex">(V_\bullet, d)</script> with a square-zero map <script type="math/tex">\epsilon</script> of degree <script type="math/tex">-1</script>. (I
+cannot believe that I’m using <em>co</em>homological grading.) The homotopy fixed
+points of this <script type="math/tex">S^1</script>-action is a chain complex, given by <script type="math/tex">V^{hS^1} =
+\Map_{C_\ast(S^1)}(k, V)</script>. We can write down a resolution of <script type="math/tex">k</script> as a
+<script type="math/tex">C_\ast(S^1)</script>-module, and we find that <script type="math/tex">V^{hS^1}</script> is equivalent to the
+complex <script type="math/tex">(V[\![u]\!], d+u\epsilon)</script>, where <script type="math/tex">u</script> is the degree <script type="math/tex">2</script> element
+in</p>
+
+<script type="math/tex; mode=display">k^{hS^1} = \Map_{C_\ast(S^1)}(k, k) = \Map_{k[\epsilon]/\epsilon^2}(k, k).</script>
+
+<p>But <script type="math/tex">S^1</script> necessarily acts trivially, so <script type="math/tex">u</script> is just the Bott class in
+<script type="math/tex">k^{hS^1} = C^\ast(\CP^\infty;k)</script>.</p>
+
+<p>It might be better to denote <script type="math/tex">\epsilon</script> by <script type="math/tex">\Delta</script>, because this obviously
+looks a whole lot like the differential on <script type="math/tex">\fr{g}[\![\hbar]\!]</script>. We also see
+the first part of our equation (<script type="math/tex">u = \hbar</script>) in action. What does the
+degeneration of the <script type="math/tex">\hbar</script>-adic spectral sequence then translate to? It is
+easy to see that the <script type="math/tex">\hbar</script>-adic spectral sequence is exactly the homotopy
+fixed points spectral sequence</p>
+
+<script type="math/tex; mode=display">E_2^{\ast,\ast} = \H^\ast(\CP^\infty; \H^\ast(V)) \cong \H^\ast(V)[\![u]\!]
+\Rightarrow \H^\ast(V^{hS^1}),</script>
+
+<p>and the degeneration of the <script type="math/tex">\hbar</script>-adic spectral sequence at the <script type="math/tex">E_1</script>-page
+is just the degeneration of the homotopy fixed points spectral sequence (HFPSS)
+at the <script type="math/tex">E_2</script>-page. (One might be a little worried by the fact that we went
+from an <script type="math/tex">E_1</script>-page to an <script type="math/tex">E_2</script>-page, but this makes no real difference.)</p>
+
+<p>Before proceeding, I would like to make an observation. The BV-operator
+<script type="math/tex">\Delta</script> has now appeared in a two different forms. In the deformation
+quantization story, it came from the (framed) <script type="math/tex">\E_2</script>-algebra structure on
+Hochschild cohomology, while in the picture we’re describing right now, it comes
+from an <script type="math/tex">S^1</script>-action. We’ll discuss the link in the next post.</p>
+
+<p>Returning to our main story: one of the most important algebraic examples of a
+mixed complex is Hochschild homology: if <script type="math/tex">X</script> is a smooth variety, then
+<script type="math/tex">\HH(X/k)</script> is a mixed complex with the usual <script type="math/tex">S^1</script>-action. In this case,
+what does degeneration of the HFPSS mean? For this, we turn to our trusty tool,
+the HKR theorem. We know that <script type="math/tex">\HH(X/k)^{hS^1} = \HC^-(X/k)</script> has a filtration
+obtained from the HKR filtration such that the <script type="math/tex">n</script>th graded piece is
+<script type="math/tex">\Gamma(X; \Omega^{\geq n}_X) u^n</script>. It’s easier to work with the Tate spectral
+sequence, going from <script type="math/tex">\hat{\H}^\ast(\CP^\infty; \pi_\ast \HH(X/k))</script> to the
+homotopy of <script type="math/tex">\HH(X/k)^{tS^1} = \HP(X/k)</script>; this degenerates iff the HFPSS
+degenerates, so we might as well look at the degeneration of the Tate spectral
+sequence. The HKR filtration extends to a filtration on <script type="math/tex">\HP(X/k)</script> whose
+<script type="math/tex">n</script>th associated graded is <script type="math/tex">\Gamma(X; \Omega_X^\bullet) u^n</script> The Tate SS
+going from <script type="math/tex">\HH(X/k)</script> to <script type="math/tex">\HP(X/k)</script> is a 2-periodic version of the Hodge-de
+Rham spectral sequence, and its degeneration can be viewed as a 2-periodic
+version of the rational degeneration of the Hodge-de Rham spectral sequence.</p>
+
+<p>This connection can be made precise. There is a square of spectral sequences,
+which stick together the four spectral sequences</p>
+
+<script type="math/tex; mode=display">\text{HKR: } \H^\ast(X;\Omega^\ast_X) \Rightarrow \pi_\ast \HH(X/k), \\
+\text{Hodge-de Rham: } \H^\ast(X;\Omega^\ast_X) \Rightarrow \H^\ast_\dR(X/k), \\
+\text{Tate SS: } \hat{\H}^\ast(\CP^\infty; \pi_\ast \HH(X/k)) \Rightarrow
+\pi_\ast \HP(X/k), \\
+\text{de Rham-HP: } \H^\ast_\dR(X/k) \Rightarrow \pi_\ast \HP(X/k).</script>
+
+<p>If the HKR spectral sequence degenerates, then the Tate spectral sequence
+degenerating implies that the Hodge-de Rham spectral sequence degenerates. The
+HKR spectral sequence in turn degenerates if and only if Hochschild homology is
+formal as a dg-algebra (which says nothing about the formality as a dg-Lie
+algebra, which we saw was Kontsevich’s main result). In fact, Hochschild,
+Kostant and Rosenberg basically showed that the HKR spectral sequence does
+degenerate for smooth proper <script type="math/tex">X</script> in characteristic zero, so Tate degeneration
+is the same as Hodge-de Rham degeneration.</p>
+
+<p>Before proceeding, let’s again stop to recap. So far, we have seen that
+<script type="math/tex">\hbar</script> behaves exactly like the Bott element <script type="math/tex">u</script>, and in a sense is nothing
+but the Bott element. Moreover, when applied to Hochschild homology and friends,
+this perspective tells us that <script type="math/tex">\hbar</script>-adic degeneration (which obstructs the
+existence of a deformation quantization of a Calabi-Yau variety) is exactly
+degeneration of the Tate spectral sequence, which in turn is exactly
+degeneration of the Hodge-de Rham spectral sequence.</p>
+
+<p>The degeneration of the Hodge-de Rham spectral sequence is the starting point
+for Hodge theory. I’ll refer the reader to my notes
+<a href="https://sanathdevalapurkar.github.io/files/nah.pdf">here</a> (see also
+<a href="https://sanathdevalapurkar.github.io/files/slides-nah.pdf">here</a>). The
+degeneration of the Hodge-de Rham spectral sequence can be categorified into the
+nonabelian Hodge correspondence. The de Rham side gets categorified into a
+certain subcategory of vector bundles with flat connection (namely, the
+semisimple bundles), and the Hodge side gets categorified into a certain
+subcategory of Higgs bundles (namely, the ones which are direct sums of Higgs
+bundles with the same slope, and which have vanishing first and second Chern
+classes).</p>
+
+<p>The intermediary between these two categories is the world of (polystable)
+bundles with flat <script type="math/tex">\lambda</script>-connection. (Again, see my notes.) It is useful to
+think of a <script type="math/tex">\lambda</script>-connection on a vector bundle as a filtration on this
+bundle and a connection which satisfies Griffiths transversality with respect to
+this filtration. See <a href="/blog/algebraic-geometry/2020/03/19/dmod.html">this post</a>
+for a discussion. Vector bundles with flat connection can be viewed as
+(<script type="math/tex">\co_X</script>-coherent) <script type="math/tex">\cd_X</script>-modules, Higgs bundles as
+<script type="math/tex">\Sym_X(T_X)</script>-modules, and vector bundles with flat <script type="math/tex">\lambda</script>-connection as
+<script type="math/tex">\cd_X^\lambda</script>-modules, where <script type="math/tex">\cd_X^\lambda = \bigoplus_{i\geq 0}
+\cd_X^{\leq i} \lambda^i</script> is the Rees construction on the order filtration on
+<script type="math/tex">\cd_X</script>, and <script type="math/tex">\lambda</script> is our Rees construction variable.</p>
+
+<p>From this point of view, we can look at the de Rham complex <script type="math/tex">\Omega_X^\bullet</script>
+(which is a resolution of <script type="math/tex">(\co_X, d)</script> as a D-module) equipped with the Hodge
+filtration/the stupid filtration. This makes it a <script type="math/tex">\co_X</script> module with a flat
+<script type="math/tex">\lambda</script>-connection, where again we view <script type="math/tex">\lambda</script>-connections as
+filtrations + connection satisfying Griffiths transversality. Then, the Hodge-de
+Rham spectral sequence is nothing but the <script type="math/tex">\lambda</script>-adic spectral sequence.</p>
+
+<p>Therefore, <script type="math/tex">\lambda</script> is nothing but <script type="math/tex">\hbar</script> (which we saw earlier is just
+the Bott element <script type="math/tex">u</script>). To fix the resulting weird grading in the statement of
+the nonabelian Hodge correspondence (where <script type="math/tex">\lambda</script> lives in degree <script type="math/tex">2</script>),
+we refer the reader to <a href="/blog/algebraic-topology/2020/07/18/nah-redux.html">this
+post</a>. For now, we can just
+think of this as a sort of “shearing”; but as we shall see, this is too naive of
+a perspective to be taking in characteristic <script type="math/tex">p</script>/over the sphere spectrum. (So
+the title of this post is a bit misleading…) We’ll talk about this next time.</p>
+
+  </div><a class="u-url" href="/blog/algebraic-geometry/2020/08/03/hbar-ii.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Sanath Devalapurkar&#39;s home page</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Sanath Devalapurkar&#39;s home page</li><li><a class="u-email" href="mailto:sanathdevalapurkar@g.harvard.edu">sanathdevalapurkar@g.harvard.edu</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>Graduate student in math.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

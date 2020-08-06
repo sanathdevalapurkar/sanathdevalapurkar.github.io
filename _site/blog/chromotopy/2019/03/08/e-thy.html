@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Maps between Morava E-theories | Sanath Devalapurkar’s home page</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Maps between Morava E-theories" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Graduate student in math." />
+<meta property="og:description" content="Graduate student in math." />
+<link rel="canonical" href="http://localhost:4000/blog/chromotopy/2019/03/08/e-thy.html" />
+<meta property="og:url" content="http://localhost:4000/blog/chromotopy/2019/03/08/e-thy.html" />
+<meta property="og:site_name" content="Sanath Devalapurkar’s home page" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2019-03-08T00:00:00-08:00" />
+<script type="application/ld+json">
+{"url":"http://localhost:4000/blog/chromotopy/2019/03/08/e-thy.html","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/blog/chromotopy/2019/03/08/e-thy.html"},"description":"Graduate student in math.","headline":"Maps between Morava E-theories","dateModified":"2019-03-08T00:00:00-08:00","datePublished":"2019-03-08T00:00:00-08:00","@type":"BlogPosting","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Sanath Devalapurkar's home page" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Sanath Devalapurkar&#39;s home page</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/blog/">Blog</a><a class="page-link" href="/">Home</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Maps between Morava E-theories</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2019-03-08T00:00:00-08:00" itemprop="datePublished">Mar 8, 2019
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
+
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-109004213-1"></script>
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+        gtag('config', 'UA-109004213-1');
+</script>
+
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+<script type="math/tex; mode=display">\newcommand{\KO}{\mathrm{KO}} \newcommand{\TMF}{\mathrm{TMF}}
+\newcommand{\KU}{\mathrm{KU}} \newcommand{\Mfg}{M_\mathrm{fg}}
+\newcommand{\spec}{\mathrm{Spec}\ } \newcommand{\dX}{\mathcal{X}}
+\newcommand{\co}{\mathcal{O}} \newcommand{\Z}{\mathbf{Z}}
+\newcommand{\top}{\mathrm{top}} \newcommand{\E}{\mathbf{E}}
+\newcommand{\GG}{\mathbf{G}} \newcommand{\DD}{\mathbf{D}}
+\newcommand{\Mell}{M_\mathrm{ell}} \newcommand{\ce}{\mathcal{E}}
+\newcommand{\H}{\mathrm{H}} \newcommand{\dR}{\mathrm{dR}}
+\newcommand{\cf}{\mathcal{F}} \newcommand{\FF}{\mathbf{F}}
+\newcommand{\spf}{\mathrm{Spf}\ } \newcommand{\cA}{\mathcal{A}}
+\newcommand{\Mcub}{M_\mathrm{cub}} \newcommand{\Mqd}{M_\mathrm{qd}}
+\newcommand{\Aut}{\mathrm{Aut}} \newcommand{\tmf}{\mathrm{tmf}}
+\newcommand{\Tmf}{\mathrm{Tmf}} \newcommand{\Map}{\mathrm{Map}}
+\newcommand{\Ext}{\mathrm{Ext}} \newcommand{\End}{\mathrm{End}}
+\newcommand{\cg}{\mathcal{G}} \newcommand{\Hom}{\mathrm{Hom}}
+\newcommand{BP}[1]{\mathrm{BP}\langle #1\rangle} \newcommand{\QQ}{\mathbf{Q}}
+\newcommand{\PP}{\mathbf{P}} \newcommand{\Gal}{\mathrm{Gal}}
+\newcommand{\proj}{\mathrm{Proj}\ } \newcommand{\Ltwo}{L_{K(2)}}
+\newcommand{\Eoo}{\mathbf{E}_\infty} \newcommand{\ol}[1]{\overline #1}
+\newcommand{\pic}{\mathrm{Pic}} \newcommand{\RP}{\mathbf{R}P}
+\newcommand{\BO}{\mathrm{BO}} \newcommand{\cc}{\mathbf{C}}
+\newcommand{\CP}{\mathbf{C}P} \newcommand{\wt}[1]{\widetilde #1}
+\newcommand{\RR}{\mathbf{R}} \renewcommand{\S}{\mathbb{S}}
+\newcommand{\Lone}{L_{K(1)}} \newcommand{\Ltwo}{L_{K(2)}}
+\newcommand{\gl}{\mathrm{gl}} \newcommand{\Lk}{L_{K(n)}}
+\newcommand{\ku}{\mathrm{ku}} \newcommand{\ko}{\mathrm{ko}}
+\newcommand{\GL}{\mathrm{GL}} \newcommand{\Ln}{L_n}
+\newcommand{\Lt}{L_{K(t)}} \newcommand{\W}{\mathrm{W}}</script>
+
+<p>We ended the <a href="/chromotopy/2019/03/05/ln-log.html">previous post</a> by saying that
+for a fixed finite <script type="math/tex">n</script> and <script type="math/tex">t\leq n</script>, there is a <script type="math/tex">\Eoo</script>-map <script type="math/tex">E_n \to
+E_t</script> between Morava <script type="math/tex">E</script>-theories. We will discuss a construction of this map
+in this post. To define this map, let <script type="math/tex">G</script> denote a formal <script type="math/tex">p</script>-divisible
+group of height <script type="math/tex">n</script> over a perfect field <script type="math/tex">k</script>, and let <script type="math/tex">E_n</script> denote the
+Lubin-Tate spectrum associated to the formal group <script type="math/tex">G</script>. We will construct a
+<script type="math/tex">p</script>-divisible group <script type="math/tex">H</script> whose formal component has height <script type="math/tex">t=n-1\leq n</script>
+over a perfect field <script type="math/tex">F</script>, and an <script type="math/tex">\Eoo</script>-ring map <script type="math/tex">E_n \to E(H,F)</script>.</p>
+
+<p>Algebraically, our desired map goes from <script type="math/tex">(\W(k)(\!(u_{n-1})\!)[\![u_1,
+\cdots, u_{n-2}]\!])^\wedge_{(p, u_1, \cdots, u_{n-2})}</script> to
+<script type="math/tex">\W(F)[\![x_1,\cdots,x_{n-2}]\!]</script>. There is a natural choice of <script type="math/tex">F</script> for
+which such a map exists: let <script type="math/tex">F = k(\!(u_{n-1})\!)^\flat</script> denote the direct
+limit perfection of the <script type="math/tex">k</script>-algebra <script type="math/tex">k(\!(u_{n-1})\!)</script>, i.e., the direct
+limit of the diagram</p>
+
+<script type="math/tex; mode=display">k(\!(u_{n-1})\!) \xrightarrow{\mathrm{Frobenius}} k(\!(u_{n-1})\!)
+\xrightarrow{\mathrm{Frobenius}} k(\!(u_{n-1})\!) \to \cdots</script>
+
+<p>There is a naturally defined <script type="math/tex">p</script>-divisible group <script type="math/tex">H</script> over
+<script type="math/tex">F = k(\!(u_{n-1})\!)^\flat</script>: it is the pullback of the universal
+deformation <script type="math/tex">\wt{G}</script> of the formal <script type="math/tex">p</script>-divisible group <script type="math/tex">G</script> along the map</p>
+
+<script type="math/tex; mode=display">f:\spec k(\!(u_{n-1})\!)^\flat \to \spec k(\!(u_{n-1})\!) \hookrightarrow
+\spf k[\![u_{n-1}]\!] \hookrightarrow \spf \W(k)[\![u_1,\cdots,u_{n-1}]\!] =
+\spf \pi_0 E_n,</script>
+
+<p>which is the same as the map</p>
+
+<script type="math/tex; mode=display">\spec k(\!(u_{n-1})\!)^\flat \to \spec (\pi_0 E_n/p)^\flat \to \spec \pi_0
+E_n/p \hookrightarrow \spf \pi_0 E_n.</script>
+
+<p>Let <script type="math/tex">\wt{G}'</script> denote the <script type="math/tex">p</script>-divisible group over <script type="math/tex">\pi_0 E_n/p</script>, so that
+there are morphisms of pairs <script type="math/tex">(k,G) \leftarrow (\pi_0 E_n/p, \wt{G}') \to (F,
+H)</script>. It is a consequence of Proposition 6.1.5 of <a href="http://www.math.harvard.edu/~lurie/papers/Elliptic-II.pdf#page=252&amp;zoom=100,0,490">Lurie’s
+Elliptic II</a>,
+that there is an equivalence of <em>oriented</em> deformation <script type="math/tex">\Eoo</script>-rings <script type="math/tex">E(k,G)
+\leftarrow E(\pi_0 E_n/p, \wt{G}')</script> (thanks to Andy Senger for pointing this
+out to me). We conclude from the main theorem of <em>loc. cit.</em> (in particular,
+the functoriality) that there is a map of <script type="math/tex">\Eoo</script>-rings <script type="math/tex">E(k,G) \to E(F,H)</script>.</p>
+
+<p>At this point, we run into a slight issue: the formal component <script type="math/tex">H^\circ</script> of
+<script type="math/tex">H</script> is of height <script type="math/tex">n-1</script> (the associated Morava <script type="math/tex">E</script>-theory <script type="math/tex">E(F,H^\circ)</script>
+is of height <script type="math/tex">n-1</script>), and although there is a map <script type="math/tex">E(F,H^\circ) \to E(F,H)</script>
+of <script type="math/tex">\Eoo</script>-rings, this map will <em>not</em> be an equivalence. (This is why we do
+not obtain a map between plain old Morava <script type="math/tex">E</script>-theories, as mentioned in the
+first paragraph.) However, by <a href="http://www.math.harvard.edu/~lurie/papers/Elliptic-II.pdf#page=257&amp;zoom=100,0,549">Theorem
+6.2.4</a>
+of <em>loc. cit.</em>, the map between the unoriented deformation rings induced by the
+map <script type="math/tex">(F,H^\circ) \to (F,H)</script> is flat. Since the oriented deformation rings are
+even-periodic, and <script type="math/tex">\pi_0</script> of the oriented deformation ring is isomorphic to
+<script type="math/tex">\pi_0</script> of the unoriented deformation ring (the universal deformation is
+“balanced”), this implies that the map <script type="math/tex">E(F,H^\circ) \to E(F,H)</script> is flat as
+well. Moreover, since <script type="math/tex">\pi_0 E(F,H)</script> is the classical deformation ring of
+<script type="math/tex">H</script> over <script type="math/tex">F</script>, we find that the map <script type="math/tex">\pi_0 E(F,H^\circ) \to \pi_0 E(F,H)</script>
+of classical rings is just given by the map <script type="math/tex">\W(F)[\![u_1,\cdots,u_{n-2}]\!]
+\to \W(F)[\![u_1,\cdots,u_{n-1}]\!]</script> sending <script type="math/tex">u_i</script> to <script type="math/tex">u_i</script>. This map is
+faithfully flat, too, so the map <script type="math/tex">E(F,H^\circ) \to E(F,H)</script> of <script type="math/tex">\Eoo</script>-rings
+is also faithfully flat. Corollary 3.33 from
+<a href="https://arxiv.org/pdf/1404.2156.pdf">here</a> is therefore applicable, and allows
+us to conclude that the map <script type="math/tex">E(F,H^\circ) \to E(F,H)</script> admits descent; in
+other words, <script type="math/tex">E(F,H^\circ)</script> is the geometric realization of the cosimplicial
+object <script type="math/tex">\{E(F,H)^{\otimes_{E(F,H^\circ)} \bullet+1}\}</script>. Concretely, this
+implies that smashing with <script type="math/tex">E(F,H)</script> is conservative on
+<script type="math/tex">E(F,H^\circ)</script>-modules, which in turn implies that the Bousfield class of
+<script type="math/tex">E(F,H)</script> agrees with that of <script type="math/tex">E(F,H^\circ)</script>.</p>
+
+<p>We know that <script type="math/tex">E(F,H^\circ)</script> is a Morava <script type="math/tex">E</script>-theory of height <script type="math/tex">n-1</script>, so
+this tells us that <script type="math/tex">E(F,H)</script>-localization is equivalent to
+<script type="math/tex">L_{n-1}</script>-localization, and that <script type="math/tex">L_{n-1} \S</script> is the geometric realization
+of the cosimplicial object <script type="math/tex">\{E(F,H)^{\otimes \bullet+1}\}</script> by the
+Hopkins-Ravenel smash product theorem. The map of <script type="math/tex">\Eoo</script>-rings <script type="math/tex">E(k,G) \to
+E(F,H)</script> we constructed above therefore determines a map
+<script type="math/tex">\{E(k,G)^{\bullet+1}\} \to \{E(F,H)^{\bullet+1}\}</script> of cosimplicial
+<script type="math/tex">\Eoo</script>-rings, and this induces the canonical map <script type="math/tex">L_n \S \to L_{n-1}\S</script>
+upon geometric realization. Since we can iterate the construction of the map
+<script type="math/tex">E(k,G) \to E(F,H)</script>, we obtain for our fixed <script type="math/tex">n</script>, and any <script type="math/tex">t\leq n</script>, a
+map of <script type="math/tex">\Eoo</script>-rings from <script type="math/tex">E(k,G)</script> to another <script type="math/tex">\Eoo</script>-ring such that the
+induced map on geometric realizations of the associated cosimplicial objects
+induces the canonical map <script type="math/tex">L_n \S \to L_t \S</script>. The discussion at the end of
+<a href="/chromotopy/2019/03/05/ln-log.html">our previous post</a> now implies that for
+any <em>fixed</em> <script type="math/tex">n</script>, we can construct maps <script type="math/tex">\gl_1(L_t \S) \to L_t \S</script> for all
+<script type="math/tex">t\leq n</script> which are compatible with respect to the canonical maps <script type="math/tex">L_{t'} \S
+\to L_t \S</script> of <script type="math/tex">\Eoo</script>-rings for <script type="math/tex">t' \geq t</script> (in other words, the obvious
+diagram involving the maps <script type="math/tex">\gl_1(L_{t'} \S) \to \gl_1(L_t \S)</script> and <script type="math/tex">L_{t'}
+\S\to L_t \S</script> commutes). These maps depend <em>a priori</em> on the choice of formal
+group <script type="math/tex">G</script> over <script type="math/tex">k</script>, but I would not be surprised if different choices of
+height <script type="math/tex">n</script> formal <script type="math/tex">p</script>-divisible group <script type="math/tex">G</script> gave rise to the same maps
+<script type="math/tex">\gl_1(L_t \S) \to L_t\S</script>.</p>
+
+<p>(<strong>Edit:</strong> I should’ve added the following statement. Since <script type="math/tex">F</script> is a perfect
+field, the connected-etale sequence for <script type="math/tex">H</script> splits. Because the deformation
+theory of etale group schemes is trivial, we obtain an <script type="math/tex">\Eoo</script>-ring map
+<script type="math/tex">E(F,H) \to E(F, H^\circ)</script>; this in turn gives an <script type="math/tex">\Eoo</script>-ring map <script type="math/tex">E(k, G)
+\to E(F, H) \to E(F, H^\circ)</script> between Morava <script type="math/tex">E</script>-theories of different
+heights.)</p>
+
+<p>Note that all of this requires <script type="math/tex">n</script> to be finite and fixed: our construction
+needs one to start off with a fixed formal <script type="math/tex">p</script>-divisible group of height
+<script type="math/tex">n</script> over a perfect field. In particular, we do <em>not</em> obtain a map <script type="math/tex">\gl_1(\S)
+\to \S</script>.  Perhaps such a map could be constructed if the phrase “Morava
+<script type="math/tex">E</script>-theory at infinite height” could be made to make sense.</p>
+
+  </div><a class="u-url" href="/blog/chromotopy/2019/03/08/e-thy.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Sanath Devalapurkar&#39;s home page</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Sanath Devalapurkar&#39;s home page</li><li><a class="u-email" href="mailto:sanathdevalapurkar@g.harvard.edu">sanathdevalapurkar@g.harvard.edu</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>Graduate student in math.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

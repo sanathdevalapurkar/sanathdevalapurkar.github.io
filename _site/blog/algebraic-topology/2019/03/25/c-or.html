@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Complex orientations of Thom spectra | Sanath Devalapurkar’s home page</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Complex orientations of Thom spectra" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Graduate student in math." />
+<meta property="og:description" content="Graduate student in math." />
+<link rel="canonical" href="http://localhost:4000/blog/algebraic-topology/2019/03/25/c-or.html" />
+<meta property="og:url" content="http://localhost:4000/blog/algebraic-topology/2019/03/25/c-or.html" />
+<meta property="og:site_name" content="Sanath Devalapurkar’s home page" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2019-03-25T00:00:00-07:00" />
+<script type="application/ld+json">
+{"url":"http://localhost:4000/blog/algebraic-topology/2019/03/25/c-or.html","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/blog/algebraic-topology/2019/03/25/c-or.html"},"description":"Graduate student in math.","headline":"Complex orientations of Thom spectra","dateModified":"2019-03-25T00:00:00-07:00","datePublished":"2019-03-25T00:00:00-07:00","@type":"BlogPosting","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Sanath Devalapurkar's home page" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Sanath Devalapurkar&#39;s home page</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/blog/">Blog</a><a class="page-link" href="/">Home</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Complex orientations of Thom spectra</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2019-03-25T00:00:00-07:00" itemprop="datePublished">Mar 25, 2019
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
+
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-109004213-1"></script>
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+        gtag('config', 'UA-109004213-1');
+</script>
+
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+<script type="math/tex; mode=display">\newcommand{\KO}{\mathrm{KO}} \newcommand{\TMF}{\mathrm{TMF}}
+\newcommand{\KU}{\mathrm{KU}} \newcommand{\Mfg}{M_\mathrm{fg}}
+\newcommand{\spec}{\mathrm{Spec}\ } \newcommand{\dX}{\mathcal{X}}
+\newcommand{\co}{\mathcal{O}} \newcommand{\Z}{\mathbf{Z}}
+\newcommand{\top}{\mathrm{top}} \newcommand{\E}{\mathbf{E}}
+\newcommand{\GG}{\mathbf{G}} \newcommand{\DD}{\mathbf{D}}
+\newcommand{\Mell}{M_\mathrm{ell}} \newcommand{\ce}{\mathcal{E}}
+\newcommand{\H}{\mathrm{H}} \newcommand{\dR}{\mathrm{dR}}
+\newcommand{\cf}{\mathcal{F}} \newcommand{\FF}{\mathbf{F}}
+\newcommand{\spf}{\mathrm{Spf}\ } \newcommand{\cA}{\mathcal{A}}
+\newcommand{\Mcub}{M_\mathrm{cub}} \newcommand{\Mqd}{M_\mathrm{qd}}
+\newcommand{\Aut}{\mathrm{Aut}} \newcommand{\tmf}{\mathrm{tmf}}
+\newcommand{\Tmf}{\mathrm{Tmf}} \newcommand{\Map}{\mathrm{Map}}
+\newcommand{\Ext}{\mathrm{Ext}} \newcommand{\End}{\mathrm{End}}
+\newcommand{\cg}{\mathcal{G}} \newcommand{\Hom}{\mathrm{Hom}}
+\newcommand{BP}[1]{\mathrm{BP}\langle #1\rangle} \newcommand{\QQ}{\mathbf{Q}}
+\newcommand{\PP}{\mathbf{P}} \newcommand{\Gal}{\mathrm{Gal}}
+\newcommand{\proj}{\mathrm{Proj}\ } \newcommand{\Ltwo}{L_{K(2)}}
+\newcommand{\Eoo}{\mathbf{E}_\infty} \newcommand{\ol}[1]{\overline #1}
+\newcommand{\pic}{\mathrm{Pic}} \newcommand{\RP}{\mathbf{R}P}
+\newcommand{\BO}{\mathrm{BO}} \newcommand{\cc}{\mathbf{C}}
+\newcommand{\CP}{\mathbf{C}P} \newcommand{\wt}[1]{\widetilde #1}
+\newcommand{\RR}{\mathbf{R}} \renewcommand{\S}{\mathbb{S}}
+\newcommand{\Lone}{L_{K(1)}} \newcommand{\Ltwo}{L_{K(2)}}
+\newcommand{\gl}{\mathrm{gl}} \newcommand{\Lk}{L_{K(n)}}
+\newcommand{\ku}{\mathrm{ku}} \newcommand{\ko}{\mathrm{ko}}
+\newcommand{\GL}{\mathrm{GL}} \newcommand{\Ln}{L_n}
+\newcommand{\Lt}{L_{K(t)}} \newcommand{\W}{\mathrm{W}}
+\newcommand{\BU}{\mathrm{BU}} \newcommand{\SU}{\mathrm{SU}}
+\newcommand{\MU}{\mathrm{MU}} \newcommand{\ul}[1]{\underline #1}</script>
+
+<p>Sorry for the long silence; I’ve been busy with midterms and studying for the
+GRE. I want to talk about a question that’s been on the back burner for quite a
+while. There’s a miraculous theorem of Hopkins and Mahowald, which states that
+the free <script type="math/tex">\E_2</script>-ring with a nullhomotopy of <script type="math/tex">p</script> is equivalent as an
+<script type="math/tex">\E_2</script>-ring to <script type="math/tex">\H\FF_p</script>. More concretely, let <script type="math/tex">S^1 \to B\GL_1(\S_p)</script>
+denote the map detecting <script type="math/tex">1-p\in \pi_0(\S_p)^\times = \Z_p^\times</script>. Since
+<script type="math/tex">B\GL_1(\S_p)</script> is an infinite loop space, this extends to a map <script type="math/tex">\Omega^2
+\Sigma^2 S^1 \to B\GL_1(\S_p)</script>, classifying a spherical bundle <script type="math/tex">\mu</script> over
+<script type="math/tex">\Omega^2 S^3</script>. Hopkins’ and Mahowald’s result states that the Thom spectrum
+of this spherical bundle is <script type="math/tex">\H\FF_p</script>. In light of this result, it is natural
+to ask: let <script type="math/tex">\alpha\in \pi_n(\S_p)</script>. When is the free <script type="math/tex">\E_k</script>-ring with
+<script type="math/tex">\alpha = 0</script> complex oriented?</p>
+
+<p>Whatever general condition we obtain should also prove that the Thom spectrum
+<script type="math/tex">(\Omega^2 S^3)^\mu</script> is complex oriented, so let’s try to attack this case
+first (without using that it is <script type="math/tex">\H\FF_p</script>). We might naively try to do this
+by constructing a map <script type="math/tex">\BU \to \Omega^2 S^3</script> of spaces over <script type="math/tex">B\GL_1(\S_p)</script>.
+However, such a map cannot exist: the image of the map <script type="math/tex">\BU \to B\GL_1(\S_p)</script>
+on homotopy is the (complex) image of J, so it suffices to show that there are
+elements in the image of J which do not desuspend to <script type="math/tex">S^3</script>. This is indeed
+true: the elements <script type="math/tex">\alpha_{n/k}\in \pi_{2n(p-1)-1} \S_p</script> (which are defined
+for <script type="math/tex">1\leq k\leq \nu_p(n)+1</script>) desuspends to <script type="math/tex">S^{2k+1}_p</script> with Hopf
+invariant <script type="math/tex">\alpha_{n-k}</script>. To be concrete, <script type="math/tex">\alpha_{p^2/p}\in
+\pi_{2p^2(p-1)-1} \S_p</script> does not desuspend to <script type="math/tex">S^3</script>.</p>
+
+<p>Nonetheless, we can define a <em><script type="math/tex">T(1)</script>-orientation</em> of <script type="math/tex">(\Omega^2 S^3)^\mu</script>.
+Recall that <script type="math/tex">T(1)</script> is the free <script type="math/tex">\E_1</script>-ring with <script type="math/tex">\alpha_1 = 0</script>, i.e., the
+Thom spectrum of the map <script type="math/tex">\Omega S^{2p-1} \to B\GL_1(\S_p)</script> classifying
+<script type="math/tex">\alpha_1</script>. There is a map <script type="math/tex">\Omega S^{2p-1} \to \Omega^2 S^3</script> of spaces
+over <script type="math/tex">B\GL_1(\S_p)</script> detecting <script type="math/tex">\alpha_1</script> in <script type="math/tex">\pi_{2p}(S^3)</script>, and this
+defines a map <script type="math/tex">T(1) \to (\Omega^2 S^3)^\mu</script> of Thom spectra. This detects the
+fact that <script type="math/tex">\alpha_1</script> is null in <script type="math/tex">(\Omega^2 S^3)^\mu</script>. In fact, this implies
+that <script type="math/tex">\alpha_n</script> is null in <script type="math/tex">(\Omega^2 S^3)^\mu</script> for all <script type="math/tex">n</script>.</p>
+
+<p>Instead of trying to define a ring map <script type="math/tex">\MU \to (\Omega^2 S^3)^\mu</script> of <em>Thom
+spectra</em>, let us try to directly define a complex orientation of <script type="math/tex">(\Omega^2
+S^3)^\mu</script> (the <em>integral</em> Thom spectrum, which <em>a posteriori</em> we know is
+<script type="math/tex">\H\FF_2</script>), i.e., a factorization <script type="math/tex">\S \to \Sigma^{-2} \CP^\infty \to
+(\Omega^2 S^3)^\mu</script> of the unit. An old theorem of Atiyah’s says that if
+<script type="math/tex">\CP^\infty \to \BU</script> is the map classifying the virtual vector bundle <script type="math/tex">\xi =
+\mathcal{L} - 1</script>, where <script type="math/tex">\mathcal{L}</script> is the canonical line bundle on
+<script type="math/tex">\CP^\infty</script>, then the Thom spectrum <script type="math/tex">(\CP^\infty)^\xi</script> is equivalent to
+<script type="math/tex">\Sigma^{-2} \CP^\infty</script>. The composite <script type="math/tex">\CP^\infty \to \BU \to B\GL_1(\S)</script>
+detects the spherical fibration over <script type="math/tex">\CP^\infty</script> defined by the one-point
+compactification of <script type="math/tex">\xi</script> (viewed as a virtual vector bundle), and upon
+looping this composite, the map <script type="math/tex">S^1 = \Omega \CP^\infty \to \GL_1(\S)</script>
+detects <script type="math/tex">\eta\in \pi_1(\S)</script>.</p>
+
+<p>We would therefore like to define a pointed map <script type="math/tex">BS^1 = \CP^\infty \to
+\Omega^2 S^3</script> of pointed spaces over <script type="math/tex">B\GL_1(\S)</script>. However, there cannot be
+any such map: it would be adjoint to a map <script type="math/tex">\Sigma^2 \CP^\infty \to S^3</script>
+which is <script type="math/tex">\eta</script> on the bottom cell of <script type="math/tex">\Sigma^2 \CP^\infty</script>. In particular,
+the map <script type="math/tex">\eta:S^4 \to S^3</script> would factor as <script type="math/tex">S^4 \to \Sigma^2 \CP^2 =
+\Sigma^4 C\eta\to S^3</script>. This is absurd: <script type="math/tex">\eta^2</script> is not zero!</p>
+
+<p>Let me end with a few remarks. At the prime <script type="math/tex">2</script>, the spectrum <script type="math/tex">T(1)</script> is
+simply <script type="math/tex">X(2)</script>, so we can now ask about extending this map <script type="math/tex">X(2) \to
+(\Omega^2 S^3)^\mu</script> to a map <script type="math/tex">X(3) \to (\Omega^2 S^3)^\mu</script>. To answer this,
+we need to understand how <script type="math/tex">X(n)</script> is created from <script type="math/tex">X(n-1)</script>. In <a href="https://arxiv.org/pdf/1708.03042.pdf">this
+paper</a>, Beardsley shows that there is an
+element <script type="math/tex">\chi_n \in \pi_{2n-1}(X(n)_p)</script> such that <script type="math/tex">X(n+1)_p</script> is the
+<script type="math/tex">\E_1</script>-quotient of <script type="math/tex">X(n)_p</script> by <script type="math/tex">\chi_n</script>. Let us recall how this element
+is constructed. There is a fiber sequence <script type="math/tex">\Omega \SU(n) \to \Omega \SU(n+1)
+\to \Omega S^{2n+1}</script>. By construction, the composite <script type="math/tex">\Omega \SU(n) \to
+\Omega \SU(n+1) \to B\GL_1(\S_p) \to B\GL_1(X(n)_p)</script> is null, and hence
+factors through the cofiber <script type="math/tex">C</script> of <script type="math/tex">\Omega \SU(n) \to \Omega \SU(n+1)</script>.
+There is a map <script type="math/tex">\Omega S^{2n+1} \to C</script> (which won’t be an equivalence), and
+so we obtain a map <script type="math/tex">\Omega S^{2n+1} \to B\GL_1(X(n)_p)</script>. This defines the
+element <script type="math/tex">\chi_n \in \pi_{2n-1}(X(n)_p)</script>.  In fact, <script type="math/tex">\chi_n</script> vanishes for
+<script type="math/tex">n+1</script> not a power of <script type="math/tex">p</script>. In the case that <script type="math/tex">n+1 = p^m</script>, the map
+<script type="math/tex">\chi_{p^m-1}: S^{2p^m-3} = S^{|v_m|-1} \to X(p^m-1)_p</script>, which I’ll denote by
+<script type="math/tex">\sigma_m</script>, factors through the inclusion <script type="math/tex">T(m-1)_p\to X(p^m-1)_p</script>. For
+instance, <script type="math/tex">\sigma_1 = \alpha_1\in \pi_{2p-3}(\S) \subseteq
+\pi_{2p-3}(X(p-1))</script>. These elements probably have to do with something
+<em>awesome</em>, relating <script type="math/tex">T(m-1)</script> to <script type="math/tex">\BP{m}</script>. Unfortunately, I don’t understand
+these elements very well yet, so I won’t say anything more about them.</p>
+
+<p>Let me close by mentioning that there is yet <em>another</em> approach to
+understanding complex orientations, due to <a href="https://arxiv.org/pdf/1603.00047.pdf">Hopkins and
+Lawson</a>. I’ll return back to this post at
+some point to write down my understanding of what’s going on in their paper.</p>
+
+  </div><a class="u-url" href="/blog/algebraic-topology/2019/03/25/c-or.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Sanath Devalapurkar&#39;s home page</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Sanath Devalapurkar&#39;s home page</li><li><a class="u-email" href="mailto:sanathdevalapurkar@g.harvard.edu">sanathdevalapurkar@g.harvard.edu</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>Graduate student in math.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

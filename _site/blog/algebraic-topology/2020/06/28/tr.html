@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Rational degeneration of a Tate spectral sequence | Sanath Devalapurkar’s home page</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Rational degeneration of a Tate spectral sequence" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Graduate student in math." />
+<meta property="og:description" content="Graduate student in math." />
+<link rel="canonical" href="http://localhost:4000/blog/algebraic-topology/2020/06/28/tr.html" />
+<meta property="og:url" content="http://localhost:4000/blog/algebraic-topology/2020/06/28/tr.html" />
+<meta property="og:site_name" content="Sanath Devalapurkar’s home page" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-06-28T00:00:00-07:00" />
+<script type="application/ld+json">
+{"url":"http://localhost:4000/blog/algebraic-topology/2020/06/28/tr.html","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/blog/algebraic-topology/2020/06/28/tr.html"},"description":"Graduate student in math.","headline":"Rational degeneration of a Tate spectral sequence","dateModified":"2020-06-28T00:00:00-07:00","datePublished":"2020-06-28T00:00:00-07:00","@type":"BlogPosting","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Sanath Devalapurkar's home page" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Sanath Devalapurkar&#39;s home page</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/blog/">Blog</a><a class="page-link" href="/">Home</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Rational degeneration of a Tate spectral sequence</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2020-06-28T00:00:00-07:00" itemprop="datePublished">Jun 28, 2020
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
+
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-109004213-1"></script>
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+        gtag('config', 'UA-109004213-1');
+</script>
+
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+<script type="math/tex; mode=display">\newcommand{\KO}{\mathrm{KO}} \newcommand{\TMF}{\mathrm{TMF}}
+\newcommand{\KU}{\mathrm{KU}} \newcommand{\Mfg}{M_\mathrm{fg}}
+\newcommand{\spec}{\mathrm{Spec}} \newcommand{\dX}{\mathcal{X}}
+\newcommand{\co}{\mathcal{O}} \newcommand{\Z}{\mathbf{Z}}
+\newcommand{\top}{\mathrm{top}} \newcommand{\E}{\mathbf{E}}
+\newcommand{\GG}{\mathbf{G}} \newcommand{\DD}{\mathbf{D}}
+\newcommand{\Mell}{M_\mathrm{ell}} \newcommand{\ce}{\mathcal{E}}
+\newcommand{\H}{\mathrm{H}} \newcommand{\dR}{\mathrm{dR}}
+\newcommand{\cf}{\mathcal{F}} \newcommand{\FF}{\mathbf{F}}
+\newcommand{\spf}{\mathrm{Spf}\ } \newcommand{\cA}{\mathcal{A}}
+\newcommand{\Mcub}{M_\mathrm{cub}} \newcommand{\Mqd}{M_\mathrm{qd}}
+\newcommand{\Aut}{\mathrm{Aut}} \newcommand{\tmf}{\mathrm{tmf}}
+\newcommand{\Tmf}{\mathrm{Tmf}} \newcommand{\Map}{\mathrm{Map}}
+\newcommand{\Ext}{\mathrm{Ext}} \newcommand{\End}{\mathrm{End}}
+\newcommand{\cg}{\mathcal{G}} \newcommand{\Hom}{\mathrm{Hom}}
+\newcommand{BP}[1]{\mathrm{BP}\langle #1\rangle} \newcommand{\QQ}{\mathbf{Q}}
+\newcommand{\PP}{\mathbf{P}} \newcommand{\Gal}{\mathrm{Gal}}
+\newcommand{\proj}{\mathrm{Proj}\ } \newcommand{\Ltwo}{L_{K(2)}}
+\newcommand{\Eoo}{\mathbf{E}_\infty} \newcommand{\ol}[1]{\overline #1}
+\newcommand{\pic}{\mathrm{Pic}} \newcommand{\RP}{\mathbf{R}P}
+\newcommand{\BO}{\mathrm{BO}} \newcommand{\cc}{\mathbf{C}}
+\newcommand{\CP}{\mathbf{C}P} \newcommand{\wt}[1]{\widetilde #1}
+\newcommand{\RR}{\mathbf{R}} \renewcommand{\S}{\mathbb{S}}
+\newcommand{\Lone}{L_{K(1)}} \newcommand{\Ltwo}{L_{K(2)}}
+\newcommand{\gl}{\mathrm{gl}} \newcommand{\Lk}{L_{K(n)}}
+\newcommand{\ku}{\mathrm{ku}} \newcommand{\ko}{\mathrm{ko}}
+\newcommand{\GL}{\mathrm{GL}} \newcommand{\Ln}{L_n} \newcommand{\Lt}{L_{K(t)}}
+\newcommand{\W}{\mathrm{W}} \newcommand{\BU}{\mathrm{BU}}
+\newcommand{\SU}{\mathrm{SU}} \newcommand{\MU}{\mathrm{MU}}
+\newcommand{\ul}[1]{\underline #1} \newcommand{\Sq}{\mathrm{Sq}}
+\newcommand{\Tr}{\mathrm{Tr}} \newcommand{\d}{\mathrm{d}}
+\newcommand{\HP}{\mathbf{H}P} \newcommand{\cL}{\mathcal{L}}
+\newcommand{\cs}{\mathrm{cs}} \newcommand{\cd}{\mathcal{D}}
+\newcommand{\Bord}{\mathrm{Bord}} \newcommand{\SO}{\mathrm{SO}}
+\newcommand{\cC}{\mathcal{C}} \newcommand{\Sp}{\mathrm{Sp}}
+\newcommand{\Lkd}{L_{K(d)}} \newcommand{\Mod}{\mathrm{Mod}}
+\newcommand{\cH}{\mathcal{H}} \newcommand{\ket}[1]{|#1 \rangle}
+\newcommand{\Bun}{\mathrm{Bun}} \newcommand{\cM}{\mathcal{M}}
+\newcommand{\MTH}{\mathrm{MT}H} \newcommand{\MSO}{\mathrm{MSO}}
+\newcommand{\twsm}{\ \widetilde{\wedge} \ } \newcommand{\BSpin}{\mathrm{BSpin}}
+\newcommand{\MSpin}{\mathrm{MSpin}} \newcommand{\BString}{\mathrm{BString}}
+\newcommand{\MString}{\mathrm{MString}} \newcommand{\B}{\mathrm{B}}
+\newcommand{\der}{\mathrm{der}} \newcommand{\Cat}{\mathrm{Cat}}
+\newcommand{\QCoh}{\mathrm{QCoh}} \newcommand{\LMod}{\mathrm{LMod}}
+\newcommand{\Rep}{\mathrm{Rep}} \newcommand{\HH}{\mathrm{HH}}
+\newcommand{\ZZ}{\mathfrak{Z}} \newcommand{\fr}{\mathrm{fr}}
+\newcommand{\BSO}{\mathrm{BSO}} \newcommand{\BSU}{\mathrm{BSU}}
+\newcommand{\id}{\mathrm{id}} \newcommand{\Top}{\mathrm{Top}}
+\newcommand{\cP}{\mathcal{P}} \newcommand{\U}{\mathrm{U}}
+\newcommand{\Sym}{\mathrm{Sym}} \newcommand{\coker}{\mathrm{coker}}
+\newcommand{\Vect}{\mathrm{Vect}} \newcommand{\Fun}{\mathrm{Fun}}
+\newcommand{\cT}{\mathcal{T}} \newcommand{\cJ}{\mathcal{J}}
+\newcommand{\Res}{\mathrm{Res}} \newcommand{\Ind}{\mathrm{Ind}}
+\newcommand{\MO}{\mathrm{MO}} \newcommand{\MSO}{\mathrm{MSO}}
+\newcommand{\colim}{\mathrm{colim}} \newcommand{\hocolim}{\mathrm{hocolim}}
+\newcommand{\fin}{\mathrm{fin}} \newcommand{\Tot}{\mathrm{Tot}}
+\newcommand{\im}{\mathrm{im}} \newcommand{\FT}{\mathrm{FT}}
+\newcommand{\AA}{\mathbf{A}} \newcommand{\Frob}{\mathrm{Frob}}
+\newcommand{\ex}{\mathrm{ex,pr}} \newcommand{\fil}{\mathrm{fil}}
+\newcommand{\gr}{\mathrm{gr}} \newcommand{\un}{\mathrm{un}}
+\newcommand{\Syn}{\mathrm{Syn}} \newcommand{\Cart}{\mathrm{Cart}}
+\newcommand{\bo}{\mathrm{bo}} \newcommand{\mmod}{/\!\!/}
+\newcommand{\bsp}{\mathrm{bsp}} \newcommand{\BPP}{\mathrm{BP}}
+\newcommand{\CAlg}{\mathrm{CAlg}} \newcommand{\TCart}{\mathrm{TCart}}
+\newcommand{\BW}{\mathrm{BW}} \newcommand{\Br}{\mathrm{Br}}
+\newcommand{\Pic}{\mathrm{Pic}} \newcommand{\ext}{\mathrm{ext}}
+\newcommand{\Cl}{\mathrm{Cl}} \newcommand{\disc}{\mathrm{disc}}
+\newcommand{\dir}{D\!\!\!\!/} \newcommand{\bb}{\mathrm{bb}}
+\newcommand{\Ran}{\mathrm{Ran}} \newcommand{\cu}{\mathcal{U}}
+\newcommand{\Gr}{\mathrm{Gr}} \newcommand{\Alg}{\mathrm{Alg}}
+\newcommand{\G}{\Gamma} \newcommand{\dY}{\mathcal{Y}}
+\newcommand{\Line}{\mathrm{Line}} \newcommand{\MUP}{\mathrm{MUP}}
+\newcommand{\Bl}{\mathrm{Bl}} \newcommand{\St}{\mathrm{St}}
+\newcommand{\cB}{\mathcal{B}} \newcommand{\SL}{\mathrm{SL}}
+\newcommand{\XX}{\mathrm{X}} \newcommand{\gp}{\mathrm{gp}}
+\newcommand{\Q}{\mathrm{Q}} \newcommand{\cI}{\mathcal{I}}
+\newcommand{\T}{\mathrm{T}} \newcommand{\D}{\mathrm{D}}
+\newcommand{\Aff}{\mathrm{Aff}} \newcommand{\BGL}{\mathrm{BGL}}
+\newcommand{\an}{\mathrm{an}} \newcommand{\Tel}{\mathrm{Tel}}
+\renewcommand{\|}{|} \newcommand{\MGL}{\mathrm{MGL}}
+\newcommand{\CH}{\mathrm{CH}} \newcommand{\fr}[1]{\mathfrak #1}
+\newcommand{\ch}{\mathrm{ch}} \newcommand{\Td}{\mathrm{Td}}
+\newcommand{\Spin}{\mathrm{Spin}} \newcommand{\G}{\mathrm{G}}
+\newcommand{\cHH}{\mathcal{H}} \newcommand{\F}{\mathrm{F}}
+\newcommand{\B}{\mathrm{B}} \newcommand{\HC}{\mathrm{HC}}
+\newcommand{\fib}{\mathrm{fib}} \newcommand{\tr}{\mathrm{tr}}
+\newcommand{\TR}{\mathrm{TR}} \newcommand{\THH}{\mathrm{THH}}
+\newcommand{\TP}{\mathrm{TP}} \newcommand{\crys}{\mathrm{crys}}
+\newcommand{\even}{\mathrm{even}} \newcommand{\odd}{\mathrm{odd}}
+\newcommand{\hodge}{\mathrm{Hodge}} \newcommand{\V}{\mathrm{V}}
+\newcommand{\C}{C} \newcommand{\K}{K} \newcommand{\M}{M}
+\newcommand{\X}{X} \newcommand{\h}{h} \newcommand{\TC}{\mathrm{TC}}
+\newcommand{\t}{t}</script>
+
+<p>In this post, I would like to discuss a noncommutative analogue of the rational
+degeneration of the slope spectral sequence in crystalline cohomology.</p>
+
+<p>Let <script type="math/tex">k</script> be a perfect field of characteristic <script type="math/tex">p>0</script>, let <script type="math/tex">\W</script> be the ring
+of Witt vectors, and let <script type="math/tex">\K = \W[1/p]</script> denote its fraction field.  Recall
+from <a href="https://arxiv.org/abs/1809.01714">here</a> that a <script type="math/tex">p</script>-typical topological
+Cartier module <script type="math/tex">\M</script> is an <script type="math/tex">\S^1</script>-spectrum with an <script type="math/tex">\S^1</script>-equivariant
+factorization</p>
+
+<script type="math/tex; mode=display">\M_{\h\C_p} \xrightarrow{\V} \M \xrightarrow{\F} \M^{\h\C_p}</script>
+
+<p>of the norm, where <script type="math/tex">\M_{\h\C_p}</script> and <script type="math/tex">\M^{\h\C_p}</script> are given the
+<script type="math/tex">\S^1</script>-action via the <script type="math/tex">p</script>-fold covering <script type="math/tex">\S^1 \to \S^1 \cong \S^1/\C_p</script>.
+If <script type="math/tex">\X</script> is a <script type="math/tex">p</script>-typical cyclotomic spectrum, then <script type="math/tex">\TR(\X)</script> is a
+<script type="math/tex">p</script>-typical topological Cartier module.</p>
+
+<p>Let <script type="math/tex">\M</script> be a <script type="math/tex">p</script>-typical topological Cartier module. Then <script type="math/tex">\pi_\ast \M</script>
+is a graded module over the ring <script type="math/tex">R = \Z[d,\eta,\F,\V]/{I}</script>, where <script type="math/tex">d</script> and
+<script type="math/tex">\eta</script> are in degree <script type="math/tex">1</script>, <script type="math/tex">\F</script> and <script type="math/tex">\V</script> are in degree zero, and <script type="math/tex">{I}</script>
+is the ideal of relations</p>
+
+<script type="math/tex; mode=display">% <![CDATA[
+\F\V = p, \ d^2 = \eta d = d\eta, \ 2\eta = 0, \ \eta^4 = 0, \ \V d =
+pd\V, \ d\F = p\F d, \ \F d\V = \begin{cases}
+    d & p>2\\
+    d+\eta & p=2
+\end{cases}. %]]></script>
+
+<p>A graded module over <script type="math/tex">R</script> is called a <script type="math/tex">p</script>-typical Cartier complex.</p>
+
+<p>Let <script type="math/tex">\X</script> be a <script type="math/tex">p</script>-typical topological Cartier module which is bounded below.
+The <script type="math/tex">\S^1</script>-equivariant Frobenius gives a map <script type="math/tex">\F:\X\to \X^{hC_p}</script>, and hence
+an <script type="math/tex">\S^1</script>-equivariant map</p>
+
+<script type="math/tex; mode=display">\varphi: \X \xrightarrow{\F} \X^{hC_p} \to \X^{tC_p}.</script>
+
+<p>Define the Frobenius <script type="math/tex">\varphi:\X^{h\S^1} \to \X^{t\S^1}</script> as the composite
+<script type="math/tex">\X^{h\S^1} \xrightarrow{\varphi} (\X^{tC_p})^{h\S^1} \simeq \X^{t\S^1},</script>
+where the final equivalence is Lemma II.4.2 from
+<a href="https://projecteuclid.org/euclid.acta/1560967045">here</a>.</p>
+
+<p>If <script type="math/tex">\X</script> is a cyclotomic spectrum, we write <script type="math/tex">\TR^-(\X)</script> to denote
+<script type="math/tex">\TR(\X)^{h\S^1}</script>.</p>
+
+<p><strong>Lemma:</strong> The map <script type="math/tex">\varphi: \TR^-(k) \to \TP(k)</script> is the Frobenius on
+<script type="math/tex">\pi_0</script>, and sends <script type="math/tex">u\in \pi_{-2} \TR^-(k)</script> to <script type="math/tex">pu\in \pi_{-2} \TP(k)</script>.</p>
+
+<p>Let’s prove this. If <script type="math/tex">\X</script> is any cyclotomic spectrum, then the Frobenius
+gives a map from the cofiber sequence:</p>
+
+<script type="math/tex; mode=display">\TR(\X)_{hC_p} \xrightarrow{\V} \TR(\X) \to \X</script>
+
+<p>to the cofiber sequence</p>
+
+<script type="math/tex; mode=display">\TR(\X)_{hC_p} \to \TR(\X)^{hC_p} \to \X^{tC_p}.</script>
+
+<p>When <script type="math/tex">X = \THH(k)</script>, we therefore find that</p>
+
+<script type="math/tex; mode=display">\TR(k) \simeq \THH(k) \times_{\THH(k)^{tC_p}} \TR(k)^{hC_p}.</script>
+
+<p>Taking <script type="math/tex">\S^1</script>-fixed points gives</p>
+
+<script type="math/tex; mode=display">\TR^-(k) \simeq \TC^-(k) \times_{(\THH(k)^{tC_p})^{h\S^1} \simeq \TP(k)}
+(\TR(k)^{hC_p})^{h\S^1}.</script>
+
+<p>The map <script type="math/tex">\TR^-(k)\to \TP(k)</script> is the map <script type="math/tex">\varphi:\TR^-(k)\to \TP(k)</script>, and the
+diagram shows that <script type="math/tex">\varphi</script> factors on homotopy as</p>
+
+<script type="math/tex; mode=display">\pi_\ast \TR^-(k) \cong \W[\![u]\!] \to \pi_\ast \TC^-(k) \cong \W[\sigma,
+\beta]/(\sigma\beta=p) \xrightarrow{\varphi} \pi_\ast \TP(k) \cong \W[\sigma^{\pm
+1}],</script>
+
+<p>with <script type="math/tex">|\sigma| = 2</script> and <script type="math/tex">|\beta| = -2</script>. The second map sends <script type="math/tex">\beta</script> to
+<script type="math/tex">p\beta</script> by Proposition IV.4.9 <a href="https://projecteuclid.org/euclid.acta/1560967045">here</a>.</p>
+
+<p>It therefore suffices to show that the first map sends <script type="math/tex">u</script> to <script type="math/tex">\beta</script>. To
+show this, it suffices to show that this is the case on the <script type="math/tex">E_2</script>-page of
+the homotopy fixed points spectral sequence. The map <script type="math/tex">\pi_\ast \TR(k) \cong
+\W \to \pi_\ast \THH(k) \cong k[\sigma]</script> (with <script type="math/tex">|\sigma|=2</script>) factors as the
+composite</p>
+
+<script type="math/tex; mode=display">\W \to \W/p \cong k \to k[\sigma],</script>
+
+<p>and the <script type="math/tex">E_2</script>-page of the homotopy fixed points spectral sequence for
+<script type="math/tex">\pi_\ast \TC^-(k)</script> is</p>
+
+<script type="math/tex; mode=display">E_2^{\ast, \ast} \cong \H^\ast(\CP^\infty; \pi_\ast \THH(k)) \cong
+\W[\sigma, \beta],</script>
+
+<p>where <script type="math/tex">\beta</script> is the orientation generator in <script type="math/tex">\H^2(\CP^\infty; k)</script>. (By
+Lemma IV.4.7<a href="https://projecteuclid.org/euclid.acta/1560967045">here</a>, the only multiplicative extension is
+the product <script type="math/tex">\sigma\beta = p</script>.) Therefore, <script type="math/tex">\beta</script> is hit by <script type="math/tex">u</script>.</p>
+
+<p><strong>Theorem:</strong> Let <script type="math/tex">\X</script> be a perfect <script type="math/tex">\TR(k)</script>-module in <script type="math/tex">p</script>-typical
+topological Cartier modules such that <script type="math/tex">\X</script> is <script type="math/tex">\V</script>-complete.  Then the Tate
+spectral sequence</p>
+
+<script type="math/tex; mode=display">E_2^{s,t} = \widehat{\H}^s(\CP^\infty; \pi_t \X) \Rightarrow
+\pi_{t-s} (\X^{\t\S^1})</script>
+
+<p>degenerates rationally (i.e., modulo <script type="math/tex">p</script>-power torsion).</p>
+
+<p>Let’s prove this. Since <script type="math/tex">\X</script> is a <script type="math/tex">\TR(k)</script>-module, the homotopy fixed point spectrum
+<script type="math/tex">\X^{\h\S^1}</script> is a <script type="math/tex">\TR^-(k)</script>-module. Since <script type="math/tex">\TR(k) = \W</script>, we have <script type="math/tex">\TR^-(k)
+= \W^{\CP^\infty_+}</script>, so that <script type="math/tex">\pi_\ast \TR^-(k) = \W[\![u]\!]</script> with
+<script type="math/tex">|u|=-2</script>.  Let us write <script type="math/tex">\X^{\h\S^1}_\QQ = \X^{\h\S^1}\otimes_\W \K</script>; we will
+show that the homotopy fixed points spectral sequence for <script type="math/tex">\X^{\h\S^1}_\QQ</script>
+degenerates at the <script type="math/tex">E_2</script>-page.</p>
+
+<p>Since we have inverted <script type="math/tex">p</script>, there is an action of the Frobenius <script type="math/tex">\F</script> and the
+Verschiebung <script type="math/tex">\V</script> on <script type="math/tex">\X^{\h\S^1}_\QQ</script>, and on <script type="math/tex">E_r^{2s,t}\otimes_\W \K</script>. We
+will denote the latter action by <script type="math/tex">\F_r^{2s,t}</script>. The slopes <script type="math/tex">\sigma</script> (i.e.,
+<script type="math/tex">p</script>-adic valuation of the eigenvalues) of <script type="math/tex">\F_r^{2s,t}</script> satisfy <script type="math/tex">% <![CDATA[
+s\leq
+\sigma< s+1 %]]></script>. Indeed, <script type="math/tex">E_2^{2s,t} \otimes_\W \K \cong \pi_t \X_\QQ \cdot
+u^s</script>, and <script type="math/tex">\F_2^{2s,0}</script> acts on <script type="math/tex">u^s</script> by multiplication by <script type="math/tex">p^s</script>, so</p>
+
+<script type="math/tex; mode=display">\F_2^{2s,t}(xu^s) = \F_2^{0,t}(x) \F_2^{2s,0}(u^s) = p^s u^s
+\F_2^{0,t}(x).</script>
+
+<p>It follows that <script type="math/tex">\F_r^{2s,t}</script> acts on <script type="math/tex">E_r^{2s,t}</script> by <script type="math/tex">p^s \F_r^{0,t}</script>, and
+thus that <script type="math/tex">\sigma \geq s</script>.
+Suppose for the sake of contradiction that a nonzero <script type="math/tex">xu^s\in E_2^{2s,t}
+\otimes_\W \K</script> has slope <script type="math/tex">\lambda \geq s+1</script>; then, <script type="math/tex">p^\lambda xu^s = p^s u^s
+\F_2^{0,t}(x)</script>, so <script type="math/tex">x</script> has slope <script type="math/tex">\lambda-s \geq 1</script>. It follows that</p>
+
+<script type="math/tex; mode=display">\F \V x = \V \F x = p^{\lambda-s} \V x,</script>
+
+<p>i.e., that <script type="math/tex">\V x</script> has slope <script type="math/tex">\geq 1</script>. Iterating, we see that <script type="math/tex">\V^n x</script> has
+slope <script type="math/tex">\geq 1</script> for every integer <script type="math/tex">n\geq 0</script>. But <script type="math/tex">\V</script> is topologically
+nilpotent, which gives a contradiction (since <script type="math/tex">x</script> is nonzero).</p>
+
+<p>The differential in the Tate spectral sequence is of bidegree <script type="math/tex">(r,r-1)</script>, and
+so is nonzero only when <script type="math/tex">r</script> is even; in that case,</p>
+
+<script type="math/tex; mode=display">d_{2r}: E_2^{2s,t} =_\mathrm{subquot} \pi_t \X \cdot u^s \to
+\pi_{t+2r-1}\X \cdot u^{s+r} =_\mathrm{subquot} E_{2r}^{2s+2r, t+2r-1}.</script>
+
+<p>Since the slopes of <script type="math/tex">\F</script> on <script type="math/tex">E_{2r}^{2s,t}</script> lie in <script type="math/tex">s,s+1)</script>, and the
+slopes of <script type="math/tex">E_{2r}^{2s+2r, t+2r-1}</script> lies in <script type="math/tex">[s+r,s+r+1)</script>, it suffices to
+observe that <script type="math/tex">d_{2r}</script> preserves slopes, i.e., that <script type="math/tex">d_{2r} \F_{2r}^{2s,t} =
+\F_{2r}^{2s+2r,t+2r-1} d_{2r}</script>. (This follows from the fact that
+<script type="math/tex">\F_r^{2s,t}</script> acts on <script type="math/tex">E_r^{2s,t}</script> by <script type="math/tex">p^s \F_r^{0,t}</script>.) This implies that
+<script type="math/tex">d_{2r}</script> vanishes, since <script type="math/tex">[s,s+1) \cap [s+r, s+r+1) = \emptyset</script>, as desired.</p>
+
+<p>The proof of this theorem shows:</p>
+
+<p><strong>Corollary:</strong> Let <script type="math/tex">(\X^{\t\S^1}_\QQ)^{a,b)}</script> denote the
+sub-<script type="math/tex">\F</script>-isocrystal of <script type="math/tex">\X^{\t\S^1}_\QQ</script> on which the slopes <script type="math/tex">\sigma</script> of
+<script type="math/tex">\F</script> satisfy <script type="math/tex">% <![CDATA[
+a\leq \sigma < b %]]></script>. Then there is an isomorphism</p>
+
+<script type="math/tex; mode=display">\pi_{t-s}(\X^{\t\S^1}_\QQ)^{s,s+1)} \cong (\widehat{\H}^s(\CP^\infty; \pi_t
+\X_\QQ), \F_2^{2s,t} = p^s \F_2^{0,t}).</script>
+
+<p>So, for instance, suppose <script type="math/tex">\cC</script> is a smooth and proper <script type="math/tex">k</script>-linear stable
+<script type="math/tex">\infty</script>-category such that <script type="math/tex">\TR(\cC)</script> is <script type="math/tex">\V</script>-complete. By Corollary 5
+<a href="https://arxiv.org/abs/1809.01714">here</a>, <script type="math/tex">\TR(\cC)</script> is a perfect
+<script type="math/tex">\TR(k)</script>-module, so we can apply the theorem and corollary to this example.</p>
+
+  </div><a class="u-url" href="/blog/algebraic-topology/2020/06/28/tr.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Sanath Devalapurkar&#39;s home page</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Sanath Devalapurkar&#39;s home page</li><li><a class="u-email" href="mailto:sanathdevalapurkar@g.harvard.edu">sanathdevalapurkar@g.harvard.edu</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>Graduate student in math.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

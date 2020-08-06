@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Comparing crystalline and de Rham cohomology | Sanath Devalapurkar’s home page</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Comparing crystalline and de Rham cohomology" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Graduate student in math." />
+<meta property="og:description" content="Graduate student in math." />
+<link rel="canonical" href="http://localhost:4000/blog/algebraic-geometry/2020/07/14/crys.html" />
+<meta property="og:url" content="http://localhost:4000/blog/algebraic-geometry/2020/07/14/crys.html" />
+<meta property="og:site_name" content="Sanath Devalapurkar’s home page" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-07-14T00:00:00-07:00" />
+<script type="application/ld+json">
+{"url":"http://localhost:4000/blog/algebraic-geometry/2020/07/14/crys.html","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/blog/algebraic-geometry/2020/07/14/crys.html"},"description":"Graduate student in math.","headline":"Comparing crystalline and de Rham cohomology","dateModified":"2020-07-14T00:00:00-07:00","datePublished":"2020-07-14T00:00:00-07:00","@type":"BlogPosting","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Sanath Devalapurkar's home page" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Sanath Devalapurkar&#39;s home page</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/blog/">Blog</a><a class="page-link" href="/">Home</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Comparing crystalline and de Rham cohomology</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2020-07-14T00:00:00-07:00" itemprop="datePublished">Jul 14, 2020
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
+
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-109004213-1"></script>
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+        gtag('config', 'UA-109004213-1');
+</script>
+
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+<script type="math/tex; mode=display">\newcommand{\KO}{\mathrm{KO}} \newcommand{\TMF}{\mathrm{TMF}}
+\newcommand{\KU}{\mathrm{KU}} \newcommand{\Mfg}{M_\mathrm{fg}}
+\newcommand{\spec}{\mathrm{Spec}} \newcommand{\dX}{\mathcal{X}}
+\newcommand{\co}{\mathcal{O}} \newcommand{\Z}{\mathbf{Z}}
+\newcommand{\top}{\mathrm{top}} \newcommand{\E}{\mathbf{E}}
+\newcommand{\GG}{\mathbf{G}} \newcommand{\DD}{\mathbf{D}}
+\newcommand{\Mell}{M_\mathrm{ell}} \newcommand{\ce}{\mathcal{E}}
+\newcommand{\H}{\mathrm{H}} \newcommand{\dR}{\mathrm{dR}}
+\newcommand{\cf}{\mathcal{F}} \newcommand{\FF}{\mathbf{F}}
+\newcommand{\spf}{\mathrm{Spf}\ } \newcommand{\cA}{\mathcal{A}}
+\newcommand{\Mcub}{M_\mathrm{cub}} \newcommand{\Mqd}{M_\mathrm{qd}}
+\newcommand{\Aut}{\mathrm{Aut}} \newcommand{\tmf}{\mathrm{tmf}}
+\newcommand{\Tmf}{\mathrm{Tmf}} \newcommand{\Map}{\mathrm{Map}}
+\newcommand{\Ext}{\mathrm{Ext}} \newcommand{\End}{\mathrm{End}}
+\newcommand{\cg}{\mathcal{G}} \newcommand{\Hom}{\mathrm{Hom}}
+\newcommand{BP}[1]{\mathrm{BP}\langle #1\rangle} \newcommand{\QQ}{\mathbf{Q}}
+\newcommand{\PP}{\mathbf{P}} \newcommand{\Gal}{\mathrm{Gal}}
+\newcommand{\proj}{\mathrm{Proj}\ } \newcommand{\Ltwo}{L_{K(2)}}
+\newcommand{\Eoo}{\mathbf{E}_\infty} \newcommand{\ol}[1]{\overline #1}
+\newcommand{\pic}{\mathrm{Pic}} \newcommand{\RP}{\mathbf{R}P}
+\newcommand{\BO}{\mathrm{BO}} \newcommand{\cc}{\mathbf{C}}
+\newcommand{\CP}{\mathbf{C}P} \newcommand{\wt}[1]{\widetilde #1}
+\newcommand{\RR}{\mathbf{R}} \renewcommand{\S}{\mathbb{S}}
+\newcommand{\Lone}{L_{K(1)}} \newcommand{\Ltwo}{L_{K(2)}}
+\newcommand{\gl}{\mathrm{gl}} \newcommand{\Lk}{L_{K(n)}}
+\newcommand{\ku}{\mathrm{ku}} \newcommand{\ko}{\mathrm{ko}}
+\newcommand{\GL}{\mathrm{GL}} \newcommand{\Ln}{L_n} \newcommand{\Lt}{L_{K(t)}}
+\newcommand{\W}{\mathrm{W}} \newcommand{\BU}{\mathrm{BU}}
+\newcommand{\SU}{\mathrm{SU}} \newcommand{\MU}{\mathrm{MU}}
+\newcommand{\ul}[1]{\underline #1} \newcommand{\Sq}{\mathrm{Sq}}
+\newcommand{\Tr}{\mathrm{Tr}} \newcommand{\d}{\mathrm{d}}
+\newcommand{\HP}{\mathbf{H}P} \newcommand{\cL}{\mathcal{L}}
+\newcommand{\cs}{\mathrm{cs}} \newcommand{\cd}{\mathcal{D}}
+\newcommand{\Bord}{\mathrm{Bord}} \newcommand{\SO}{\mathrm{SO}}
+\newcommand{\cC}{\mathcal{C}} \newcommand{\Sp}{\mathrm{Sp}}
+\newcommand{\Lkd}{L_{K(d)}} \newcommand{\Mod}{\mathrm{Mod}}
+\newcommand{\cH}{\mathcal{H}} \newcommand{\ket}[1]{|#1 \rangle}
+\newcommand{\Bun}{\mathrm{Bun}} \newcommand{\cM}{\mathcal{M}}
+\newcommand{\MTH}{\mathrm{MT}H} \newcommand{\MSO}{\mathrm{MSO}}
+\newcommand{\twsm}{\ \widetilde{\wedge} \ } \newcommand{\BSpin}{\mathrm{BSpin}}
+\newcommand{\MSpin}{\mathrm{MSpin}} \newcommand{\BString}{\mathrm{BString}}
+\newcommand{\MString}{\mathrm{MString}} \newcommand{\B}{\mathrm{B}}
+\newcommand{\der}{\mathrm{der}} \newcommand{\Cat}{\mathrm{Cat}}
+\newcommand{\QCoh}{\mathrm{QCoh}} \newcommand{\LMod}{\mathrm{LMod}}
+\newcommand{\Rep}{\mathrm{Rep}} \newcommand{\HH}{\mathrm{HH}}
+\newcommand{\ZZ}{\mathfrak{Z}} \newcommand{\fr}{\mathrm{fr}}
+\newcommand{\BSO}{\mathrm{BSO}} \newcommand{\BSU}{\mathrm{BSU}}
+\newcommand{\id}{\mathrm{id}} \newcommand{\Top}{\mathrm{Top}}
+\newcommand{\cP}{\mathcal{P}} \newcommand{\U}{\mathrm{U}}
+\newcommand{\Sym}{\mathrm{Sym}} \newcommand{\coker}{\mathrm{coker}}
+\newcommand{\Vect}{\mathrm{Vect}} \newcommand{\Fun}{\mathrm{Fun}}
+\newcommand{\cT}{\mathcal{T}} \newcommand{\cJ}{\mathcal{J}}
+\newcommand{\Res}{\mathrm{Res}} \newcommand{\Ind}{\mathrm{Ind}}
+\newcommand{\MO}{\mathrm{MO}} \newcommand{\MSO}{\mathrm{MSO}}
+\newcommand{\colim}{\mathrm{colim}} \newcommand{\hocolim}{\mathrm{hocolim}}
+\newcommand{\fin}{\mathrm{fin}} \newcommand{\Tot}{\mathrm{Tot}}
+\newcommand{\im}{\mathrm{im}} \newcommand{\FT}{\mathrm{FT}}
+\newcommand{\AA}{\mathbf{A}} \newcommand{\Frob}{\mathrm{Frob}}
+\newcommand{\ex}{\mathrm{ex,pr}} \newcommand{\fil}{\mathrm{fil}}
+\newcommand{\gr}{\mathrm{gr}} \newcommand{\un}{\mathrm{un}}
+\newcommand{\Syn}{\mathrm{Syn}} \newcommand{\Cart}{\mathrm{Cart}}
+\newcommand{\bo}{\mathrm{bo}} \newcommand{\mmod}{/\!\!/}
+\newcommand{\bsp}{\mathrm{bsp}} \newcommand{\BPP}{\mathrm{BP}}
+\newcommand{\CAlg}{\mathrm{CAlg}} \newcommand{\TCart}{\mathrm{TCart}}
+\newcommand{\BW}{\mathrm{BW}} \newcommand{\Br}{\mathrm{Br}}
+\newcommand{\Pic}{\mathrm{Pic}} \newcommand{\ext}{\mathrm{ext}}
+\newcommand{\Cl}{\mathrm{Cl}} \newcommand{\disc}{\mathrm{disc}}
+\newcommand{\dir}{D\!\!\!\!/} \newcommand{\bb}{\mathrm{bb}}
+\newcommand{\Ran}{\mathrm{Ran}} \newcommand{\cu}{\mathcal{U}}
+\newcommand{\Gr}{\mathrm{Gr}} \newcommand{\Alg}{\mathrm{Alg}}
+\newcommand{\G}{\Gamma} \newcommand{\dY}{\mathcal{Y}}
+\newcommand{\Line}{\mathrm{Line}} \newcommand{\MUP}{\mathrm{MUP}}
+\newcommand{\Bl}{\mathrm{Bl}} \newcommand{\St}{\mathrm{St}}
+\newcommand{\cB}{\mathcal{B}} \newcommand{\SL}{\mathrm{SL}}
+\newcommand{\XX}{\mathrm{X}} \newcommand{\gp}{\mathrm{gp}}
+\newcommand{\Q}{\mathrm{Q}} \newcommand{\cI}{\mathcal{I}}
+\newcommand{\T}{\mathrm{T}} \newcommand{\D}{\mathrm{D}}
+\newcommand{\Aff}{\mathrm{Aff}} \newcommand{\BGL}{\mathrm{BGL}}
+\newcommand{\an}{\mathrm{an}} \newcommand{\Tel}{\mathrm{Tel}}
+\renewcommand{\|}{|} \newcommand{\MGL}{\mathrm{MGL}}
+\newcommand{\CH}{\mathrm{CH}} \newcommand{\fr}[1]{\mathfrak #1}
+\newcommand{\ch}{\mathrm{ch}} \newcommand{\Td}{\mathrm{Td}}
+\newcommand{\Spin}{\mathrm{Spin}} \newcommand{\G}{\mathrm{G}}
+\newcommand{\cHH}{\mathcal{H}} \newcommand{\F}{\mathrm{F}}
+\newcommand{\B}{\mathrm{B}} \newcommand{\HC}{\mathrm{HC}}
+\newcommand{\fib}{\mathrm{fib}} \newcommand{\tr}{\mathrm{tr}}
+\newcommand{\TR}{\mathrm{TR}} \newcommand{\THH}{\mathrm{THH}}
+\newcommand{\TP}{\mathrm{TP}} \newcommand{\crys}{\mathrm{crys}}
+\newcommand{\even}{\mathrm{even}} \newcommand{\odd}{\mathrm{odd}}
+\newcommand{\hodge}{\mathrm{Hodge}} \newcommand{\V}{\mathrm{V}}
+\newcommand{\C}{C} \newcommand{\K}{K} \newcommand{\M}{M} \newcommand{\X}{X}
+\newcommand{\h}{h} \newcommand{\TC}{\mathrm{TC}} \newcommand{\t}{t}
+\newcommand{\DC}{\mathrm{DC}} \newcommand{\str}{\mathrm{str}}
+\newcommand{\gen}{\mathrm{gen}} \newcommand{\Cyc}{\mathrm{CycSp}}
+\newcommand{\DA}{\mathrm{DA}} \newcommand{\AG}{\mathbf{A}^1/\mathbf{G}_m}
+\newcommand{\Crys}{\mathrm{Crys}}</script>
+
+<p>In this post, I would like to discuss the relationship between crystalline and
+de Rham cohomology. I’m certain that this is all well-known, and that this post
+probably has some mistakes in it. Let <script type="math/tex">X = \spec(A)</script>, with <script type="math/tex">A</script> a semiperfect
+smooth <script type="math/tex">\FF_p</script>-algebra (i.e., the Frobenius is surjective), and let <script type="math/tex">Y</script> be a
+<script type="math/tex">\Z/p^N</script>-scheme for some <script type="math/tex">N\gg 0</script>.</p>
+
+<p>Denote by <script type="math/tex">Y_\dR^{[n]}</script> the prestack given by <script type="math/tex">Y_\dR^{[n]}(R) = \colim_{I}
+Y(R/I)</script>, where the colimit is over the poset of ideals <script type="math/tex">I\subseteq R</script> which
+are nilpotent of order <script type="math/tex">\leq n+1</script>. There is a canonical functor
+<script type="math/tex">Y_\dR^{[n]}\to Y_\dR</script>, which is a closed immersion; let <script type="math/tex">\cJ_n</script> denote the
+ideal sheaf of this closed immersion. This determines a commutative filtered
+algebra <script type="math/tex">\cJ_\star\in \CAlg(\QCoh(Y_\dR)_\fil)</script>, and the relative spectrum of
+<script type="math/tex">\cJ_\star</script> over <script type="math/tex">Y_\dR\times \AG</script> is <script type="math/tex">Y_\dR^\lambda</script>.</p>
+
+<p>The following result can be proven as in
+<a href="http://people.math.harvard.edu/~gaitsgde/GL/Crystalstext.pdf">here</a>.
+There is an equivalence between <script type="math/tex">\QCoh(Y_\dR^\lambda)</script> and the category of
+filtered quasicoherent <script type="math/tex">\co_Y</script>-modules <script type="math/tex">\cf</script> equipped with a
+<script type="math/tex">\lambda</script>-connection (i.e., filtered left <script type="math/tex">\cd_Y^\lambda</script>-modules).</p>
+
+<p>We now need a definition. Let <script type="math/tex">\nabla_\lambda:\cf\to \cf\otimes \Omega^1_Y</script> be
+a <script type="math/tex">\lambda</script>-connection on a quasicoherent <script type="math/tex">\co_Y</script>-module.  Define the
+<script type="math/tex">p</script>-curvature <script type="math/tex">\psi^\lambda_\nabla:T_Y\to \End(\cf)</script> by the formula</p>
+
+<script type="math/tex; mode=display">\psi^\lambda_\nabla(\D) = \nabla_\lambda(\D)^p - \lambda^{p-1}
+\nabla_\lambda(\D^{[p]}),</script>
+
+<p>where <script type="math/tex">\D^{[p]}</script> is the derivation associated to the <script type="math/tex">p</script>th power of the
+vector field associated to <script type="math/tex">\D</script>.</p>
+
+<p><strong>Lemma:</strong> Suppose <script type="math/tex">\nabla</script> is a connection on a quasicoherent
+<script type="math/tex">\co_Y</script>-module <script type="math/tex">\cf</script>, and <script type="math/tex">\theta</script> is a Higgs field on <script type="math/tex">\cf</script>. Let
+<script type="math/tex">\nabla_\lambda</script> denote the <script type="math/tex">\lambda</script>-connection <script type="math/tex">\theta + \lambda\nabla</script>.
+Then the <script type="math/tex">p</script>-curvature <script type="math/tex">\psi^\lambda_\nabla</script> is nilpotent iff both
+<script type="math/tex">\theta</script> and the <script type="math/tex">p</script>-curvature <script type="math/tex">\psi_\nabla</script> are nilpotent.</p>
+
+<p>The proof is a direct computation:</p>
+
+<script type="math/tex; mode=display">\psi_\nabla^\lambda(\D)^{p^j} = \nabla_\lambda(\D)^{p^{j+1}} -
+    \lambda^{(p-1)p^j} \nabla_\lambda(\D^{[p]})^{p^j} \\
+= \theta(\D)^{p^{j+1}} - \lambda^{(p-1)p^j} \theta(\D^{[p]})^{p^j} +
+    \lambda^{p^{j+1}} (\nabla(\D)^{p^{j+1}} - \nabla(\D^{[p]})^{p^j})\\
+= \theta(\D)^{p^{j+1}} - \lambda^{(p-1)p^j} \theta(\D^{[p]})^{p^j} +
+\lambda^{p^{j+1}} \psi_\nabla(\D)^{p^j}.</script>
+
+<p>Therefore, if <script type="math/tex">\theta</script> and <script type="math/tex">\psi_\nabla</script> are nilpotent, then
+<script type="math/tex">\psi_\nabla^\lambda</script> is also nilpotent. Conversely, if
+<script type="math/tex">\psi_\nabla^\lambda</script> is nilpotent, then setting <script type="math/tex">\lambda = 0</script>, we find that
+<script type="math/tex">\theta</script> is nilpotent. This implies (upon setting <script type="math/tex">\lambda = 1</script>), by the
+above equation, that <script type="math/tex">\psi_\nabla(\D)</script> is also nilpotent.</p>
+
+<p>Now, following <a href="https://arxiv.org/abs/1810.11853">this paper</a>, let <script type="math/tex">X_\crys</script>
+denote the prestack given by <script type="math/tex">\Tot(\spec(A_\crys(A^{1/p^\infty}\otimes_A \cdots
+\otimes_A A^{1/p^\infty})))</script>. Recall that <script type="math/tex">A_\crys(A)</script> is the <script type="math/tex">p</script>-adic
+completion of the PD-completion of the kernel of <script type="math/tex">W(A^{1/p^\infty})\to
+A^{1/p^\infty} \to A</script>. Drinfeld’s main theorem is: there is an equivalence
+<script type="math/tex">\QCoh(X_\crys) \simeq \Crys(X)</script>.</p>
+
+<p>By Remark 5.6 from
+<a href="https://web.ma.utexas.edu/users/gregoric/CrystalMath.pdf">here</a>, the functor of
+points of <script type="math/tex">X_\crys</script> is given as follows: if <script type="math/tex">R</script> is a <script type="math/tex">\Z_p</script>-algebra on
+which <script type="math/tex">p</script> is nilpotent, then <script type="math/tex">X_\crys(R) = \colim_{(I,\gamma)} X(R/I)</script>,
+where the colimit is over the poset of nilpotent ideals <script type="math/tex">I\subseteq R</script>
+equipped with a PD-structure <script type="math/tex">\gamma</script>.</p>
+
+<p>We now construct a filtered stack lifting Drinfeld’s <script type="math/tex">X_\crys</script>, which
+incorporates the Nygaard filtration.
+Let <script type="math/tex">X_\crys^\lambda</script> denote the filtered prestack determined as follows.
+Denote by <script type="math/tex">X_\crys^{[n]}</script> the prestack given by <script type="math/tex">X_\crys^{[n]}(R) =
+\colim_{(I, \gamma)} X(R/I)</script>, where the colimit is over the poset of ideals
+<script type="math/tex">I\subseteq R</script> which are nilpotent of order <script type="math/tex">\leq n+1</script> equipped with a
+PD-structure <script type="math/tex">\gamma</script>. There is a canonical functor <script type="math/tex">X_\crys^{[n]}\to
+X_\crys</script>, which is a closed immersion; let <script type="math/tex">\cI_n</script> denote the ideal sheaf of
+this closed immersion. This determines a commutative filtered algebra
+<script type="math/tex">\cI_\star\in \CAlg(\QCoh(X_\crys)_\fil)</script>, and the relative spectrum of
+<script type="math/tex">\cI_\star</script> over <script type="math/tex">X_\crys\times \AG</script> is <script type="math/tex">X_\crys^\lambda</script>.</p>
+
+<p><strong>Theorem:</strong> Suppose <script type="math/tex">X</script> admits a smooth lifting <script type="math/tex">\fr{X}</script> to a <script type="math/tex">p</script>-adic
+formal scheme, and let <script type="math/tex">\dX_n = \fr{X}_n \otimes_{\Z_p} \Z/p^n</script>.  Then there
+is a canonical functor <script type="math/tex">\QCoh(X_\crys^\lambda) \to \QCoh(\dX_\dR^\lambda) :=
+\lim \QCoh(\dX_{n,\dR}^\lambda)</script> of filtered categories. whose essential image
+is the subcategory of left <script type="math/tex">\cd_\dX^\lambda</script>-modules with nilpotent
+<script type="math/tex">p</script>-curvature.</p>
+
+<p>This is a categorification of the comparison between the crystalline cohomology
+of <script type="math/tex">A</script> and the de Rham cohomology of a <script type="math/tex">p</script>-adic lift of <script type="math/tex">A</script>. This result
+is already well-known, see <a href="https://arxiv.org/abs/1110.5001">here</a>, for example.</p>
+
+<p>Let’s now prove this. We first define the functor <script type="math/tex">\QCoh(X_\crys^\lambda)\to
+\QCoh(\dX_\dR^\lambda)</script>. To construct the desired functor, it suffices to
+define a morphism <script type="math/tex">\dX_\dR^{[n]} \to X_\crys^{[n]}</script>.  We will define a map
+<script type="math/tex">\dX_\dR\to X_\crys</script>, whose construction respects the filtration on both
+sides. By Proposition 5.5
+<a href="https://web.ma.utexas.edu/users/gregoric/CrystalMath.pdf">here</a>, we have
+<script type="math/tex">X_\crys = \spf(A_\crys(A))</script>, and the filtration on <script type="math/tex">X_\crys</script> is via the
+divided power filtration on <script type="math/tex">A_\crys(A)</script>. (Concretely, since <script type="math/tex">A_\crys(A)</script> is
+the <script type="math/tex">p</script>-adic completion of the PD-envelope of
+<script type="math/tex">\ker(\theta:W(A^{1/p^\infty})\to A)</script>, the divided power filtration is given
+by <script type="math/tex">\ker(\theta)^{[n]}</script>.) It suffices to define a map <script type="math/tex">\dX_\dR(R)\to
+X_\crys(R)</script>. Let us write <script type="math/tex">\dX = \spf(B)</script>. Since <script type="math/tex">\dX_\dR(R) = \colim_I
+\dX(R/I)</script>, as the colimit ranges over the poset of nilpotent ideals in <script type="math/tex">R</script>,
+it suffices to construct for every <script type="math/tex">f:B\to R/I</script>, where <script type="math/tex">I\subseteq R</script> is a
+nilpotent ideal, a map <script type="math/tex">A_\crys(A)\to R</script>.</p>
+
+<p>The mod <script type="math/tex">p</script> reduction of <script type="math/tex">f</script> is a map <script type="math/tex">B/p\cong A \to R/(p,I)</script>, which
+lifts (by smoothness of <script type="math/tex">A</script> and the nilpotence of <script type="math/tex">I</script>) to a map
+<script type="math/tex">\ol{f}:A\to R/p</script>.  Composing with the canonical map <script type="math/tex">A^{1/p^\infty} \to A</script>
+gives a map <script type="math/tex">A^{1/p^\infty}\to R/p</script>. Since <script type="math/tex">A^{1/p^\infty}</script> is perfect, this
+lifts to a map <script type="math/tex">g:W(A^{1/p^\infty}) \to R</script>. This map factors through
+<script type="math/tex">A_\crys(A)</script> if and only if for every <script type="math/tex">x\in \ker(\theta:W(A^{1/p^\infty})\to
+A)</script>, the element <script type="math/tex">g(x)</script> admits divided powers in <script type="math/tex">R</script>, i.e., <script type="math/tex">g(x)^n/n!</script>
+exists in <script type="math/tex">R</script>. To see this, observe that there is a commutative diagram</p>
+
+<script type="math/tex; mode=display">\require{AMScd}
+\begin{CD}
+W(A^{1/p^\infty}) @>{g}>> R;\\
+@VVV @VVV \\
+A @>{\overline{f}}>> R/p.\\
+\end{CD}</script>
+
+<p>Therefore, if <script type="math/tex">\theta(x) = 0</script>, then <script type="math/tex">\ol{f}(\theta(x)) = g(x) \equiv
+0\pmod{p}</script>, and thus <script type="math/tex">g(x)</script> is divisible by <script type="math/tex">p</script>. To see that <script type="math/tex">g(x)^n/n!\in
+R</script>, it suffices to observe that <script type="math/tex">p^n/n!</script> is a <script type="math/tex">p</script>-adic integer.</p>
+
+<p>The functor <script type="math/tex">\QCoh(X_\crys^\lambda)\to \QCoh(\dX_\dR^\lambda)</script> can be
+described explicitly as follows (see <a href="https://arxiv.org/abs/1110.5001">here</a>).
+Suppose <script type="math/tex">\cf\in \QCoh(X_\crys^\lambda)</script>, so <script type="math/tex">\cf</script> is a filtered
+<script type="math/tex">A_\crys(A)</script>-module with respect to the divided power filtration of
+<script type="math/tex">\ker(\theta)\subseteq A_\crys(A)</script>.
+The kernel of the morphism <script type="math/tex">B\to A</script> is the ideal <script type="math/tex">pB\subseteq B</script>, and thus
+admits divided powers.  Therefore, there is a map <script type="math/tex">f:A_\crys(A)\to B</script>, and
+we let <script type="math/tex">M</script> denote the <script type="math/tex">B</script>-module <script type="math/tex">\cf\otimes_{A_\crys(A)} B</script>. To define a
+connection on <script type="math/tex">M</script>, we proceed as follows. Let <script type="math/tex">B(1)</script> denote the PD-envelope
+of the map <script type="math/tex">B\otimes_{\Z_p} B\to B\to A</script>, and let <script type="math/tex">J</script> denote the
+augmentation ideal, i.e., the kernel of the map <script type="math/tex">B(1)\to B</script>. Note that <script type="math/tex">J</script>
+is generated by divided powers of elements of the form <script type="math/tex">a\otimes 1 -
+1\otimes b</script>, with <script type="math/tex">a\equiv b\pmod p</script>.</p>
+
+<p>There are isomorphisms <script type="math/tex">c_1:M\otimes_{\Z_p} B \cong \cf\otimes_B B(1)</script> and
+<script type="math/tex">c_2: B\otimes_{\Z_p} M \cong \cf\otimes_B B(1)</script>. This gives an isomorphism
+<script type="math/tex">\epsilon: M\otimes_{\Z_p} B\xrightarrow{\cong} B\otimes_{\Z_p} M</script>, and we set
+<script type="math/tex">\nabla(m) = \epsilon(m\otimes 1) - 1\otimes m</script> for <script type="math/tex">m\in M</script>. The element
+<script type="math/tex">\nabla(m)</script> is killed by the map <script type="math/tex">M\otimes_B B(1)\to M</script>, and so
+<script type="math/tex">\nabla(m)\in M\otimes_B J/J^{[2]}</script>. This can be checked to be a flat
+connection. To obtain a genuine connection on <script type="math/tex">M</script>, it suffices to show that
+<script type="math/tex">J/J^{[2]} \cong \Omega^1_{B/\Z_p}</script>. Note that <script type="math/tex">J/J^{[2]}</script> is the divided
+power differentials <script type="math/tex">\Omega^1_{B/\Z_p,\gamma}</script>, and so the isomorphism
+follows from the lemma following this proof, since <script type="math/tex">B</script> is smooth over
+<script type="math/tex">\Z_p</script>, and the divided power structure on <script type="math/tex">(p)\subseteq B</script> is canonically
+extended from <script type="math/tex">\Z_p</script>.</p>
+
+<p>To check that this is indeed a <script type="math/tex">\lambda</script>-connection, it suffices to note that
+the datum of a <script type="math/tex">\lambda</script>-connection on a <script type="math/tex">B</script>-module <script type="math/tex">M</script> is the datum of a
+filtration on <script type="math/tex">M</script> and a connection which satisfies Griffiths transversality.
+The filtration on <script type="math/tex">M = \cf\otimes_{A_\crys(A)} B</script> is automatic from the
+filtration on <script type="math/tex">\cf</script>, and I think that the compatibility of the filtration on
+<script type="math/tex">\cf</script> with the divided power filtration of <script type="math/tex">A_\crys(A)</script> gives the desired
+Griffiths transversality. I haven’t proved this, though.</p>
+
+<p>For the description of the functor in the other direction, we refer the
+reader to Lemma 2.8 of <a href="https://arxiv.org/abs/1110.5001">this paper</a>. The
+argument there proves a slightly stronger result than they stated: suppose
+<script type="math/tex">U</script> is a Zariski open in <script type="math/tex">X</script>, and let <script type="math/tex">U\hookrightarrow Y</script> be a closed
+immersion into a smooth <script type="math/tex">\Z/p^n</script>-scheme <script type="math/tex">Y</script>. Let <script type="math/tex">V</script> denote the
+PD-thickening of this closed immersion, and let <script type="math/tex">(U\subseteq V, \gamma)</script> be
+the resulting triple in the crystalline site of <script type="math/tex">X</script>.  Then there is an
+equivalence between <script type="math/tex">\Crys(U/(\Z/p^n))</script> and the category of pairs <script type="math/tex">(M,
+\nabla)</script> with <script type="math/tex">M</script> a <script type="math/tex">p</script>-adically complete <script type="math/tex">V</script>-module and <script type="math/tex">\nabla: M\to
+M\widehat{\otimes}_{\co_V} \Omega^1_{V,\gamma}</script> a quasi-nilpotent integrable
+connection. Applying this to <script type="math/tex">U = X</script> and <script type="math/tex">Y = \fr{X}_n</script> (with the canonical
+PD-structure given by <script type="math/tex">p^n/n!</script>) gives the desired result.</p>
+
+<p>Finally, here is the promised (well-known) lemma.</p>
+
+<p><strong>Lemma:</strong> Suppose <script type="math/tex">I\subseteq R</script> is an ideal in a ring with a divided power
+structure <script type="math/tex">\gamma</script> on <script type="math/tex">I</script>, and let <script type="math/tex">B</script> be a flat <script type="math/tex">R</script>-algebra. Extend
+<script type="math/tex">\gamma</script> to the evident PD-structure on <script type="math/tex">IB</script>. Then <script type="math/tex">\Omega^1_{B/R,\gamma}
+\cong \Omega^1_B</script>.</p>
+
+<p>Proof: The <script type="math/tex">B</script>-module <script type="math/tex">\Omega^1_{B/R,\gamma}</script> can equivalently be described
+as the quotient of <script type="math/tex">\Omega^1_B</script> by the relations <script type="math/tex">d\gamma_n(x) =
+\gamma_{n-1}(x) dx</script> for <script type="math/tex">x\in IB</script>, so it suffices to show that this is
+automatic. For this, note that if <script type="math/tex">x = ry</script> for <script type="math/tex">r\in I</script> and <script type="math/tex">y\in B</script>, then</p>
+
+<script type="math/tex; mode=display">d\gamma_n(x) = d(y^n \gamma_n(r)) = ny^{n-1} \gamma_n(r) dy + y^n d\gamma_n(r)
+= \gamma_{n-1}(r) ry^{n-1} dy = \gamma_{n-1}(ry) d(ry),</script>
+
+<p>as desired.</p>
+
+  </div><a class="u-url" href="/blog/algebraic-geometry/2020/07/14/crys.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Sanath Devalapurkar&#39;s home page</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Sanath Devalapurkar&#39;s home page</li><li><a class="u-email" href="mailto:sanathdevalapurkar@g.harvard.edu">sanathdevalapurkar@g.harvard.edu</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>Graduate student in math.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

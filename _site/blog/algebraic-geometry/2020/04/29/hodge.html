@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>The Hodge conjecture | Sanath Devalapurkar’s home page</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="The Hodge conjecture" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Graduate student in math." />
+<meta property="og:description" content="Graduate student in math." />
+<link rel="canonical" href="http://localhost:4000/blog/algebraic-geometry/2020/04/29/hodge.html" />
+<meta property="og:url" content="http://localhost:4000/blog/algebraic-geometry/2020/04/29/hodge.html" />
+<meta property="og:site_name" content="Sanath Devalapurkar’s home page" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-04-29T00:00:00-07:00" />
+<script type="application/ld+json">
+{"url":"http://localhost:4000/blog/algebraic-geometry/2020/04/29/hodge.html","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/blog/algebraic-geometry/2020/04/29/hodge.html"},"description":"Graduate student in math.","headline":"The Hodge conjecture","dateModified":"2020-04-29T00:00:00-07:00","datePublished":"2020-04-29T00:00:00-07:00","@type":"BlogPosting","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Sanath Devalapurkar's home page" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Sanath Devalapurkar&#39;s home page</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/blog/">Blog</a><a class="page-link" href="/">Home</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">The Hodge conjecture</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2020-04-29T00:00:00-07:00" itemprop="datePublished">Apr 29, 2020
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
+
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-109004213-1"></script>
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+        gtag('config', 'UA-109004213-1');
+</script>
+
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+<script type="math/tex; mode=display">\newcommand{\KO}{\mathrm{KO}} \newcommand{\TMF}{\mathrm{TMF}}
+\newcommand{\KU}{\mathrm{KU}} \newcommand{\Mfg}{M_\mathrm{fg}}
+\newcommand{\spec}{\mathrm{Spec}} \newcommand{\dX}{\mathcal{X}}
+\newcommand{\co}{\mathcal{O}} \newcommand{\Z}{\mathbf{Z}}
+\newcommand{\top}{\mathrm{top}} \newcommand{\E}{\mathbf{E}}
+\newcommand{\GG}{\mathbf{G}} \newcommand{\DD}{\mathbf{D}}
+\newcommand{\Mell}{M_\mathrm{ell}} \newcommand{\ce}{\mathcal{E}}
+\newcommand{\H}{\mathrm{H}} \newcommand{\dR}{\mathrm{dR}}
+\newcommand{\cf}{\mathcal{F}} \newcommand{\FF}{\mathbf{F}}
+\newcommand{\spf}{\mathrm{Spf}\ } \newcommand{\cA}{\mathcal{A}}
+\newcommand{\Mcub}{M_\mathrm{cub}} \newcommand{\Mqd}{M_\mathrm{qd}}
+\newcommand{\Aut}{\mathrm{Aut}} \newcommand{\tmf}{\mathrm{tmf}}
+\newcommand{\Tmf}{\mathrm{Tmf}} \newcommand{\Map}{\mathrm{Map}}
+\newcommand{\Ext}{\mathrm{Ext}} \newcommand{\End}{\mathrm{End}}
+\newcommand{\cg}{\mathcal{G}} \newcommand{\Hom}{\mathrm{Hom}}
+\newcommand{BP}[1]{\mathrm{BP}\langle #1\rangle} \newcommand{\QQ}{\mathbf{Q}}
+\newcommand{\PP}{\mathbf{P}} \newcommand{\Gal}{\mathrm{Gal}}
+\newcommand{\proj}{\mathrm{Proj}\ } \newcommand{\Ltwo}{L_{K(2)}}
+\newcommand{\Eoo}{\mathbf{E}_\infty} \newcommand{\ol}[1]{\overline #1}
+\newcommand{\pic}{\mathrm{Pic}} \newcommand{\RP}{\mathbf{R}P}
+\newcommand{\BO}{\mathrm{BO}} \newcommand{\cc}{\mathbf{C}}
+\newcommand{\CP}{\mathbf{C}P} \newcommand{\wt}[1]{\widetilde #1}
+\newcommand{\RR}{\mathbf{R}} \renewcommand{\S}{\mathbb{S}}
+\newcommand{\Lone}{L_{K(1)}} \newcommand{\Ltwo}{L_{K(2)}}
+\newcommand{\gl}{\mathrm{gl}} \newcommand{\Lk}{L_{K(n)}}
+\newcommand{\ku}{\mathrm{ku}} \newcommand{\ko}{\mathrm{ko}}
+\newcommand{\GL}{\mathrm{GL}} \newcommand{\Ln}{L_n} \newcommand{\Lt}{L_{K(t)}}
+\newcommand{\W}{\mathrm{W}} \newcommand{\BU}{\mathrm{BU}}
+\newcommand{\SU}{\mathrm{SU}} \newcommand{\MU}{\mathrm{MU}}
+\newcommand{\ul}[1]{\underline #1} \newcommand{\Sq}{\mathrm{Sq}}
+\newcommand{\Tr}{\mathrm{Tr}} \newcommand{\d}{\mathrm{d}}
+\newcommand{\HP}{\mathbf{H}P} \newcommand{\cL}{\mathcal{L}}
+\newcommand{\cs}{\mathrm{cs}} \newcommand{\cd}{\mathcal{D}}
+\newcommand{\Bord}{\mathrm{Bord}} \newcommand{\SO}{\mathrm{SO}}
+\newcommand{\cC}{\mathcal{C}} \newcommand{\Sp}{\mathrm{Sp}}
+\newcommand{\Lkd}{L_{K(d)}} \newcommand{\Mod}{\mathrm{Mod}}
+\newcommand{\cH}{\mathcal{H}} \newcommand{\ket}[1]{|#1 \rangle}
+\newcommand{\Bun}{\mathrm{Bun}} \newcommand{\cM}{\mathcal{M}}
+\newcommand{\MTH}{\mathrm{MT}H} \newcommand{\MSO}{\mathrm{MSO}}
+\newcommand{\twsm}{\ \widetilde{\wedge} \ } \newcommand{\BSpin}{\mathrm{BSpin}}
+\newcommand{\MSpin}{\mathrm{MSpin}} \newcommand{\BString}{\mathrm{BString}}
+\newcommand{\MString}{\mathrm{MString}} \newcommand{\B}{\mathrm{B}}
+\newcommand{\der}{\mathrm{der}} \newcommand{\Cat}{\mathrm{Cat}}
+\newcommand{\QCoh}{\mathrm{QCoh}} \newcommand{\LMod}{\mathrm{LMod}}
+\newcommand{\Rep}{\mathrm{Rep}} \newcommand{\HH}{\mathrm{HH}}
+\newcommand{\ZZ}{\mathfrak{Z}} \newcommand{\fr}{\mathrm{fr}}
+\newcommand{\BSO}{\mathrm{BSO}} \newcommand{\BSU}{\mathrm{BSU}}
+\newcommand{\id}{\mathrm{id}} \newcommand{\Top}{\mathrm{Top}}
+\newcommand{\cP}{\mathcal{P}} \newcommand{\U}{\mathrm{U}}
+\newcommand{\Sym}{\mathrm{Sym}} \newcommand{\coker}{\mathrm{coker}}
+\newcommand{\Vect}{\mathrm{Vect}} \newcommand{\Fun}{\mathrm{Fun}}
+\newcommand{\cT}{\mathcal{T}} \newcommand{\cJ}{\mathcal{J}}
+\newcommand{\Res}{\mathrm{Res}} \newcommand{\Ind}{\mathrm{Ind}}
+\newcommand{\MO}{\mathrm{MO}} \newcommand{\MSO}{\mathrm{MSO}}
+\newcommand{\colim}{\mathrm{colim}} \newcommand{\hocolim}{\mathrm{hocolim}}
+\newcommand{\fin}{\mathrm{fin}} \newcommand{\Tot}{\mathrm{Tot}}
+\newcommand{\im}{\mathrm{im}} \newcommand{\FT}{\mathrm{FT}}
+\newcommand{\AA}{\mathbf{A}} \newcommand{\Frob}{\mathrm{Frob}}
+\newcommand{\ex}{\mathrm{ex,pr}} \newcommand{\fil}{\mathrm{fil}}
+\newcommand{\gr}{\mathrm{gr}} \newcommand{\un}{\mathrm{un}}
+\newcommand{\Syn}{\mathrm{Syn}} \newcommand{\Cart}{\mathrm{Cart}}
+\newcommand{\bo}{\mathrm{bo}} \newcommand{\mmod}{/\!\!/}
+\newcommand{\bsp}{\mathrm{bsp}} \newcommand{\BPP}{\mathrm{BP}}
+\newcommand{\CAlg}{\mathrm{CAlg}} \newcommand{\TCart}{\mathrm{TCart}}
+\newcommand{\BW}{\mathrm{BW}} \newcommand{\Br}{\mathrm{Br}}
+\newcommand{\Pic}{\mathrm{Pic}} \newcommand{\ext}{\mathrm{ext}}
+\newcommand{\Cl}{\mathrm{Cl}} \newcommand{\disc}{\mathrm{disc}}
+\newcommand{\dir}{D\!\!\!\!/} \newcommand{\bb}{\mathrm{bb}}
+\newcommand{\Ran}{\mathrm{Ran}} \newcommand{\cu}{\mathcal{U}}
+\newcommand{\Gr}{\mathrm{Gr}} \newcommand{\Alg}{\mathrm{Alg}}
+\newcommand{\G}{\Gamma} \newcommand{\dY}{\mathcal{Y}}
+\newcommand{\Line}{\mathrm{Line}} \newcommand{\MUP}{\mathrm{MUP}}
+\newcommand{\Bl}{\mathrm{Bl}} \newcommand{\St}{\mathrm{St}}
+\newcommand{\cB}{\mathcal{B}} \newcommand{\SL}{\mathrm{SL}}
+\newcommand{\XX}{\mathrm{X}} \newcommand{\gp}{\mathrm{gp}}
+\newcommand{\Q}{\mathrm{Q}} \newcommand{\cI}{\mathcal{I}}
+\newcommand{\T}{\mathrm{T}} \newcommand{\D}{\mathrm{D}}
+\newcommand{\Aff}{\mathrm{Aff}} \newcommand{\BGL}{\mathrm{BGL}}
+\newcommand{\an}{\mathrm{an}} \newcommand{\Tel}{\mathrm{Tel}}
+\renewcommand{\|}{|} \newcommand{\MGL}{\mathrm{MGL}}
+\newcommand{\CH}{\mathrm{CH}}</script>
+
+<p>In this post, I would like to talk about the Hodge conjecture. Elden just gave
+the last lecture for his class, where he talked about the Hodge conjecture.
+Recall that the integral Hodge conjecture states that if <script type="math/tex">X</script> is a projective
+variety over <script type="math/tex">\cc</script>, then <script type="math/tex">\mathrm{CH}^n(X)\to \H^{n,n}(X;\Z)</script> is surjective.
+A counterexample to this conjecture was found by Atiyah and Hirzebruch, and
+later Totaro gave an interpretation in terms of cobordism. Elden talked about
+this construction of Totaro’s, and its interpretation by Levine and Morel.</p>
+
+<p>Here’s how this goes. The whole story fits into the following very nice diagram.</p>
+
+<script type="math/tex; mode=display">\require{AMScd}
+\begin{CD}
+\MGL^{2n,n}(X) @>{\mathrm{cyc}_\MGL}>> \MU^{2n}(X);\\
+@VVV @VVV \\
+\MGL^{2n,n}(X) \otimes_{L^\ast} \Z @>{\mathrm{cyc}_\MGL}>>
+\MU^{2n}(X)\otimes_{L^\ast} \Z;\\
+@VVV @VVV \\
+\CH^n(X) = \H^{2n,n}_\mathrm{mot}(X) @>{\mathrm{cyc}_\H}>> \H^{n,n}(X) \subseteq
+\H^{2n}(X;\Z).\\
+\end{CD}</script>
+
+<p>(Here, <script type="math/tex">L^\ast = \MU^{2\ast}(X) \cong \MU^{2\ast,\ast}(X)</script> is the Lazard ring
+(and the final isomorphism is very nontrivial). Also, the bottom right vertical
+map lands in <script type="math/tex">\H^{2n}(X;\Z)</script>, not <script type="math/tex">\H^{n,n}(X)</script>.) I have no idea how to draw
+diagonal arrows, so let me summarize what they should be in the following bullet
+points.</p>
+
+<ul>
+  <li>Totaro constructed a map <script type="math/tex">\CH^n(X)\to \MU^{2n}(X)\otimes_{L^\ast} \Z</script> which
+makes the resulting triangle in the above diagram commute. In other words,
+Totaro lifts the cycle class map to <script type="math/tex">\MU^{2n}(X)\otimes_{L^\ast} \Z</script>. Roughly
+speaking, this comes from resolution of singularities. It’s important to remark
+here that the map</li>
+  <li>Levine and Morel give a construction of Totaro’s map by actually constructing
+a map <script type="math/tex">\CH^n(X)\to \MGL^{2n,n}(X) \otimes_{L^\ast} \Z</script> splitting the bottom
+left vertical map. This is badass, because no such thing is true in topology.</li>
+</ul>
+
+<p>Roughly speaking, the Levin-Morel map takes <script type="math/tex">[Z\hookrightarrow X]\in
+\CH^n(X)</script>, and sends it to <script type="math/tex">\wt{Z}\to X</script>, where <script type="math/tex">\wt{Z}</script> is a resolution of
+singularities of <script type="math/tex">X</script> (given by an iterated sequence of blowups with smooth
+centers). Then the blowup formula in motivic cobordism is supposed to imply that
+the algebraic cobordism class of <script type="math/tex">\wt{Z}</script> is independent of the choice of
+resolution of singularities.</p>
+
+<p>The reason this fails topologically — which, by the above discussion, could be
+loosely interpreted as the failure of Landweber exactness for <script type="math/tex">\MU\to\H\Z</script> —
+is because topological resolution of singularities fails. This was observed by
+Thom in his thesis (the one that solved Steenrod’s problem). To say this
+precisely, let me say what “topological resolution of singularities” means: say
+that <script type="math/tex">\alpha\in \H^n(X;\Z)</script> (resp <script type="math/tex">\H^n(X;\FF_2)</script>) has topological
+resolution of singularities if there is a smooth oriented (possibly unoriented
+in mod two cohomology) closed manifold <script type="math/tex">M\in \MU^n(X)</script> such that <script type="math/tex">[M]</script> is
+sent to <script type="math/tex">\alpha</script> under <script type="math/tex">\MSO\to \H\Z</script> (or <script type="math/tex">\MO\to \H\FF_2</script>). Thom showed
+that there is a splitting <script type="math/tex">\H\FF_2\to \MO</script>, and <script type="math/tex">\H\Z_{(2)}\to \MSO_{(2)}</script>.
+So, at least every mod <script type="math/tex">2</script> cohomology class admits a topological resolution of
+singularities, and similarly for every <script type="math/tex">2</script>-local cohomology class.</p>
+
+<p>One natural question to ask, therefore, is whether there are similar maps from
+motivic <script type="math/tex">\H\FF_2</script> and <script type="math/tex">\H\Z</script> to the motivic analogues of <script type="math/tex">\MO</script> and
+<script type="math/tex">\MSO</script>. These motivic analogues appaear in Example 16.23 of <a href="https://arxiv.org/pdf/1711.03061.pdf">this
+paper</a>. At least for <script type="math/tex">\H\FF_2</script>, there is
+a universal property (apparing in as-yet-unpublished work of some folks, so I
+will not elaborate; I think their work can be extended to <script type="math/tex">\H\Z</script>, but I
+haven’t gotten around to working this out yet). But I think it’s true that
+<script type="math/tex">\MO</script> (motivically) has <script type="math/tex">2=0</script> (at least over a base scheme where <script type="math/tex">2</script> is
+invertible).</p>
+
+<p>The other type of question one can ask, of course, is as follows. Upon
+<script type="math/tex">p</script>-localizing, there’s a filtration of <script type="math/tex">\MU</script> (and <script type="math/tex">\MGL</script>) by
+<script type="math/tex">\BP{n}</script>’s. Let <script type="math/tex">X</script> be a projective variety, and consider the cycle class
+map <script type="math/tex">\CH^n(X;\Z_p)\to \H^{n,n}(X;\Z_p)\subseteq \H^{2n}(X;\Z_p)</script>. Given
+<script type="math/tex">\alpha\in \H^{n,n}(X;\Z_p)</script>, you can ask whether <script type="math/tex">\alpha</script> is algebraic. But
+Levine-Morel-Totaro tells us that <script type="math/tex">\alpha</script> actually has to lift to
+<script type="math/tex">\BPP^{2n}(X)</script> (ok, ok, <script type="math/tex">\BPP^{2n}(X)\otimes_{L^\ast} \Z</script>). If <script type="math/tex">\alpha</script>
+does not lift to <script type="math/tex">\BP{k}^{2n}(X)</script>, then we’re done for! So, given a class
+<script type="math/tex">\alpha</script>, you can try to ask what the maximal <script type="math/tex">k</script> is to which it lifts.</p>
+
+<p>Here’s something to note. In his thesis, Wilson showed that <script type="math/tex">\Omega^\infty
+\Sigma^n \BPP</script> contains <script type="math/tex">\Omega^\infty \Sigma^n \BP{m}</script> as a factor if
+<script type="math/tex">n\leq 2(p^m + \cdots + p + 1) = 2(p^{m+1}-1)/(p-1)</script>. Therefore, if <script type="math/tex">n\leq
+2(p^{m+1}-1)/(p-1)</script>, then the map <script type="math/tex">\BPP^n(X)\to \BP{m}^n(X)</script> is surjective.
+Therefore, the Levine-Morel-Totaro obstruction vanishes for <script type="math/tex">\alpha\in
+\H^{2n}(X;\Z_p)</script> if <script type="math/tex">\alpha</script> lifts to <script type="math/tex">\BP{m}^{2n}(X)</script> with <script type="math/tex">m</script> such that
+<script type="math/tex">n\leq (p^{m+1}-1)/(p-1)</script>.</p>
+
+  </div><a class="u-url" href="/blog/algebraic-geometry/2020/04/29/hodge.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Sanath Devalapurkar&#39;s home page</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Sanath Devalapurkar&#39;s home page</li><li><a class="u-email" href="mailto:sanathdevalapurkar@g.harvard.edu">sanathdevalapurkar@g.harvard.edu</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>Graduate student in math.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

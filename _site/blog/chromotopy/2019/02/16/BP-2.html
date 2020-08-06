@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Constructing truncated Brown-Peterson spectra | Sanath Devalapurkar’s home page</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Constructing truncated Brown-Peterson spectra" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Graduate student in math." />
+<meta property="og:description" content="Graduate student in math." />
+<link rel="canonical" href="http://localhost:4000/blog/chromotopy/2019/02/16/BP-2.html" />
+<meta property="og:url" content="http://localhost:4000/blog/chromotopy/2019/02/16/BP-2.html" />
+<meta property="og:site_name" content="Sanath Devalapurkar’s home page" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2019-02-16T00:00:00-08:00" />
+<script type="application/ld+json">
+{"url":"http://localhost:4000/blog/chromotopy/2019/02/16/BP-2.html","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/blog/chromotopy/2019/02/16/BP-2.html"},"description":"Graduate student in math.","headline":"Constructing truncated Brown-Peterson spectra","dateModified":"2019-02-16T00:00:00-08:00","datePublished":"2019-02-16T00:00:00-08:00","@type":"BlogPosting","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Sanath Devalapurkar's home page" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Sanath Devalapurkar&#39;s home page</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/blog/">Blog</a><a class="page-link" href="/">Home</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Constructing truncated Brown-Peterson spectra</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2019-02-16T00:00:00-08:00" itemprop="datePublished">Feb 16, 2019
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
+
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-109004213-1"></script>
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+        gtag('config', 'UA-109004213-1');
+</script>
+
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+<script type="math/tex; mode=display">\newcommand{\KO}{\mathrm{KO}} \newcommand{\TMF}{\mathrm{TMF}}
+\newcommand{\KU}{\mathrm{KU}} \newcommand{\Mfg}{M_\mathrm{fg}}
+\newcommand{\spec}{\mathrm{Spec}\ } \newcommand{\dX}{\mathcal{X}}
+\newcommand{\co}{\mathcal{O}} \newcommand{\Z}{\mathbf{Z}}
+\newcommand{\top}{\mathrm{top}} \newcommand{\E}{\mathbf{E}}
+\newcommand{\GG}{\mathbf{G}} \newcommand{\DD}{\mathbf{D}}
+\newcommand{\Mell}{M_\mathrm{ell}} \newcommand{\ce}{\mathcal{E}}
+\newcommand{\H}{\mathrm{H}} \newcommand{\dR}{\mathrm{dR}}
+\newcommand{\cf}{\mathcal{F}} \newcommand{\FF}{\mathbf{F}}
+\newcommand{\spf}{\mathrm{Spf}\ } \newcommand{\cA}{\mathcal{A}}
+\newcommand{\Mcub}{M_\mathrm{cub}} \newcommand{\Mqd}{M_\mathrm{qd}}
+\newcommand{\Aut}{\mathrm{Aut}} \newcommand{\tmf}{\mathrm{tmf}}
+\newcommand{\Tmf}{\mathrm{Tmf}} \newcommand{\Map}{\mathrm{Map}}
+\newcommand{\Ext}{\mathrm{Ext}} \newcommand{\End}{\mathrm{End}}
+\newcommand{\cg}{\mathcal{G}} \newcommand{\Hom}{\mathrm{Hom}}
+\newcommand{BP}[1]{\mathrm{BP}\langle #1\rangle} \newcommand{\QQ}{\mathbf{Q}}
+\newcommand{\PP}{\mathbf{P}} \newcommand{\Gal}{\mathrm{Gal}}
+\newcommand{\proj}{\mathrm{Proj}\ } \newcommand{\Ltwo}{L_{K(2)}}
+\newcommand{\Eoo}{\mathbf{E}_\infty} \newcommand{\ol}[1]{\overline #1}
+\newcommand{\pic}{\mathrm{Pic}}</script>
+
+<p>We would like to construct an <script type="math/tex">\Eoo</script> form of <script type="math/tex">\BP{2}</script>, in the sense of
+<a href="https://arxiv.org/pdf/1101.3897.pdf">Lawson-Naumann</a>. At the prime <script type="math/tex">2</script>, this
+is given by <script type="math/tex">\tmf_1(3)</script>, and at the prime <script type="math/tex">3</script>, there is a
+<a href="https://arxiv.org/abs/0902.2603">construction</a> using the full Atkin-Lehner
+quotient of the Shimura curve of discriminant <script type="math/tex">14</script>. In this post, we
+discuss some desiderata of an algebro-geometric construction of <script type="math/tex">\BP{2}</script>.</p>
+
+<p>Fix a prime <script type="math/tex">p</script> and <script type="math/tex">n</script>; then, define <script type="math/tex">d(n) =
+2\frac{p^{n+1}-1}{p-1}-(n+3)</script>.  Then, there is a gap in the homotopy of
+<script type="math/tex">\pi_\ast L_{K(1)\vee \cdots K(n)} \BP{n}</script>: we have <script type="math/tex">\pi_t L_{K(1)\vee
+\cdots K(n)} \BP{n} = 0</script> for <script type="math/tex">-d(n)+1\leq t\leq -1</script>. Moreover, there is an
+element (the dualizing class, which comes from Anderson duality) in degree
+<script type="math/tex">\pi_{-d(n)} L_{K(1)\vee \cdots K(n)} \BP{n}</script>, such that there is a perfect
+pairing</p>
+
+<script type="math/tex; mode=display">\pi_{i-d(n)} L_{K(1)\vee \cdots K(n)} \BP{n}\otimes \pi_{-i} L_{K(1)\vee
+\cdots K(n)} \BP{n} \to \pi_{-d(n)} L_{K(1)\vee \cdots K(n)} \BP{n}. \qquad
+(\ast)</script>
+
+<p>In the case of <script type="math/tex">p=n=2</script>, we know that <script type="math/tex">L_{K(1)\vee K(2)} \BP{2} \simeq
+\Tmf_1(3)</script>, and <script type="math/tex">d(2) = 9</script>; then, the dualizing element is described in
+<a href="https://web.math.rochester.edu/people/faculty/doug/otherpapers/hill-meier2.pdf">this
+document</a>.</p>
+
+<p>We would like to construct an even-periodic refinement <script type="math/tex">\dX</script> of a flat map
+<script type="math/tex">X\to \Mfg</script> from a <em>proper</em> (so that, with a few additional assumptions, has
+a dualizing element) Noetherian Deligne-Mumford stack such that <script type="math/tex">\Gamma(\dX,
+\co_\dX) \simeq L_{K(1)\vee K(2)} \BP{2}</script>. In all known cases where such a
+model of <script type="math/tex">L_{K(1)\vee K(2)} \BP{2}</script> is known (i.e., at <script type="math/tex">p=2,3</script>), the
+descent spectral sequence collapses at the <script type="math/tex">E_2</script>-page: in other words,</p>
+
+<script type="math/tex; mode=display">\pi_\ast L_{K(1)\vee K(2)} \BP{2} \cong \H^0(X; \omega^{\otimes \ast}) \oplus
+\H^1(X; \omega^{\otimes \ast}), \qquad (\ast\ast)</script>
+
+<p>and by duality (discussed above) we have <script type="math/tex">\H^1(X; \omega^{\otimes \ast}) \cong
+\Sigma^{-d(n)} \H^0(X; \omega^{\otimes \ast})^\vee</script>. In particular:</p>
+
+<ul>
+  <li>we need there to be an isomorphism <script type="math/tex">\H^0(X; \omega^{\otimes \ast}) \cong
+\pi_\ast \BP{2}</script>; and</li>
+  <li>by Serre duality, it is most natural to ask for <script type="math/tex">X</script> to be a smooth and
+proper (stacky) <em>curve</em>. Since <script type="math/tex">X</script> would have cohomological dimension
+one, this implies that the descent spectral sequence degenerates at the
+<script type="math/tex">E_2</script>-page, which explains Equation <script type="math/tex">(\ast\ast)</script>.</li>
+</ul>
+
+<p>If we assume that <script type="math/tex">X</script> is a smooth and proper curve, then we claim that
+<script type="math/tex">\omega</script> is a dualizing sheaf on <script type="math/tex">X</script> if it is ample. To show this, we argue
+as in <a href="https://arxiv.org/pdf/1806.06709.pdf#page=28&amp;zoom=100,0,200">here</a>.
+Indeed, since <script type="math/tex">L_{K(1)\vee K(2)} \BP{2}</script> satisfies Anderson duality, we have
+<script type="math/tex">I_\Z L_{K(1)\vee K(2)} \BP{2} \simeq \Sigma^{d(2)} L_{K(1)\vee K(2)}
+\BP{2}</script>, which implies that <script type="math/tex">I_\QQ L_\QQ L_{K(1)\vee K(2)} \BP{2} \simeq
+\Sigma^{d(2)} L_\QQ L_{K(1)\vee K(2)} \BP{2}</script>. Since <script type="math/tex">d(n)\equiv
+-(n+1)\pmod{p}</script>, we know that <script type="math/tex">d(2)</script> is always odd; let us write <script type="math/tex">d(2) =
+2k+1</script>.  Then, there are isomorphisms</p>
+
+<script type="math/tex; mode=display">\pi_{-d(2)} L_\QQ L_{K(1)\vee K(2)} \BP{2} \cong \pi_0 I_\QQ L_\QQ
+L_{K(1)\vee K(2)} \BP{2} \cong \Hom_\QQ(\pi_0 L_\QQ L_{K(1)\vee K(2)} \BP{2},
+\QQ) \cong \QQ,</script>
+
+<p>so we can choose the element <script type="math/tex">D\in \pi_{-d(2)} L_\QQ L_{K(1)\vee K(2)} \BP{2}
+\cong \H^1(X; \omega^{\otimes -(d(2)-1)/2})</script> corresponding to <script type="math/tex">1\in \QQ</script>.
+Then, the pairing in Equation <script type="math/tex">(\ast)</script> shows that there is a perfect pairing</p>
+
+<script type="math/tex; mode=display">\H^0(X_\QQ; \omega^{\otimes -i-(d(2)-1)/2}) \otimes \H^1(X_\QQ;
+\omega^{\otimes i}) \to \H^1(X; \omega^{\otimes -(d(2)-1)/2}) \cong \QQ.</script>
+
+<p>If <script type="math/tex">\omega</script> is ample, then we find that <script type="math/tex">\omega^{\otimes -(d(2)-1)/2}</script> is a
+dualizing sheaf on <script type="math/tex">X_\QQ</script>; in particular, it is isomorphic to the standard
+dualizing sheaf <script type="math/tex">\Omega^1_{X_\QQ}</script>. We need to show that this implies that
+<script type="math/tex">\omega^{\otimes -(d(2)-1)/2}</script> is a dualizing sheaf on <script type="math/tex">X</script>; for this, it
+suffices to show that the map <script type="math/tex">\pic(X) \to \pic(X_\QQ)</script> is injective. This
+is a consequence of Proposition II.6.5 of Hartshorne.</p>
+
+<p>In light of the above discussion, we now assume that <script type="math/tex">X</script> is a smooth and
+proper curve such that <script type="math/tex">\omega</script> is ample, so that <script type="math/tex">\omega^{\otimes
+-(d(2)-1)/2}</script> is the dualizing sheaf of <script type="math/tex">X</script>. Then <script type="math/tex">X</script> has Kodaira
+dimension <script type="math/tex">-\infty</script>; equivalently, <script type="math/tex">X</script> must be of genus zero. Since
+<script type="math/tex">\H^0(X;\omega^{\otimes \ast}) \cong \Z_p[v_1,v_2]</script>, we find that <script type="math/tex">\proj
+\H^0(X;\omega^{\otimes \ast}) \cong \PP^1_{\Z_p}</script>. If we assume that <script type="math/tex">X</script> is
+of genus zero, then <script type="math/tex">X</script> is isomorphic to a weighted projective stack
+<script type="math/tex">\PP(p-1,p^2-1)</script>. Since the Picard group of <script type="math/tex">\PP(p-1,p^2-1)</script> is isomorphic
+to <script type="math/tex">\Z</script>, and the dualizing sheaf of <script type="math/tex">\PP(p-1,p^2-1)</script> is <script type="math/tex">\co(2-p-p^2)</script>,
+it follows that <script type="math/tex">\omega^{\otimes -(d(2)-1)/2} \cong \co(2-p-p^2)</script>; in
+particular, because <script type="math/tex">d(2)-1>0</script> for every prime <script type="math/tex">p</script>, we conclude that
+<script type="math/tex">\omega</script> is isomorphic to <script type="math/tex">\co(1)</script>, since <script type="math/tex">\frac{2(p^2+p-2)}{d(2)-1} =
+1</script>. Ampleness is immediate.</p>
+
+<p>There are a few natural candidates of genus zero curves which carry a formal
+group: these are modular curves and (quotients of) Shimura curves. For a
+general modular curve, there is an open subvariety <script type="math/tex">M_{\Gamma_1(N)}</script> of
+<script type="math/tex">\ol{M}_{\Gamma_1(N)}</script> containing the supersingular points which carries a
+<script type="math/tex">p</script>-divisible group of height <script type="math/tex">2</script> such that the associated map
+<script type="math/tex">M_{\Gamma_1(N)} \to M_p(2)</script> is formally etale. We conclude that <script type="math/tex">\Ltwo
+\Tmf_{\Gamma_1(N)}</script> is isomorphic to the product of <script type="math/tex">E_2^{h\Aut(x)}</script>, as
+<script type="math/tex">x</script> ranges over the <script type="math/tex">\ol{\FF_p}</script>-isomorphism classes of supersingular
+points of <script type="math/tex">M_{\Gamma_1(N)}</script>.  Since <script type="math/tex">\Ltwo \BP{2} \cong
+E_2^{h\Gal(\FF_{p^2}/\FF_p)}</script>, we need there to be only one such supersingular
+point. This leads to the following list of natural desiderata to impose on
+<script type="math/tex">X</script>:</p>
+
+<ol>
+  <li><script type="math/tex">X</script> is a smooth and proper stacky curve of genus zero (recall that the
+genus zero requirement is equivalent to <script type="math/tex">\omega</script> being ample, as proved
+above.); and</li>
+  <li>there is only one <script type="math/tex">\ol{\FF_p}</script>-isomorphism class of points on <script type="math/tex">X</script> such
+that the associated <script type="math/tex">1</script>-dimensional formal group is of height <script type="math/tex">2</script>.</li>
+</ol>
+
+<p>The genus zero requirement already tells us that it is futile to use modular
+curves or (quotients of) Shimura curves to prove the existence of an
+<script type="math/tex">\Eoo</script>-form of <script type="math/tex">\BP{2}</script> at all primes: there are only finitely many such
+curves of genus zero (for instance, the modular curve <script type="math/tex">\ol{M}_{\Gamma_1(N)}</script>
+is of genus zero if <script type="math/tex">1\leq N\leq 10</script> and <script type="math/tex">N=12</script>). In the case of modular
+curves, the restriction on the height of the formal group simply says that
+there needs to be only one <script type="math/tex">\ol{\FF_p}</script>-isomorphism class of supersingular
+elliptic curves. In the case of Shimura curves parametrizing abelian surfaces
+<script type="math/tex">A</script> along with a nondegenerate action <script type="math/tex">\Lambda \to \End(A)</script> as described
+above, this condition states that there needs to be only one
+<script type="math/tex">\ol{\FF_p}</script>-isomorphism class of such pairs for which <script type="math/tex">A[p^\infty]</script> splits
+as the sum of a multiplicative and etale <script type="math/tex">p</script>-divisible group, i.e.,
+<script type="math/tex">A[p^\infty]</script>, and hence <script type="math/tex">A</script>, is <em>ordinary</em>.  (This is a
+rather strange requirement to impose, because the locus of ordinary abelian
+varieties is dense and open; however, we are saved since we also allow for
+<em>quotients of</em> Shimura curves. For instance, if we quotient out by the
+group <script type="math/tex">G</script> of the Atkin-Lehner involutions, then the requirement then states
+that the locus of ordinary abelian surfaces is contained inside a single
+<script type="math/tex">G</script>-orbit. Nonetheless, this condition forces the resulting curve to be
+rather “small”.)</p>
+
+<p>In fact, by work of
+<a href="https://arxiv.org/pdf/1101.3897.pdf#page=44&amp;zoom=100,0,214">Lawson-Naumann</a>,
+only one additional condition (descending along the canonical subgroup) is
+needed to guarantee that the connective cover of the global sections of an
+even-periodic refinement of <script type="math/tex">X</script> satisfying the conditions listed above is an
+<script type="math/tex">\Eoo</script>-form of <script type="math/tex">\BP{2}</script>. It’d be very nice to know of examples where this
+is true.</p>
+
+  </div><a class="u-url" href="/blog/chromotopy/2019/02/16/BP-2.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Sanath Devalapurkar&#39;s home page</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Sanath Devalapurkar&#39;s home page</li><li><a class="u-email" href="mailto:sanathdevalapurkar@g.harvard.edu">sanathdevalapurkar@g.harvard.edu</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>Graduate student in math.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

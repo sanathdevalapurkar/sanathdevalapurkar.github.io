@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Chromatic splitting, redux | Sanath Devalapurkar’s home page</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Chromatic splitting, redux" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Graduate student in math." />
+<meta property="og:description" content="Graduate student in math." />
+<link rel="canonical" href="http://localhost:4000/blog/algebraic-topology/2019/07/23/csc-2.html" />
+<meta property="og:url" content="http://localhost:4000/blog/algebraic-topology/2019/07/23/csc-2.html" />
+<meta property="og:site_name" content="Sanath Devalapurkar’s home page" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2019-07-23T00:00:00-07:00" />
+<script type="application/ld+json">
+{"url":"http://localhost:4000/blog/algebraic-topology/2019/07/23/csc-2.html","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/blog/algebraic-topology/2019/07/23/csc-2.html"},"description":"Graduate student in math.","headline":"Chromatic splitting, redux","dateModified":"2019-07-23T00:00:00-07:00","datePublished":"2019-07-23T00:00:00-07:00","@type":"BlogPosting","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Sanath Devalapurkar's home page" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Sanath Devalapurkar&#39;s home page</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/blog/">Blog</a><a class="page-link" href="/">Home</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Chromatic splitting, redux</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2019-07-23T00:00:00-07:00" itemprop="datePublished">Jul 23, 2019
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
+
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-109004213-1"></script>
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+        gtag('config', 'UA-109004213-1');
+</script>
+
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+<script type="math/tex; mode=display">\newcommand{\KO}{\mathrm{KO}} \newcommand{\TMF}{\mathrm{TMF}}
+\newcommand{\KU}{\mathrm{KU}} \newcommand{\Mfg}{M_\mathrm{fg}}
+\newcommand{\spec}{\mathrm{Spec}\ } \newcommand{\dX}{\mathcal{X}}
+\newcommand{\co}{\mathcal{O}} \newcommand{\Z}{\mathbf{Z}}
+\newcommand{\top}{\mathrm{top}} \newcommand{\E}{\mathbf{E}}
+\newcommand{\GG}{\mathbf{G}} \newcommand{\DD}{\mathbf{D}}
+\newcommand{\Mell}{M_\mathrm{ell}} \newcommand{\ce}{\mathcal{E}}
+\newcommand{\H}{\mathrm{H}} \newcommand{\dR}{\mathrm{dR}}
+\newcommand{\cf}{\mathcal{F}} \newcommand{\FF}{\mathbf{F}}
+\newcommand{\spf}{\mathrm{Spf}\ } \newcommand{\cA}{\mathcal{A}}
+\newcommand{\Mcub}{M_\mathrm{cub}} \newcommand{\Mqd}{M_\mathrm{qd}}
+\newcommand{\Aut}{\mathrm{Aut}} \newcommand{\tmf}{\mathrm{tmf}}
+\newcommand{\Tmf}{\mathrm{Tmf}} \newcommand{\Map}{\mathrm{Map}}
+\newcommand{\Ext}{\mathrm{Ext}} \newcommand{\End}{\mathrm{End}}
+\newcommand{\cg}{\mathcal{G}} \newcommand{\Hom}{\mathrm{Hom}}
+\newcommand{BP}{\mathrm{BP}} \newcommand{\QQ}{\mathbf{Q}}
+\newcommand{\PP}{\mathbf{P}} \newcommand{\Gal}{\mathrm{Gal}}
+\newcommand{\proj}{\mathrm{Proj}\ } \newcommand{\Ltwo}{L_{K(2)}}
+\newcommand{\Eoo}{\mathbf{E}_\infty} \newcommand{\ol}[1]{\overline #1}
+\newcommand{\pic}{\mathrm{Pic}} \newcommand{\RP}{\mathbf{R}P}
+\newcommand{\BO}{\mathrm{BO}} \newcommand{\cc}{\mathbf{C}}
+\newcommand{\CP}{\mathbf{C}P} \newcommand{\wt}[1]{\widetilde #1}
+\newcommand{\RR}{\mathbf{R}} \renewcommand{\S}{\mathbb{S}}
+\newcommand{\Lone}{L_{K(1)}} \newcommand{\Ltwo}{L_{K(2)}}
+\newcommand{\gl}{\mathrm{gl}} \newcommand{\Lk}{L_{K(n)}}
+\newcommand{\ku}{\mathrm{ku}} \newcommand{\ko}{\mathrm{ko}}
+\newcommand{\GL}{\mathrm{GL}} \newcommand{\Ln}{L_n} \newcommand{\Lt}{L_{K(t)}}
+\newcommand{\W}{\mathrm{W}} \newcommand{\BU}{\mathrm{BU}}
+\newcommand{\SU}{\mathrm{SU}} \newcommand{\MU}{\mathrm{MU}}
+\newcommand{\ul}[1]{\underline #1} \newcommand{\Sq}{\mathrm{Sq}}
+\newcommand{\Tr}{\mathrm{Tr}} \newcommand{\d}{\mathrm{d}}
+\newcommand{\HP}{\mathbf{H}P} \newcommand{\cL}{\mathcal{L}}
+\newcommand{\cs}{\mathrm{cs}} \newcommand{\cd}{\mathcal{D}}
+\newcommand{\Bord}{\mathrm{Bord}} \newcommand{\SO}{\mathrm{SO}}
+\newcommand{\cC}{\mathcal{C}} \newcommand{\Sp}{\mathrm{Sp}}
+\newcommand{\Lkd}{L_{K(d)}} \newcommand{\Mod}{\mathrm{Mod}}
+\newcommand{\cH}{\mathcal{H}} \newcommand{\ket}[1]{|#1 \rangle}
+\newcommand{\Bun}{\mathrm{Bun}} \newcommand{\cM}{\mathcal{M}}
+\newcommand{\MTH}{\mathrm{MT}H} \newcommand{\MSO}{\mathrm{MSO}}
+\newcommand{\twsm}{\ \widetilde{\wedge} \ } \newcommand{\BSpin}{\mathrm{BSpin}}
+\newcommand{\MSpin}{\mathrm{MSpin}} \newcommand{\BString}{\mathrm{BString}}
+\newcommand{\MString}{\mathrm{MString}} \newcommand{\B}{\mathrm{B}}
+\newcommand{\der}{\mathrm{der}} \newcommand{\Cat}{\mathrm{Cat}}
+\newcommand{\QCoh}{\mathrm{QCoh}} \newcommand{\LMod}{\mathrm{LMod}}
+\newcommand{\Rep}{\mathrm{Rep}} \newcommand{\HH}{\mathbf{H}}
+\newcommand{\ZZ}{\mathfrak{Z}} \newcommand{\fr}{\mathrm{fr}}
+\newcommand{\BSO}{\mathrm{BSO}} \newcommand{\BSU}{\mathrm{BSU}}
+\newcommand{\id}{\mathrm{id}} \newcommand{\Top}{\mathrm{Top}}
+\newcommand{\cP}{\mathcal{P}} \newcommand{\U}{\mathrm{U}}
+\newcommand{\Sym}{\mathrm{Sym}} \newcommand{\coker}{\mathrm{coker}}
+\newcommand{\Vect}{\mathrm{Vect}} \newcommand{\Fun}{\mathrm{Fun}}
+\newcommand{\cT}{\mathcal{T}} \newcommand{\cJ}{\mathcal{J}}
+\newcommand{\Res}{\mathrm{Res}} \newcommand{\Ind}{\mathrm{Ind}}
+\newcommand{\Pic}{\mathrm{Pic}} \newcommand{\fr}[1]{\mathfrak #1}
+\newcommand{\Stab}{\mathrm{Stab}}</script>
+
+<p>In the <a href="/algebraic-topology/2019/07/22/csc.html">previous post</a>, I asked the
+following question: let <script type="math/tex">\zeta_n\in \pi_{-1} \Lk \S</script> be the “chromatic
+splitting element” (I don’t know a better name); then, is <script type="math/tex">v_n \zeta_n =
+\sigma_{n-1} \in \pi_\ast \Lk y(n-1)</script>, where I view <script type="math/tex">y(n-1)</script> as <script type="math/tex">T(n)/(p,
+v_1, \cdots, v_{n-1})</script>? I think the answer is no.</p>
+
+<p>This comes from a discussion I had with <a href="https://www3.nd.edu/~mbehren1/">Mark</a>
+about this. He suggested calculating in the localized Adams-Novikov spectral
+sequence. One reason is that <script type="math/tex">\sigma_{n-1}</script> admits a good description in the
+Adams-Novikov spectral sequence for <script type="math/tex">T(n-1)</script>: it’s represented in the cobar
+complex by the element <script type="math/tex">[t_n]</script>. Recall how one goes from the cobar complex to
+the Morava spectral sequence: this comes from a map of cosimplicial objects
+<script type="math/tex">\{\BP_\ast \BP^{\otimes \bullet+1} \otimes_{\BP_\ast} \BP_\ast y(n-1)\}\to
+\{\Map_c(\Gamma, E^{\widehat{\otimes} \bullet}_\ast) \otimes_{E_\ast} E_\ast
+y(n-1)\}</script>, where <script type="math/tex">E</script> denotes a Morava E-theory of height <script type="math/tex">n</script>. We’ll use the
+Morava E-theory associated to the Honda formal group law.</p>
+
+<p>First, recall that <script type="math/tex">\BP_\ast T(n) \cong \BP_\ast[t_1, \cdots, t_n]</script>, where
+<script type="math/tex">|t_k| = 2(p^k-1)</script>. It follows from Landweber exactness that <script type="math/tex">E_\ast y(n-1)
+\cong K(n)_\ast[t_1, \cdots, t_{n-1}]</script>. The map of cosimplicial objects at
+level one is a map <script type="math/tex">\BP_\ast \BP \otimes_{\BP_\ast} \BP_\ast y(n-1) \to
+\Map(\Gamma, E_\ast) \otimes_{E_\ast} K(n)_\ast[t_1, \cdots, t_{n-1}]</script>. This is
+implemented by the map <script type="math/tex">\BP_\ast \BP \to \Map(\Gamma, K(n)_\ast)</script> which sends
+<script type="math/tex">t_n</script> to the following map <script type="math/tex">\Gamma \to K(n)_\ast</script>. Recall that <script type="math/tex">\Gamma
+\cong \co_D^\times</script>, where <script type="math/tex">\co_D = \W(\FF_{p^n})\langle S\rangle/(S^n=p, Sa =
+a^\phi S)</script>; write <script type="math/tex">g\in \Gamma</script> as <script type="math/tex">1+\sum_{i=1}^\infty [a_i] S^i</script>, with
+<script type="math/tex">[a_i]</script> being Teichmuller lifts of elements <script type="math/tex">a_i\in \FF_{p^n}</script>. The map
+which <script type="math/tex">t_n</script> defines sends <script type="math/tex">g</script> to <script type="math/tex">a_n u^{-(p^n-1)}\in K(n)_\ast</script>, where
+<script type="math/tex">u\in \pi_{-2} E</script> is the periodicity generator. Note that since conjugation by
+<script type="math/tex">S</script> in <script type="math/tex">\co_D</script> corresponds to applying Frobenius to the coefficients, and
+<script type="math/tex">S^n=p</script>, the element <script type="math/tex">a_n</script> is in fact Galois invariant, and hence lives in
+<script type="math/tex">\FF_p</script>.</p>
+
+<p>The upshot of this is that in the Morava spectral sequence, the class
+<script type="math/tex">\sigma_{n-1}\in \H^1(\Gamma; E_\ast y(n-1))</script> is given by the crossed
+homomorphism <script type="math/tex">\Gamma \to E_\ast y(n-1) = K(n)_\ast[t_1, \cdots, t_{n-1}]</script>
+sending <script type="math/tex">1+\sum_{i=1}^\infty [a_i] S^i</script> to <script type="math/tex">a_n u^{-(p^n-1)}</script>. Note that
+this map factors through <script type="math/tex">\FF_p[u^{\pm 1}]</script> — the higher <script type="math/tex">t_i</script>s don’t play
+a role in this.</p>
+
+<p>What would be sufficient is if the map <script type="math/tex">\zeta_n: \Gamma
+\xrightarrow{\mathrm{norm}} \Z_p \to \FF_p</script> is also given by sending
+<script type="math/tex">1+\sum_{i=1}^\infty [a_i] S^i</script> to <script type="math/tex">a_n</script>. The case when <script type="math/tex">n=1</script> is very
+easy (where the answer is positive), but the case when <script type="math/tex">n=2</script> becomes
+interesting. In this case, we can write <script type="math/tex">1+\sum_{i=1}^\infty [a_i] S^i</script> as
+<script type="math/tex">\left(1+p\sum_{k\geq 1} p^{k-1} [a_{2k}]\right) + \left(\sum_{k\geq 1} p^{k-1}
+[a_{2k-1}]\right) S</script>. Let’s call the first term <script type="math/tex">a</script>, and the second term
+<script type="math/tex">b</script>. Then the inclusion <script type="math/tex">\Gamma\subseteq \GL_2(\W(\FF_{p^2}))</script> is given by
+sending this <script type="math/tex">a+bS</script> to <script type="math/tex">% <![CDATA[
+\begin{pmatrix} a & p\sigma(b)\\ b & \sigma(a)
+\end{pmatrix} %]]></script>, where <script type="math/tex">\sigma</script> is the Frobenius (acting via the Teichmuller
+lift). The determinant map therefore sends <script type="math/tex">a+bS</script> to</p>
+
+<script type="math/tex; mode=display">a\sigma(a) + pb\sigma(b) = 1 + p([a_2] + [\sigma(a_2)] - [a_1 \sigma(a_1)]) +
+p^2(\cdots),</script>
+
+<p>and consequently (note that <script type="math/tex">a_2 = \sigma(a_2)</script>) the map <script type="math/tex">\zeta_2:\Gamma\to
+\Z_p^\times \to \FF_p</script> sends <script type="math/tex">a+bS</script> to <script type="math/tex">a_2 + \sigma(a_2) - a_1
+\sigma(a_1)\in \FF_p</script>. This isn’t the same as <script type="math/tex">t_2</script>, and isn’t even going to
+be homologous to it. So <script type="math/tex">v_2 \zeta_2</script> is not <script type="math/tex">\sigma_1</script>, and in fact, <script type="math/tex">v_n
+\zeta_n</script> will <em>not</em> be <script type="math/tex">\sigma_{n-1}</script> in <script type="math/tex">\pi_\ast \Lk y(n-1)</script> for <script type="math/tex">n>1</script>.</p>
+
+<p>However, our calculation above has shown that <script type="math/tex">\zeta_2</script> is homologous to 
+<script type="math/tex">v_2^{-1}(t_2 - t_1^{p+1}) - v_2^{-p} t_2^p</script>. In fact, to get the
+representation of <script type="math/tex">\zeta_n</script> in general, note that the matrix in
+<script type="math/tex">\GL_n(\W(\FF_{p^n}))</script> corresponding to <script type="math/tex">g=1+\sum_{i\geq 1} [a_i] S^i</script> has
+entries</p>
+
+<script type="math/tex; mode=display">% <![CDATA[
+g_{ij} = \begin{cases}
+\sum_{m=1}^\infty p^m t_{j+mn-i}^{p^i} & \text{if }i>j\\
+\sum_{m=0}^\infty p^m t_{j+mn-i}^{p^i} & \text{if }i\leq j.
+\end{cases} %]]></script>
+
+<p>Therefore, <script type="math/tex">\zeta_n</script> is homologous to the polynomial <script type="math/tex">(\det(g)-1)/p</script> in the
+<script type="math/tex">t_i</script>s (with each term appropriately scaled by powers of <script type="math/tex">v_k</script>. This is, I
+think, the best that one could say in general about the relationship between
+<script type="math/tex">\sigma_{n-1}</script> and <script type="math/tex">\zeta_n</script>. I guess I should’ve expected this from the
+outset, but this turned out to be a cute calculation, so I’m not too bothered.</p>
+
+  </div><a class="u-url" href="/blog/algebraic-topology/2019/07/23/csc-2.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Sanath Devalapurkar&#39;s home page</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Sanath Devalapurkar&#39;s home page</li><li><a class="u-email" href="mailto:sanathdevalapurkar@g.harvard.edu">sanathdevalapurkar@g.harvard.edu</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>Graduate student in math.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

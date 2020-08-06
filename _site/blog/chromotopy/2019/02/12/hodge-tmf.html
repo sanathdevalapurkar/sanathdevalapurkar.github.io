@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Hodge theory and Hopf invariant one | Sanath Devalapurkar’s home page</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Hodge theory and Hopf invariant one" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Graduate student in math." />
+<meta property="og:description" content="Graduate student in math." />
+<link rel="canonical" href="http://localhost:4000/blog/chromotopy/2019/02/12/hodge-tmf.html" />
+<meta property="og:url" content="http://localhost:4000/blog/chromotopy/2019/02/12/hodge-tmf.html" />
+<meta property="og:site_name" content="Sanath Devalapurkar’s home page" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2019-02-12T00:00:00-08:00" />
+<script type="application/ld+json">
+{"url":"http://localhost:4000/blog/chromotopy/2019/02/12/hodge-tmf.html","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/blog/chromotopy/2019/02/12/hodge-tmf.html"},"description":"Graduate student in math.","headline":"Hodge theory and Hopf invariant one","dateModified":"2019-02-12T00:00:00-08:00","datePublished":"2019-02-12T00:00:00-08:00","@type":"BlogPosting","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Sanath Devalapurkar's home page" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Sanath Devalapurkar&#39;s home page</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/blog/">Blog</a><a class="page-link" href="/">Home</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Hodge theory and Hopf invariant one</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2019-02-12T00:00:00-08:00" itemprop="datePublished">Feb 12, 2019
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
+
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-109004213-1"></script>
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+        gtag('config', 'UA-109004213-1');
+</script>
+
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+<p><script type="math/tex">\newcommand{\KO}{\mathrm{KO}} \newcommand{\TMF}{\mathrm{TMF}}
+\newcommand{\KU}{\mathrm{KU}} \newcommand{\Mfg}{M_\mathrm{fg}}
+\newcommand{\spec}{\mathrm{Spec}\ } \newcommand{\dX}{\mathcal{X}}
+\newcommand{\co}{\mathcal{O}} \newcommand{\Z}{\mathbf{Z}}
+\newcommand{\top}{\mathrm{top}} \newcommand{\E}{\mathbf{E}}
+\newcommand{\GG}{\mathbf{G}} \newcommand{\DD}{\mathbf{D}}
+\newcommand{\Mell}{M_\mathrm{ell}} \newcommand{\ce}{\mathcal{E}}
+\newcommand{\H}{\mathrm{H}} \newcommand{\dR}{\mathrm{dR}}
+\newcommand{\cf}{\mathcal{F}}</script>
+Let <script type="math/tex">X</script> be a Noetherian and separated Deligne-Mumford stack along with a flat
+and <em>affine</em> map <script type="math/tex">X\to \Mfg</script>, and let <script type="math/tex">\Mfg^{(n)}</script> denote the moduli stack
+of formal groups along with a chosen coordinate up to degree <script type="math/tex">n+1</script>. Then,
+there is some <script type="math/tex">N\geq 0</script> such that the pullback <script type="math/tex">X\times_{\Mfg} \Mfg^{(N)}</script>
+is affine. Indeed, we know that <script type="math/tex">\Mfg^{(\infty)} = \spec L</script>, where <script type="math/tex">L</script> is
+the Lazard ring, so <script type="math/tex">X\times_{\Mfg} \Mfg^{(\infty)}</script> is affine because the
+morphism <script type="math/tex">X\to \Mfg</script> is affine. By <a href="https://stacks.math.columbia.edu/tag/07SQ">Lemma
+07SQ</a> of the Stacks project, it
+suffices to prove that there is some <script type="math/tex">N</script> for which <script type="math/tex">X\times_{\Mfg}
+\Mfg^{(N)}</script> is an <em>algebraic space</em>. Each <script type="math/tex">X\times_{\Mfg} \Mfg^{(N)}</script> is a
+Deligne-Mumford stack, and since a Deligne-Mumford stack is an algebraic space
+if and only if its diagonal is a closed embedding, we can conclude by using
+Theorem 8.10.5 of EGA IV(!) to conclude that the diagonal of some
+<script type="math/tex">X\times_{\Mfg} \Mfg^{(N)}</script> must be a closed embedding.</p>
+
+<p>We know that the stack associated to the Thom spectrum <script type="math/tex">X(n) = (\Omega
+SU(n))^\xi</script> (i.e, the stack associated to the Hopf algebroid <script type="math/tex">(MU_\ast X(n),
+MU_\ast MU \otimes_{MU_\ast} MU_\ast X(n))</script>) is the stack <script type="math/tex">\Mfg^{(n)}</script>.
+Suppose that the morphism <script type="math/tex">X\to \Mfg</script> admits an even-periodic refinement to
+an even-periodic Deligne-Mumford stack <script type="math/tex">\dX</script>. Let <script type="math/tex">A = \Gamma(\dX,
+\co_\dX)</script>. Since the morphism <script type="math/tex">X\to \Mfg</script> is affine, we know that <script type="math/tex">X</script> is
+the stack associated to <script type="math/tex">A</script> (see Theorem 4 of <a href="http://www.mit.edu/~sanathd/wood.pdf">this
+document</a>). It follows that the stack
+associated to <script type="math/tex">A\wedge X(n)</script> is the stack <script type="math/tex">X\times_{\Mfg} \Mfg^{(n)}</script>.
+Since this is affine for some <script type="math/tex">n=N</script>, we conclude that there is some <script type="math/tex">N</script> for
+which <script type="math/tex">A\wedge X(N)</script> is complex-oriented.</p>
+
+<p>Let us explore the situation in a concrete example. Let <script type="math/tex">X</script> be the
+classifying stack <script type="math/tex">B\Z/2 = B\mathrm{Aut}(\mathbf{G}_m)</script>. This classifies
+algebraic tori, i.e., algebraic groups which become isomorphic to
+<script type="math/tex">\mathbf{G}_m</script> after a faithfully flat extension. There is a map <script type="math/tex">B\Z/2 \to
+\Mfg</script> sending a group to its completion at the identity component. Moreover,
+this morphism is affine. This is equivalent to the claim that the stack
+<script type="math/tex">B\Z/2\times_{\Mfg} \spec L</script> is affine. The moduli problem that this stack
+classifies is algebraic tori along with a coordinate; if <script type="math/tex">f:T\to T'</script> is a map
+of tori which induces the identity on its completion (up to order three), then
+<script type="math/tex">f</script> is the identity. It follows that there are no nontrivial automorphisms in
+the moduli problem, so <script type="math/tex">B\Z/2\times_{\Mfg} \spec L</script> is affine, as desired. In
+fact, this shows that <script type="math/tex">B\Z/2\times_{\Mfg} \Mfg^{(2)}</script> is affine.</p>
+
+<p>The morphism <script type="math/tex">B\Z/2\to \Mfg</script> admits an even-periodic refinement to a stack
+<script type="math/tex">B\Z/2^\top</script>, and <script type="math/tex">\Gamma(B\Z/2^\top, \co_{B\Z/2^\top}) = \KO</script>. We
+therefore learn that <script type="math/tex">\KO\wedge X(2)</script> is affine. The spectrum <script type="math/tex">\KO</script> isn’t
+very interesting when localized at primes bigger than <script type="math/tex">3</script>, so we will now
+localize at the prime <script type="math/tex">2</script>. Then, <script type="math/tex">X(2)</script> is also known as <script type="math/tex">T(1)</script>; this is
+the free <script type="math/tex">\E_{1}</script>-ring with a (chosen) nullhomotopy of <script type="math/tex">\eta</script> (this is true
+even before <script type="math/tex">2</script>-localization). In particular, <script type="math/tex">\KO\wedge X(2)</script> is the free
+<script type="math/tex">\E_{1}</script>-<script type="math/tex">\KO</script>-algebra with a nullhomotopy of <script type="math/tex">\eta</script>. (Note that <script type="math/tex">X(2)</script>
+is actually an <script type="math/tex">\E_{2}</script>-ring: it is the Thom spectrum of a bundle over
+<script type="math/tex">\Omega SU(2)</script>, and this deloops twice to <script type="math/tex">\mathbf{H}P^\infty</script>; moreover,
+the map <script type="math/tex">\Omega SU(2) \to BU</script> is an <script type="math/tex">\E_{2}</script>-ring map.)</p>
+
+<p>What <em>is</em> a nullhomotopy of <script type="math/tex">\eta</script> in a ring spectrum <script type="math/tex">A</script>? It’s a choice of
+factorization of the unit <script type="math/tex">S\to A</script> through the <script type="math/tex">2</script>-cell complex <script type="math/tex">C\eta</script>.
+Assume that <script type="math/tex">A</script> is even-periodic and complex oriented, and let <script type="math/tex">q:\GG \to
+\spec \pi_0 A</script> denote the associated formal group. Then <script type="math/tex">\pi_2 A \cong \omega
+= q_\ast \Omega^1_{\GG/\pi_0 A}</script>. The cofiber sequence <script type="math/tex">S^{-2} \to
+\Sigma^{-2} C\eta \to S</script> gives an exact sequence of vector bundles on <script type="math/tex">\spec
+\pi_0 A</script>:</p>
+
+<script type="math/tex; mode=display">0 \to \pi_0 A \to A^2(C\eta) \to \pi_{-2} A = \omega^{-1} \to 0. \qquad
+(\ast)</script>
+
+<p>In general, one can construct such an exact sequence for an even-periodic
+refinement of a non-affine Deligne-Mumford stack <script type="math/tex">X</script> (like <script type="math/tex">B\Z/2</script>), and
+one obtains a similar extension as an element of
+<script type="math/tex">\mathrm{Ext}^1_X(\omega^{-1}, \co_X)</script>, where <script type="math/tex">\omega</script> is again the “Lie
+algebra” sheaf on <script type="math/tex">X</script>. The choice of a nullhomotopy of <script type="math/tex">\eta</script> is then
+equivalent to the data of a splitting of this exact sequence. The space of such
+splittings is <script type="math/tex">\mathrm{Hom}_X(\omega^{-1}, \co_X) = \Gamma(X;\omega)</script>. This
+is the algebraic analogue of the fact that <script type="math/tex">\pi_2</script> parametrizes
+nullhomotopies of <script type="math/tex">\eta</script>.</p>
+
+<p>Since <script type="math/tex">\eta</script> is not nullhomotopic in <script type="math/tex">\KO</script>, the element of
+<script type="math/tex">\mathrm{Ext}^1_X(\omega^{-1}, \co_X)</script> classifying <script type="math/tex">\eta</script> is nontrivial.
+Then, one can use the above discussion to observe that <script type="math/tex">B\Z/2\times_{\Mfg}
+\Mfg^{(2)}</script> is the universal stack (scheme) over <script type="math/tex">B\Z/2</script> with a chosen
+trivialization of this exact sequence. We conclude that the moduli problem
+associated to <script type="math/tex">\KO\wedge X(2)</script> classifies algebraic tori along with a chosen
+splitting of the exact sequence <script type="math/tex">(\ast)</script> (which corresponds to a chosen
+global section of <script type="math/tex">\omega</script>).</p>
+
+<p>This could’ve also been deduced by looking at the definition of a coordinate up
+to degree <script type="math/tex">3</script>, but there’s a reason we went through all of this effort: it
+helps us generalize to higher heights. The next most manageable and interesting
+case is <script type="math/tex">\TMF</script>. In this case, <script type="math/tex">X</script> is the moduli stack <script type="math/tex">\Mell</script> of smooth
+elliptic curves, and the morphism <script type="math/tex">\Mell \to \Mfg</script> is again affine. We
+conclude that there is some <script type="math/tex">N</script> such that <script type="math/tex">\Mell\times_{\Mfg} \Mfg^{(N)}</script>
+is affine. In fact, one can show that <script type="math/tex">N=4</script> works. If we localize at the
+prime <script type="math/tex">3</script>, then <script type="math/tex">N=3</script> works, so (we will now <script type="math/tex">3</script>-localize) <script type="math/tex">\TMF \wedge
+X(3)</script> is complex oriented. The spectrum <script type="math/tex">X(3)</script> splits up (since we
+<script type="math/tex">3</script>-localized) into a wedge of homotopy commutative ring spectra denoted
+<script type="math/tex">T(1)</script>, in much the same way as <script type="math/tex">MU</script> splits up into a wedge of copies of
+<script type="math/tex">BP</script>. The spectrum <script type="math/tex">T(1)</script> is the free <script type="math/tex">\E_1</script>-ring with a chosen
+nullhomotopy of <script type="math/tex">\alpha_1</script>, and <script type="math/tex">\TMF \wedge T(1)</script> is complex oriented.</p>
+
+<p>Let us analyze the moduli problem associated to <script type="math/tex">\TMF \wedge T(1)</script> in the
+same way as we did for <script type="math/tex">\KO\wedge T(1)</script>. The element <script type="math/tex">\alpha_1</script> is nonzero
+in <script type="math/tex">\TMF</script>. If <script type="math/tex">q:\ce\to \Mell</script> denotes the universal elliptic curve
+over <script type="math/tex">\Mell</script>, then denoting <script type="math/tex">\omega = q_\ast \Omega^1_{\ce/\Mell}</script>, we have
+an exact sequence</p>
+
+<script type="math/tex; mode=display">0\to \pi_2 \co_{\Mell^\top} = \omega \to \cf(\Sigma^{-2} C\alpha_1) \to
+\omega^{-1} = \pi_{-2} \co_{\Mell^\top} \to 0, \qquad (\ast\ast)</script>
+
+<p>where <script type="math/tex">\cf(\Sigma^{-2} C\alpha_1)</script> is the sheaf on <script type="math/tex">\Mell</script> whose global
+sections is <script type="math/tex">\TMF\wedge \Sigma^{-2} C\alpha_1</script>. This exact sequence is an
+element of <script type="math/tex">\mathrm{Ext}^1_X(\omega^{-1}, \omega)</script> detecting <script type="math/tex">\alpha_1</script>.</p>
+
+<p>The exact sequence <script type="math/tex">(\ast\ast)</script> is familiar to arithmetic geometers: it’s
+almost exactly the Hodge-de Rham exact sequence! If <script type="math/tex">\H^1_\dR(\ce/\Mell)</script>
+denotes the de Rham cohomology of <script type="math/tex">\ce</script> (really, regarded as a sheaf on
+<script type="math/tex">\Mell</script>), then there is an exact sequence</p>
+
+<script type="math/tex; mode=display">0 \to q_\ast \Omega^1_{\ce/\Mell} = \omega \to
+\H^1_\dR(\ce/\Mell) \to R^1 q_\ast \co_\ce \cong \omega^{-1} \to 0, \qquad
+(\ast\ast\ast)</script>
+
+<p>where we’ve implicitly used Serre duality above. (Note that
+<script type="math/tex">\H^1_\dR(\ce/\Mell)</script> is the Dieudonne module of the <script type="math/tex">3</script>-divisible group
+<script type="math/tex">\ce[3^\infty]</script> over <script type="math/tex">\Mell</script>.) Both exact sequences <script type="math/tex">(\ast\ast)</script> and
+<script type="math/tex">(\ast\ast\ast)</script> lie inside <script type="math/tex">\mathrm{Ext}^1_X(\omega^{-1}, \omega) \cong
+\H^1(\Mell; \omega^2)</script>. This can be directly computed: it is exactly <script type="math/tex">\Z/3</script>.
+Since both exact sequences are nontrivial, we conclude that they are either
+equal (in which case <script type="math/tex">\H^1_\dR(\ce/\Mell) \cong \cf(\Sigma^{-2} C\alpha_1)</script>)
+or one is twice the other (under the Baer sum). In any case, we find that
+choosing a nullhomotopy of <script type="math/tex">\alpha_1</script> in a <script type="math/tex">\TMF</script>-algebra is equivalent to
+choosing a splitting of the Hodge-de Rham exact sequence. In particular, the
+moduli problem associated to <script type="math/tex">\TMF\wedge T(1)</script> classifies elliptic curves
+along with a chosen splitting of the Hodge-de Rham exact sequence. More
+generally, one could replace <script type="math/tex">\TMF</script> with any <script type="math/tex">\E_\infty</script>-ring obtained as
+the global sections of a sheaf of <script type="math/tex">\E_\infty</script>-rings on an even-periodic
+refinement of a formally etale map <script type="math/tex">X \to M_3(2)</script> from a Noetherian and
+separated Deligne-Mumford stack classifying a <script type="math/tex">3</script>-divisible group of height
+<script type="math/tex">2</script>.</p>
+
+<p>It would be very interesting to generalize these observations to higher
+heights, since <script type="math/tex">\alpha_1</script> is detected at height <script type="math/tex">p-1</script>.</p>
+
+  </div><a class="u-url" href="/blog/chromotopy/2019/02/12/hodge-tmf.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Sanath Devalapurkar&#39;s home page</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Sanath Devalapurkar&#39;s home page</li><li><a class="u-email" href="mailto:sanathdevalapurkar@g.harvard.edu">sanathdevalapurkar@g.harvard.edu</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>Graduate student in math.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

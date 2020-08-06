@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Deforming the de Rham space | Sanath Devalapurkar’s home page</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Deforming the de Rham space" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Graduate student in math." />
+<meta property="og:description" content="Graduate student in math." />
+<link rel="canonical" href="http://localhost:4000/blog/algebraic-geometry/2020/03/21/dmod-ii.html" />
+<meta property="og:url" content="http://localhost:4000/blog/algebraic-geometry/2020/03/21/dmod-ii.html" />
+<meta property="og:site_name" content="Sanath Devalapurkar’s home page" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-03-21T00:00:00-07:00" />
+<script type="application/ld+json">
+{"url":"http://localhost:4000/blog/algebraic-geometry/2020/03/21/dmod-ii.html","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/blog/algebraic-geometry/2020/03/21/dmod-ii.html"},"description":"Graduate student in math.","headline":"Deforming the de Rham space","dateModified":"2020-03-21T00:00:00-07:00","datePublished":"2020-03-21T00:00:00-07:00","@type":"BlogPosting","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Sanath Devalapurkar's home page" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Sanath Devalapurkar&#39;s home page</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/blog/">Blog</a><a class="page-link" href="/">Home</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Deforming the de Rham space</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2020-03-21T00:00:00-07:00" itemprop="datePublished">Mar 21, 2020
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
+
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-109004213-1"></script>
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+        gtag('config', 'UA-109004213-1');
+</script>
+
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+<script type="math/tex; mode=display">\newcommand{\KO}{\mathrm{KO}} \newcommand{\TMF}{\mathrm{TMF}}
+\newcommand{\KU}{\mathrm{KU}} \newcommand{\Mfg}{M_\mathrm{fg}}
+\newcommand{\spec}{\mathrm{Spec}} \newcommand{\dX}{\mathcal{X}}
+\newcommand{\co}{\mathcal{O}} \newcommand{\Z}{\mathbf{Z}}
+\newcommand{\top}{\mathrm{top}} \newcommand{\E}{\mathbf{E}}
+\newcommand{\GG}{\mathbf{G}} \newcommand{\DD}{\mathbf{D}}
+\newcommand{\Mell}{M_\mathrm{ell}} \newcommand{\ce}{\mathcal{E}}
+\newcommand{\H}{\mathrm{H}} \newcommand{\dR}{\mathrm{dR}}
+\newcommand{\cf}{\mathcal{F}} \newcommand{\FF}{\mathbf{F}}
+\newcommand{\spf}{\mathrm{Spf}\ } \newcommand{\cA}{\mathcal{A}}
+\newcommand{\Mcub}{M_\mathrm{cub}} \newcommand{\Mqd}{M_\mathrm{qd}}
+\newcommand{\Aut}{\mathrm{Aut}} \newcommand{\tmf}{\mathrm{tmf}}
+\newcommand{\Tmf}{\mathrm{Tmf}} \newcommand{\Map}{\mathrm{Map}}
+\newcommand{\Ext}{\mathrm{Ext}} \newcommand{\End}{\mathrm{End}}
+\newcommand{\cg}{\mathcal{G}} \newcommand{\Hom}{\mathrm{Hom}}
+\newcommand{BP}[1]{\mathrm{BP}\langle #1\rangle} \newcommand{\QQ}{\mathbf{Q}}
+\newcommand{\PP}{\mathbf{P}} \newcommand{\Gal}{\mathrm{Gal}}
+\newcommand{\proj}{\mathrm{Proj}\ } \newcommand{\Ltwo}{L_{K(2)}}
+\newcommand{\Eoo}{\mathbf{E}_\infty} \newcommand{\ol}[1]{\overline #1}
+\newcommand{\pic}{\mathrm{Pic}} \newcommand{\RP}{\mathbf{R}P}
+\newcommand{\BO}{\mathrm{BO}} \newcommand{\cc}{\mathbf{C}}
+\newcommand{\CP}{\mathbf{C}P} \newcommand{\wt}[1]{\widetilde #1}
+\newcommand{\RR}{\mathbf{R}} \renewcommand{\S}{\mathbb{S}}
+\newcommand{\Lone}{L_{K(1)}} \newcommand{\Ltwo}{L_{K(2)}}
+\newcommand{\gl}{\mathrm{gl}} \newcommand{\Lk}{L_{K(n)}}
+\newcommand{\ku}{\mathrm{ku}} \newcommand{\ko}{\mathrm{ko}}
+\newcommand{\GL}{\mathrm{GL}} \newcommand{\Ln}{L_n} \newcommand{\Lt}{L_{K(t)}}
+\newcommand{\W}{\mathrm{W}} \newcommand{\BU}{\mathrm{BU}}
+\newcommand{\SU}{\mathrm{SU}} \newcommand{\MU}{\mathrm{MU}}
+\newcommand{\ul}[1]{\underline #1} \newcommand{\Sq}{\mathrm{Sq}}
+\newcommand{\Tr}{\mathrm{Tr}} \newcommand{\d}{\mathrm{d}}
+\newcommand{\HP}{\mathbf{H}P} \newcommand{\cL}{\mathcal{L}}
+\newcommand{\cs}{\mathrm{cs}} \newcommand{\cd}{\mathcal{D}}
+\newcommand{\Bord}{\mathrm{Bord}} \newcommand{\SO}{\mathrm{SO}}
+\newcommand{\cC}{\mathcal{C}} \newcommand{\Sp}{\mathrm{Sp}}
+\newcommand{\Lkd}{L_{K(d)}} \newcommand{\Mod}{\mathrm{Mod}}
+\newcommand{\cH}{\mathcal{H}} \newcommand{\ket}[1]{|#1 \rangle}
+\newcommand{\Bun}{\mathrm{Bun}} \newcommand{\cM}{\mathcal{M}}
+\newcommand{\MTH}{\mathrm{MT}H} \newcommand{\MSO}{\mathrm{MSO}}
+\newcommand{\twsm}{\ \widetilde{\wedge} \ } \newcommand{\BSpin}{\mathrm{BSpin}}
+\newcommand{\MSpin}{\mathrm{MSpin}} \newcommand{\BString}{\mathrm{BString}}
+\newcommand{\MString}{\mathrm{MString}} \newcommand{\B}{\mathrm{B}}
+\newcommand{\der}{\mathrm{der}} \newcommand{\Cat}{\mathrm{Cat}}
+\newcommand{\QCoh}{\mathrm{QCoh}} \newcommand{\LMod}{\mathrm{LMod}}
+\newcommand{\Rep}{\mathrm{Rep}} \newcommand{\HH}{\mathrm{HH}}
+\newcommand{\ZZ}{\mathfrak{Z}} \newcommand{\fr}{\mathrm{fr}}
+\newcommand{\BSO}{\mathrm{BSO}} \newcommand{\BSU}{\mathrm{BSU}}
+\newcommand{\id}{\mathrm{id}} \newcommand{\Top}{\mathrm{Top}}
+\newcommand{\cP}{\mathcal{P}} \newcommand{\U}{\mathrm{U}}
+\newcommand{\Sym}{\mathrm{Sym}} \newcommand{\coker}{\mathrm{coker}}
+\newcommand{\Vect}{\mathrm{Vect}} \newcommand{\Fun}{\mathrm{Fun}}
+\newcommand{\cT}{\mathcal{T}} \newcommand{\cJ}{\mathcal{J}}
+\newcommand{\Res}{\mathrm{Res}} \newcommand{\Ind}{\mathrm{Ind}}
+\newcommand{\MO}{\mathrm{MO}} \newcommand{\MSO}{\mathrm{MSO}}
+\newcommand{\colim}{\mathrm{colim}} \newcommand{\hocolim}{\mathrm{hocolim}}
+\newcommand{\fin}{\mathrm{fin}} \newcommand{\Tot}{\mathrm{Tot}}
+\newcommand{\im}{\mathrm{im}} \newcommand{\FT}{\mathrm{FT}}
+\newcommand{\AA}{\mathbf{A}} \newcommand{\Frob}{\mathrm{Frob}}
+\newcommand{\ex}{\mathrm{ex,pr}} \newcommand{\fil}{\mathrm{fil}}
+\newcommand{\gr}{\mathrm{gr}} \newcommand{\un}{\mathrm{un}}
+\newcommand{\Syn}{\mathrm{Syn}} \newcommand{\Cart}{\mathrm{Cart}}
+\newcommand{\bo}{\mathrm{bo}} \newcommand{\mmod}{/\!\!/}
+\newcommand{\bsp}{\mathrm{bsp}} \newcommand{\BPP}{\mathrm{BP}}
+\newcommand{\CAlg}{\mathrm{CAlg}} \newcommand{\TCart}{\mathrm{TCart}}
+\newcommand{\BW}{\mathrm{BW}} \newcommand{\Br}{\mathrm{Br}}
+\newcommand{\Pic}{\mathrm{Pic}} \newcommand{\ext}{\mathrm{ext}}
+\newcommand{\Cl}{\mathrm{Cl}} \newcommand{\disc}{\mathrm{disc}}
+\newcommand{\dir}{D\!\!\!\!/} \newcommand{\bb}{\mathrm{bb}}
+\newcommand{\Ran}{\mathrm{Ran}} \newcommand{\cu}{\mathcal{U}}
+\newcommand{\Gr}{\mathrm{Gr}} \newcommand{\Alg}{\mathrm{Alg}}
+\newcommand{\G}{\Gamma} \newcommand{\dY}{\mathcal{Y}}
+\newcommand{\Line}{\mathrm{Line}} \newcommand{\MUP}{\mathrm{MUP}}
+\newcommand{\Bl}{\mathrm{Bl}} \newcommand{\St}{\mathrm{St}}
+\newcommand{\cB}{\mathcal{B}} \newcommand{\SL}{\mathrm{SL}}
+\newcommand{\XX}{\mathrm{X}} \newcommand{\gp}{\mathrm{gp}}
+\newcommand{\Q}{\mathrm{Q}} \newcommand{\cI}{\mathcal{I}}
+\newcommand{\T}{\mathrm{T}} \newcommand{\D}{\mathrm{D}}
+\newcommand{\Aff}{\mathrm{Aff}}</script>
+
+<p>We’ll pick up straight from <a href="/algebraic-geometry/2020/03/19/dmod.html">last
+time</a>. Grothendieck told us that
+<script type="math/tex">\QCoh(X_\dR) \simeq \Mod(\cd_X)</script>. We asked: is there a stack <script type="math/tex">X_\lambda</script>
+such that <script type="math/tex">\QCoh(X_\lambda) \simeq \Mod(\cd_X^\lambda)</script>? (Recall that a vector
+bundle with a flat <script type="math/tex">\lambda</script>-connection is a <script type="math/tex">\cd_X^\lambda</script>-module. By the
+same argument as in the D-modules case, you find that <script type="math/tex">\cd_X^\lambda</script>-modules
+which are coherent as <script type="math/tex">\co_X</script>-modules are actually just vector bundles with a
+flat <script type="math/tex">\lambda</script>-connection.) As <script type="math/tex">\lambda</script>-connections are most naturally
+defined over <script type="math/tex">\AA^1/\GG_m</script>, we would expect <script type="math/tex">X_\lambda</script> to live over
+<script type="math/tex">X\times_S \AA^1/\GG_m</script>. The fiber over <script type="math/tex">1</script> would be the de Rham space
+<script type="math/tex">X_\dR</script>, and the fiber over <script type="math/tex">0</script> would be <script type="math/tex">\T^\ast X</script> (because the
+associated graded of <script type="math/tex">\cd_X^\lambda</script> was <script type="math/tex">\pi_\ast \co_{\T^\ast X}</script>).</p>
+
+<p>This is given by the “deformation to the normal cone”. Let’s recall what this
+means in topology. If you have two manifolds <script type="math/tex">X\subseteq Y</script>, then the
+embedding of <script type="math/tex">X</script> inside <script type="math/tex">Y</script> is diffeomorphic to the normal bundle
+<script type="math/tex">N_{X/Y}</script> via the zero section. This is the tubular neighbourhood theorem, and
+is indispensable in differential topology. In algebraic geometry, you don’t have
+an exact analogue of this statement; rather, what you have is a flat family,
+whose fiber at zero is the normal bundle.</p>
+
+<p>More precisely, suppose <script type="math/tex">X\hookrightarrow Y</script> be a closed immersion. Look at
+<script type="math/tex">\Bl_{X\times \{0\}}(Y\times \AA^1)</script>. This lives over <script type="math/tex">Y\times \AA^1</script>, and
+hence in particular over <script type="math/tex">\AA^1</script>. Away from <script type="math/tex">0</script>, the fiber of <script type="math/tex">\Bl_{X\times
+\{0\}}(Y\times \AA^1)</script> is <script type="math/tex">Y</script>. But at zero (where you’ve blown up), there are
+two components to the fiber. One component is <script type="math/tex">\Bl_X(Y)</script>, while the other
+component is the projective completion <script type="math/tex">\PP(C_{X/Y} \oplus \co_X)</script> of the
+normal cone to <script type="math/tex">X</script> inside <script type="math/tex">Y</script>.  The exceptional divisor in <script type="math/tex">\Bl_X(Y)</script>
+(i.e., the preimage of <script type="math/tex">X</script> under <script type="math/tex">\Bl_X(Y)\to Y</script>, which is the
+projectivization of the normal bundle) is identified with the section at
+<script type="math/tex">\infty</script> of the projective completion. In other words, the “deformation to the
+normal cone” is the complement <script type="math/tex">\Bl_{X\times \{0\}}(Y\times \AA^1)-\Bl_X(Y)</script>.
+Note that the <script type="math/tex">\GG_m</script>-action on <script type="math/tex">\Bl_{X\times \{0\}}(Y\times \AA^1)</script> fixes
+<script type="math/tex">\Bl_X(Y)</script>, and so there’s a <script type="math/tex">\GG_m</script>-action on the deformation to the normal
+cone. We’ll actually look at the quotient of the deformation to the normal cone
+by this <script type="math/tex">\GG_m</script>-action, and call the resulting object over <script type="math/tex">\AA^1/\GG_m</script> by
+<script type="math/tex">\D_X(Y)</script>.</p>
+
+<p>This is all very concrete. For instance, suppose <script type="math/tex">Y = \spec(R)</script> and <script type="math/tex">I</script> is
+the ideal defining <script type="math/tex">X</script>. Then <script type="math/tex">\Bl_X(Y) = \proj\left(\bigoplus_{n\geq 0}
+I^n\right)</script>, and <script type="math/tex">\Bl_{X\times\{0\}}(Y\times \AA^1)</script> is
+<script type="math/tex">\proj\left(\bigoplus_{n\geq 0} (I, t)^n\right)</script>, where <script type="math/tex">t</script> is the
+coordinate on <script type="math/tex">\AA^1</script>. The fiber at zero is</p>
+
+<script type="math/tex; mode=display">\Bl_{X\times\{0\}}(Y\times \AA^1)_{\{0\}} = \proj\left(\frac{\bigoplus_{n\geq
+0} (I, t)^n}{t\bigoplus_{n\geq 0} (I, t)^n}\right),</script>
+
+<p>which (as we said above) has two components. These components are</p>
+
+<script type="math/tex; mode=display">\Bl_X(Y) = \proj\left(\bigoplus_{n\geq 0} I^n\right), \text{ and }
+\proj\left(\frac{\bigoplus_{n\geq 0} (I, t)^n}{\bigoplus_{n\geq 0} (I,
+t)^{n+1}}\right).</script>
+
+<p>They intersect along <script type="math/tex">\proj\left(\frac{\bigoplus_{n\geq 0}
+I^n}{\bigoplus_{n\geq 0} I^{n+1}}\right)</script>. So, when you remove <script type="math/tex">\Bl_X(Y)</script>
+from <script type="math/tex">\Bl_{X\times\{0\}}(Y\times \AA^1)_{\{0\}}</script>, you’re left with
+<script type="math/tex">\spec\left(\frac{\bigoplus_{n\geq 0} I^n}{\bigoplus_{n\geq 0}
+I^{n+1}}\right)</script>. That is the definition of the normal cone. In particular,
+when you remove <script type="math/tex">\Bl_X(Y)</script> from <script type="math/tex">\Bl_{X\times\{0\}}(Y\times \AA^1)</script>, the
+fiber away from zero is <script type="math/tex">Y</script>, while the fiber at zero is the normal cone
+<script type="math/tex">\spec\left(\frac{\bigoplus_{n\geq 0} I^n}{\bigoplus_{n\geq 0}
+I^{n+1}}\right)</script>.</p>
+
+<p>How do we get <script type="math/tex">X_\lambda</script> from this? Look at the diagonal <script type="math/tex">\Delta:
+X\hookrightarrow X\times X</script>, and form the deformation to the normal cone
+<script type="math/tex">\D_X(X\times X)</script>. This lives over <script type="math/tex">\AA^1/\GG_m</script>; the fiber away from <script type="math/tex">0</script>
+is <script type="math/tex">X\times X</script> with <script type="math/tex">X</script> included via <script type="math/tex">\Delta</script>, and the fiber at <script type="math/tex">0</script> is
+the normal bundle of <script type="math/tex">\Delta</script>, i.e., the tangent bundle of <script type="math/tex">X</script>, with <script type="math/tex">X</script>
+included by the zero section. Then <script type="math/tex">X_\lambda</script> is defined to be (following
+<a href="https://arxiv.org/pdf/math/0510269v1.pdf">this paper</a>) the PD-completion of
+<script type="math/tex">\D_X(X\times X)</script> along <script type="math/tex">X\times \AA^1/\GG_m</script>. Not really sure why you PD
+complete, so I want another definition.</p>
+
+<p>We can make this a little simpler, at the cost of using fancier words; see
+<a href="http://people.math.harvard.edu/~gaitsgde/GL/Vol2.pdf">Chapter 9 here</a>. Define a
+cosimplicial scheme <script type="math/tex">\wt{\cB}</script> via</p>
+
+<script type="math/tex; mode=display">\wt{\cB}_\bullet:\Delta\to \Aff_{/\AA^1}, \ [n]\mapsto \spec(\Z[x,
+y]/(x^n-y^n)) = \wt{\cB}_n.</script>
+
+<p>There is a map <script type="math/tex">\wt{\cB}_n\to \AA^1</script>, sending the coordinate <script type="math/tex">t</script> of
+<script type="math/tex">\AA^1</script> to <script type="math/tex">x</script>. There is an action of <script type="math/tex">\GG_m</script> on <script type="math/tex">\wt{\cB}_n</script> which
+makes this map equivariant (scale <script type="math/tex">x</script> and <script type="math/tex">y</script>), so you get a cosimplicial
+stack</p>
+
+<script type="math/tex; mode=display">\cB_\bullet:\Delta\to \Aff_{/(\AA^1/\GG_m)}, \ [n]\mapsto \spec(\Z[x,
+y]/(x^n-y^n))/\GG_m = \cB_n.</script>
+
+<p>Consider the simplicial stack <script type="math/tex">\Map_{/(\AA^1/\GG_m)}(\cB_\bullet, X\times
+\AA^1/\GG_m)</script>, which lives over <script type="math/tex">\AA^1/\GG_m</script>. For a given <script type="math/tex">\bullet = n</script>,
+the fiber away from <script type="math/tex">0</script> is <script type="math/tex">X^{\times n}</script>, while the fiber at zero is the
+<script type="math/tex">n</script>-fold product of the tangent space (i.e., the normal bundle of the diagonal
+<script type="math/tex">X\hookrightarrow X\times X</script>). So this is another way of defining the
+deformation to the normal cone: it’s the stack <script type="math/tex">\Map_{/(\AA^1/\GG_m)}(\cB_1,
+X\times \AA^1/\GG_m)</script> over <script type="math/tex">\AA^1/\GG_m</script>. Motivated by this, let’s define</p>
+
+<script type="math/tex; mode=display">\D_\bullet := \Map_{/(\AA^1/\GG_m)}(\cB_\bullet, X\times \AA^1/\GG_m).</script>
+
+<p>We have a map <script type="math/tex">X\times \AA^1/\GG_m\to \D_\bullet</script> over <script type="math/tex">\AA^1/\GG_m</script>. (When
+<script type="math/tex">\bullet = 1</script>, this is the inclusion of <script type="math/tex">X\times \AA^1/\GG_m</script> into the
+deformation to the normal cone.) Define <script type="math/tex">X_{\lambda, \bullet}</script> as the fiber
+product</p>
+
+<script type="math/tex; mode=display">X_{\lambda, \bullet} := (X\times \AA^1/\GG_m)_\dR \times_{(\D_\bullet)_\dR}
+\D_\bullet.</script>
+
+<p>This is a simplicial stack over <script type="math/tex">\AA^1/\GG_m</script>, and the geometric realization
+is what we’d like to call <script type="math/tex">X_\lambda</script>. This lives over <script type="math/tex">\AA^1/\GG_m</script>, and
+was constructed such that the fiber away from zero is <script type="math/tex">X_\dR</script>, and the fiber
+at zero is the normal cone.</p>
+
+<p>It’s a little tedious to prove this, but:</p>
+
+<p><strong>Theorem:</strong> There is an equivalence of categories <script type="math/tex">\Mod(\cd_X^\lambda) \simeq
+\QCoh(X_\lambda)</script>.</p>
+
+<p>Remember from last time that these are exactly filtered D-modules where the
+action of <script type="math/tex">\cd_X</script> satisfies Griffiths transversality. The property of being a
+holonomic D-module should most naturally be phrased in this language. I haven’t
+yet been able to find a nice way to say what the Lagrangian condition (i.e.,
+codimension of the characteristic variety in the cotangent bundle being as large
+as possible) is supposed to translate to.</p>
+
+<p>This is very nice. Following <a href="https://arxiv.org/pdf/math/0510269v1.pdf">this
+paper</a>, we can then approach the
+question of what the <em>nonabelian Hodge correspondence</em> is supposed to be. We
+will return to this in the next post. In fact, I might be giving a talk about
+this next weekend, so I’ll make slides and notes.</p>
+
+  </div><a class="u-url" href="/blog/algebraic-geometry/2020/03/21/dmod-ii.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Sanath Devalapurkar&#39;s home page</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Sanath Devalapurkar&#39;s home page</li><li><a class="u-email" href="mailto:sanathdevalapurkar@g.harvard.edu">sanathdevalapurkar@g.harvard.edu</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>Graduate student in math.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
