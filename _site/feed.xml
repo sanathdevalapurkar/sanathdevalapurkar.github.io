@@ -1,305 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-08-07T07:53:36-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Sanath Devalapurkar’s home page</title><subtitle>Graduate student in math.</subtitle><entry><title type="html">Bott = Planck = sheared Rees, part iv</title><link href="http://localhost:4000/blog/algebraic-geometry/2020/08/06/hbar-iv.html" rel="alternate" type="text/html" title="Bott = Planck = sheared Rees, part iv" /><published>2020-08-06T00:00:00-07:00</published><updated>2020-08-06T00:00:00-07:00</updated><id>http://localhost:4000/blog/algebraic-geometry/2020/08/06/hbar-iv</id><content type="html" xml:base="http://localhost:4000/blog/algebraic-geometry/2020/08/06/hbar-iv.html">&lt;script type=&quot;text/javascript&quot; async=&quot;&quot; src=&quot;https://www.google-analytics.com/analytics.js&quot;&gt;&lt;/script&gt;
-
-&lt;script async=&quot;&quot; src=&quot;https://www.googletagmanager.com/gtag/js?id=UA-109004213-1&quot;&gt;&lt;/script&gt;
-
-&lt;script&gt;
-  window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-        gtag('config', 'UA-109004213-1');
-&lt;/script&gt;
-
-&lt;script type=&quot;text/javascript&quot; src=&quot;https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML&quot;&gt;
-&lt;/script&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\newcommand{\KO}{\mathrm{KO}} \newcommand{\TMF}{\mathrm{TMF}}
-\newcommand{\KU}{\mathrm{KU}} \newcommand{\Mfg}{M_\mathrm{fg}}
-\newcommand{\spec}{\mathrm{Spec}} \newcommand{\dX}{\mathcal{X}}
-\newcommand{\co}{\mathcal{O}} \newcommand{\Z}{\mathbf{Z}}
-\newcommand{\top}{\mathrm{top}} \newcommand{\E}{\mathbf{E}}
-\newcommand{\GG}{\mathbf{G}} \newcommand{\DD}{\mathbf{D}}
-\newcommand{\Mell}{M_\mathrm{ell}} \newcommand{\ce}{\mathcal{E}}
-\newcommand{\H}{\mathrm{H}} \newcommand{\dR}{\mathrm{dR}}
-\newcommand{\cf}{\mathcal{F}} \newcommand{\FF}{\mathbf{F}}
-\newcommand{\spf}{\mathrm{Spf}\ } \newcommand{\cA}{\mathcal{A}}
-\newcommand{\Mcub}{M_\mathrm{cub}} \newcommand{\Mqd}{M_\mathrm{qd}}
-\newcommand{\Aut}{\mathrm{Aut}} \newcommand{\tmf}{\mathrm{tmf}}
-\newcommand{\Tmf}{\mathrm{Tmf}} \newcommand{\Map}{\mathrm{Map}}
-\newcommand{\Ext}{\mathrm{Ext}} \newcommand{\End}{\mathrm{End}}
-\newcommand{\cg}{\mathcal{G}} \newcommand{\Hom}{\mathrm{Hom}}
-\newcommand{BP}[1]{\mathrm{BP}\langle #1\rangle} \newcommand{\QQ}{\mathbf{Q}}
-\newcommand{\PP}{\mathbf{P}} \newcommand{\Gal}{\mathrm{Gal}}
-\newcommand{\proj}{\mathrm{Proj}\ } \newcommand{\Ltwo}{L_{K(2)}}
-\newcommand{\Eoo}{\mathbf{E}_\infty} \newcommand{\ol}[1]{\overline #1}
-\newcommand{\pic}{\mathrm{Pic}} \newcommand{\RP}{\mathbf{R}P}
-\newcommand{\BO}{\mathrm{BO}} \newcommand{\cc}{\mathbf{C}}
-\newcommand{\CP}{\mathbf{CP}} \newcommand{\wt}[1]{\widetilde #1}
-\newcommand{\RR}{\mathbf{R}} \renewcommand{\S}{\mathbb{S}}
-\newcommand{\Lone}{L_{K(1)}} \newcommand{\Ltwo}{L_{K(2)}}
-\newcommand{\gl}{\mathrm{gl}} \newcommand{\Lk}{L_{K(n)}}
-\newcommand{\ku}{\mathrm{ku}} \newcommand{\ko}{\mathrm{ko}}
-\newcommand{\GL}{\mathrm{GL}} \newcommand{\Ln}{L_n} \newcommand{\Lt}{L_{K(t)}}
-\newcommand{\W}{\mathrm{W}} \newcommand{\BU}{\mathrm{BU}}
-\newcommand{\SU}{\mathrm{SU}} \newcommand{\MU}{\mathrm{MU}}
-\newcommand{\ul}[1]{\underline #1} \newcommand{\Sq}{\mathrm{Sq}}
-\newcommand{\Tr}{\mathrm{Tr}} \newcommand{\d}{\mathrm{d}}
-\newcommand{\HP}{\mathrm{HP}} \newcommand{\cL}{\mathcal{L}}
-\newcommand{\cs}{\mathrm{cs}} \newcommand{\cd}{\mathcal{D}}
-\newcommand{\Bord}{\mathrm{Bord}} \newcommand{\SO}{\mathrm{SO}}
-\newcommand{\cC}{\mathcal{C}} \newcommand{\Sp}{\mathrm{Sp}}
-\newcommand{\Lkd}{L_{K(d)}} \newcommand{\Mod}{\mathrm{Mod}}
-\newcommand{\cH}{\mathcal{H}} \newcommand{\ket}[1]{|#1 \rangle}
-\newcommand{\Bun}{\mathrm{Bun}} \newcommand{\cM}{\mathcal{M}}
-\newcommand{\MTH}{\mathrm{MT}H} \newcommand{\MSO}{\mathrm{MSO}}
-\newcommand{\twsm}{\ \widetilde{\wedge} \ } \newcommand{\BSpin}{\mathrm{BSpin}}
-\newcommand{\MSpin}{\mathrm{MSpin}} \newcommand{\BString}{\mathrm{BString}}
-\newcommand{\MString}{\mathrm{MString}} \newcommand{\B}{\mathrm{B}}
-\newcommand{\der}{\mathrm{der}} \newcommand{\Cat}{\mathrm{Cat}}
-\newcommand{\QCoh}{\mathrm{QCoh}} \newcommand{\LMod}{\mathrm{LMod}}
-\newcommand{\Rep}{\mathrm{Rep}} \newcommand{\HH}{\mathrm{HH}}
-\newcommand{\ZZ}{\mathfrak{Z}} \newcommand{\fr}{\mathrm{fr}}
-\newcommand{\BSO}{\mathrm{BSO}} \newcommand{\BSU}{\mathrm{BSU}}
-\newcommand{\id}{\mathrm{id}} \newcommand{\Top}{\mathrm{Top}}
-\newcommand{\cP}{\mathcal{P}} \newcommand{\U}{\mathrm{U}}
-\newcommand{\Sym}{\mathrm{Sym}} \newcommand{\coker}{\mathrm{coker}}
-\newcommand{\Vect}{\mathrm{Vect}} \newcommand{\Fun}{\mathrm{Fun}}
-\newcommand{\cT}{\mathcal{T}} \newcommand{\cJ}{\mathcal{J}}
-\newcommand{\Res}{\mathrm{Res}} \newcommand{\Ind}{\mathrm{Ind}}
-\newcommand{\MO}{\mathrm{MO}} \newcommand{\MSO}{\mathrm{MSO}}
-\newcommand{\colim}{\mathrm{colim}} \newcommand{\hocolim}{\mathrm{hocolim}}
-\newcommand{\fin}{\mathrm{fin}} \newcommand{\Tot}{\mathrm{Tot}}
-\newcommand{\im}{\mathrm{im}} \newcommand{\FT}{\mathrm{FT}}
-\newcommand{\AA}{\mathbf{A}} \newcommand{\Frob}{\mathrm{Frob}}
-\newcommand{\ex}{\mathrm{ex,pr}} \newcommand{\fil}{\mathrm{fil}}
-\newcommand{\gr}{\mathrm{gr}} \newcommand{\un}{\mathrm{un}}
-\newcommand{\Syn}{\mathrm{Syn}} \newcommand{\Cart}{\mathrm{Cart}}
-\newcommand{\bo}{\mathrm{bo}} \newcommand{\mmod}{/\!\!/}
-\newcommand{\bsp}{\mathrm{bsp}} \newcommand{\BPP}{\mathrm{BP}}
-\newcommand{\CAlg}{\mathrm{CAlg}} \newcommand{\TCart}{\mathrm{TCart}}
-\newcommand{\BW}{\mathrm{BW}} \newcommand{\Br}{\mathrm{Br}}
-\newcommand{\Pic}{\mathrm{Pic}} \newcommand{\ext}{\mathrm{ext}}
-\newcommand{\Cl}{\mathrm{Cl}} \newcommand{\disc}{\mathrm{disc}}
-\newcommand{\dir}{D\!\!\!\!/} \newcommand{\bb}{\mathrm{bb}}
-\newcommand{\Ran}{\mathrm{Ran}} \newcommand{\cu}{\mathcal{U}}
-\newcommand{\Gr}{\mathrm{Gr}} \newcommand{\Alg}{\mathrm{Alg}}
-\newcommand{\G}{\Gamma} \newcommand{\dY}{\mathcal{Y}}
-\newcommand{\Line}{\mathrm{Line}} \newcommand{\MUP}{\mathrm{MUP}}
-\newcommand{\Bl}{\mathrm{Bl}} \newcommand{\St}{\mathrm{St}}
-\newcommand{\cB}{\mathcal{B}} \newcommand{\SL}{\mathrm{SL}}
-\newcommand{\XX}{\mathrm{X}} \newcommand{\gp}{\mathrm{gp}}
-\newcommand{\Q}{\mathrm{Q}} \newcommand{\cI}{\mathcal{I}}
-\newcommand{\T}{\mathrm{T}} \newcommand{\D}{\mathrm{D}}
-\newcommand{\Aff}{\mathrm{Aff}} \newcommand{\BGL}{\mathrm{BGL}}
-\newcommand{\an}{\mathrm{an}} \newcommand{\Tel}{\mathrm{Tel}}
-\renewcommand{\|}{|} \newcommand{\MGL}{\mathrm{MGL}}
-\newcommand{\CH}{\mathrm{CH}} \newcommand{\fr}[1]{\mathfrak #1}
-\newcommand{\ch}{\mathrm{ch}} \newcommand{\Td}{\mathrm{Td}}
-\newcommand{\Spin}{\mathrm{Spin}} \newcommand{\G}{\mathrm{G}}
-\newcommand{\cHH}{\mathcal{H}} \newcommand{\F}{\mathrm{F}}
-\newcommand{\B}{\mathrm{B}} \newcommand{\HC}{\mathrm{HC}}
-\newcommand{\fib}{\mathrm{fib}} \newcommand{\tr}{\mathrm{tr}}
-\newcommand{\TR}{\mathrm{TR}} \newcommand{\THH}{\mathrm{THH}}
-\newcommand{\TP}{\mathrm{TP}} \newcommand{\crys}{\mathrm{crys}}
-\newcommand{\even}{\mathrm{even}} \newcommand{\odd}{\mathrm{odd}}
-\newcommand{\hodge}{\mathrm{Hodge}} \newcommand{\V}{\mathrm{V}}
-\newcommand{\C}{C} \newcommand{\K}{K} \newcommand{\M}{M} \newcommand{\X}{X}
-\newcommand{\h}{h} \newcommand{\TC}{\mathrm{TC}} \newcommand{\t}{t}
-\newcommand{\DC}{\mathrm{DC}} \newcommand{\str}{\mathrm{str}}
-\newcommand{\gen}{\mathrm{gen}} \newcommand{\Cyc}{\mathrm{CycSp}}
-\newcommand{\DA}{\mathrm{DA}} \newcommand{\AG}{\mathbf{A}^1/\mathbf{G}_m}
-\newcommand{\Crys}{\mathrm{Crys}} \newcommand{\cV}{\mathcal{V}}
-\newcommand{\can}{\mathrm{can}} \newcommand{\Coh}{\mathrm{Coh}}
-\newcommand{\SH}{\mathrm{SH}}&lt;/script&gt;
-
-&lt;p&gt;We will pick up straight from &lt;a href=&quot;/blog/algebraic-geometry/2020/08/04/hbar-iii.html&quot;&gt;last
-time&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h3 id=&quot;part-iv-applications&quot;&gt;Part iv: applications&lt;/h3&gt;
-
-&lt;p&gt;Our goal in this post is to understand deformation quantization in
-characteristic &lt;script type=&quot;math/tex&quot;&gt;p&lt;/script&gt; following
-&lt;a href=&quot;https://arxiv.org/abs/math/0501247&quot;&gt;Bezrukavnikov-Kaledin&lt;/a&gt; through the
-perspective that deformation quantizations in characteristic &lt;script type=&quot;math/tex&quot;&gt;p&lt;/script&gt; are refined
-by &lt;script type=&quot;math/tex&quot;&gt;S^1&lt;/script&gt;-actions (and they are “the same” in characteristic zero, as expressed
-by the equation &lt;script type=&quot;math/tex&quot;&gt;\hbar = u&lt;/script&gt;). I’m not going to try to prove their main results
-from a homotopical perspective in this post, but I’ll try to explain how the
-structures they’re interested in naturally fall out of homotopy theory. Also, in
-previous posts, I was using cohomological grading (which I’m very uncomfortable
-with), so we will switch to homological grading in this post. We will also only
-work with &lt;em&gt;odd&lt;/em&gt; primes (but this is mostly cosmetic).&lt;/p&gt;
-
-&lt;p&gt;Let us begin by recalling some definitions from their paper. Fix a field &lt;script type=&quot;math/tex&quot;&gt;k&lt;/script&gt;
-of characteristic &lt;script type=&quot;math/tex&quot;&gt;p&lt;/script&gt;, and let &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; be a commutative &lt;script type=&quot;math/tex&quot;&gt;k&lt;/script&gt;-algebra. A
-Frobenius-constant quantization of &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; is a flat associative
-&lt;script type=&quot;math/tex&quot;&gt;k[\![\hbar]\!]&lt;/script&gt;-algebra &lt;script type=&quot;math/tex&quot;&gt;A_\hbar&lt;/script&gt; such that &lt;script type=&quot;math/tex&quot;&gt;A_\hbar/\hbar = A&lt;/script&gt; (this is
-just a quantization) along with a multiplicative central
-&lt;script type=&quot;math/tex&quot;&gt;k[\![\hbar]\!]&lt;/script&gt;-linear splitting map &lt;script type=&quot;math/tex&quot;&gt;s:A_\hbar^{(p)} \to A_\hbar&lt;/script&gt; which
-kills &lt;script type=&quot;math/tex&quot;&gt;\hbar&lt;/script&gt;, and &lt;script type=&quot;math/tex&quot;&gt;s(a) \equiv a^p \pmod{\hbar^{p-1}}&lt;/script&gt;. This gives a
-Frobenius-linear operation &lt;script type=&quot;math/tex&quot;&gt;A \to A&lt;/script&gt; sending&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;a\mapsto a^{[p]} = \frac{a^p - s(a)}{\hbar^{p-1}}.&lt;/script&gt;
-
-&lt;p&gt;A quantized algebra along with the datum of a Frobenius-linear operation that
-satisfies some axiomatic properties that &lt;script type=&quot;math/tex&quot;&gt;a\mapsto a^{[p]}&lt;/script&gt; satisfies is said
-to be a restricted quantized algebra. Using the above formula to define &lt;script type=&quot;math/tex&quot;&gt;s&lt;/script&gt;
-given &lt;script type=&quot;math/tex&quot;&gt;a\mapsto a^{[p]}&lt;/script&gt;, we see that restricted quantized algebras are the
-same thing as a Frobenius-constant quantization.&lt;/p&gt;
-
-&lt;p&gt;I would like to explain a homotopical interpretation of Frobenius-constant
-quantizations, from our point of view that &lt;script type=&quot;math/tex&quot;&gt;\hbar = u&lt;/script&gt;: we will see that
-Frobenius-constant quantizations have a natural homotopical analogue, given by
-cyclotomic spectra. The above expression for &lt;script type=&quot;math/tex&quot;&gt;a^{[p]}&lt;/script&gt; tells us that&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;s(a) = a^p - \hbar^{p-1} a^{[p]}.&lt;/script&gt;
-
-&lt;p&gt;According to our equation &lt;script type=&quot;math/tex&quot;&gt;\hbar = u&lt;/script&gt;, we should think of &lt;script type=&quot;math/tex&quot;&gt;s&lt;/script&gt; as sending
-&lt;script type=&quot;math/tex&quot;&gt;a&lt;/script&gt; to &lt;script type=&quot;math/tex&quot;&gt;a^p - u^{p-1} a^{[p]}&lt;/script&gt; — but the only way this can be a
-homogeneous expression is if &lt;script type=&quot;math/tex&quot;&gt;a&lt;/script&gt; lives in degree &lt;script type=&quot;math/tex&quot;&gt;|u| = -2&lt;/script&gt;. However, the
-map &lt;script type=&quot;math/tex&quot;&gt;s&lt;/script&gt; would then not be homogeneous. No worries; we can just scale by
-&lt;script type=&quot;math/tex&quot;&gt;u^{1-p}&lt;/script&gt; instead, giving a map &lt;script type=&quot;math/tex&quot;&gt;s'&lt;/script&gt; by&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;s'(a) = a^p u^{1-p} - a^{[p]}.&lt;/script&gt;
-
-&lt;p&gt;Now, suppose &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; is a coconnective &lt;script type=&quot;math/tex&quot;&gt;\Eoo&lt;/script&gt;-&lt;script type=&quot;math/tex&quot;&gt;\FF_p&lt;/script&gt;-algebra which only has
-homotopy in even degrees. Then, the Tate-valued Frobenius &lt;script type=&quot;math/tex&quot;&gt;\varphi: A\to
-A^{tC_p}&lt;/script&gt; is given on homotopy by sending &lt;script type=&quot;math/tex&quot;&gt;x\in \pi_{-2n}(A)&lt;/script&gt; to&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\varphi(x) = \sum_{i\geq 0} Q_i(x) u^{(n-i)(1-p)},&lt;/script&gt;
-
-&lt;p&gt;but there are signs in front of the terms. Here, &lt;script type=&quot;math/tex&quot;&gt;Q_i: \pi_n A\to
-\pi_{np+2i(p-1)} A&lt;/script&gt; is the &lt;script type=&quot;math/tex&quot;&gt;i&lt;/script&gt;th lower-indexed Dyer-Lashof operation. Observe
-that because &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; increases the degree, and &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; is coconnective, we have that
-&lt;script type=&quot;math/tex&quot;&gt;Q_i(x) = 0&lt;/script&gt; for &lt;script type=&quot;math/tex&quot;&gt;x\in \pi_{-n}(A)&lt;/script&gt; once&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;i(p-1)&gt;\frac{np}{2(p-1)};&lt;/script&gt;
-
-&lt;p&gt;in particular, this sum is finite, and when &lt;script type=&quot;math/tex&quot;&gt;x\in \pi_{-2} A&lt;/script&gt;, we have&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\varphi(x) = Q_0(x) u^{1-p} - Q_1(x) = x^p u^{1-p} - Q_1(x),&lt;/script&gt;
-
-&lt;p&gt;where I believe I’ve got the signs right in this equation.&lt;/p&gt;
-
-&lt;p&gt;Suppose instead that &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; is not &lt;script type=&quot;math/tex&quot;&gt;\Eoo&lt;/script&gt;, but only &lt;script type=&quot;math/tex&quot;&gt;\E_2&lt;/script&gt;. What is the
-appropriate fix then? In that case, the expression still holds — but the map
-&lt;script type=&quot;math/tex&quot;&gt;Q_1&lt;/script&gt; is not additive. Rather, we have&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;Q_1(x+y) = Q_1(x) + Q_1(y) + \sum_{i=1}^{p-1} s_i(x,y),&lt;/script&gt;
-
-&lt;p&gt;where &lt;script type=&quot;math/tex&quot;&gt;s_i(x,y)&lt;/script&gt; is the Lie polynomial specified by the generating function&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;(\mathrm{ad}(tx+y))^{p-1}(x) = \sum_{i=1}^{p-1} is_i(x,y) t^{i-1}.&lt;/script&gt;
-
-&lt;p&gt;Here, the adjoint action &lt;script type=&quot;math/tex&quot;&gt;\mathrm{ad}&lt;/script&gt; is given by the Browder bracket (which
-shifts degrees by &lt;script type=&quot;math/tex&quot;&gt;n&lt;/script&gt;). It’s tricky to find a reference for this statement, so
-let me point out that it’s Theorem III.1.3(5) in
-&lt;a href=&quot;http://www.math.uchicago.edu/~may/BOOKS/homo_iter.pdf&quot;&gt;Cohen-Lada-May&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;More generally, we now see that the restricted structure &lt;script type=&quot;math/tex&quot;&gt;a\mapsto a^{[p]}&lt;/script&gt; on
-a quantized algebra is exactly analogous to the Dyer-Lashof operation &lt;script type=&quot;math/tex&quot;&gt;Q_1&lt;/script&gt; on
-&lt;script type=&quot;math/tex&quot;&gt;\pi_{-2}&lt;/script&gt; of a coconnective even-concentrated &lt;script type=&quot;math/tex&quot;&gt;\E_2&lt;/script&gt;-&lt;script type=&quot;math/tex&quot;&gt;\FF_p&lt;/script&gt;-algebra.
-Let’s now try to make this precise in the case of Hochschild cohomology. Recall
-that if &lt;script type=&quot;math/tex&quot;&gt;R&lt;/script&gt; is a smooth &lt;script type=&quot;math/tex&quot;&gt;\FF_p&lt;/script&gt;-algebra, then the Hochschild cohomology
-&lt;script type=&quot;math/tex&quot;&gt;\fr{Z}(R/\FF_p)&lt;/script&gt; (I would use different notation, but &lt;script type=&quot;math/tex&quot;&gt;\HC&lt;/script&gt; also has a
-meaning in this world, and Hochschild cohomology &lt;em&gt;is&lt;/em&gt; the center) is
-coconnective, and has &lt;script type=&quot;math/tex&quot;&gt;\pi_{-n} \fr{Z}(R/\FF_p) = \bigwedge^n_R T_R&lt;/script&gt; (where
-&lt;script type=&quot;math/tex&quot;&gt;T_R = (\Omega^1_{R/k})^\vee&lt;/script&gt;). In particular, &lt;script type=&quot;math/tex&quot;&gt;\pi_{-1} \fr{Z}(R/\FF_p) =
-T_R&lt;/script&gt; is the &lt;script type=&quot;math/tex&quot;&gt;\FF_p&lt;/script&gt;-vector space of derivations &lt;script type=&quot;math/tex&quot;&gt;\D:R\to \FF_p&lt;/script&gt;.&lt;/p&gt;
-
-&lt;p&gt;Given such a derivation &lt;script type=&quot;math/tex&quot;&gt;\D&lt;/script&gt;, the Leibniz rule implies that &lt;script type=&quot;math/tex&quot;&gt;\D^p&lt;/script&gt; is a
-derivation, and this is the derivation denoted &lt;script type=&quot;math/tex&quot;&gt;\D^{[p]}&lt;/script&gt;. There is an
-equation&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;(\D+\D')^{[p]} = \D^{[p]} + (\D')^{[p]} + \sum_{i=1}^{p-1} s_i(\D,\D')&lt;/script&gt;
-
-&lt;p&gt;for the &lt;script type=&quot;math/tex&quot;&gt;p&lt;/script&gt;th power of the sum of two derivations &lt;script type=&quot;math/tex&quot;&gt;\D&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;\D'&lt;/script&gt;, which
-looks exactly like the equation for &lt;script type=&quot;math/tex&quot;&gt;Q_1&lt;/script&gt; of a sum. (Both are grouped under
-the name “Jacobson formula”.) We would therefore like the assignment &lt;script type=&quot;math/tex&quot;&gt;\D
-\mapsto \D^{[p]}&lt;/script&gt; to be observed by &lt;script type=&quot;math/tex&quot;&gt;Q_1&lt;/script&gt; in Hochschild cohomology, but this
-doesn’t quite work: &lt;script type=&quot;math/tex&quot;&gt;\D\in \pi_{-1} \fr{Z}(R/\FF_p)&lt;/script&gt;, and &lt;script type=&quot;math/tex&quot;&gt;Q_1&lt;/script&gt; sends
-&lt;script type=&quot;math/tex&quot;&gt;\pi_{-1}&lt;/script&gt; to &lt;script type=&quot;math/tex&quot;&gt;\pi_{-p+2(p-1)} = \pi_{p-2}&lt;/script&gt;. However, if we could look at a
-“sheared” version &lt;script type=&quot;math/tex&quot;&gt;\fr{Z}_u(R/\FF_p)&lt;/script&gt; of &lt;script type=&quot;math/tex&quot;&gt;\fr{Z}(R/\FF_p)&lt;/script&gt;, such that
-&lt;script type=&quot;math/tex&quot;&gt;\fr{Z}_u(R/\FF_p)&lt;/script&gt; is also an &lt;script type=&quot;math/tex&quot;&gt;\E_2&lt;/script&gt;-&lt;script type=&quot;math/tex&quot;&gt;\FF_p&lt;/script&gt;-algebra, and such that
-&lt;script type=&quot;math/tex&quot;&gt;\pi_{2n} \fr{Z}_u(R/\FF_p) \cong \pi_n \fr{Z}(R/\FF_p)&lt;/script&gt;, then the Dyer-Lashof
-operation &lt;script type=&quot;math/tex&quot;&gt;Q_1&lt;/script&gt; would operate on &lt;script type=&quot;math/tex&quot;&gt;\pi_{-2} \fr{Z}_u(R/\FF_p)&lt;/script&gt; by &lt;script type=&quot;math/tex&quot;&gt;\D\mapsto
-\D^{[p]}&lt;/script&gt;.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;This gives us some good impetus to talk about “shearing”, which we also briefly
-mentioned &lt;a href=&quot;/blog/algebraic-geometry/2020/08/04/hbar-iii.html&quot;&gt;last time&lt;/a&gt;. In
-characteristic zero, the shearing of a filtered &lt;script type=&quot;math/tex&quot;&gt;k&lt;/script&gt;-module &lt;script type=&quot;math/tex&quot;&gt;\F^\star M&lt;/script&gt; is
-the sheared Rees construction &lt;script type=&quot;math/tex&quot;&gt;\bigoplus_{i\geq 0} (\F^i M) u^i&lt;/script&gt;, where &lt;script type=&quot;math/tex&quot;&gt;\F^i
-M&lt;/script&gt; is placed in degree &lt;script type=&quot;math/tex&quot;&gt;-2i&lt;/script&gt; by &lt;script type=&quot;math/tex&quot;&gt;u&lt;/script&gt;. You can’t write out such an expression
-in this way for a filtered module &lt;script type=&quot;math/tex&quot;&gt;\F^\star M&lt;/script&gt; over a general &lt;script type=&quot;math/tex&quot;&gt;\Eoo&lt;/script&gt;-ring,
-but we can still extract a procedure for doing the analogous construction. Let
-us focus only on the case of the Whitehead filtration &lt;script type=&quot;math/tex&quot;&gt;\tau_{\geq \star} M&lt;/script&gt;,
-where we also assume that &lt;script type=&quot;math/tex&quot;&gt;M&lt;/script&gt; has an &lt;script type=&quot;math/tex&quot;&gt;S^1&lt;/script&gt;-action.&lt;/p&gt;
-
-&lt;p&gt;We shall construct a &lt;script type=&quot;math/tex&quot;&gt;k^{hS^1}&lt;/script&gt;-module &lt;script type=&quot;math/tex&quot;&gt;M_u&lt;/script&gt; such that &lt;script type=&quot;math/tex&quot;&gt;M_u&lt;/script&gt; is
-concentrated in even degrees, &lt;script type=&quot;math/tex&quot;&gt;\pi_{2n} M_u = \pi_n M&lt;/script&gt;, and the action of
-&lt;script type=&quot;math/tex&quot;&gt;\gr(\tau_{\geq 2\star} k^{hS^1}) = k[\![u]\!]&lt;/script&gt; on &lt;script type=&quot;math/tex&quot;&gt;\gr(\tau_{\geq 2\star}
-M_u)&lt;/script&gt; is given by&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\gr^n(\tau_{\geq 2\star} M_u) = \Sigma^{-2n} \pi_n M \xrightarrow{d}
-\Sigma^{-2n} \pi_{n+1} M = \Sigma^2 \gr^{n+1}(\tau_{\geq 2\star} M_u),&lt;/script&gt;
-
-&lt;p&gt;where the differential comes from the action of &lt;script type=&quot;math/tex&quot;&gt;S^1&lt;/script&gt;. Moreover, the
-assignment &lt;script type=&quot;math/tex&quot;&gt;M\mapsto M_u&lt;/script&gt; will be lax symmetric monoidal, so when we plug in
-&lt;script type=&quot;math/tex&quot;&gt;M = \fr{Z}(R/\FF_p)&lt;/script&gt;, we will get our desired &lt;script type=&quot;math/tex&quot;&gt;\E_2&lt;/script&gt;-&lt;script type=&quot;math/tex&quot;&gt;\FF_p&lt;/script&gt;-algebra
-&lt;script type=&quot;math/tex&quot;&gt;\fr{Z}_u(R/\FF_p)&lt;/script&gt;.&lt;/p&gt;
-
-&lt;p&gt;The construction we’re about to describe can be found in &lt;a href=&quot;https://arxiv.org/pdf/1808.05246.pdf&quot;&gt;this
-paper&lt;/a&gt;, but it’s not phrased in this way
-there. This “doubling” procedure is a decalage given by the underlying
-&lt;script type=&quot;math/tex&quot;&gt;k^{hS^1}&lt;/script&gt;-module of the connective cover &lt;script type=&quot;math/tex&quot;&gt;\tau_{\geq 0}^\B (M \otimes_k
-\F^\star k^{hS^1})&lt;/script&gt;. The differentials in the homotopy fixed point spectral
-sequence for the &lt;script type=&quot;math/tex&quot;&gt;S^1&lt;/script&gt;-action on &lt;script type=&quot;math/tex&quot;&gt;M&lt;/script&gt; then describe the action of &lt;script type=&quot;math/tex&quot;&gt;u&lt;/script&gt; on
-the associated graded (of the filtration via the Beilinson connective cover),
-which gives the claim of the previous paragraph.  Importantly, this construction
-is lax symmetric monoidal; therefore, because &lt;script type=&quot;math/tex&quot;&gt;\F^\star k^{hS^1}&lt;/script&gt; is a
-filtered &lt;script type=&quot;math/tex&quot;&gt;\E_2&lt;/script&gt;-ring, we see that if &lt;script type=&quot;math/tex&quot;&gt;M&lt;/script&gt; was an &lt;script type=&quot;math/tex&quot;&gt;\Eoo&lt;/script&gt;-&lt;script type=&quot;math/tex&quot;&gt;k&lt;/script&gt;-algebra, then
-&lt;script type=&quot;math/tex&quot;&gt;M_u&lt;/script&gt; is an &lt;script type=&quot;math/tex&quot;&gt;\E_2&lt;/script&gt;-&lt;script type=&quot;math/tex&quot;&gt;k&lt;/script&gt;-algebra.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;So far, we have just seen that the assignment of the &lt;script type=&quot;math/tex&quot;&gt;p&lt;/script&gt;th power of a
-derivation to a derivation is a special case of the Dyer-Lashof operation
-&lt;script type=&quot;math/tex&quot;&gt;Q_1&lt;/script&gt;. We still haven’t addressed what a Frobenius-constant structure on a
-quantized algebra is supposed to be homotopified by under the equation &lt;script type=&quot;math/tex&quot;&gt;\hbar =
-u&lt;/script&gt;. By the discussion in the previous posts, the homotopical analogue of a
-quantization &lt;script type=&quot;math/tex&quot;&gt;A_\hbar&lt;/script&gt; of a &lt;script type=&quot;math/tex&quot;&gt;k&lt;/script&gt;-algebra &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; is the datum of an
-&lt;script type=&quot;math/tex&quot;&gt;S^1&lt;/script&gt;-action on &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt;. The splitting &lt;script type=&quot;math/tex&quot;&gt;s:A^{(p)} \to A_\hbar&lt;/script&gt; is then
-homotopified by the datum of a Frobenius-linear map &lt;script type=&quot;math/tex&quot;&gt;A^{(p)} \to A^{hS^1}&lt;/script&gt; —
-but not just any map, because, as we saw, this should have something to do with
-power operations. We can bake this right into the &lt;script type=&quot;math/tex&quot;&gt;S^1&lt;/script&gt;-action: if we ask that
-the &lt;script type=&quot;math/tex&quot;&gt;S^1&lt;/script&gt;-action on &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; make it into a &lt;em&gt;cyclotomic spectrum&lt;/em&gt; (see
-&lt;a href=&quot;https://arxiv.org/pdf/1707.01799.pdf&quot;&gt;Nikolaus-Scholze&lt;/a&gt;), then we have an
-&lt;script type=&quot;math/tex&quot;&gt;S^1&lt;/script&gt;-equivariant “Frobenius” map &lt;script type=&quot;math/tex&quot;&gt;\varphi: A^{(p)} \to A^{tC_p}&lt;/script&gt;. This map
-encodes the datum of the “total power operation” on &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt;; see, for instance,
-Proposition IV.1.16 in Nikolaus-Scholze. We might therefore expect that, in
-“characteristic &lt;script type=&quot;math/tex&quot;&gt;p&lt;/script&gt;”, the data of &lt;script type=&quot;math/tex&quot;&gt;S^1&lt;/script&gt;-actions homotopify deformation
-quantization, and the data of cyclotomic spectra homotopify Frobenius-constant
-quantizations. It’s a little difficult to make this precise (and I still haven’t
-been able to do so), because we have to grapple with the (related) issues of
-working with &lt;script type=&quot;math/tex&quot;&gt;\E_2&lt;/script&gt;-rings, and this “shearing” procedure, to really see the
-power operation and its interaction with the restricted structure/splitting. I’m
-trying to think about how this cyclotomic spectra perspective on
-Frobenius-constant quantizations can be used to reprove (or at least,
-homotopify) some of Bezrukavnikov-Kaledin’s results (like the Azumaya property
-of &lt;script type=&quot;math/tex&quot;&gt;\hbar&lt;/script&gt;-inverted quantizations, for instance).&lt;/p&gt;
-
-&lt;p&gt;Obviously, I’ve not given any precise statement in any of the previous posts,
-but being precise wasn’t the intent of these posts. I just wanted to describe
-the dictionary between deformation quantization, filtrations, and
-&lt;script type=&quot;math/tex&quot;&gt;S^1&lt;/script&gt;-actions in characteristic zero, and how utilizing &lt;script type=&quot;math/tex&quot;&gt;S^1&lt;/script&gt;-actions in the
-world of spectra provides a “derived algebraic geometry”/sphere spectrum lift of
-deformation quantization. In a certain sense, this derived lift of deformation
-quantization is more rigid, but I’d argue this is “better” because it takes into
-account the additional structure present in spectra (like the widespread failure
-of formality away from characteristic zero). I think it would be very
-interesting to explore deformation quantization over the sphere spectrum from
-this perspective.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Bott = Planck = sheared Rees, part iii</title><link href="http://localhost:4000/blog/algebraic-geometry/2020/08/04/hbar-iii.html" rel="alternate" type="text/html" title="Bott = Planck = sheared Rees, part iii" /><published>2020-08-04T00:00:00-07:00</published><updated>2020-08-04T00:00:00-07:00</updated><id>http://localhost:4000/blog/algebraic-geometry/2020/08/04/hbar-iii</id><content type="html" xml:base="http://localhost:4000/blog/algebraic-geometry/2020/08/04/hbar-iii.html">&lt;script type=&quot;text/javascript&quot; async=&quot;&quot; src=&quot;https://www.google-analytics.com/analytics.js&quot;&gt;&lt;/script&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-08-10T21:59:45-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Sanath Devalapurkar’s home page</title><subtitle>Graduate student in math.</subtitle><entry><title type="html">Bott = Planck = sheared Rees, part iii</title><link href="http://localhost:4000/blog/algebraic-geometry/2020/08/04/hbar-iii.html" rel="alternate" type="text/html" title="Bott = Planck = sheared Rees, part iii" /><published>2020-08-04T00:00:00-07:00</published><updated>2020-08-04T00:00:00-07:00</updated><id>http://localhost:4000/blog/algebraic-geometry/2020/08/04/hbar-iii</id><content type="html" xml:base="http://localhost:4000/blog/algebraic-geometry/2020/08/04/hbar-iii.html">&lt;script type=&quot;text/javascript&quot; async=&quot;&quot; src=&quot;https://www.google-analytics.com/analytics.js&quot;&gt;&lt;/script&gt;
 
 &lt;script async=&quot;&quot; src=&quot;https://www.googletagmanager.com/gtag/js?id=UA-109004213-1&quot;&gt;&lt;/script&gt;
 
@@ -2732,4 +2431,182 @@ a\leq \sigma &lt; b %]]&gt;&lt;/script&gt;. Then there is an isomorphism&lt;/p&g
 &lt;p&gt;So, for instance, suppose &lt;script type=&quot;math/tex&quot;&gt;\cC&lt;/script&gt; is a smooth and proper &lt;script type=&quot;math/tex&quot;&gt;k&lt;/script&gt;-linear stable
 &lt;script type=&quot;math/tex&quot;&gt;\infty&lt;/script&gt;-category such that &lt;script type=&quot;math/tex&quot;&gt;\TR(\cC)&lt;/script&gt; is &lt;script type=&quot;math/tex&quot;&gt;\V&lt;/script&gt;-complete. By Corollary 5
 &lt;a href=&quot;https://arxiv.org/abs/1809.01714&quot;&gt;here&lt;/a&gt;, &lt;script type=&quot;math/tex&quot;&gt;\TR(\cC)&lt;/script&gt; is a perfect
-&lt;script type=&quot;math/tex&quot;&gt;\TR(k)&lt;/script&gt;-module, so we can apply the theorem and corollary to this example.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry></feed>
+&lt;script type=&quot;math/tex&quot;&gt;\TR(k)&lt;/script&gt;-module, so we can apply the theorem and corollary to this example.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Rewriting Kodaira vanishing</title><link href="http://localhost:4000/blog/algebraic-geometry/2020/06/23/kodaira.html" rel="alternate" type="text/html" title="Rewriting Kodaira vanishing" /><published>2020-06-23T00:00:00-07:00</published><updated>2020-06-23T00:00:00-07:00</updated><id>http://localhost:4000/blog/algebraic-geometry/2020/06/23/kodaira</id><content type="html" xml:base="http://localhost:4000/blog/algebraic-geometry/2020/06/23/kodaira.html">&lt;script type=&quot;text/javascript&quot; async=&quot;&quot; src=&quot;https://www.google-analytics.com/analytics.js&quot;&gt;&lt;/script&gt;
+
+&lt;script async=&quot;&quot; src=&quot;https://www.googletagmanager.com/gtag/js?id=UA-109004213-1&quot;&gt;&lt;/script&gt;
+
+&lt;script&gt;
+  window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+        gtag('config', 'UA-109004213-1');
+&lt;/script&gt;
+
+&lt;script type=&quot;text/javascript&quot; src=&quot;https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML&quot;&gt;
+&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\newcommand{\KO}{\mathrm{KO}} \newcommand{\TMF}{\mathrm{TMF}}
+\newcommand{\KU}{\mathrm{KU}} \newcommand{\Mfg}{M_\mathrm{fg}}
+\newcommand{\spec}{\mathrm{Spec}} \newcommand{\dX}{\mathcal{X}}
+\newcommand{\co}{\mathcal{O}} \newcommand{\Z}{\mathbf{Z}}
+\newcommand{\top}{\mathrm{top}} \newcommand{\E}{\mathbf{E}}
+\newcommand{\GG}{\mathbf{G}} \newcommand{\DD}{\mathbf{D}}
+\newcommand{\Mell}{M_\mathrm{ell}} \newcommand{\ce}{\mathcal{E}}
+\newcommand{\H}{\mathrm{H}} \newcommand{\dR}{\mathrm{dR}}
+\newcommand{\cf}{\mathcal{F}} \newcommand{\FF}{\mathbf{F}}
+\newcommand{\spf}{\mathrm{Spf}\ } \newcommand{\cA}{\mathcal{A}}
+\newcommand{\Mcub}{M_\mathrm{cub}} \newcommand{\Mqd}{M_\mathrm{qd}}
+\newcommand{\Aut}{\mathrm{Aut}} \newcommand{\tmf}{\mathrm{tmf}}
+\newcommand{\Tmf}{\mathrm{Tmf}} \newcommand{\Map}{\mathrm{Map}}
+\newcommand{\Ext}{\mathrm{Ext}} \newcommand{\End}{\mathrm{End}}
+\newcommand{\cg}{\mathcal{G}} \newcommand{\Hom}{\mathrm{Hom}}
+\newcommand{BP}[1]{\mathrm{BP}\langle #1\rangle} \newcommand{\QQ}{\mathbf{Q}}
+\newcommand{\PP}{\mathbf{P}} \newcommand{\Gal}{\mathrm{Gal}}
+\newcommand{\proj}{\mathrm{Proj}\ } \newcommand{\Ltwo}{L_{K(2)}}
+\newcommand{\Eoo}{\mathbf{E}_\infty} \newcommand{\ol}[1]{\overline #1}
+\newcommand{\pic}{\mathrm{Pic}} \newcommand{\RP}{\mathbf{R}P}
+\newcommand{\BO}{\mathrm{BO}} \newcommand{\cc}{\mathbf{C}}
+\newcommand{\CP}{\mathbf{C}P} \newcommand{\wt}[1]{\widetilde #1}
+\newcommand{\RR}{\mathbf{R}} \renewcommand{\S}{\mathbb{S}}
+\newcommand{\Lone}{L_{K(1)}} \newcommand{\Ltwo}{L_{K(2)}}
+\newcommand{\gl}{\mathrm{gl}} \newcommand{\Lk}{L_{K(n)}}
+\newcommand{\ku}{\mathrm{ku}} \newcommand{\ko}{\mathrm{ko}}
+\newcommand{\GL}{\mathrm{GL}} \newcommand{\Ln}{L_n} \newcommand{\Lt}{L_{K(t)}}
+\newcommand{\W}{\mathrm{W}} \newcommand{\BU}{\mathrm{BU}}
+\newcommand{\SU}{\mathrm{SU}} \newcommand{\MU}{\mathrm{MU}}
+\newcommand{\ul}[1]{\underline #1} \newcommand{\Sq}{\mathrm{Sq}}
+\newcommand{\Tr}{\mathrm{Tr}} \newcommand{\d}{\mathrm{d}}
+\newcommand{\HP}{\mathbf{H}P} \newcommand{\cL}{\mathcal{L}}
+\newcommand{\cs}{\mathrm{cs}} \newcommand{\cd}{\mathcal{D}}
+\newcommand{\Bord}{\mathrm{Bord}} \newcommand{\SO}{\mathrm{SO}}
+\newcommand{\cC}{\mathcal{C}} \newcommand{\Sp}{\mathrm{Sp}}
+\newcommand{\Lkd}{L_{K(d)}} \newcommand{\Mod}{\mathrm{Mod}}
+\newcommand{\cH}{\mathcal{H}} \newcommand{\ket}[1]{|#1 \rangle}
+\newcommand{\Bun}{\mathrm{Bun}} \newcommand{\cM}{\mathcal{M}}
+\newcommand{\MTH}{\mathrm{MT}H} \newcommand{\MSO}{\mathrm{MSO}}
+\newcommand{\twsm}{\ \widetilde{\wedge} \ } \newcommand{\BSpin}{\mathrm{BSpin}}
+\newcommand{\MSpin}{\mathrm{MSpin}} \newcommand{\BString}{\mathrm{BString}}
+\newcommand{\MString}{\mathrm{MString}} \newcommand{\B}{\mathrm{B}}
+\newcommand{\der}{\mathrm{der}} \newcommand{\Cat}{\mathrm{Cat}}
+\newcommand{\QCoh}{\mathrm{QCoh}} \newcommand{\LMod}{\mathrm{LMod}}
+\newcommand{\Rep}{\mathrm{Rep}} \newcommand{\HH}{\mathrm{HH}}
+\newcommand{\ZZ}{\mathfrak{Z}} \newcommand{\fr}{\mathrm{fr}}
+\newcommand{\BSO}{\mathrm{BSO}} \newcommand{\BSU}{\mathrm{BSU}}
+\newcommand{\id}{\mathrm{id}} \newcommand{\Top}{\mathrm{Top}}
+\newcommand{\cP}{\mathcal{P}} \newcommand{\U}{\mathrm{U}}
+\newcommand{\Sym}{\mathrm{Sym}} \newcommand{\coker}{\mathrm{coker}}
+\newcommand{\Vect}{\mathrm{Vect}} \newcommand{\Fun}{\mathrm{Fun}}
+\newcommand{\cT}{\mathcal{T}} \newcommand{\cJ}{\mathcal{J}}
+\newcommand{\Res}{\mathrm{Res}} \newcommand{\Ind}{\mathrm{Ind}}
+\newcommand{\MO}{\mathrm{MO}} \newcommand{\MSO}{\mathrm{MSO}}
+\newcommand{\colim}{\mathrm{colim}} \newcommand{\hocolim}{\mathrm{hocolim}}
+\newcommand{\fin}{\mathrm{fin}} \newcommand{\Tot}{\mathrm{Tot}}
+\newcommand{\im}{\mathrm{im}} \newcommand{\FT}{\mathrm{FT}}
+\newcommand{\AA}{\mathbf{A}} \newcommand{\Frob}{\mathrm{Frob}}
+\newcommand{\ex}{\mathrm{ex,pr}} \newcommand{\fil}{\mathrm{fil}}
+\newcommand{\gr}{\mathrm{gr}} \newcommand{\un}{\mathrm{un}}
+\newcommand{\Syn}{\mathrm{Syn}} \newcommand{\Cart}{\mathrm{Cart}}
+\newcommand{\bo}{\mathrm{bo}} \newcommand{\mmod}{/\!\!/}
+\newcommand{\bsp}{\mathrm{bsp}} \newcommand{\BPP}{\mathrm{BP}}
+\newcommand{\CAlg}{\mathrm{CAlg}} \newcommand{\TCart}{\mathrm{TCart}}
+\newcommand{\BW}{\mathrm{BW}} \newcommand{\Br}{\mathrm{Br}}
+\newcommand{\Pic}{\mathrm{Pic}} \newcommand{\ext}{\mathrm{ext}}
+\newcommand{\Cl}{\mathrm{Cl}} \newcommand{\disc}{\mathrm{disc}}
+\newcommand{\dir}{D\!\!\!\!/} \newcommand{\bb}{\mathrm{bb}}
+\newcommand{\Ran}{\mathrm{Ran}} \newcommand{\cu}{\mathcal{U}}
+\newcommand{\Gr}{\mathrm{Gr}} \newcommand{\Alg}{\mathrm{Alg}}
+\newcommand{\G}{\Gamma} \newcommand{\dY}{\mathcal{Y}}
+\newcommand{\Line}{\mathrm{Line}} \newcommand{\MUP}{\mathrm{MUP}}
+\newcommand{\Bl}{\mathrm{Bl}} \newcommand{\St}{\mathrm{St}}
+\newcommand{\cB}{\mathcal{B}} \newcommand{\SL}{\mathrm{SL}}
+\newcommand{\XX}{\mathrm{X}} \newcommand{\gp}{\mathrm{gp}}
+\newcommand{\Q}{\mathrm{Q}} \newcommand{\cI}{\mathcal{I}}
+\newcommand{\T}{\mathrm{T}} \newcommand{\D}{\mathrm{D}}
+\newcommand{\Aff}{\mathrm{Aff}} \newcommand{\BGL}{\mathrm{BGL}}
+\newcommand{\an}{\mathrm{an}} \newcommand{\Tel}{\mathrm{Tel}}
+\renewcommand{\|}{|} \newcommand{\MGL}{\mathrm{MGL}}
+\newcommand{\CH}{\mathrm{CH}} \newcommand{\fr}[1]{\mathfrak #1}
+\newcommand{\ch}{\mathrm{ch}} \newcommand{\Td}{\mathrm{Td}}
+\newcommand{\Spin}{\mathrm{Spin}} \newcommand{\G}{\mathrm{G}}
+\newcommand{\cHH}{\mathcal{H}} \newcommand{\F}{\mathrm{F}}
+\newcommand{\B}{\mathrm{B}} \newcommand{\HC}{\mathrm{HC}}
+\newcommand{\fib}{\mathrm{fib}}&lt;/script&gt;
+
+&lt;p&gt;The goal of this post is to suggest a way of rewriting about Kodaira vanishing
+via Hochschild homology. I’m writing this in part so that I can reference the
+indexing easily in the future.&lt;/p&gt;
+
+&lt;p&gt;First, recall that if &lt;script type=&quot;math/tex&quot;&gt;k&lt;/script&gt; is any ring and &lt;script type=&quot;math/tex&quot;&gt;X&lt;/script&gt; is a smooth proper
+&lt;script type=&quot;math/tex&quot;&gt;k&lt;/script&gt;-scheme of dimension &lt;script type=&quot;math/tex&quot;&gt;d&lt;/script&gt;, then there is a quasicoherent sheaf &lt;script type=&quot;math/tex&quot;&gt;\cHH(X)&lt;/script&gt;
+on &lt;script type=&quot;math/tex&quot;&gt;X&lt;/script&gt; such that &lt;script type=&quot;math/tex&quot;&gt;\Gamma(X;\cHH(X)) = \HH(X)&lt;/script&gt;. The HKR filtration on
+&lt;script type=&quot;math/tex&quot;&gt;\HH(X)&lt;/script&gt; comes from a filtration on &lt;script type=&quot;math/tex&quot;&gt;\cHH(X)&lt;/script&gt; itself: namely, there is a
+filtration &lt;script type=&quot;math/tex&quot;&gt;\F^i \cHH(X)&lt;/script&gt; with maps &lt;script type=&quot;math/tex&quot;&gt;\F^i \cHH(X) \to \F^{i+1} \cHH(X)&lt;/script&gt; such
+that &lt;script type=&quot;math/tex&quot;&gt;\gr^i \cHH(X) = \Omega^i_X [i]&lt;/script&gt;. Namely, one takes &lt;script type=&quot;math/tex&quot;&gt;\F^i \cHH(X) =
+\tau_{\geq i} \cHH(X)&lt;/script&gt;, where the connective cover is taken in the derived
+category of &lt;script type=&quot;math/tex&quot;&gt;X&lt;/script&gt;. It will be more convenient to work with the filtration &lt;script type=&quot;math/tex&quot;&gt;\F_i
+\cHH(X) = \F^{-i} \cHH(X)&lt;/script&gt;, so that there are maps &lt;script type=&quot;math/tex&quot;&gt;\F_i \cHH(X) \to \F_{i-1}
+\cHH(X)&lt;/script&gt;, and &lt;script type=&quot;math/tex&quot;&gt;\gr_i \cHH(X) = \Omega^{-i}_X [-i]&lt;/script&gt; (in particular, &lt;script type=&quot;math/tex&quot;&gt;\gr_i =
+0&lt;/script&gt; for &lt;script type=&quot;math/tex&quot;&gt;i&gt;0&lt;/script&gt;).&lt;/p&gt;
+
+&lt;p&gt;Given &lt;script type=&quot;math/tex&quot;&gt;\cf\in \QCoh(X)&lt;/script&gt;, we can twist &lt;script type=&quot;math/tex&quot;&gt;\cHH(X)&lt;/script&gt; by &lt;script type=&quot;math/tex&quot;&gt;\cf&lt;/script&gt;, by which I mean
+&lt;script type=&quot;math/tex&quot;&gt;\cHH(X;\cf) = \cHH(X)\otimes \cf&lt;/script&gt;. So, &lt;script type=&quot;math/tex&quot;&gt;\gr_i \cHH(X;\cf) = \Omega^{-i}_X
+[-i] \otimes \cf&lt;/script&gt;.  The filtration &lt;script type=&quot;math/tex&quot;&gt;\F_i \cHH(X;\cf)&lt;/script&gt; induces a filtration
+&lt;script type=&quot;math/tex&quot;&gt;\F_i \HH(X;\cf)&lt;/script&gt; on the &lt;script type=&quot;math/tex&quot;&gt;k&lt;/script&gt;-module &lt;script type=&quot;math/tex&quot;&gt;\Gamma(X; \cHH(X;\cf)) =:
+\HH(X;\cf)&lt;/script&gt;, whose &lt;script type=&quot;math/tex&quot;&gt;i&lt;/script&gt;th associated graded is &lt;script type=&quot;math/tex&quot;&gt;\Gamma(X; \cf\otimes
+\Omega^{-i}_X[-i])&lt;/script&gt;. We know that&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\pi_j \gr_i \HH(X;\cf) = \pi_j \Gamma(X; \cf\otimes \Omega^{-i}_X[-i]) =
+\H^{-j-i}(X; \cf\otimes \Omega^{-i}_X).&lt;/script&gt;
+
+&lt;p&gt;Now, what does Kodaira vanishing say? Suppose &lt;script type=&quot;math/tex&quot;&gt;k&lt;/script&gt; is a perfect field and &lt;script type=&quot;math/tex&quot;&gt;X&lt;/script&gt;
+is a smooth projective scheme over &lt;script type=&quot;math/tex&quot;&gt;k&lt;/script&gt; such that &lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
+\dim(X)&lt; p %]]&gt;&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;X&lt;/script&gt;
+lifts to &lt;script type=&quot;math/tex&quot;&gt;\mathrm{W}_2(k)&lt;/script&gt; if &lt;script type=&quot;math/tex&quot;&gt;k&lt;/script&gt; has positive characteristic. Then, if
+&lt;script type=&quot;math/tex&quot;&gt;\cL&lt;/script&gt; is an ample line bundle on &lt;script type=&quot;math/tex&quot;&gt;X&lt;/script&gt;, we have&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+\H^j(X; \cL\otimes \Omega^i_X) = 0 \text{ if } i+j&gt; \dim(X), \ \H^j(X;
+\cL^{-1}\otimes \Omega^i_X) = 0 \text{ if } i+j&lt; \dim(X). %]]&gt;&lt;/script&gt;
+
+&lt;p&gt;Serre duality shows that the second implies the first. Under our isomorphism, we
+see that this can be rephrased as&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+\pi_j \gr_i \HH(X;\cL) = 0 \text{ if }-j-2i&gt; \dim(X), \ \pi_j \gr_i
+\HH(X;\cL^{-1}) = 0 \text{ if }-j-2i&lt; \dim(X). %]]&gt;&lt;/script&gt;
+
+&lt;p&gt;In other words, &lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
+\tau_{&lt;-\dim(X)} (\gr_i \HH(X;\cL)[2i]) = 0 %]]&gt;&lt;/script&gt; and
+&lt;script type=&quot;math/tex&quot;&gt;\tau_{&gt;-\dim(X)} (\gr_i \HH(X;\cL^{-1})[2i]) = 0&lt;/script&gt;. It sure would be
+convenient if we could find a “filtered object” &lt;script type=&quot;math/tex&quot;&gt;\F^\beta_\star&lt;/script&gt; with
+&lt;script type=&quot;math/tex&quot;&gt;\gr^\beta_i = \gr_i \HH(X;\cL)[2i]&lt;/script&gt;…&lt;/p&gt;
+
+&lt;p&gt;We can rewrite this as&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\gr^\beta_i = \gr_i \HH(X;\cL)[2i] = \Omega^{-i}_X [2i-i].&lt;/script&gt;
+
+&lt;p&gt;I’m not simplifying &lt;script type=&quot;math/tex&quot;&gt;2i-i&lt;/script&gt; to &lt;script type=&quot;math/tex&quot;&gt;i&lt;/script&gt;, because we now make the following
+observation. Consider negative cyclic homology &lt;script type=&quot;math/tex&quot;&gt;\HC^-(X;\cf) :=
+\Gamma(X;\cHH(X;\cf)^{hS^1})&lt;/script&gt;. This has a bifiltration, given by taking global
+sections of&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\F_i \F_j^{\CP} \mathcal{HC}^-(X;\cf) = \fib(\F_i \cHH(X;\cf)^{hS^1} \to
+\F_i \cHH(X;\cf)^{h\Omega \CP^{j-1}}).&lt;/script&gt;
+
+&lt;p&gt;So,&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\gr_i \gr_j^{\CP} \mathcal{HC}^-(X;\cf) = \Omega^{-i}_X [-i+2j].&lt;/script&gt;
+
+&lt;p&gt;In particular, if we define &lt;script type=&quot;math/tex&quot;&gt;\F^\beta_\star&lt;/script&gt; to be the &lt;em&gt;diagonal&lt;/em&gt; filtration
+on the bifiltered object &lt;script type=&quot;math/tex&quot;&gt;\F_\star \F_\star^{\CP} \HC^-(X;\cf)&lt;/script&gt;, then
+&lt;script type=&quot;math/tex&quot;&gt;\gr^\beta_i = \gr_i \gr_i^{\CP} \HC^-(X;\cf)&lt;/script&gt;.&lt;/p&gt;
+
+&lt;p&gt;Finally, we can restate Kodaira vanishing as:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+\tau_{&lt;-\dim(X)} \gr^\beta_i \HH(X;\cL) = 0, \ \tau_{&gt;-\dim(X)}
+\gr^\beta_i \HH(X;\cL^{-1}) = 0. %]]&gt;&lt;/script&gt;
+
+&lt;p&gt;I want there to be a noncommutative analogue of this result, but cannot figure
+out what it would be. Thought maybe this’d help, but doesn’t seem like it.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry></feed>
