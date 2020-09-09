@@ -24,17 +24,18 @@ src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLor
 </td>
 <td>
 <p>
-I was an undergraduate at MIT, where I majored in math (course 18) and minored
-in physics (course 8). I'm broadly interested in algebraic topology and
-arithmetic geometry, but my interests are constantly changing. Outside of math,
-I spend a bunch of time playing the drums, listening to instrumental prog metal,
-biking, and playing basketball.
+I'm a first-year graduate student at Harvard. I'm broadly interested in
+algebraic topology and arithmetic geometry, but my interests are constantly
+changing. Outside of math, I spend a bunch of time playing the drums, listening
+to instrumental prog metal, biking, and playing basketball.
 
-Starting August 2020, I'll be a grad student just down Mass Ave at <a
-href="https://www.math.harvard.edu/">Harvard</a>.
+I was an undergraduate at MIT, where I majored in math (course 18) and minored
+in physics (course 8).
 </p>
 <ul>
-<li><b>Email address:</b> sanathdevalapurkar[at]g[dot]harvard[dot]edu.</li>
+<li><b>Email address:</b> sdevalapurkar[at]math[dot]harvard[dot]edu.</li>
+<li>Apparently I've got an office in SC 333f, but it seems unlikely that you'd
+find me there this year.</li>
 <li><b>CV: </b><a href="/files/resume.pdf">[pdf]</a></li>
 <li>I'm also on <a
 href="https://mathoverflow.net/users/102390/skd">MathOverflow</a>.</li>
@@ -53,18 +54,13 @@ horrible about updating).
 <h2> Writings </h2>
 <h3>Some projects</h3>
 
-* Stacks associated to partially ordered abelian groups (2020). To appear.<br>
-Proves a generalization of Simpson's identification of filtered vector spaces
-with (torsion-free) quasicoherent sheaves on $$\mathbf{A}^1/\mathbf{G}_m$$:
-representations of any partially ordered abelian group in a presentable stable
-infty-category $$\mathcal{C}$$ are equivalent to $$\mathcal{C}$$-valued
-quasicoherent sheaves on a certain quotient stack. Also proves the existence of
-an analogue of the Beilinson t-structure on filtered spectra.  Describes the
-moduli problem classified by this stack, as well as (following Ogus) the
-underlying space of the stack associated to a partially ordered abelian group.
-Finally, fully describes the Balmer spectrum of a large class of quasi-geometric
-spectral algebraic stacks in terms of the Balmer spectrum of the underlying
-stack and the thick subcategories of the stable homotopy category.
+* Quantization and Koszul duality. <br>
+Discusses the theory of deformation quantization from a Koszul dual perspective,
+roughly allowing us to view deformation quantization as the datum of an
+$$S^1$$-action. In characteristic $$p$$, this can be refined further: restricted
+deformation quantization can roughly be viewed as the datum of an $$S^1$$-action
+along with a cyclotomic structure. Applications to the deformation theory of
+schemes are discussed.
 
 * <a href="/files/thom.pdf">Higher chromatic Thom spectra via unstable homotopy
   theory (2020).</a> Last update: June 2020. <a
