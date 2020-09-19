@@ -20,7 +20,7 @@ src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLor
 <table width="100%" cellspacing="0" cellpadding="0">
 <tbody><tr>
 <td width = "37.5%">
-<img style="display: block; margin: auto;" alt="photo" src="/assets/me-target.jpg">
+<img style="display: block; margin: auto;" alt="photo" src="/assets/starbucks.jpg">
 </td>
 <td>
 <p>
@@ -194,9 +194,9 @@ representation theory. Last update: March 2020.
   href="/files/mahowald-unell-bott.pdf">Bott Periodicity at the Prime 2 in the
 Unstable Homotopy of Spheres</a>. Thanks to Peter May for providing the (sole
 surviving?) physical copy.
-* <a href="/loop-group.pdf">Loop groups and their representations</a>, notes for
-  a talk given at <a href="http://math.mit.edu/juvitop/">Juvitop</a>. Last
-update: November 2019. Has some errors that I'll fix soon.
+* <a href="/files/loop-group.pdf">Loop groups and their representations</a>,
+  notes for a talk given at <a href="http://math.mit.edu/juvitop/">Juvitop</a>.
+Last update: November 2019. Has some errors that I'll fix soon.
 * <a href="/files/final-paper.pdf">Dynamical properties of quantum systems with
   fractional statistics</a>, final paper for 8.06 (quantum mechanics III). Last
 update: April 2019.
