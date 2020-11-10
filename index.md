@@ -165,9 +165,13 @@ Tech</i>.
 
 <h3>Notes</h3>
 
+* <a href="/files/adic.pdf">Discrete adic spaces</a>. Notes for a talk on
+  discrete adic spaces for the <a href =
+"https://eldenelmanto.com/condensed-thursday/">Thursday seminar</a> on condensed
+math. Last update: November 2020.
 * <a href="/files/no-break-splitting-cobordism.pdf">Splitting cobordism
   spectra</a>. Slides for an invited talk at Tsinghua University about my work
-on higher chromatic Thom spectra.
+on higher chromatic Thom spectra. Last update: August 2020.
 * <a href="/files/balmer.pdf">The Balmer spectra of spectral stacks</a>. Proves
   that the Balmer spectrum of nice spectral algebraic stacks separates into a
 "homotopy-theoretic" part and an "algebro-geometric" part. Last update: May
