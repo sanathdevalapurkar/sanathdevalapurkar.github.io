@@ -62,6 +62,16 @@ deformation quantization can roughly be viewed as the datum of an $$S^1$$-action
 along with a cyclotomic structure. Applications to the deformation theory of
 schemes are discussed.
 
+* <a href="/files/ehp.pdf">On the James and Hilton-Milnor Splittings, and the
+  metastable EHP sequence (2019)</a>, joint with <a
+href="http://math.mit.edu/~phaine/">Peter Haine</a>. Last update: November 2020.
+<a href="https://arxiv.org/abs/1912.04130">arXiv</a>.<br>
+Studies the James and Hilton-Milnor splittings and the metastable EHP sequences
+in higher category theory; this allows a generalization of the James and
+Hilton-Milnor splittings to motivic spaces over any base scheme.  Two proofs of
+the metastable EHP sequence are provided; one is new and non-calculational, and
+(essentially) only utilizes the Blakers-Massey theorem.
+
 * <a href="/files/thom.pdf">Higher chromatic Thom spectra via unstable homotopy
   theory (2020).</a> Last update: June 2020. <a
 href="https://arxiv.org/abs/2004.08951">arXiv</a>.<br>
@@ -76,16 +86,6 @@ tmf via this method is used to show that these conjectures imply that the string
 orientation $$\mathrm{MString} \to \mathrm{tmf}$$ splits.
 <br>
 Last update: fixed some embarassing typos.
-
-* <a href="/files/ehp.pdf">On the James and Hilton-Milnor Splittings, and the
-  metastable EHP sequence (2019)</a>, joint with <a
-href="http://math.mit.edu/~phaine/">Peter Haine</a>. Last update: April 2020. <a
-href="https://arxiv.org/abs/1912.04130">arXiv</a>.<br>
-Studies the James and Hilton-Milnor splittings and the metastable EHP sequences
-in higher category theory; this allows a generalization of the James and
-Hilton-Milnor splittings to motivic spaces over any base scheme.  Two proofs of
-the metastable EHP sequence are provided; one is new and non-calculational, and
-(essentially) only utilizes the Blakers-Massey theorem.
 
 * <a href="/files/witten.pdf">The Ando-Hopkins-Rezk orientation is surjective
   (2019).</a> Last update: January 2020. <a
