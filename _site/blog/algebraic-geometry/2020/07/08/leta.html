@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Decalage and strict fixed points | Sanath Devalapurkar’s home page</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Decalage and strict fixed points" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Graduate student in math at Harvard." />
+<meta property="og:description" content="Graduate student in math at Harvard." />
+<link rel="canonical" href="http://localhost:4000/blog/algebraic-geometry/2020/07/08/leta.html" />
+<meta property="og:url" content="http://localhost:4000/blog/algebraic-geometry/2020/07/08/leta.html" />
+<meta property="og:site_name" content="Sanath Devalapurkar’s home page" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-07-08T00:00:00-04:00" />
+<script type="application/ld+json">
+{"url":"http://localhost:4000/blog/algebraic-geometry/2020/07/08/leta.html","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/blog/algebraic-geometry/2020/07/08/leta.html"},"description":"Graduate student in math at Harvard.","headline":"Decalage and strict fixed points","dateModified":"2020-07-08T00:00:00-04:00","datePublished":"2020-07-08T00:00:00-04:00","@type":"BlogPosting","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Sanath Devalapurkar's home page" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Sanath Devalapurkar&#39;s home page</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/blog/">Blog</a><a class="page-link" href="/">Home</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Decalage and strict fixed points</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2020-07-08T00:00:00-04:00" itemprop="datePublished">Jul 8, 2020
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
+
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-109004213-1"></script>
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+        gtag('config', 'UA-109004213-1');
+</script>
+
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+<script type="math/tex; mode=display">\newcommand{\KO}{\mathrm{KO}} \newcommand{\TMF}{\mathrm{TMF}}
+\newcommand{\KU}{\mathrm{KU}} \newcommand{\Mfg}{M_\mathrm{fg}}
+\newcommand{\spec}{\mathrm{Spec}} \newcommand{\dX}{\mathcal{X}}
+\newcommand{\co}{\mathcal{O}} \newcommand{\Z}{\mathbf{Z}}
+\newcommand{\top}{\mathrm{top}} \newcommand{\E}{\mathbf{E}}
+\newcommand{\GG}{\mathbf{G}} \newcommand{\DD}{\mathbf{D}}
+\newcommand{\Mell}{M_\mathrm{ell}} \newcommand{\ce}{\mathcal{E}}
+\newcommand{\H}{\mathrm{H}} \newcommand{\dR}{\mathrm{dR}}
+\newcommand{\cf}{\mathcal{F}} \newcommand{\FF}{\mathbf{F}}
+\newcommand{\spf}{\mathrm{Spf}\ } \newcommand{\cA}{\mathcal{A}}
+\newcommand{\Mcub}{M_\mathrm{cub}} \newcommand{\Mqd}{M_\mathrm{qd}}
+\newcommand{\Aut}{\mathrm{Aut}} \newcommand{\tmf}{\mathrm{tmf}}
+\newcommand{\Tmf}{\mathrm{Tmf}} \newcommand{\Map}{\mathrm{Map}}
+\newcommand{\Ext}{\mathrm{Ext}} \newcommand{\End}{\mathrm{End}}
+\newcommand{\cg}{\mathcal{G}} \newcommand{\Hom}{\mathrm{Hom}}
+\newcommand{BP}[1]{\mathrm{BP}\langle #1\rangle} \newcommand{\QQ}{\mathbf{Q}}
+\newcommand{\PP}{\mathbf{P}} \newcommand{\Gal}{\mathrm{Gal}}
+\newcommand{\proj}{\mathrm{Proj}\ } \newcommand{\Ltwo}{L_{K(2)}}
+\newcommand{\Eoo}{\mathbf{E}_\infty} \newcommand{\ol}[1]{\overline #1}
+\newcommand{\pic}{\mathrm{Pic}} \newcommand{\RP}{\mathbf{R}P}
+\newcommand{\BO}{\mathrm{BO}} \newcommand{\cc}{\mathbf{C}}
+\newcommand{\CP}{\mathbf{C}P} \newcommand{\wt}[1]{\widetilde #1}
+\newcommand{\RR}{\mathbf{R}} \renewcommand{\S}{\mathbb{S}}
+\newcommand{\Lone}{L_{K(1)}} \newcommand{\Ltwo}{L_{K(2)}}
+\newcommand{\gl}{\mathrm{gl}} \newcommand{\Lk}{L_{K(n)}}
+\newcommand{\ku}{\mathrm{ku}} \newcommand{\ko}{\mathrm{ko}}
+\newcommand{\GL}{\mathrm{GL}} \newcommand{\Ln}{L_n} \newcommand{\Lt}{L_{K(t)}}
+\newcommand{\W}{\mathrm{W}} \newcommand{\BU}{\mathrm{BU}}
+\newcommand{\SU}{\mathrm{SU}} \newcommand{\MU}{\mathrm{MU}}
+\newcommand{\ul}[1]{\underline #1} \newcommand{\Sq}{\mathrm{Sq}}
+\newcommand{\Tr}{\mathrm{Tr}} \newcommand{\d}{\mathrm{d}}
+\newcommand{\HP}{\mathbf{H}P} \newcommand{\cL}{\mathcal{L}}
+\newcommand{\cs}{\mathrm{cs}} \newcommand{\cd}{\mathcal{D}}
+\newcommand{\Bord}{\mathrm{Bord}} \newcommand{\SO}{\mathrm{SO}}
+\newcommand{\cC}{\mathcal{C}} \newcommand{\Sp}{\mathrm{Sp}}
+\newcommand{\Lkd}{L_{K(d)}} \newcommand{\Mod}{\mathrm{Mod}}
+\newcommand{\cH}{\mathcal{H}} \newcommand{\ket}[1]{|#1 \rangle}
+\newcommand{\Bun}{\mathrm{Bun}} \newcommand{\cM}{\mathcal{M}}
+\newcommand{\MTH}{\mathrm{MT}H} \newcommand{\MSO}{\mathrm{MSO}}
+\newcommand{\twsm}{\ \widetilde{\wedge} \ } \newcommand{\BSpin}{\mathrm{BSpin}}
+\newcommand{\MSpin}{\mathrm{MSpin}} \newcommand{\BString}{\mathrm{BString}}
+\newcommand{\MString}{\mathrm{MString}} \newcommand{\B}{\mathrm{B}}
+\newcommand{\der}{\mathrm{der}} \newcommand{\Cat}{\mathrm{Cat}}
+\newcommand{\QCoh}{\mathrm{QCoh}} \newcommand{\LMod}{\mathrm{LMod}}
+\newcommand{\Rep}{\mathrm{Rep}} \newcommand{\HH}{\mathrm{HH}}
+\newcommand{\ZZ}{\mathfrak{Z}} \newcommand{\fr}{\mathrm{fr}}
+\newcommand{\BSO}{\mathrm{BSO}} \newcommand{\BSU}{\mathrm{BSU}}
+\newcommand{\id}{\mathrm{id}} \newcommand{\Top}{\mathrm{Top}}
+\newcommand{\cP}{\mathcal{P}} \newcommand{\U}{\mathrm{U}}
+\newcommand{\Sym}{\mathrm{Sym}} \newcommand{\coker}{\mathrm{coker}}
+\newcommand{\Vect}{\mathrm{Vect}} \newcommand{\Fun}{\mathrm{Fun}}
+\newcommand{\cT}{\mathcal{T}} \newcommand{\cJ}{\mathcal{J}}
+\newcommand{\Res}{\mathrm{Res}} \newcommand{\Ind}{\mathrm{Ind}}
+\newcommand{\MO}{\mathrm{MO}} \newcommand{\MSO}{\mathrm{MSO}}
+\newcommand{\colim}{\mathrm{colim}} \newcommand{\hocolim}{\mathrm{hocolim}}
+\newcommand{\fin}{\mathrm{fin}} \newcommand{\Tot}{\mathrm{Tot}}
+\newcommand{\im}{\mathrm{im}} \newcommand{\FT}{\mathrm{FT}}
+\newcommand{\AA}{\mathbf{A}} \newcommand{\Frob}{\mathrm{Frob}}
+\newcommand{\ex}{\mathrm{ex,pr}} \newcommand{\fil}{\mathrm{fil}}
+\newcommand{\gr}{\mathrm{gr}} \newcommand{\un}{\mathrm{un}}
+\newcommand{\Syn}{\mathrm{Syn}} \newcommand{\Cart}{\mathrm{Cart}}
+\newcommand{\bo}{\mathrm{bo}} \newcommand{\mmod}{/\!\!/}
+\newcommand{\bsp}{\mathrm{bsp}} \newcommand{\BPP}{\mathrm{BP}}
+\newcommand{\CAlg}{\mathrm{CAlg}} \newcommand{\TCart}{\mathrm{TCart}}
+\newcommand{\BW}{\mathrm{BW}} \newcommand{\Br}{\mathrm{Br}}
+\newcommand{\Pic}{\mathrm{Pic}} \newcommand{\ext}{\mathrm{ext}}
+\newcommand{\Cl}{\mathrm{Cl}} \newcommand{\disc}{\mathrm{disc}}
+\newcommand{\dir}{D\!\!\!\!/} \newcommand{\bb}{\mathrm{bb}}
+\newcommand{\Ran}{\mathrm{Ran}} \newcommand{\cu}{\mathcal{U}}
+\newcommand{\Gr}{\mathrm{Gr}} \newcommand{\Alg}{\mathrm{Alg}}
+\newcommand{\G}{\Gamma} \newcommand{\dY}{\mathcal{Y}}
+\newcommand{\Line}{\mathrm{Line}} \newcommand{\MUP}{\mathrm{MUP}}
+\newcommand{\Bl}{\mathrm{Bl}} \newcommand{\St}{\mathrm{St}}
+\newcommand{\cB}{\mathcal{B}} \newcommand{\SL}{\mathrm{SL}}
+\newcommand{\XX}{\mathrm{X}} \newcommand{\gp}{\mathrm{gp}}
+\newcommand{\Q}{\mathrm{Q}} \newcommand{\cI}{\mathcal{I}}
+\newcommand{\T}{\mathrm{T}} \newcommand{\D}{\mathrm{D}}
+\newcommand{\Aff}{\mathrm{Aff}} \newcommand{\BGL}{\mathrm{BGL}}
+\newcommand{\an}{\mathrm{an}} \newcommand{\Tel}{\mathrm{Tel}}
+\renewcommand{\|}{|} \newcommand{\MGL}{\mathrm{MGL}}
+\newcommand{\CH}{\mathrm{CH}} \newcommand{\fr}[1]{\mathfrak #1}
+\newcommand{\ch}{\mathrm{ch}} \newcommand{\Td}{\mathrm{Td}}
+\newcommand{\Spin}{\mathrm{Spin}} \newcommand{\G}{\mathrm{G}}
+\newcommand{\cHH}{\mathcal{H}} \newcommand{\F}{\mathrm{F}}
+\newcommand{\B}{\mathrm{B}} \newcommand{\HC}{\mathrm{HC}}
+\newcommand{\fib}{\mathrm{fib}} \newcommand{\tr}{\mathrm{tr}}
+\newcommand{\TR}{\mathrm{TR}} \newcommand{\THH}{\mathrm{THH}}
+\newcommand{\TP}{\mathrm{TP}} \newcommand{\crys}{\mathrm{crys}}
+\newcommand{\even}{\mathrm{even}} \newcommand{\odd}{\mathrm{odd}}
+\newcommand{\hodge}{\mathrm{Hodge}} \newcommand{\V}{\mathrm{V}}
+\newcommand{\C}{C} \newcommand{\K}{K} \newcommand{\M}{M} \newcommand{\X}{X}
+\newcommand{\h}{h} \newcommand{\TC}{\mathrm{TC}} \newcommand{\t}{t}
+\newcommand{\DC}{\mathrm{DC}} \newcommand{\str}{\mathrm{str}}
+\newcommand{\gen}{\mathrm{gen}} \newcommand{\Cyc}{\mathrm{CycSp}}
+\newcommand{\DA}{\mathrm{DA}}</script>
+
+<p>In this post, I would like to note some relationships between the decalage
+functor and strict fixed points. Let me begin by reviewing some definitions from
+<a href="https://www.math.ias.edu/~lurie/papers/Crystalline.pdf">here</a>. A Dieudonne
+complex <script type="math/tex">(M, d, \F)</script> is a cochain complex <script type="math/tex">(M, d)</script> and a map <script type="math/tex">\F:M\to M</script>
+of graded abelian groups such that <script type="math/tex">d\F = p\F d</script>. A Dieudonne complex is said
+to be saturated if <script type="math/tex">M</script> is <script type="math/tex">p</script>-torsion-free in each degree, and <script type="math/tex">\F:M^n \to
+\{x\in M^n | dx\in pM^{n+1}\}</script> is an isomorphism. For a saturated Dieudonne
+complex, one can construct a Verschiebung <script type="math/tex">V:M\to M</script>, and this allows us to
+define a complex <script type="math/tex">M/\im(V^r) + \im(dV^r)</script>; taking the inverse limit produces a
+complex which we can denote <script type="math/tex">M^\wedge_{\V+d\V}</script> (it is denoted <script type="math/tex">\mathcal{W}
+M</script> in the linked paper). There is a canonical map <script type="math/tex">M\to M^\wedge_{\V+d\V}</script>,
+and the Dieudonne complex is said to be strict if it is saturated, and this map
+is a quasi-isomorphism. Finally, one can define the notion of a Dieudonne
+algebra: this is a commutative algebra object in the category of Dieudonne
+complexes which is connective, satisfies <script type="math/tex">x^2 = 0</script> for <script type="math/tex">x</script> in odd degree,
+and <script type="math/tex">\F(x) \equiv x^p \pmod{p}</script>.</p>
+
+<p>There is an interesting functor <script type="math/tex">\eta_p</script> defined on <script type="math/tex">p</script>-torsion-free
+complexes, defined as follows. Let <script type="math/tex">\eta_p M</script> denote the subcomplex of
+<script type="math/tex">M[1/p]</script> given by</p>
+
+<script type="math/tex; mode=display">(\eta_p M)^n = \{x\in p^n M^n | dx\in p^{n+1} M^{n+1}\}.</script>
+
+<p>This can be understood also via the Beilinson t-structure. Namely, <script type="math/tex">\eta_p M</script>
+is the complex underlying <script type="math/tex">\tau_{\geq 0}^\mathrm{B}((p^\star)\otimes_\Z M)</script>,
+where <script type="math/tex">(p^\star)</script> is the filtered <script type="math/tex">\Z</script>-module whose <script type="math/tex">n</script>th piece is the
+ideal <script type="math/tex">(p^n)</script>. Suppose <script type="math/tex">(M,d,\F)</script> is a Dieudonne complex; then, there is a
+canonical map <script type="math/tex">\alpha: M\to \eta_p M</script>, given on degree <script type="math/tex">n</script> by <script type="math/tex">\alpha(x) =
+p^n \F(x)</script>. In fact, if <script type="math/tex">(M,d)</script> is a complex, then a map <script type="math/tex">\alpha:M\to \eta_p
+M</script> defines a Frobenius (via <script type="math/tex">\F(x) = p^{-n} \alpha(x)</script> for <script type="math/tex">x\in M^n</script>).
+The Dieudonne complex is saturated iff <script type="math/tex">\alpha</script> is an isomorphism.</p>
+
+<p>The description via the Beilinson t-structure makes it clear that <script type="math/tex">\eta_p</script>
+lifts to the derived category <script type="math/tex">\D(\Z)</script>, and in turn restricts to an
+endofunctor on the derived category <script type="math/tex">\D(\Z)_p</script> of <script type="math/tex">p</script>-complete objects of
+<script type="math/tex">\D(\Z)</script> (which means objects <script type="math/tex">X\in \D(\Z)</script> such that the degree <script type="math/tex">p</script> map
+on <script type="math/tex">X</script> is an equivalence).</p>
+
+<p>Since a Dieudonne complex is saturated iff <script type="math/tex">\alpha</script> is an isomorphism, there
+is a equivalence from saturated Dieudonne complexes to the fixed points of
+<script type="math/tex">\eta_p</script> on <script type="math/tex">p</script>-torsion-free chain complexes. Theorem 7.3.4 of the above
+paper shows that, in fact, this restricts to an equivalence between strict
+Dieudonne complexes <script type="math/tex">\DC_\str</script> and the fixed points of <script type="math/tex">\eta_p</script> on
+<script type="math/tex">\D(\Z)_p</script>, i.e., <script type="math/tex">\DC_\str \simeq \D(\Z)_p^{\eta_p}</script>.</p>
+
+<p>An explicit description of the inverse functor <script type="math/tex">\D(\Z)_p^{\eta_p} \to
+\DC_\str</script> is described
+<a href="https://www.imo.universite-paris-saclay.fr/~illusie/Illusie-Berkovich-IHP.pdf">here</a>.
+Namely, if <script type="math/tex">M\in \D(\Z)_p^{\eta_p}</script>, so there is an equivalence <script type="math/tex">f:M\to
+\eta_p M</script>. Then, let <script type="math/tex">\phi_n(M)</script> denote the complex given by
+<script type="math/tex">\H^\ast(M/p^n)</script>, where the differential is given by the Bockstein. There is
+an obvious map <script type="math/tex">\F:\phi_{n+1}(M)\to \phi_n(M)</script>, and multiplication by <script type="math/tex">p</script>
+gives a map <script type="math/tex">\V:\phi_n(M)\to \phi_{n+1}(M)</script>. There is also a map <script type="math/tex">R:
+\phi_{n+1}(M)\to \phi_n(M)</script>, defined as follows. There is a quasi-isomorphism
+<script type="math/tex">\alpha: M/p^n \to (\eta_p M)/p^n</script>. Suppose that <script type="math/tex">x\in M^i</script> is such that
+<script type="math/tex">dx</script> is divisible by <script type="math/tex">p^{n+1}</script>, so <script type="math/tex">[x]\in H^i(M/p^{n+1})</script>. Then, <script type="math/tex">p^i
+x</script> gives a cocycle in <script type="math/tex">(\eta_p M)^i/p^n</script>, and so defines a cohomology class
+<script type="math/tex">[p^i x]\in H^i((\eta_p M)/p^n)</script>. Finally, we define <script type="math/tex">R([x]) =
+\alpha^{-1}([p^i x])</script>. Taking the inverse limit of the maps <script type="math/tex">R: \phi_{n+1}(M)
+\to \phi_n(M)</script> defines <script type="math/tex">\phi(M)\in \DC_\str</script>.</p>
+
+<p>There is a homotopical analogue of this entire story, which appears in
+<a href="https://arxiv.org/abs/1809.01714">here</a>. Let us now give a brief resume of
+Antieau-Nikolaus. Recall that, following Nikolaus-Scholze, a <script type="math/tex">p</script>-typical
+cyclotomic spectrum is an <script type="math/tex">S^1</script>-spectrum <script type="math/tex">X</script> along with an
+<script type="math/tex">S^1</script>-equivariant map <script type="math/tex">X\to X^{tC_p}</script>, with <script type="math/tex">X^{tC_p}</script> given the <script type="math/tex">S^1
+\cong S^1/C_p</script>-action. One of the main results of Nikolaus-Scholze is that this
+agrees with the older/classical definition of cyclotomic spectra: these were
+defined as the fixed points <script type="math/tex">(\Sp_p^{\gen, S^1})^{\Phi^{C_p}}</script> of the genuine
+<script type="math/tex">C_p</script>-fixed points functor <script type="math/tex">\Phi^{C_p}</script> on genuine <script type="math/tex">S^1</script>-spectra
+<script type="math/tex">\Sp_p^{\gen,S^1}</script>.</p>
+
+<p>Given such a spectrum, we can form <script type="math/tex">X^{C_{p^n}}</script>, which can be defined
+inductively:</p>
+
+<script type="math/tex; mode=display">X^{C_{p^n}} \simeq X \times_{X^{tC_p}} (X^{C_{p^{n-1}}})^{hC_p}.</script>
+
+<p>There is an obvious restriction map <script type="math/tex">X^{C_{p^n}} \to X^{C_{p^{n-1}}}</script>, and we
+can take the inverse limit of this diagram: this defines <script type="math/tex">\TR(X)</script>.  Note that,
+by construction, <script type="math/tex">\TR(X)^{C_p} \simeq \TR(X)</script>. It is a little painful to write
+it out on the blog platform, but there are maps</p>
+
+<script type="math/tex; mode=display">\TR(X)_{hC_p} \xrightarrow{\V} \TR(X), \ \TR(X) \xrightarrow{\F}
+\TR(X)^{hC_p},</script>
+
+<p>which are the Verschiebung and Frobenius, respectively. So <script type="math/tex">\TR(X)</script> is a
+<script type="math/tex">p</script>-typical topological Cartier module (we discussed this a bit <a href="/blog/algebraic-topology/2020/06/28/tr.html">last
+time</a>). Given a (<script type="math/tex">p</script>-typical)
+topological Cartier module <script type="math/tex">M</script>, we can consider the cofiber <script type="math/tex">M/\V =
+\mathrm{cofib}(\V:M_{hC_p} \to M)</script>. One can see, by drawing some diagrams, that
+this is actually a (<script type="math/tex">p</script>-typical) cyclotomic spectrum. Moreover, there is a
+canonical map <script type="math/tex">\TR(X)/\V \to X</script>, which is an equivalence iff <script type="math/tex">\TR(X)^{tC_p}
+\to X^{tC_p}</script> is an equivalence, which happens if <script type="math/tex">X</script> is bounded below. We
+therefore have functors</p>
+
+<script type="math/tex; mode=display">\TCart_p \xrightarrow{/\V} \Cyc_p, \ \Cyc_p \xrightarrow{\TR} \TCart_p.</script>
+
+<p>Antieau-Nikolaus show that the functor <script type="math/tex">-/\V</script> is left adjoint to <script type="math/tex">\TR</script>.</p>
+
+<p>If <script type="math/tex">\cC</script> is a stable <script type="math/tex">\infty</script>-category with t-structure, we let <script type="math/tex">\cC^-</script>
+denote the subcategory of bounded below objects. A topological Cartier module
+<script type="math/tex">M\in \TCart_p</script> is said to be <script type="math/tex">\V</script>-complete if the inverse limit of the
+diagram defined by the maps <script type="math/tex">\V: M_{hC_{p^n}} \to M_{hC_{p^{n-1}}}</script> is
+contractible. Then, the functor <script type="math/tex">\TR:\Cyc_p^- \to \TCart_p^-</script> is fully
+faithful, with essential image given by the bounded below <script type="math/tex">\V</script>-complete
+topological Cartier modules.</p>
+
+<p>Just like there is a definition of genuine cyclotomic spectra (which is
+equivalent to the Nikolaus-Scholze definition of cyclotomic spectra), there is
+also a definition of genuine topological Cartier modules, given by
+<script type="math/tex">\TCart_p^\gen = (\Sp_p^{\gen, S^1})^{(-)^{C_p}}</script>, i.e., the fixed points for
+<script type="math/tex">(-)^{C_p}</script> on genuine <script type="math/tex">S^1</script>-spectra. There is an equivalence
+<script type="math/tex">\TCart_p^\gen \simeq \TCart_p</script>.</p>
+
+<p>The maxim of this post is that this equivalence is exactly like the equivalence
+<script type="math/tex">\DC_\str \simeq \D(\Z)_p^{\eta_p}</script>. First, let us make some observations. The
+discussion in Section 3.5 of Antieau-Nikolaus shows that if <script type="math/tex">M</script> is a
+topological Cartier module, then <script type="math/tex">\pi_\ast M</script> is a Cartier complex (we
+discussed some of this <a href="/blog/algebraic-topology/2020/06/28/tr.html">last
+time</a>).  If we further ask that
+<script type="math/tex">M</script> be a <script type="math/tex">\TR(k)</script>-module in topological Cartier modules, then <script type="math/tex">\pi_\ast M</script>
+is actually a Dieudonne complex. It is not necessarily strict, of course. But if
+<script type="math/tex">M</script> is a <script type="math/tex">V</script>-complete bounded below topological Cartier module, then its
+homotopy groups are derived <script type="math/tex">\V</script>-complete as Cartier modules (3.28 in
+Antieau-Nikolaus), and hence <script type="math/tex">\pi_\ast M</script> is a <script type="math/tex">\V+d\V</script>-complete Cartier
+complex (by 3.39 in Antieau-Nikolaus). So, the map <script type="math/tex">\pi_\ast M \to (\pi_\ast
+M)^\wedge_{\V+d\V}</script> is an equivalence. Therefore <script type="math/tex">\pi_\ast M</script> is strict iff
+it is saturated, i.e., iff</p>
+
+<script type="math/tex; mode=display">\F: \pi_n M \xrightarrow{\cong} \{x\in \pi_n M | dx\in p \pi_{n+1} M\}.</script>
+
+<p>This is not necessarily the case for a general topological Cartier module <script type="math/tex">M</script>.
+But if <script type="math/tex">M</script> is <script type="math/tex">\TR(R)</script> for a smooth <script type="math/tex">\FF_p</script>-algebra <script type="math/tex">R</script>, then <script type="math/tex">M</script> is
+bounded below and <script type="math/tex">\V</script>-complete, and <script type="math/tex">\pi_\ast M \cong W\Omega^\ast_R</script> as
+Cartier complexes. Then Equation I.3.21.1.5 from
+<a href="http://www.numdam.org/article/ASENS_1979_4_12_4_501_0.pdf">here</a> shows that
+<script type="math/tex">\pi_\ast M</script> is saturated, hence strict.</p>
+
+<p>Next, there is a functor <script type="math/tex">\DA_\str \to \CAlg(\FF_p)</script> given by sending <script type="math/tex">A</script> to
+<script type="math/tex">A^0/\V</script>, where <script type="math/tex">\DA_\str</script> is the category of strict Dieudonne algebras. By
+Corollary 4.1.5 of Bhatt-Lurie-Mathew, there is a left adjoint <script type="math/tex">\CAlg(\FF_p)\to
+\DA_\str</script>, given by forming the “saturated de Rham-Witt complex” (which we will
+not define here). This is precisely the algebraic incarnation of the adjunction
+between <script type="math/tex">-/\V</script> and <script type="math/tex">\TR</script> on cyclotomic spectra and topological Cartier
+modules.</p>
+
+<p>So, there are functors <script type="math/tex">\Sp_p^{\gen, S^1} \to \D(\Z)</script> (given by the
+differential on the homotopy groups of any <script type="math/tex">S^1</script>-spectrum, genuine or not) and
+<script type="math/tex">\TCart_p \to \DC</script> (at least for odd <script type="math/tex">p</script>, because then the Hopf map <script type="math/tex">\eta</script>
+is zero, and we get a genuine differential on the homotopy groups of an
+<script type="math/tex">S^1</script>-spectrum). This fits into a commutative diagram that I tried to draw on
+this blog but failed. Basically, in the notation introduced briefly above,
+<script type="math/tex">\phi_n(M)</script> is like taking strict <script type="math/tex">C_{p^n}</script>-fixed points. To write down a
+more precise relationship between the fixed points of <script type="math/tex">(-)^{C_p}</script> and
+<script type="math/tex">\eta_p</script>, we should ask: given a “nice” <script type="math/tex">S^1</script>-spectrum <script type="math/tex">Y</script>, how does the
+complex <script type="math/tex">\pi_\ast(Y^{C_p})</script> relate to <script type="math/tex">\eta_p \pi_\ast(Y)</script>? The “nice”-ness
+here is supposed to mirror the condition of being <script type="math/tex">p</script>-torsion-free. In other
+words, is <script type="math/tex">Y^{C_p}</script> obtained by some sort of decalage of <script type="math/tex">Y</script>?</p>
+
+<p>I believe the answer is yes, and should go as follows. Suppose <script type="math/tex">Y</script> is
+<script type="math/tex">p</script>-torsion-free, i.e., the map <script type="math/tex">p:Y\to Y</script> is an equivalence (of
+<script type="math/tex">S^1</script>-spectra). Consider the filtered <script type="math/tex">S^1</script>-spectrum <script type="math/tex">\Res_{p^\star} Y</script>
+given by</p>
+
+<script type="math/tex; mode=display">\cdots \to \Res_{p^2} Y \to \Res_p Y\to Y \to \Res_{-p} Y \to \cdots,</script>
+
+<p>where <script type="math/tex">\Res_p Y</script> is given by restriction of the <script type="math/tex">S^1</script>-action via the degree
+<script type="math/tex">p</script> map <script type="math/tex">S^1\to S^1</script>, and the map <script type="math/tex">\Res_p Y\to Y</script> is adjoint to the
+composite <script type="math/tex">Y\to Y_{hC_p} \xrightarrow{\mathrm{Nm}_{C_p}} Y^{hC_p}</script>. There is a
+t-structure on genuine <script type="math/tex">S^1</script>-spectra, given by declaring that an object <script type="math/tex">X</script>
+is connective (resp. coconnective) if <script type="math/tex">X^{C_{p^n}}</script> is connective (resp.
+coconnective) for each <script type="math/tex">n\geq 0</script>. We can then take the connective cover in the
+resulting Beilinson t-structure on filtered genuine <script type="math/tex">S^1</script>-spectra, i.e.,
+define</p>
+
+<script type="math/tex; mode=display">\eta_{C_p} Y := \tau_{\geq 0}^\mathrm{B}(\Res_{p^\star} Y)(\infty).</script>
+
+<p>Is it reasonable to think that, at least if <script type="math/tex">Y</script> is connective, this
+<script type="math/tex">S^1</script>-spectrum <script type="math/tex">\eta_{C_p} Y</script> is equivalent to <script type="math/tex">Y^{C_p}</script>? This should be a
+consequence of the fact that</p>
+
+<script type="math/tex; mode=display">Y^{C_p} \simeq \Map_{\Sp_p^{\gen, S^1}}(\Sigma^\infty_+ S^1/C_p, Y).</script>
+
+  </div><a class="u-url" href="/blog/algebraic-geometry/2020/07/08/leta.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Sanath Devalapurkar&#39;s home page</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Sanath Devalapurkar&#39;s home page</li><li><a class="u-email" href="mailto:sdevalapurkar@math.harvard.edu">sdevalapurkar@math.harvard.edu</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>Graduate student in math at Harvard.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

@@ -20,7 +20,7 @@ src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLor
 <table width="100%" cellspacing="0" cellpadding="0">
 <tbody><tr>
 <td width = "37.5%">
-<img style="display: block; margin: auto;" alt="photo" src="/assets/starbucks.jpg">
+<img style="display: block; margin: auto;" alt="photo" src="/assets/bagel-bite.jpg">
 </td>
 <td>
 <p>
@@ -41,9 +41,11 @@ find me there this year.</li>
 href="https://mathoverflow.net/users/102390/skd">MathOverflow</a>.</li>
 </ul>
 <p>
-Here are the <a href="courses.html">courses</a> that I've taken, as well as a
-<a href="/blog/">blog</a> (which I have been
-horrible about updating).
+Here is a <a href="/blog/">blog</a> (which I have been horrible about updating).
+</p>
+<p>
+In <b>Summer 2021</b>, I'm planning on organizing a seminar on quantization. The
+website is <b><a href="quantization.html">here</a></b>.
 </p>
 </td>
 </tr>
@@ -165,6 +167,18 @@ Tech</i>.
 
 <h3>Notes</h3>
 
+* <a href="/files/fgv.pdf">Divisibility of Chern numbers of PPAVs</a>. Notes for
+  a talk at Juvitop on <a
+href="https://www.mit.edu/~fengt/Galois_action_on_KSp.pdf">Feng-Galatius-Venkatesh</a>.
+Last update: April 2021.
+* <a href="/files/Rochester-talk.pdf">Chromatic analogues of the
+  Hopkins-Mahowald theorem</a>. Handwritten slides used for a talk at the <a
+href="http://www.sas.rochester.edu/mth/news-events/events/topology-seminars.html">Rochester
+topology seminar</a>. Last update: March 2021.
+* <a href="/files/nilp-hecke.pdf">Nilpotent singular support and the Hecke
+  action</a>. Incomplete notes for two talks at the Langlands Support Group on
+<a href="https://arxiv.org/abs/1908.05420">GKRV</a> and <a
+href="https://arxiv.org/abs/2010.01906">AGKSRV</a>. Last update: March 2021.
 * <a href="/files/adic.pdf">Discrete adic spaces</a>. Notes for a talk on
   discrete adic spaces for the <a href =
 "https://eldenelmanto.com/condensed-thursday/">Thursday seminar</a> on condensed
