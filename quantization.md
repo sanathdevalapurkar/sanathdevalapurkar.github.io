@@ -30,4 +30,17 @@ type up lecture notes and post them on this page.
 
 <hr>
 
-<a href="/files/lecture-1.pdf">Lecture 1: overview</a> (June 6).
+<a href="/files/lecture-1.pdf">Lecture 1: overview</a> (June 8).
+
+Lecture 2: Kontsevich's theorem, part one (Charles Fu) (June 15).
+
+Lecture 3: Kontsevich's theorem, part two (Ben Gammage) (June 22).
+
+Lecture 4: Bogomolov-Tian-Todorov, following Katzarkov-Kontsevich-Pantev (June
+29).
+
+Lecture 5: Hodge-de Rham degeneration, classical and homotopical (July 6).
+
+Lecture 6: Koszul duality and deformation quantization (July 13).
+
+Lecture 7: TBA (July 20).
