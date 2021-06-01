@@ -39,8 +39,8 @@ Lecture 3: Kontsevich's theorem, part two (Ben Gammage) (June 22).
 Lecture 4: Bogomolov-Tian-Todorov, following Katzarkov-Kontsevich-Pantev (June
 29).
 
-Lecture 5: Hodge-de Rham degeneration, classical and homotopical (July 6).
+Lecture 5: Hodge-de Rham degeneration (July 6).
 
-Lecture 6: Koszul duality and deformation quantization (July 13).
+Lecture 6: Noncommutative Hodge-de Rham degeneration (July 13).
 
-Lecture 7: TBA (July 20).
+Lecture 7: Koszul duality and deformation quantization (July 20).
