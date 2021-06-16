@@ -30,17 +30,35 @@ type up lecture notes and post them on this page.
 
 <hr>
 
-<a href="/files/lecture-1.pdf">Lecture 1: overview</a> (June 8).
+<a href="/files/summer-21/lecture-1.pdf">Lecture 1: overview</a> (June 8).
 
-Lecture 2: Kontsevich's theorem, part one (Charles Fu) (June 15).
+<a href="/files/summer-21/charles-notes-lecture-2.pdf">Lecture 2: Kontsevich's
+theorem, part one</a> (Charles Fu) (June 15). These are <a
+href="/files/summer-21/lecture-2.pdf">my own notes</a>, written independently
+and covering less ground than Charles' notes.
 
 Lecture 3: Kontsevich's theorem, part two (Ben Gammage) (June 22).
 
-Lecture 4: Bogomolov-Tian-Todorov, following Katzarkov-Kontsevich-Pantev (June
-29).
+<a href="/files/summer-21/lecture-4.pdf">Lecture 4: Bogomolov-Tian-Todorov,
+following Katzarkov-Kontsevich-Pantev</a> (June 29).
 
-Lecture 5: Hodge-de Rham degeneration (July 6).
+<a href="/files/summer-21/lecture-5.pdf">Lecture 5: Hodge-de Rham
+degeneration</a> (July 6).
 
-Lecture 6: Noncommutative Hodge-de Rham degeneration (July 13).
+<a href="/files/summer-21/lecture-6.pdf">Lecture 6: Noncommutative Hodge-de Rham
+degeneration</a> (July 13).
 
-Lecture 7: Koszul duality and deformation quantization (July 20).
+<a href="/files/summer-21/lecture-7.pdf">Lecture 7: Cyclotomic spectra</a> (July
+20).
+
+<a href="/files/summer-21/lecture-8.pdf">Lecture 8: Bogomolov-Tian-Todorov in
+characteristic p</a> (July 27).
+
+<a href="/files/summer-21/lecture-9.pdf">Lecture 9: Koszul duality and
+deformation quantization</a> (August 3).
+
+<a href="/files/summer-21/lecture-10.pdf">Lecture 10: Nekrasov's
+Omega-deformation</a> (August 10).
+
+<a href="/files/summer-21/lecture-11.pdf">Lecture 11: Frobenius-constant
+quantizations</a> (August 17).
