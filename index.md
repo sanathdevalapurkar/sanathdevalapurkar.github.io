@@ -167,6 +167,14 @@ Tech</i>.
 
 <h3>Notes</h3>
 
+The usual warning holds: many of these documents have not been proofread, so
+there's a chance they contain mistakes. Caveat lector! Please send me an email
+if you have any comments on these documents.
+
+* <a href="/files/morava-k-thy-floer.pdf">Morava K-theory and Poincare
+  duality</a>. Notes for a talk at the outdoor symplectic seminar on <a
+href="https://arxiv.org/abs/2103.01507">Abouzaid-Blumberg</a>.  Last update:
+June 2021.
 * <a href="/files/fgv.pdf">Divisibility of Chern numbers of PPAVs</a>. Notes for
   a talk at Juvitop on <a
 href="https://www.mit.edu/~fengt/Galois_action_on_KSp.pdf">Feng-Galatius-Venkatesh</a>.
