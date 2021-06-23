@@ -37,7 +37,8 @@ theorem, part one</a> (Charles Fu) (June 15). These are <a
 href="/files/summer-21/lecture-2.pdf">my own notes</a>, written independently
 and covering less ground than Charles' notes.
 
-Lecture 3: Kontsevich's theorem, part two (Ben Gammage) (June 22).
+<a href="/files/summer-21/benG-notes-lecture-3.pdf">Lecture 3: Kontsevich's
+theorem, part two</a> (Ben Gammage) (June 22).
 
 <a href="/files/summer-21/lecture-4.pdf">Lecture 4: Bogomolov-Tian-Todorov,
 following Katzarkov-Kontsevich-Pantev</a> (June 29).
