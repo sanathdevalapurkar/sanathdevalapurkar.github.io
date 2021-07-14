@@ -33,12 +33,13 @@ type up lecture notes and post them on this page.
 <a href="/files/summer-21/lecture-1.pdf">Lecture 1: overview</a> (June 8).
 
 <a href="/files/summer-21/charles-notes-lecture-2.pdf">Lecture 2: Kontsevich's
-theorem, part one</a> (Charles Fu) (June 15). These are <a
-href="/files/summer-21/lecture-2.pdf">my own notes</a>, written independently
-and covering less ground than Charles' notes.
+theorem, part one</a> (<a href="http://people.math.harvard.edu/~yfu/">Charles
+Fu</a>) (June 15). These are <a href="/files/summer-21/lecture-2.pdf">my own
+notes</a>, written independently and covering less ground than Charles' notes.
 
 <a href="/files/summer-21/benG-notes-lecture-3.pdf">Lecture 3: Kontsevich's
-theorem, part two</a> (Ben Gammage) (June 22).
+theorem, part two</a> (<a href="http://people.math.harvard.edu/~gammage/">Ben
+Gammage</a>) (June 22).
 
 <a href="/files/summer-21/lecture-4.pdf">Lecture 4: Bogomolov-Tian-Todorov,
 following Katzarkov-Kontsevich-Pantev</a> (June 29).
@@ -52,8 +53,8 @@ degeneration</a> (July 13).
 <a href="/files/summer-21/lecture-7.pdf">Lecture 7: Cyclotomic spectra</a> (July
 20).
 
-<a href="/files/summer-21/lecture-8.pdf">Lecture 8: Bogomolov-Tian-Todorov in
-characteristic p</a> (July 27).
+<a href="/files/summer-21/lecture-8.pdf">Lecture 8: The
+Katzarkov-Kontsevich-Pantev proposition in characteristic p</a> (July 27).
 
 <a href="/files/summer-21/lecture-9.pdf">Lecture 9: Koszul duality and
 deformation quantization</a> (August 3).
@@ -63,3 +64,15 @@ Omega-deformation</a> (August 10).
 
 <a href="/files/summer-21/lecture-11.pdf">Lecture 11: Frobenius-constant
 quantizations</a> (August 17).
+
+<a href="/files/summer-21/lecture-12.pdf">Lecture 12: Cyclotomic structures and
+Frobenius-constant quantizations</a> (August 24).
+
+<a href="/files/summer-21/lecture-13.pdf">Lecture 13: The Kontsevich-Soibelman
+operad</a> (August 31).
+
+Lectures ≥14: Applications (BFN Coulomb branch, integrable systems; or in a more
+algebraic direction: partition Lie algebras, discussion around the p-curvature
+conjecture, etc.). Whether this happens depends on interest, and whether it is
+logistically feasible (since the Fall semester at Harvard starts on September
+1). If not, I will try to write up notes anyway and post them here.
