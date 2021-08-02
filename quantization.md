@@ -26,53 +26,41 @@ topics</a></b>.
 
 The meetings will be on Zoom (email me if you are interested in joining), but
 let me know if you are in Cambridge and would like to talk in person. I will
-type up lecture notes and post them on this page.
+type up notes and post them on this page. Warning: there are almost certainly
+mistakes in these notes!
 
 <hr>
 
-<a href="/files/summer-21/lecture-1.pdf">Lecture 1: overview</a> (June 8).
+<a href="/files/summer-21/lecture-1.pdf">Talk 1: overview</a> (June 8).
 
-<a href="/files/summer-21/charles-notes-lecture-2.pdf">Lecture 2: Kontsevich's
+<a href="/files/summer-21/charles-notes-lecture-2.pdf">Talk 2: Kontsevich's
 theorem, part one</a> (<a href="http://people.math.harvard.edu/~yfu/">Charles
 Fu</a>) (June 15). These are <a href="/files/summer-21/lecture-2.pdf">my own
 notes</a>, written independently and covering less ground than Charles' notes.
 
-<a href="/files/summer-21/benG-notes-lecture-3.pdf">Lecture 3: Kontsevich's
+<a href="/files/summer-21/benG-notes-lecture-3.pdf">Talk 3: Kontsevich's
 theorem, part two</a> (<a href="http://people.math.harvard.edu/~gammage/">Ben
 Gammage</a>) (June 22).
 
-<a href="/files/summer-21/lecture-4.pdf">Lecture 4: Bogomolov-Tian-Todorov,
+<a href="/files/summer-21/lecture-4.pdf">Talk 4: Bogomolov-Tian-Todorov,
 following Katzarkov-Kontsevich-Pantev</a> (June 29).
 
-<a href="/files/summer-21/lecture-5.pdf">Lecture 5: Hodge-de Rham
+<a href="/files/summer-21/lecture-5.pdf">Talk 5: Hodge-de Rham
 degeneration</a> (July 6).
 
-<a href="/files/summer-21/lecture-6.pdf">Lecture 6: Noncommutative Hodge-de Rham
+<a href="/files/summer-21/lecture-6.pdf">Talk 6: Noncommutative Hodge-de Rham
 degeneration</a> (July 13).
 
-<a href="/files/summer-21/lecture-7.pdf">Lecture 7: Cyclotomic spectra</a> (July
+<a href="/files/summer-21/lecture-7.pdf">Talk 7: Cyclotomic spectra</a> (July
 20).
 
-<a href="/files/summer-21/lecture-8.pdf">Lecture 8: The
-Katzarkov-Kontsevich-Pantev proposition in characteristic p</a> (July 27).
+Talk 8: ... (July 27).
 
-<a href="/files/summer-21/lecture-9.pdf">Lecture 9: Koszul duality and
-deformation quantization</a> (August 3).
+Talk 9: Koszul duality and deformation quantization (August 3).
 
-<a href="/files/summer-21/lecture-10.pdf">Lecture 10: Nekrasov's
-Omega-deformation</a> (August 10).
+Talk 10: Nekrasov's
+Omega-deformation (August 10).
 
-<a href="/files/summer-21/lecture-11.pdf">Lecture 11: Frobenius-constant
-quantizations</a> (August 17).
+Talk 11: Frobenius-constant quantizations (August 17).
 
-<a href="/files/summer-21/lecture-12.pdf">Lecture 12: Cyclotomic structures and
-Frobenius-constant quantizations</a> (August 24).
-
-<a href="/files/summer-21/lecture-13.pdf">Lecture 13: The Kontsevich-Soibelman
-operad</a> (August 31).
-
-Lectures ≥14: Applications (BFN Coulomb branch, integrable systems; or in a more
-algebraic direction: partition Lie algebras, discussion around the p-curvature
-conjecture, etc.). Whether this happens depends on interest, and whether it is
-logistically feasible (since the Fall semester at Harvard starts on September
-1). If not, I will try to write up notes anyway and post them here.
+TBD

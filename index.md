@@ -169,7 +169,7 @@ Tech</i>.
 
 The usual warning holds: many of these documents have not been proofread, so
 there's a chance they contain mistakes. Caveat lector! Please send me an email
-if you have any comments on these documents.
+if you have any comments.
 
 * <a href="/files/morava-k-thy-floer.pdf">Morava K-theory and Poincare
   duality</a>. Notes for a talk at the outdoor symplectic seminar on <a
@@ -196,13 +196,11 @@ math. Last update: November 2020.
 on higher chromatic Thom spectra. Last update: August 2020.
 * <a href="/files/balmer.pdf">The Balmer spectra of spectral stacks</a>. Proves
   that the Balmer spectrum of nice spectral algebraic stacks separates into a
-"homotopy-theoretic" part and an "algebro-geometric" part. Last update: May
-2020.
+"homotopy-theoretic" part and an "algebro-geometric" part. Writing a more
+detailed note, so I've temporarily taken this link down.
 * <a href="/files/btt.pdf">The Bogmolov-Tian-Todorov theorem</a>, notes on the
   Bogomolov-Tian-Todorov theorem in characteristic zero and characteristic p.
-Proves a generalization of this theorem to the noncommutative setting (in
-arbitrary characteristic), as the formality of a certain dg-Lie algebra. Last
-update: June 2020.
+Writing a more detailed note, so I've temporarily taken this link down.
 * <a href="/files/nah.pdf">The nonabelian Hodge correspondence</a>, notes for a
   talk given for <a href="https://murmuno.mit.edu/coronags">CORONAGS (Corona
 Outbreak-Response Omnipresent (Noncommutative) Algebraic Geometry Seminar)</a>.
