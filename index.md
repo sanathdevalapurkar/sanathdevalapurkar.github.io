@@ -24,18 +24,17 @@ src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLor
 </td>
 <td>
 <p>
-I'm a first-year graduate student at Harvard. I'm broadly interested in
+I'm a second-year graduate student at Harvard. I'm broadly interested in
 algebraic topology and arithmetic geometry, but my interests are constantly
 changing. Outside of math, I spend a bunch of time playing the drums, listening
-to instrumental prog metal, biking, and playing basketball.
+to (mostly instrumental) prog metal, and playing basketball.
 
 I was an undergraduate at MIT, where I majored in math (course 18) and minored
 in physics (course 8).
 </p>
 <ul>
 <li><b>Email address:</b> sdevalapurkar[at]math[dot]harvard[dot]edu.</li>
-<li>Apparently I've got an office in SC 333f, but it seems unlikely that you'd
-find me there this year.</li>
+<li>My office is SC 333f.</li>
 <li><b>CV: </b><a href="/files/resume.pdf">[pdf]</a></li>
 <li>I'm also on <a
 href="https://mathoverflow.net/users/102390/skd">MathOverflow</a>.</li>
@@ -44,7 +43,7 @@ href="https://mathoverflow.net/users/102390/skd">MathOverflow</a>.</li>
 Here is a <a href="/blog/">blog</a> (which I have been horrible about updating).
 </p>
 <p>
-In <b>Summer 2021</b>, I'm planning on organizing a seminar on quantization. The
+In <b>Summer 2021</b>, I'm running a seminar on (deformation) quantization. The
 website is <b><a href="quantization.html">here</a></b>.
 </p>
 </td>
