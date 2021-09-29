@@ -43,7 +43,7 @@ href="https://mathoverflow.net/users/102390/skd">MathOverflow</a>.</li>
 Here is a <a href="/blog/">blog</a> (which I have been horrible about updating).
 </p>
 <p>
-In <b>Summer 2021</b>, I'm running a seminar on (deformation) quantization. The
+In <b>Summer 2021</b>, I ran a seminar on (deformation) quantization. The
 website is <b><a href="quantization.html">here</a></b>.
 </p>
 </td>
@@ -62,6 +62,13 @@ $$S^1$$-action. In characteristic $$p$$, this can be refined further: restricted
 deformation quantization can roughly be viewed as the datum of an $$S^1$$-action
 along with a cyclotomic structure. Applications to the deformation theory of
 schemes are discussed.
+
+* Loop groups and intertwining of positive-energy representations (2021). Last
+  update: September 2021.  Chapter 22 of <a
+href="https://arxiv.org/abs/2109.12250">this book</a>.<br>
+A brief introduction to representations of loop groups; in particular, focusing
+on a theorem of Pressley-Segal stating that any positive-energy representation
+of LG extends to a projective intertwining action of Diff^+(S^1).
 
 * <a href="/files/ehp.pdf">On the James and Hilton-Milnor Splittings, and the
   metastable EHP sequence (2019)</a>, joint with <a
@@ -217,9 +224,6 @@ representation theory. Last update: March 2020.
   href="/files/mahowald-unell-bott.pdf">Bott Periodicity at the Prime 2 in the
 Unstable Homotopy of Spheres</a>. Thanks to Peter May for providing the (sole
 surviving?) physical copy.
-* <a href="/files/loop-group.pdf">Loop groups and their representations</a>,
-  notes for a talk given at <a href="http://math.mit.edu/juvitop/">Juvitop</a>.
-Last update: November 2019. Has some errors that I'll fix soon.
 * <a href="/files/final-paper.pdf">Dynamical properties of quantum systems with
   fractional statistics</a>, final paper for 8.06 (quantum mechanics III). Last
 update: April 2019.

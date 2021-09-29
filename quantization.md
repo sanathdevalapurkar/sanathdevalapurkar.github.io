@@ -27,7 +27,8 @@ topics</a></b>.
 The meetings will be on Zoom (email me if you are interested in joining), but
 let me know if you are in Cambridge and would like to talk in person. I will
 type up notes and post them on this page. Warning: there are almost certainly
-mistakes in these notes!
+mistakes in these notes! (I do have typed notes for Talks 8 and 12 below, but
+I'm not planning to post them here.)
 
 <hr>
 
@@ -54,13 +55,19 @@ degeneration</a> (July 13).
 <a href="/files/summer-21/lecture-7.pdf">Talk 7: Cyclotomic spectra</a> (July
 20).
 
-Talk 8: ... (July 27).
+Talk 8: Miscellanea on KKP (July 27).
 
-Talk 9: Koszul duality and deformation quantization (August 3).
+<a href="/files/summer-21/lecture-9.pdf">Talk 9: Koszul duality and deformation
+quantization</a> (August 3).
 
-Talk 10: Nekrasov's
-Omega-deformation (August 10).
+<a href="/files/summer-21/lecture-10.pdf">Talk 10: Nekrasov's
+Omega-deformation</a> (August 10).
 
-Talk 11: Frobenius-constant quantizations (August 17).
+<a href="/files/summer-21/lecture-11.pdf">Talk 11: Frobenius-constant
+quantizations</a> (August 17).
 
-TBD
+Talk 12: Weak cyclotomic structures and Frobenius-constant quantizations (August
+24).
+
+Talk 13: Partition Lie algebras (<a
+href="https://people.maths.ox.ac.uk/brantner/">Lukas Brantner</a>) (August 31).
