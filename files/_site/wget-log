@@ -1,0 +1,8 @@
+Will not apply HSTS. The HSTS database must be a regular and non-world-writable file.
+ERROR: could not open HSTS store at '/home/skd/.wget-hsts'. HSTS will be disabled.
+--2021-10-07 18:11:40--  https://www.overleaf.com/download/project/6159f310401c11f96d89c8b7/build/17c5ccf2d22-da6305d3ae990b05/output/output.pdf?compileGroup=priority
+Resolving www.overleaf.com (www.overleaf.com)... 34.120.186.93
+Connecting to www.overleaf.com (www.overleaf.com)|34.120.186.93|:443... connected.
+HTTP request sent, awaiting response... 403 Forbidden
+2021-10-07 18:11:40 ERROR 403: Forbidden.
+

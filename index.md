@@ -177,6 +177,9 @@ The usual warning holds: many of these documents have not been proofread, so
 there's a chance they contain mistakes. Caveat lector! Please send me an email
 if you have any comments.
 
+* <a href="/files/regular-centralizers-talk.pdf">Nonabelian Fourier
+  transform/bi-Whittaker reduction</a>. Notes for a talk at a seminar on the
+universal regular centralizer group scheme.  Last update: October 2021.
 * <a href="/files/morava-k-thy-floer.pdf">Morava K-theory and Poincare
   duality</a>. Notes for a talk at the outdoor symplectic seminar on <a
 href="https://arxiv.org/abs/2103.01507">Abouzaid-Blumberg</a>.  Last update:
