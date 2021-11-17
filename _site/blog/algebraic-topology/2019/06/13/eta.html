@@ -13,9 +13,9 @@
 <meta property="og:url" content="http://localhost:4000/blog/algebraic-topology/2019/06/13/eta.html" />
 <meta property="og:site_name" content="Sanath Devalapurkar’s home page" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2019-06-13T00:00:00-04:00" />
+<meta property="article:published_time" content="2019-06-13T00:00:00-07:00" />
 <script type="application/ld+json">
-{"url":"http://localhost:4000/blog/algebraic-topology/2019/06/13/eta.html","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/blog/algebraic-topology/2019/06/13/eta.html"},"description":"Graduate student in math at Harvard.","headline":"Mahowald’s eta_j family","dateModified":"2019-06-13T00:00:00-04:00","datePublished":"2019-06-13T00:00:00-04:00","@type":"BlogPosting","@context":"https://schema.org"}</script>
+{"url":"http://localhost:4000/blog/algebraic-topology/2019/06/13/eta.html","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/blog/algebraic-topology/2019/06/13/eta.html"},"description":"Graduate student in math at Harvard.","headline":"Mahowald’s eta_j family","dateModified":"2019-06-13T00:00:00-07:00","datePublished":"2019-06-13T00:00:00-07:00","@type":"BlogPosting","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Sanath Devalapurkar's home page" /></head>
 <body><header class="site-header" role="banner">
@@ -40,7 +40,7 @@
   <header class="post-header">
     <h1 class="post-title p-name" itemprop="name headline">Mahowald&#39;s eta_j family</h1>
     <p class="post-meta">
-      <time class="dt-published" datetime="2019-06-13T00:00:00-04:00" itemprop="datePublished">Jun 13, 2019
+      <time class="dt-published" datetime="2019-06-13T00:00:00-07:00" itemprop="datePublished">Jun 13, 2019
       </time></p>
   </header>
 
@@ -112,8 +112,9 @@ the <script type="math/tex">2</script>-line of the Adams spectral sequence by <s
 <script type="math/tex">h_1 h_3</script> and <script type="math/tex">\beta_{2^{j-2}/2^{j-2}-1}</script> maps to <script type="math/tex">h_1 h_j</script> for <script type="math/tex">j\geq
 4</script>.</p>
 
-<p>I just want to record the observation that <script type="math/tex">\eta_j</script> is detected by
-<script type="math/tex">\BP_\RR^{hC_2}</script>. The proof follows <a href="https://arxiv.org/pdf/1707.03438.pdf">this
+<p>I just want to record the observation that <script type="math/tex">\eta_j</script> is <em>not</em> detected by
+<script type="math/tex">\BP_\RR^{hC_2}</script>. (Thanks to Mingcong Zeng for pointing out a silly error in
+the previous version of this post.) The proof follows <a href="https://arxiv.org/pdf/1707.03438.pdf">this
 paper</a>. It contains the construction of a
 map from a modified May spectral sequence (where the filtration of
 <script type="math/tex">\zeta_i^{2^j}</script> is <script type="math/tex">2^j-1</script>) to the slice spectral sequence for <script type="math/tex">\BP_\RR</script>.
@@ -124,10 +125,10 @@ spectral sequence for <script type="math/tex">\BP_\RR</script> are determined by
 
 <script type="math/tex; mode=display">d_{2^{k+1}-1}(u^{2^k})= \ol{v}_k a_\sigma^{2^{k+1}-1}</script>
 
-<p>for <script type="math/tex">k\geq 1</script>, we find that <script type="math/tex">\ol{v}_1 \ol{v}_j a_\sigma^{2^j}</script> does indeed
-survive the slice spectral sequence for <script type="math/tex">\BP_\RR</script>. Consequently, by arguing as
-in Theorem 6.3 of the cited paper, we find that <script type="math/tex">\eta_j</script> is detected by
-<script type="math/tex">\BP_\RR^{hC_2}</script>.</p>
+<p>for <script type="math/tex">k\geq 1</script>, we find that <script type="math/tex">\ol{v}_1 \ol{v}_j a_\sigma^{2^j}</script> is killed by
+a <script type="math/tex">d_3</script> on <script type="math/tex">\ol{v}_j u u_\sigma^{2^j-3}</script>. There is also nothing in
+filtration higher than <script type="math/tex">\ol{v}_1 \ol{v}_j a_\sigma^{2^j}</script> which lies in the
+same stem, so we find that <script type="math/tex">\eta_j</script> is not detected by <script type="math/tex">\BP_\RR^{hC_2}</script>.</p>
 
   </div><a class="u-url" href="/blog/algebraic-topology/2019/06/13/eta.html" hidden></a>
 </article>
