@@ -43,8 +43,8 @@ href="https://mathoverflow.net/users/102390/skd">MathOverflow</a>.</li>
 Here is a <a href="/blog/">blog</a> (which I have been horrible about updating).
 </p>
 <p>
-In <b>Summer 2021</b>, I ran a seminar on (deformation) quantization. The
-website is <b><a href="quantization.html">here</a></b>.
+In <b>Spring 2022</b>, I'm helping organize the <b><a
+href="thursday-spring-2022.html">Thursday seminar</a></b> at Harvard.
 </p>
 </td>
 </tr>
@@ -173,12 +173,36 @@ Tech</i>.
 
 ---
 
+<h3> Teaching </h3>
+
+* In Spring 2022, I'm a TA for Math 231b (Algebraic topology II) at Harvard
+  (fibrations, spectral sequences, abstract homotopy theory, rational homotopy
+theory), taught by Mike Hopkins. I'm also a mentor for a high school project via
+<a href="https://math.mit.edu/research/highschool/primes/usa/">PRIMES USA</a>.
+* In Fall 2021, I was a TA for <a
+  href="https://canvas.harvard.edu/courses/90573">Math 223a (Algebraic number
+theory) at Harvard</a> (ideal class groups, local fields, basics of local class
+field theory), taught by Mark Shusterman.
+* Every semester since Fall 2020, I've been a mentor for the <a
+  href="https://drp.math.harvard.edu/">directed reading program</a> at Harvard;
+I've mentored reading projects on surfaces and Chern classes in differential
+geometry, function fields and elliptic curves, and topological K-theory.
+
+---
+
 <h3>Notes</h3>
 
 The usual warning holds: many of these documents have not been proofread, so
 there's a chance they contain mistakes. Caveat lector! Please send me an email
 if you have any comments.
 
+* <a href="/files/six-functors-spaces.pdf">Summary of six functors for
+  spaces</a>. Miscellaneous notes on the six functor formalism for spaces. Last
+update: December 2021.
+* <a href="/files/quantum-noether-talk.pdf">The quantum Noether theorem</a>.
+  Notes for a talk at Juvitop on <a
+href="https://people.math.umass.edu/~gwilliam/factorization2.pdf">Costello-Gwilliam</a>.
+Last update: December 2021.
 * <a href="/files/regular-centralizers-talk.pdf">Nonabelian Fourier
   transform/bi-Whittaker reduction</a>. Notes for a talk at a seminar on the
 universal regular centralizer group scheme.  Last update: October 2021.
@@ -186,6 +210,8 @@ universal regular centralizer group scheme.  Last update: October 2021.
   duality</a>. Notes for a talk at the outdoor symplectic seminar on <a
 href="https://arxiv.org/abs/2103.01507">Abouzaid-Blumberg</a>.  Last update:
 June 2021.
+* In <b>Summer 2021</b>, I ran a seminar on (deformation) quantization. The
+website is <b><a href="quantization.html">here</a></b>.
 * <a href="/files/fgv.pdf">Divisibility of Chern numbers of PPAVs</a>. Notes for
   a talk at Juvitop on <a
 href="https://www.mit.edu/~fengt/Galois_action_on_KSp.pdf">Feng-Galatius-Venkatesh</a>.
