@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Thursday seminar spring 2022
 ---
 <script type="text/javascript" async=""
 src="https://www.google-analytics.com/analytics.js"></script>
@@ -24,14 +25,15 @@ We will study exponent theorems, following the work of Selick,
 Cohen-Moore-Neisendorfer, Gray, etc., as well as the more recent work of
 Arone, Heuts, Wang, and others.
 
-<b>Time and place:</b> Thursdays at 3:00 pm, in-person in SC 507.
+<b>Time and place:</b> Thursdays <b>3:30 - 5:30 pm</b>, in-person in SC 507.
+(But there may be a Zoom option, email Mike for a Zoom link.)
 
 <b>Tentative schedule:</b>
 
 | Date | Speaker | Topic |
 | --------------- | --------------- | --------------- |
-| Feb 17 | Mike Hopkins | Overview |
-| Feb 24 | TBD | Tools of unstable homotopy theory, James' 2-primary exponent theorem, Selick's theorem on $$S^3$$ |
+| Feb 17 | Mike Hopkins | Introduction and overview of exponent theorems |
+| Feb 24 | TBD | Tools of unstable homotopy theory, James' 2-primary exponent theorem, Selick's theorem on $$S^3$$ (Chapters 1-10 of Cohen's course notes) |
 | March 3 | TBD | Continuation, overview of proof of Cohen-Moore-Neisendorfer |
 | March 10 | TBD | Starting the proof of CMN: the fiber $$F^{2n+1}\{p^r\}$$ of the pinch map $$S^{2n}/p^r \to S^{2n+1}$$ |
 | March 17 | N/A | Harvard spring break |
@@ -44,6 +46,8 @@ Arone, Heuts, Wang, and others.
 <b>Resources:</b>
 
 Papers:
+* <a href = "https://www.jstor.org/stable/1969666">On the Suspension
+  Sequence</a> by James.
 * <a href = "https://www.jstor.org/stable/1971269">Torsion in Homotopy
   Groups</a> and <a href = "https://www.jstor.org/stable/1971238">The Double
 Suspension and Exponents of the Homotopy Groups of Spheres</a>, the original
@@ -72,6 +76,7 @@ cohomology</a> by Arone.
 * <a href = "https://arxiv.org/pdf/1907.13055.pdf">Lie algebra models for
   unstable homotopy theory</a> by Heuts, esp. Section 8(B).
 * <a href = "https://dspace.mit.edu/handle/1721.1/99321">Unstable chromatic homotopy theory</a> by Wang.
+* <a href = "https://arxiv.org/abs/1709.02005">On the algebras over equivariant little disks</a> by Mike Hill, on a $$C_2$$-equivariant version of the James splitting; also see <a href = "https://www.sciencedirect.com/science/article/abs/pii/S0166864120304272?via%3Dihub">$$C_2$$-equivariant James splitting and $$C_2$$-EHP sequences</a> by Yigit.
 
 Surveys of some of the older material:
 * <a href =

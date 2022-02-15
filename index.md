@@ -46,6 +46,11 @@ Here is a <a href="/blog/">blog</a> (which I have been horrible about updating).
 In <b>Spring 2022</b>, I'm helping organize the <b><a
 href="thursday-spring-2022.html">Thursday seminar</a></b> at Harvard.
 </p>
+<p>
+During parts of March and April 2022, I'll be at the <a href =
+"https://www.math.arizona.edu/~swc/index.html">Arizona Winter School</a>, and
+then visiting Northwestern for a few weeks.
+</p>
 </td>
 </tr>
 </tbody></table>
