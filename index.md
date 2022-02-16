@@ -201,6 +201,7 @@ The usual warning holds: many of these documents have not been proofread, so
 there's a chance they contain mistakes. Caveat lector! Please send me an email
 if you have any comments.
 
+* <a href="/files/triv-notions-spr-22.pdf">Mirror symmetry for toric varieties</a>. Notes for a talk at Trivial Notions at Harvard. Last update: February 2022.
 * <a href="/files/six-functors-spaces.pdf">Summary of six functors for
   spaces</a>. Miscellaneous notes on the six functor formalism for spaces. Last
 update: December 2021.
@@ -221,6 +222,7 @@ website is <b><a href="quantization.html">here</a></b>.
   a talk at Juvitop on <a
 href="https://www.mit.edu/~fengt/Galois_action_on_KSp.pdf">Feng-Galatius-Venkatesh</a>.
 Last update: April 2021.
+* <a href = "https://people.math.harvard.edu/trivial/trivial_2020-2021/2021-04-16_Sanath-Devalapurkar-notes.pdf">Periods</a>. Notes for a talk at Trivial Notions at Harvard. Last update: April 2021.
 * <a href="/files/Rochester-talk.pdf">Chromatic analogues of the
   Hopkins-Mahowald theorem</a>. Handwritten slides used for a talk at the <a
 href="http://www.sas.rochester.edu/mth/news-events/events/topology-seminars.html">Rochester
