@@ -44,12 +44,15 @@ Here is a <a href="/blog/">blog</a> (which I have been horrible about updating).
 </p>
 <p>
 In <b>Spring 2022</b>, I'm helping organize the <b><a
-href="thursday-spring-2022.html">Thursday seminar</a></b> at Harvard.
+href="thursday-spring-2022.html">Thursday seminar</a></b> at Harvard with Mike
+Hopkins.
 </p>
 <p>
 During parts of March and April 2022, I'll be at the <a href =
 "https://www.math.arizona.edu/~swc/index.html">Arizona Winter School</a>, and
-then visiting Northwestern for a few weeks.
+then <a href =
+"https://antieau.github.io/seminars/202202-topology.html">visiting
+Northwestern</a> for a few weeks.
 </p>
 </td>
 </tr>
@@ -190,8 +193,9 @@ theory) at Harvard</a> (ideal class groups, local fields, basics of local class
 field theory), taught by Mark Shusterman.
 * Every semester since Fall 2020, I've been a mentor for the <a
   href="https://drp.math.harvard.edu/">directed reading program</a> at Harvard;
-I've mentored reading projects on surfaces and Chern classes in differential
-geometry, function fields and elliptic curves, and topological K-theory.
+in chronological order, I've mentored reading projects on surfaces and Chern
+classes in differential geometry, function fields and elliptic curves,
+topological K-theory, and the cobordism hypothesis.
 
 ---
 
