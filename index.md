@@ -239,6 +239,7 @@ href="https://arxiv.org/abs/2010.01906">AGKSRV</a>. Last update: March 2021.
   discrete adic spaces for the <a href =
 "https://eldenelmanto.com/condensed-thursday/">Thursday seminar</a> on condensed
 math. Last update: November 2020.
+* <a href="/files/whitehead.pdf">Whitehead products</a>. Notes studying generalized Whitehead products following my paper with Peter Haine. Last update: September 2020.
 * <a href="/files/no-break-splitting-cobordism.pdf">Splitting cobordism
   spectra</a>. Slides for an invited talk at Tsinghua University about my work
 on higher chromatic Thom spectra. Last update: August 2020.

@@ -34,11 +34,11 @@ Arone, Heuts, Wang, and others.
 | --------------- | --------------- | --------------- |
 | Feb 17 | Mike Hopkins | Introduction and overview of exponent theorems |
 | Feb 24 | Ishan Levy; <a href = "/files/thursday-spring-2022/ishan-thursday-typed.pdf">typed notes</a> and <a href = "/files/thursday-spring-2022/ishan-thursday-handwritten.pdf">handwritten notes</a> | Tools of unstable homotopy theory, James' 2-primary exponent theorem (Chapters 1-10 of Cohen's course notes) |
-| March 3 | Paul Selick | Selick's theorem on $$S^3$$ + Gray's delooping of the fiber of $$S^{2n-1} \to \Omega^2 S^{2n+1}$$ + ... |
+| March 3 | Paul Selick; <a href = "/files/thursday-spring-2022/selick-notes.pdf">typed notes</a> | Selick's theorem on $$S^3$$ + Gray's delooping of the fiber of $$S^{2n-1} \to \Omega^2 S^{2n+1}$$ + ... |
 | March 10 | Robert Burklund | Starting the proof of CMN: the fiber $$F^{2n+1}\{p^r\}$$ of the pinch map $$S^{2n}/p^r \to S^{2n+1}$$ |
 | March 17 | N/A | Harvard spring break |
 | March 24 | Andy Senger | Continuing the proof of CMN: product decomposition of $$\Omega F^{2n+1}\{p^r\}$$ and building the map $$\phi_n: \Omega^2 S^{2n+1} \to S^{2n-1}$$ |
-| March 31 | Paul Selick | Complements: Anick spaces and the fiber of the double suspension |
+| March 31 | Paul Selick; <a href = "/files/thursday-spring-2022/selick-notes.pdf">typed notes</a> | Complements: Anick spaces and the fiber of the double suspension |
 | April 7 | Adela Zhang | EHP sequences, chromatic periodicity, and Weiss calculus following Gray and Arone |
 | April 14 | TBD | Higher chromatic exponents following Heuts and Wang |
 | April 21 | Aravind Asok/Mike Hopkins | Continuation/Motivic variants? |
