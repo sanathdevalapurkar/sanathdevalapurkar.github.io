@@ -50,9 +50,9 @@ Hopkins.
 <p>
 During parts of March and April 2022, I'll be at the <a href =
 "https://www.math.arizona.edu/~swc/index.html">Arizona Winter School</a>, and
-then <a href =
-"https://antieau.github.io/seminars/202202-topology.html">visiting
-Northwestern</a> for a few weeks.
+then <a href = "https://sites.northwestern.edu/hmgp/">visiting Northwestern</a>
+for a few weeks, where I'm giving a <a href =
+"https://antieau.github.io/seminars/202202-topology.html">talk</a>.
 </p>
 </td>
 </tr>
@@ -63,21 +63,15 @@ Northwestern</a> for a few weeks.
 <h2> Writings </h2>
 <h3>Some projects</h3>
 
-* Quantization and Koszul duality. <br>
-Discusses the theory of deformation quantization from a Koszul dual perspective,
-roughly allowing us to view deformation quantization as the datum of an
-$$S^1$$-action. In characteristic $$p$$, this can be refined further: restricted
-deformation quantization can roughly be viewed as the datum of an $$S^1$$-action
-along with a cyclotomic structure. Applications to the deformation theory of
-schemes are discussed.
+* Frobenius-constant quantizations and Koszul duality. Forthcoming. <br>
 
 * <a href="/files/diffcoh-loop-group.pdf">Loop groups and intertwining of
   positive-energy representations (2021)</a>. Last update: September 2021.
 Chapter 22 of <a href="https://arxiv.org/abs/2109.12250">this book</a>.<br>
 A brief introduction to representations of loop groups; in particular, focusing
 on a theorem of Pressley-Segal stating that any positive-energy representation
-of LG extends to a projective intertwining action of Diff^+(S^1). Edited by the
-authors of the book.
+of $$LG$$ extends to a projective intertwining action of
+$$\mathrm{Diff}^+(S^1)$$. Edited by the indicated authors of the book on arXiv.
 
 * <a href="/files/ehp.pdf">On the James and Hilton-Milnor Splittings, and the
   metastable EHP sequence (2019)</a>, joint with <a
