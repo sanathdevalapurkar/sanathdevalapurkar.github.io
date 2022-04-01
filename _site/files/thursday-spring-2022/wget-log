@@ -1,0 +1,19 @@
+Will not apply HSTS. The HSTS database must be a regular and non-world-writable file.
+ERROR: could not open HSTS store at '/home/skd/.wget-hsts'. HSTS will be disabled.
+--2022-03-31 20:13:27--  https://drive.google.com/uc?id=1Gtof9v3oOIhd2-xE6qZub0iKu8ylwye6
+Resolving drive.google.com (drive.google.com)... 142.250.191.206, 2607:f8b0:4009:80b::200e
+Connecting to drive.google.com (drive.google.com)|142.250.191.206|:443... connected.
+HTTP request sent, awaiting response... 303 See Other
+Location: https://doc-00-cc-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/g2hjm76f39unpm3sdr7ocihu70r5n5hl/1648772025000/07936848487964338492/*/1Gtof9v3oOIhd2-xE6qZub0iKu8ylwye6 [following]
+Warning: wildcards not supported in HTTP.
+--2022-03-31 20:13:28--  https://doc-00-cc-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/g2hjm76f39unpm3sdr7ocihu70r5n5hl/1648772025000/07936848487964338492/*/1Gtof9v3oOIhd2-xE6qZub0iKu8ylwye6
+Resolving doc-00-cc-docs.googleusercontent.com (doc-00-cc-docs.googleusercontent.com)... 142.250.191.97, 2607:f8b0:4009:818::2001
+Connecting to doc-00-cc-docs.googleusercontent.com (doc-00-cc-docs.googleusercontent.com)|142.250.191.97|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 227905 (223K) [application/pdf]
+Saving to: ‘selick-notes.pdf’
+
+selick-notes.pdf                0%[                                                  ]       0  --.-KB/s               selick-notes.pdf              100%[=================================================>] 222.56K  --.-KB/s    in 0.1s    
+
+2022-03-31 20:13:28 (2.06 MB/s) - ‘selick-notes.pdf’ saved [227905/227905]
+
