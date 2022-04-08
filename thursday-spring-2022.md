@@ -39,7 +39,7 @@ Arone, Heuts, Wang, and others.
 | March 17 | N/A | Harvard spring break |
 | March 24 | Andy Senger | Continuing the proof of CMN: product decomposition of $$\Omega F^{2n+1}\{p^r\}$$ and building the map $$\phi_n: \Omega^2 S^{2n+1} \to S^{2n-1}$$ |
 | March 31 | Paul Selick; <a href = "/files/thursday-spring-2022/selick-notes.pdf">typed notes</a> | Complements: Anick spaces and the fiber of the double suspension |
-| April 7 | Adela Zhang | EHP sequences, chromatic periodicity, and Weiss calculus following Gray and Arone |
+| April 7 | Adela Zhang; <a href = "/files/thursday-spring-2022/adela-weiss.pdf">handwritten notes</a> | Weiss calculus and derivatives of the identity functor |
 | April 14 | Gijs Heuts | Higher chromatic exponents following Heuts and Wang |
 | April 21 | Aravind Asok/Mike Hopkins | Continuation/Motivic variants? |
 
