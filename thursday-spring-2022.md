@@ -22,8 +22,8 @@ src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLor
 <h2>Exponent theorems in homotopy theory</h2>
 
 We will study exponent theorems, following the work of Selick,
-Cohen-Moore-Neisendorfer, Gray, etc., as well as the more recent work of
-Arone, Heuts, Wang, and others.
+Cohen-Moore-Neisendorfer, Gray, etc., as well as the more recent work of Arone,
+Heuts, Wang, and others.
 
 <b>Time and place:</b> Thursdays <b>3:30 - 5:30 pm</b>, in-person in SC 507.
 (There'll be a Zoom option, email Mike for a link.)
@@ -40,8 +40,8 @@ Arone, Heuts, Wang, and others.
 | March 24 | Andy Senger | Continuing the proof of CMN: product decomposition of $$\Omega F^{2n+1}\{p^r\}$$ and building the map $$\phi_n: \Omega^2 S^{2n+1} \to S^{2n-1}$$ |
 | March 31 | Paul Selick; <a href = "/files/thursday-spring-2022/selick-notes.pdf">typed notes</a> | Complements: Anick spaces and the fiber of the double suspension |
 | April 7 | Adela Zhang; <a href = "/files/thursday-spring-2022/adela-weiss.pdf">handwritten notes</a> | Weiss calculus and derivatives of the identity functor |
-| April 14 | Gijs Heuts | Higher chromatic exponents following Heuts and Wang |
-| April 21 | Aravind Asok/Mike Hopkins | Continuation/Motivic variants? |
+| April 14 | Gijs Heuts; <a href = "/files/thursday-spring-2022/heuts-thursday.pdf">handwritten notes</a> | Higher exponents of generalized Moore spaces |
+| April 21 | No speaker | Informal discussion session |
 
 <b>Resources:</b>
 

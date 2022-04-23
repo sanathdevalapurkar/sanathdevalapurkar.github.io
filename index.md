@@ -199,6 +199,7 @@ The usual warning holds: many of these documents have not been proofread, so
 there's a chance they contain mistakes. Caveat lector! Please send me an email
 if you have any comments.
 
+* <a href="/files/anomalies-talk.pdf">Anomalies and invertible field theories</a>. Notes for a seminar on reflection positivity at Harvard. Last update: April 2022.
 * <a href="/files/triv-notions-spr-22.pdf">Mirror symmetry for toric varieties</a>. Notes for a talk at Trivial Notions at Harvard. Last update: February 2022.
 * <a href="/files/six-functors-spaces.pdf">Summary of six functors for
   spaces</a>. Miscellaneous notes on the six functor formalism for spaces. Last
