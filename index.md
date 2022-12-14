@@ -47,18 +47,18 @@ href="https://mathoverflow.net/users/102390/skd">MathOverflow</a>.</li>
 <p>
 Here is a <a href="/blog/">blog</a> (which I have been horrible about updating).
 </p>
-<p>
+<!--<p>
 In <b>Spring 2022</b>, I helped organize the <b><a
 href="thursday-spring-2022.html">Thursday seminar</a></b> at Harvard with Mike
 Hopkins.
-</p>
-<p>
+</p>-->
+<!--<p>
 During parts of March and April 2022, I was at the <a href =
 "https://www.math.arizona.edu/~swc/index.html">Arizona Winter School</a>, and
 then <a href = "https://sites.northwestern.edu/hmgp/">visiting Northwestern</a>
 for a few weeks, where I gave a <a href =
 "https://antieau.github.io/seminars/202202-topology.html">talk</a>.
-</p>
+</p>-->
 </td>
 </tr>
 </tbody></table>
@@ -76,6 +76,9 @@ spectra $$X(p^n)$$, which played a crucial role in the Devinatz-Hopkins-Smith
 proof of the nilpotence theorem. This is used to describe a higher chromatic
 analogue of the "Sen operator" of Bhatt-Drinfeld-Lurie; their behavior is
 controlled by Cohen-Moore-Neisendorfer fibrations.-->
+
+<!--* Calculating $$\mathrm{THH}(\mathbf{Z}_p)$$ and $$\mathrm{WCart}$$.
+Forthcoming <br>-->
 
 <!--* Chromatic aberrations of the geometric Satake equivalence, I: the regular
   locus. Forthcoming <br>-->
@@ -102,14 +105,17 @@ papers.
 
 * <a href="/files/hodge.pdf">Hodge theory for elliptic curves and the Hopf
   element $$\nu$$ (2019).</a> Last update: August 2022. <a
-href="https://arxiv.org/abs/1912.02548">arXiv</a>. To appear in <i>Bull. Lond.
-Math. Soc.</i><br>
+href="https://arxiv.org/abs/1912.02548">arXiv</a>. Published in <i><a href =
+"https://londmathsoc.onlinelibrary.wiley.com/doi/10.1112/blms.12759">Bull. Lond.
+Math. Soc.</a></i><br>
 Shows that the sheaf on the moduli stack of elliptic curves associated to
 $$\nu$$ is isomorphic to the de Rham cohomology of the universal elliptic curve.
 Uses this to study the $$\mathbf{E}_1$$-quotient of $$\mathrm{tmf}$$ by $$\nu$$
 by relating it to the moduli stack of elliptic curves with a chosen splitting of
 the Hodge filtration; this results in a calculation of the resulting
-descent/Adams-Novikov spectral sequence. Latest version fixes a small
+descent/Adams-Novikov spectral sequence. This $$\mathbf{E}_1$$-quotient is a
+homotopical lift of *quasimodular forms*; the article contains a calculation of
+the *integral* ring of quasimodular forms. Latest version fixes a small
 calculational error (results remain unchanged).
 
 * <a href="/files/diffcoh-loop-group.pdf">Loop groups and intertwining of
@@ -124,7 +130,7 @@ $$\mathrm{Diff}^+(S^1)$$. Edited by the indicated authors of the book on arXiv.
   metastable EHP sequence (2019)</a>, joint with <a
 href="http://math.mit.edu/~phaine/">Peter Haine</a>. Last update: November 2020.
 <a href="https://arxiv.org/abs/1912.04130">arXiv</a>. Published in <i><a
-href="https://www.elibm.org/article/10012158">Doc. Math.</a></i>.<br>
+href="https://www.elibm.org/article/10012158">Doc. Math.</a></i><br>
 Studies the James and Hilton-Milnor splittings and the metastable EHP sequences
 in higher category theory; this allows a generalization of the James and
 Hilton-Milnor splittings to motivic spaces over any base scheme.  Two proofs of
@@ -228,6 +234,9 @@ The usual warning holds: many of these documents have not been proofread, so
 there's a chance they contain mistakes. Caveat lector! Please send me an email
 if you have any comments.
 
+* <a href = "/files/thursday-fall-2022-prismatization.pdf">Prismatization</a>.
+  Notes for a talk at the Thursday seminar at Harvard. Last update: December
+2022.
 * <a href = "/files/thursday-fall-2022.pdf">Etale comparison</a>. Notes for a
   talk at the Thursday seminar at Harvard. Last update: October 2022.
 * <a href="/files/anomalies-talk.pdf">Anomalies and invertible field theories</a>. Notes for a seminar on reflection positivity at Harvard. Last update: April 2022.
