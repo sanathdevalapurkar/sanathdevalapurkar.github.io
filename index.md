@@ -59,6 +59,12 @@ then <a href = "https://sites.northwestern.edu/hmgp/">visiting Northwestern</a>
 for a few weeks, where I gave a <a href =
 "https://antieau.github.io/seminars/202202-topology.html">talk</a>.
 </p>-->
+<p>
+This spring, I'm giving talks at <a href =
+"http://math.uchicago.edu/~algtop/">UChicago</a>, <a href =
+"https://jhu-top-seminar.github.io/">Johns Hopkins</a>, and the <a href =
+"https://perimeterinstitute.ca/mathematical-physics-0">Perimeter Institute</a>.
+</p>
 </td>
 </tr>
 </tbody></table>
@@ -68,23 +74,67 @@ for a few weeks, where I gave a <a href =
 <h2> Writings </h2>
 <h3>Some projects</h3>
 
-<!--* THH, truncated Brown-Peterson spectra, and a topological Sen operator.
-  Forthcoming
+Comments or suggestions for improving any of these documents are greatly
+appreciated!
+
+<!--* <a href = "/files/thh-Xn.pdf">Topological Hochschild homology, truncated
+  Brown-Peterson spectra, and a topological Sen operator.</a> Last update: 
+Feb 2023. <br>
 Proves a form of Bokstedt periodicity for $$\mathbf{E}_3$$-forms of a truncated
 Brown-Peterson spectrum, by studying $$\mathrm{THH}$$ relative to Ravenel's Thom
 spectra $$X(p^n)$$, which played a crucial role in the Devinatz-Hopkins-Smith
 proof of the nilpotence theorem. This is used to describe a higher chromatic
 analogue of the "Sen operator" of Bhatt-Drinfeld-Lurie; their behavior is
-controlled by Cohen-Moore-Neisendorfer fibrations.-->
+controlled by Cohen-Moore-Neisendorfer fibrations and is Koszul dual to the
+nilpotence/Ravenel filtration of $$\mathrm{MU}$$.
 
-<!--* Calculating $$\mathrm{THH}(\mathbf{Z}_p)$$ and $$\mathrm{WCart}$$.
-Forthcoming <br>-->
+* <a href = "/files/grG-regular.pdf">Chromatic aberrations of the geometric
+  Satake equivalence over the regular locus.</a> Last update: Feb 2023.<br>
+Studies the question of proving an analogue of the derived geometric Satake
+equivalence of <a href = "https://arxiv.org/abs/alg-geom/9511007">Ginzburg</a>
+and <a href = "https://arxiv.org/abs/0707.3799">Bezrukavnikov-Finkelberg</a>
+(really, of the the <a href =
+"https://arxiv.org/abs/math/0304173">Arkhipov-Bezrukavnikov-Ginzburg</a>
+equivalence) with coefficients in complex K-theory and elliptic cohomology.
+Shows, in the case of elliptic cohomology with associated elliptic curve $$E$$
+(for instance), that the quotient $$\widetilde{\check{\mathfrak{g}}}/\check{G}$$
+of the Grothendieck-Springer resolution in the right-hand side of the usual ABG
+equivalence is to be replaced by the semistable locus in (the degree zero
+component of) the Kontsevich-Mori compactification
+$$\widetilde{\mathrm{Bun}}_{\check{G}}(E^\vee)$$.-->
 
-<!--* Chromatic aberrations of the geometric Satake equivalence, I: the regular
-  locus. Forthcoming <br>-->
+* <a href = "/files/higher-dim-hdR-degen.pdf">Lifting to truncated
+  Brown-Peterson spectra and Hodge-de Rham degeneration in characteristic $$p >
+0$$.</a> Last update: Feb 2023.<br>
+Shows that if a smooth proper variety $$X$$ over $$\mathbf{F}_p$$ of dimension
+$$< p^n$$ has degenerating HKR spectral sequence, and $$\mathrm{QCoh}(X)$$ lifts
+to the truncated Brown-Peterson spectrum $$\mathrm{BP}\langle n-1\rangle$$, then
+the Hodge-de Rham spectral sequence degenerates at the $$E_1$$-page. This is
+contrast to recent <a href = "https://arxiv.org/abs/2302.11389">work</a> of
+Petrov, which proves a negative result in this direction.
 
-<!--* Soergel (bi)modules for complex-periodic $$\mathbf{E}_\infty$$-rings.
-  Forthcoming <br>-->
+* <a href = "/files/fgls-and-dR-complexes.pdf">Generalized $$n$$-series and de
+  Rham complexes,</a> joint with my <a href =
+"https://math.mit.edu/research/highschool/primes/usa/">PRIMES</a> student Max
+Misterka. Last update: Feb 2023.<br>
+Studies some basic algebraic and combinatorial properties of "generalized
+$$n$$-series" over a commutative ring. In particular, proves several
+generalizations of $$q$$-analogues of basic combinatorial results, and also
+studies basic properties of a "$$F$$-de Rham complex" built from the data of a
+formal group law. This latter construction appears in unpublished work of Arpon
+Raksit, and also arises naturally in my forthcoming "Chromatic aberrations"
+article (via the loop-rotation equivariant homology of the affine Grassmannian
+of a torus).
+
+* <a href="/files/FramedStructure.pdf">Examples of disk algebras (2023),</a>
+  joint with <a href = "http://web.mit.edu/~jhahn01/www/">Jeremy Hahn</a>, <a
+href = "https://www-users.cse.umn.edu/~tlawson/">Tyler Lawson</a>, <a href =
+"https://people.math.harvard.edu/~senger/">Andrew Senger</a>, and <a href =
+"https://people.math.harvard.edu/~dwilson/">Dylan Wilson</a>. Last update: 
+Feb 2023. <a href="https://arxiv.org/abs/2302.11702">arXiv</a>.<br>
+Shows that many familiar ring spectra, like $$\mathrm{BP}$$,
+$$\mathrm{BP}\langle n\rangle$$, $$X(n)$$, and spherical polynomial algebras on
+even degree classes admit *framed* $$\mathbf{E}_2$$-algebra structures.
 
 * <a href="/files/thom.pdf">Higher chromatic Thom spectra via unstable homotopy
   theory (2020).</a> Last update: August 2022. <a
