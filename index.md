@@ -86,10 +86,11 @@ spectra $$X(p^n)$$, which played a crucial role in the Devinatz-Hopkins-Smith
 proof of the nilpotence theorem. This is used to describe a higher chromatic
 analogue of the "Sen operator" of Bhatt-Drinfeld-Lurie; their behavior is
 controlled by Cohen-Moore-Neisendorfer fibrations and is Koszul dual to the
-nilpotence/Ravenel filtration of $$\mathrm{MU}$$.
+nilpotence/Ravenel filtration of $$\mathrm{MU}$$.-->
 
 * <a href = "/files/grG-regular.pdf">Chromatic aberrations of the geometric
-  Satake equivalence over the regular locus.</a> Last update: Feb 2023.<br>
+  Satake equivalence over the regular locus (preliminary version).</a> Last
+update: Feb 2023.<br> 
 Studies the question of proving an analogue of the derived geometric Satake
 equivalence of <a href = "https://arxiv.org/abs/alg-geom/9511007">Ginzburg</a>
 and <a href = "https://arxiv.org/abs/0707.3799">Bezrukavnikov-Finkelberg</a>
@@ -101,7 +102,7 @@ Shows, in the case of elliptic cohomology with associated elliptic curve $$E$$
 of the Grothendieck-Springer resolution in the right-hand side of the usual ABG
 equivalence is to be replaced by the semistable locus in (the degree zero
 component of) the Kontsevich-Mori compactification
-$$\widetilde{\mathrm{Bun}}_{\check{G}}(E^\vee)$$.-->
+$$\widetilde{\mathrm{Bun}}_{\check{G}}(E^\vee)$$.
 
 * <a href = "/files/higher-dim-hdR-degen.pdf">Lifting to truncated
   Brown-Peterson spectra and Hodge-de Rham degeneration in characteristic $$p >
