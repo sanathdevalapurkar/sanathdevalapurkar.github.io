@@ -106,7 +106,8 @@ $$\widetilde{\mathrm{Bun}}_{\check{G}}(E^\vee)$$.
 
 * <a href = "/files/higher-dim-hdR-degen.pdf">Lifting to truncated
   Brown-Peterson spectra and Hodge-de Rham degeneration in characteristic $$p >
-0$$.</a> Last update: Feb 2023.<br>
+0$$.</a> Last update: Feb 2023. <a href =
+"https://arxiv.org/abs/2303.00739">arXiv</a>.<br>
 Shows that if a smooth proper variety $$X$$ over $$\mathbf{F}_p$$ of dimension
 $$< p^n$$ has degenerating HKR spectral sequence, and $$\mathrm{QCoh}(X)$$ lifts
 to the truncated Brown-Peterson spectrum $$\mathrm{BP}\langle n-1\rangle$$, then
