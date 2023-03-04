@@ -77,16 +77,16 @@ This spring, I'm giving talks at <a href =
 Comments or suggestions for improving any of these documents are greatly
 appreciated!
 
-<!--* <a href = "/files/thh-Xn.pdf">Topological Hochschild homology, truncated
-  Brown-Peterson spectra, and a topological Sen operator.</a> Last update: 
-Feb 2023. <br>
+* <a href = "/files/thh-Xn.pdf">Topological Hochschild homology, truncated
+  Brown-Peterson spectra, and a topological Sen operator (preliminary
+version).</a> Last update: Feb 2023. <br>
 Proves a form of Bokstedt periodicity for $$\mathbf{E}_3$$-forms of a truncated
 Brown-Peterson spectrum, by studying $$\mathrm{THH}$$ relative to Ravenel's Thom
 spectra $$X(p^n)$$, which played a crucial role in the Devinatz-Hopkins-Smith
 proof of the nilpotence theorem. This is used to describe a higher chromatic
 analogue of the "Sen operator" of Bhatt-Drinfeld-Lurie; their behavior is
 controlled by Cohen-Moore-Neisendorfer fibrations and is Koszul dual to the
-nilpotence/Ravenel filtration of $$\mathrm{MU}$$.-->
+nilpotence/Ravenel filtration of $$\mathrm{MU}$$.
 
 * <a href = "/files/grG-regular.pdf">Chromatic aberrations of the geometric
   Satake equivalence over the regular locus (preliminary version).</a> Last
@@ -157,7 +157,10 @@ papers.
 
 * <a href="/files/hodge.pdf">Hodge theory for elliptic curves and the Hopf
   element $$\nu$$ (2019).</a> Last update: August 2022. <a
-href="https://arxiv.org/abs/1912.02548">arXiv</a>. Published in <i><a href =
+href="https://arxiv.org/abs/1912.02548">arXiv</a>, but the arXiv is having
+issues with the spectralsequences TeX package that I've used in the newer
+version; so the version on the arXiv is currently out-of-date. Published in
+<i><a href =
 "https://londmathsoc.onlinelibrary.wiley.com/doi/10.1112/blms.12759">Bull. Lond.
 Math. Soc.</a></i><br>
 Shows that the sheaf on the moduli stack of elliptic curves associated to
