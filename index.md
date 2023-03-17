@@ -90,7 +90,7 @@ nilpotence/Ravenel filtration of $$\mathrm{MU}$$.
 
 * <a href = "/files/grG-regular.pdf">Chromatic aberrations of the geometric
   Satake equivalence over the regular locus (preliminary version).</a> Last
-update: Feb 2023.<br> 
+update: Feb 2023. <a href = "https://arxiv.org/abs/2303.09432">arXiv</a>.<br> 
 Studies the question of proving an analogue of the derived geometric Satake
 equivalence of <a href = "https://arxiv.org/abs/alg-geom/9511007">Ginzburg</a>
 and <a href = "https://arxiv.org/abs/0707.3799">Bezrukavnikov-Finkelberg</a>
