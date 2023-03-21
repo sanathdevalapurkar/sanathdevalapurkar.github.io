@@ -79,7 +79,7 @@ appreciated!
 
 * <a href = "/files/thh-Xn.pdf">Topological Hochschild homology, truncated
   Brown-Peterson spectra, and a topological Sen operator (preliminary
-version).</a> Last update: Feb 2023. <br>
+version; 2023).</a> Last update: March 2023. <br>
 Proves a form of Bokstedt periodicity for $$\mathbf{E}_3$$-forms of a truncated
 Brown-Peterson spectrum, by studying $$\mathrm{THH}$$ relative to Ravenel's Thom
 spectra $$X(p^n)$$, which played a crucial role in the Devinatz-Hopkins-Smith
@@ -89,8 +89,9 @@ controlled by Cohen-Moore-Neisendorfer fibrations and is Koszul dual to the
 nilpotence/Ravenel filtration of $$\mathrm{MU}$$.
 
 * <a href = "/files/grG-regular.pdf">Chromatic aberrations of the geometric
-  Satake equivalence over the regular locus (preliminary version).</a> Last
-update: Feb 2023. <a href = "https://arxiv.org/abs/2303.09432">arXiv</a>.<br> 
+  Satake equivalence over the regular locus (preliminary version; 2023).</a>
+Last update: March 2023. <a href =
+"https://arxiv.org/abs/2303.09432">arXiv</a>.<br> 
 Studies the question of proving an analogue of the derived geometric Satake
 equivalence of <a href = "https://arxiv.org/abs/alg-geom/9511007">Ginzburg</a>
 and <a href = "https://arxiv.org/abs/0707.3799">Bezrukavnikov-Finkelberg</a>
@@ -106,7 +107,7 @@ $$\widetilde{\mathrm{Bun}}_{\check{G}}(E^\vee)$$.
 
 * <a href = "/files/higher-dim-hdR-degen.pdf">Lifting to truncated
   Brown-Peterson spectra and Hodge-de Rham degeneration in characteristic $$p >
-0$$.</a> Last update: Feb 2023. <a href =
+0$$ (2023).</a> Last update: Feb 2023. <a href =
 "https://arxiv.org/abs/2303.00739">arXiv</a>.<br>
 Shows that if a smooth proper variety $$X$$ over $$\mathbf{F}_p$$ of dimension
 $$< p^n$$ has degenerating HKR spectral sequence, and $$\mathrm{QCoh}(X)$$ lifts
@@ -116,7 +117,7 @@ contrast to recent <a href = "https://arxiv.org/abs/2302.11389">work</a> of
 Petrov, which proves a negative result in this direction.
 
 * <a href = "/files/fgls-and-dR-complexes.pdf">Generalized $$n$$-series and de
-  Rham complexes,</a> joint with my <a href =
+  Rham complexes (2023),</a> joint with my <a href =
 "https://math.mit.edu/research/highschool/primes/usa/">PRIMES</a> student Max
 Misterka. Last update: Feb 2023.<br>
 Studies some basic algebraic and combinatorial properties of "generalized
