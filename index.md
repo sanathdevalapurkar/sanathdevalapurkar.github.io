@@ -65,6 +65,9 @@ This spring, I'm giving talks at <a href =
 "https://jhu-top-seminar.github.io/">Johns Hopkins</a>, and the <a href =
 "https://perimeterinstitute.ca/mathematical-physics-0">Perimeter Institute</a>.
 </p>
+<p>
+In Spring 2024, I'm teaching a course on integrable systems.
+</p>
 </td>
 </tr>
 </tbody></table>
@@ -263,6 +266,9 @@ Tech</i>.
 
 <h3> Teaching </h3>
 
+* In Spring 2024, I'm teaching a course on integrable systems. I'll make a
+  website at some point in the future.
+* I'm not teaching in Spring 2023.
 * In Fall 2022, I'm teaching Math 1b (Calculus, Series, and Differential
   Equations) at Harvard, and I'm continuing to mentor for a high school project
 via <a href="https://math.mit.edu/research/highschool/primes/usa/">PRIMES
