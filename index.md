@@ -80,9 +80,22 @@ In Spring 2024, I'm teaching a course on integrable systems.
 Comments or suggestions for improving any of these documents are greatly
 appreciated!
 
+* <a href = "/files/fgls-and-dR-complexes.pdf">Generalized $$n$$-series and de
+  Rham complexes (2023),</a> joint with my <a href =
+"https://math.mit.edu/research/highschool/primes/usa/">PRIMES</a> student Max
+Misterka. Last update: March 2023.<br>
+Studies some basic algebraic and combinatorial properties of "generalized
+$$n$$-series" over a commutative ring. In particular, proves several
+generalizations of $$q$$-analogues of basic combinatorial results, and also
+studies basic properties of a "$$F$$-de Rham complex" built from the data of a
+formal group law. This latter construction appears in unpublished work of Arpon
+Raksit, and also arises naturally in my forthcoming "Chromatic aberrations"
+article (via the loop-rotation equivariant homology of the affine Grassmannian
+of a torus).
+
 * <a href = "/files/thh-Xn.pdf">Topological Hochschild homology, truncated
-  Brown-Peterson spectra, and a topological Sen operator (preliminary
-version; 2023).</a> Last update: March 2023. <br>
+  Brown-Peterson spectra, and a topological Sen operator (2023).</a> Last
+update: March 2023. <a href = "https://arxiv.org/abs/2303.17344">arXiv</a>.<br>
 Proves a form of Bokstedt periodicity for $$\mathbf{E}_3$$-forms of a truncated
 Brown-Peterson spectrum, by studying $$\mathrm{THH}$$ relative to Ravenel's Thom
 spectra $$X(p^n)$$, which played a crucial role in the Devinatz-Hopkins-Smith
@@ -92,13 +105,12 @@ controlled by Cohen-Moore-Neisendorfer fibrations and is Koszul dual to the
 nilpotence/Ravenel filtration of $$\mathrm{MU}$$.
 
 * <a href = "/files/grG-regular.pdf">Chromatic aberrations of the geometric
-  Satake equivalence over the regular locus (preliminary version; 2023).</a>
-Last update: March 2023. <a href =
-"https://arxiv.org/abs/2303.09432">arXiv</a>.<br> 
+  Satake equivalence over the regular locus (2023).</a> Last update: March 2023.
+<a href = "https://arxiv.org/abs/2303.09432">arXiv</a>.<br> 
 Studies the question of proving an analogue of the derived geometric Satake
 equivalence of <a href = "https://arxiv.org/abs/alg-geom/9511007">Ginzburg</a>
 and <a href = "https://arxiv.org/abs/0707.3799">Bezrukavnikov-Finkelberg</a>
-(really, of the the <a href =
+(really, of the <a href =
 "https://arxiv.org/abs/math/0304173">Arkhipov-Bezrukavnikov-Ginzburg</a>
 equivalence) with coefficients in complex K-theory and elliptic cohomology.
 Shows, in the case of elliptic cohomology with associated elliptic curve $$E$$
@@ -106,7 +118,8 @@ Shows, in the case of elliptic cohomology with associated elliptic curve $$E$$
 of the Grothendieck-Springer resolution in the right-hand side of the usual ABG
 equivalence is to be replaced by the semistable locus in (the degree zero
 component of) the Kontsevich-Mori compactification
-$$\widetilde{\mathrm{Bun}}_{\check{G}}(E^\vee)$$.
+$$\widetilde{\mathrm{Bun}}_{\check{G}}(E^\vee)$$. (I've fixed some minor typos,
+some in the second appendix.)
 
 * <a href = "/files/higher-dim-hdR-degen.pdf">Lifting to truncated
   Brown-Peterson spectra and Hodge-de Rham degeneration in characteristic $$p >
@@ -118,19 +131,6 @@ to the truncated Brown-Peterson spectrum $$\mathrm{BP}\langle n-1\rangle$$, then
 the Hodge-de Rham spectral sequence degenerates at the $$E_1$$-page. This is
 contrast to recent <a href = "https://arxiv.org/abs/2302.11389">work</a> of
 Petrov, which proves a negative result in this direction.
-
-* <a href = "/files/fgls-and-dR-complexes.pdf">Generalized $$n$$-series and de
-  Rham complexes (2023),</a> joint with my <a href =
-"https://math.mit.edu/research/highschool/primes/usa/">PRIMES</a> student Max
-Misterka. Last update: Feb 2023.<br>
-Studies some basic algebraic and combinatorial properties of "generalized
-$$n$$-series" over a commutative ring. In particular, proves several
-generalizations of $$q$$-analogues of basic combinatorial results, and also
-studies basic properties of a "$$F$$-de Rham complex" built from the data of a
-formal group law. This latter construction appears in unpublished work of Arpon
-Raksit, and also arises naturally in my forthcoming "Chromatic aberrations"
-article (via the loop-rotation equivariant homology of the affine Grassmannian
-of a torus).
 
 * <a href="/files/FramedStructure.pdf">Examples of disk algebras (2023),</a>
   joint with <a href = "http://web.mit.edu/~jhahn01/www/">Jeremy Hahn</a>, <a
