@@ -91,8 +91,8 @@ generalizations of $$q$$-analogues of basic combinatorial results, and also
 studies basic properties of a "$$F$$-de Rham complex" built from the data of a
 formal group law. This latter construction appears in unpublished work of Arpon
 Raksit, and also arises naturally in my forthcoming "Chromatic aberrations"
-article (via the loop-rotation equivariant homology of the affine Grassmannian
-of a torus).
+article (via the $$T \rtimes \GG_m^\mathrm{rot}$$-equivariant homology of the
+affine Grassmannian $$\mathrm{Gr}_T$$ of a torus).
 
 * <a href = "/files/thh-Xn.pdf">Topological Hochschild homology, truncated
   Brown-Peterson spectra, and a topological Sen operator (2023).</a> Last
@@ -141,7 +141,8 @@ href = "https://www-users.cse.umn.edu/~tlawson/">Tyler Lawson</a>, <a href =
 Feb 2023. <a href="https://arxiv.org/abs/2302.11702">arXiv</a>.<br>
 Shows that many familiar ring spectra, like $$\mathrm{BP}$$,
 $$\mathrm{BP}\langle n\rangle$$, $$X(n)$$, and spherical polynomial algebras on
-even degree classes admit *framed* $$\mathbf{E}_2$$-algebra structures.
+even degree classes admit *framed* $$\mathbf{E}_2$$-algebra structures; this
+allows one to define $$\mathrm{THH}$$ relative to these ring spectra.
 
 * <a href="/files/thom.pdf">Higher chromatic Thom spectra via unstable homotopy
   theory (2020).</a> Last update: August 2022. <a
