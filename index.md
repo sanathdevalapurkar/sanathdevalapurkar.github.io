@@ -91,8 +91,8 @@ generalizations of $$q$$-analogues of basic combinatorial results, and also
 studies basic properties of a "$$F$$-de Rham complex" built from the data of a
 formal group law. This latter construction appears in unpublished work of Arpon
 Raksit, and also arises naturally in my forthcoming "Chromatic aberrations"
-article (via the $$T \rtimes \GG_m^\mathrm{rot}$$-equivariant homology of the
-affine Grassmannian $$\mathrm{Gr}_T$$ of a torus).
+article (via the $$T \rtimes \mathbf{G}_m^\mathrm{rot}$$-equivariant homology of
+the affine Grassmannian $$\mathrm{Gr}_T$$ of a torus).
 
 * <a href = "/files/thh-Xn.pdf">Topological Hochschild homology, truncated
   Brown-Peterson spectra, and a topological Sen operator (2023).</a> Last
