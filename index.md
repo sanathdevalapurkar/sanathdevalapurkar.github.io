@@ -119,8 +119,8 @@ Shows, in the case of elliptic cohomology with associated elliptic curve $$E$$
 of the Grothendieck-Springer resolution in the right-hand side of the usual ABG
 equivalence is to be replaced by the semistable locus in (the degree zero
 component of) the Kontsevich-Mori compactification
-$$\widetilde{\mathrm{Bun}}_{\check{G}}(E^\vee)$$. (I've fixed some minor typos,
-some in the second appendix.)
+$$\widetilde{\mathrm{Bun}}_{\check{G}}(E^\vee)$$. (I've fixed some minor typos;
+the definition of the affine blowup had an error)
 
 * <a href = "/files/higher-dim-hdR-degen.pdf">Lifting to truncated
   Brown-Peterson spectra and Hodge-de Rham degeneration in characteristic $$p >
