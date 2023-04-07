@@ -63,7 +63,8 @@ for a few weeks, where I gave a <a href =
 This spring, I'm giving talks at <a href =
 "http://math.uchicago.edu/~algtop/">UChicago</a>, <a href =
 "https://jhu-top-seminar.github.io/">Johns Hopkins</a>, and the <a href =
-"https://perimeterinstitute.ca/mathematical-physics-0">Perimeter Institute</a>.
+"https://perimeterinstitute.ca/events/chromatic-aberrations-geometric-satake-equivalence">Perimeter
+Institute</a>.
 </p>
 <p>
 In Spring 2024, I'm teaching an undergraduate course (Math 99r) on integrable
