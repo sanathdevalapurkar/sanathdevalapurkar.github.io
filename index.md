@@ -85,7 +85,8 @@ appreciated!
 * <a href = "/files/fgls-and-dR-complexes.pdf">Generalized $$n$$-series and de
   Rham complexes (2023),</a> joint with my <a href =
 "https://math.mit.edu/research/highschool/primes/usa/">PRIMES</a> student Max
-Misterka. Last update: March 2023.<br>
+Misterka. Last update: March 2023. <a href =
+"https://arxiv.org/abs/2304.04739">arXiv</a>.<br>
 Studies some basic algebraic and combinatorial properties of "generalized
 $$n$$-series" over a commutative ring. In particular, proves several
 generalizations of $$q$$-analogues of basic combinatorial results, and also
