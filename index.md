@@ -106,6 +106,7 @@ proof of the nilpotence theorem. This is used to describe a higher chromatic
 analogue of the "Sen operator" of Bhatt-Drinfeld-Lurie; their behavior is
 controlled by Cohen-Moore-Neisendorfer fibrations and is Koszul dual to the
 nilpotence/Ravenel filtration of $$\mathrm{MU}$$.
+(Fixed a minor error in an argument in Appendix C.)
 
 * <a href = "/files/grG-regular.pdf">Chromatic aberrations of the geometric
   Satake equivalence over the regular locus (2023).</a> Last update: March 2023.
