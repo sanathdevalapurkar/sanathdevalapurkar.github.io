@@ -80,7 +80,16 @@ systems.
 <h3>Some projects</h3>
 
 Comments or suggestions for improving any of these documents are greatly
-appreciated!
+appreciated! (By request, I've updated some of the files below to have internal
+hyperlinks.)
+
+* $$\mathrm{ku}$$-theoretic spectral decompositions for spheres and projective
+  spaces (2023?). <br>
+Studies the local geometric conjecture of <a href =
+"https://math.jhu.edu/~sakellar/BZSVpaperV1.pdf">Ben-Zvi--Sakellaridis--Venkatesh</a>
+in the case of affine homogeneous spherical varieties of relative rank one, as
+well as an analogue for coefficients in connective complex K-theory. In
+progress, but I hope to have a draft ready relatively soon.
 
 * <a href = "/files/grG-regular.pdf">Chromatic aberrations of the geometric
   Satake equivalence over the regular locus (2023).</a> Last update: June 2023.
