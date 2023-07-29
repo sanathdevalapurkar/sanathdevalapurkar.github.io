@@ -126,7 +126,7 @@ the affine Grassmannian $$\mathrm{Gr}_T$$ of a torus).
 
 * <a href = "/files/thh-Xn.pdf">Topological Hochschild homology, truncated
   Brown-Peterson spectra, and a topological Sen operator (2023).</a> Last
-update: March 2023. <a href = "https://arxiv.org/abs/2303.17344">arXiv</a>.<br>
+update: July 2023. <a href = "https://arxiv.org/abs/2303.17344">arXiv</a>.<br>
 Proves a form of Bokstedt periodicity for $$\mathbf{E}_3$$-forms of a truncated
 Brown-Peterson spectrum, by studying $$\mathrm{THH}$$ relative to Ravenel's Thom
 spectra $$X(p^n)$$, which played a crucial role in the Devinatz-Hopkins-Smith
@@ -134,7 +134,7 @@ proof of the nilpotence theorem. This is used to describe a higher chromatic
 analogue of the "Sen operator" of Bhatt-Drinfeld-Lurie; their behavior is
 controlled by Cohen-Moore-Neisendorfer fibrations and is Koszul dual to the
 nilpotence/Ravenel filtration of $$\mathrm{MU}$$.
-(Fixed a minor error in an argument in Appendix C.)
+(Fixed an error in Section 4.1.)
 
 * <a href = "/files/higher-dim-hdR-degen.pdf">Lifting to truncated
   Brown-Peterson spectra and Hodge-de Rham degeneration in characteristic $$p >
