@@ -58,13 +58,19 @@ During parts of March and April 2022, I was at the <a href =
 then <a href = "https://sites.northwestern.edu/hmgp/">visiting Northwestern</a>
 for a few weeks, where I gave a <a href =
 "https://antieau.github.io/seminars/202202-topology.html">talk</a>.
-</p>-->
+</p>
 <p>
 This spring, I'm giving talks at <a href =
 "http://math.uchicago.edu/~algtop/">UChicago</a>, <a href =
 "https://jhu-top-seminar.github.io/">Johns Hopkins</a>, and the <a href =
 "https://perimeterinstitute.ca/events/chromatic-aberrations-geometric-satake-equivalence">Perimeter
 Institute</a>.
+</p>-->
+<p>
+In Fall 2023, I'm organizing a seminar on relative Langlands duality with <a
+href = "https://people.math.harvard.edu/~gammage/">Ben Gammage</a>; the website
+is <a href =
+"https://people.math.harvard.edu/~gammage/relative-fall23.html">here</a>.
 </p>
 <p>
 In Spring 2024, I'm teaching an undergraduate course (Math 99r) on integrable
