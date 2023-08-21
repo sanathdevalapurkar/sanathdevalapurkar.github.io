@@ -24,7 +24,7 @@ src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLor
 </td>
 <td>
 <p>
-I'm a third-year graduate student at Harvard, fortunate to be advised by <a
+I'm a fourth-year graduate student at Harvard, fortunate to be advised by <a
 href = "https://people.math.harvard.edu/~mjh/">Mike Hopkins</a> and <a href =
 "https://people.math.harvard.edu/~gaitsgde/">Dennis Gaitsgory</a>. I'm broadly
 interested in algebraic topology and geometric representation theory, but my
@@ -290,6 +290,10 @@ Tech</i>.
 
 * In Spring 2024, I'm teaching an undergraduate course (Math 99r) on integrable
   systems. I'll make a website at some point in the future.
+* I'm not teaching in Fall 2023, but I am organizing a <a href =
+  "https://people.math.harvard.edu/~gammage/relative-fall23.html">seminar on
+relative Langlands duality</a> with <a href =
+"https://people.math.harvard.edu/~gammage/">Ben Gammage</a>.
 * I'm not teaching in Spring 2023.
 * In Fall 2022, I'm teaching Math 1b (Calculus, Series, and Differential
   Equations) at Harvard, and I'm continuing to mentor for a high school project
