@@ -27,8 +27,8 @@ src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLor
 I'm a fourth-year graduate student at Harvard, fortunate to be advised by <a
 href = "https://people.math.harvard.edu/~mjh/">Mike Hopkins</a> and <a href =
 "https://people.math.harvard.edu/~gaitsgde/">Dennis Gaitsgory</a>. I'm broadly
-interested in algebraic topology and geometric representation theory, but my
-interests are constantly changing. 
+interested in algebraic topology, characteristic p (and v1, v2, ...) geometry,
+and geometric representation theory, but my interests are constantly changing. 
 </p>
 <p>
 Outside of math, I spend a bunch of time playing the drums, listening to (mostly
@@ -69,12 +69,13 @@ Institute</a>.
 <p>
 In Fall 2023, I'm organizing a seminar on relative Langlands duality with <a
 href = "https://people.math.harvard.edu/~gammage/">Ben Gammage</a>; the website
-is <a href =
-"https://people.math.harvard.edu/~gammage/relative-fall23.html">here</a>.
+is <b><a href =
+"https://people.math.harvard.edu/~gammage/relative-fall23.html">here</a></b>. We
+meet Tuesdays at 1 pm in SC 232.
 </p>
 <p>
 In Spring 2024, I'm teaching an undergraduate course (Math 99r) on integrable
-systems.
+systems. The website is <b><a href = "/integrable.html">here</a></b>.
 </p>
 </td>
 </tr>
@@ -89,13 +90,24 @@ Comments or suggestions for improving any of these documents are greatly
 appreciated! (By request, I've updated some of the files below to have internal
 hyperlinks.)
 
+<!--* Geometric Langlands duality for $$\mathrm{PGL}_2^{\times
+  3}/\mathrm{PGL}_2^\mathrm{diag}$$ (2023). <br>
+Uses the methods of "$$\mathrm{ku}$$-theoretic..." and hypermatrices following
+Gelfand-Kapranov-Zelevinsky to prove the local relative geometric Langlands
+conjecture of <a href =
+"https://math.jhu.edu/~sakellar/BZSVpaperV1.pdf">BZSV</a> for the spherical
+variety $$\mathrm{PGL}_2^{\times 3}/\mathrm{PGL}_2^\mathrm{diag}$$, whose dual
+is $$\mathrm{SL}_2^{\times 3}$$ acting on $$(\mathbf{C}^2)^{\otimes 3}$$. This
+is also pretty much finished, and I will upload a draft soon.
+-->
+
 * $$\mathrm{ku}$$-theoretic spectral decompositions for spheres and projective
-  spaces (2023?). <br>
-Studies the local geometric conjecture of <a href =
+  spaces (2023). <br>
+Studies the local relative geometric Langlands conjecture of <a href =
 "https://math.jhu.edu/~sakellar/BZSVpaperV1.pdf">Ben-Zvi--Sakellaridis--Venkatesh</a>
 in the case of affine homogeneous spherical varieties of relative rank one, as
-well as an analogue for coefficients in connective complex K-theory. In
-progress, but I hope to have a draft ready relatively soon.
+well as an analogue for coefficients in connective complex K-theory. Pretty much
+finished, and I hope to upload a draft relatively soon.
 
 * <a href = "/files/grG-regular.pdf">Chromatic aberrations of the geometric
   Satake equivalence over the regular locus (2023).</a> Last update: June 2023.
@@ -126,9 +138,9 @@ $$n$$-series" over a commutative ring. In particular, proves several
 generalizations of $$q$$-analogues of basic combinatorial results, and also
 studies basic properties of a "$$F$$-de Rham complex" built from the data of a
 formal group law. This latter construction appears in unpublished work of Arpon
-Raksit, and also arises naturally in my forthcoming "Chromatic aberrations"
-article (via the $$T \rtimes \mathbf{G}_m^\mathrm{rot}$$-equivariant homology of
-the affine Grassmannian $$\mathrm{Gr}_T$$ of a torus).
+Raksit, and also arises naturally in my "Chromatic aberrations..." article (via
+the $$T \rtimes \mathbf{G}_m^\mathrm{rot}$$-equivariant homology of the affine
+Grassmannian $$\mathrm{Gr}_T$$ of a torus).
 
 * <a href = "/files/thh-Xn.pdf">Topological Hochschild homology, truncated
   Brown-Peterson spectra, and a topological Sen operator (2023).</a> Last
@@ -289,7 +301,7 @@ Tech</i>.
 <h3> Teaching </h3>
 
 * In Spring 2024, I'm teaching an undergraduate course (Math 99r) on integrable
-  systems. I'll make a website at some point in the future.
+  systems. The website is <b><a href = "/integrable.html">here</a></b>.
 * I'm not teaching in Fall 2023, but I am organizing a <a href =
   "https://people.math.harvard.edu/~gammage/relative-fall23.html">seminar on
 relative Langlands duality</a> with <a href =
