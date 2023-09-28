@@ -116,25 +116,53 @@ systems. The website is <b><a href="/integrable.html">here</a></b>.
 appreciated! (By request, I’ve updated some of the files below to have internal
 hyperlinks.)</p>
 
-<!--* Geometric Langlands duality for $$\mathrm{PGL}_2^{\times
-  3}/\mathrm{PGL}_2^\mathrm{diag}$$ (2023). <br>
-Uses the methods of "$$\mathrm{ku}$$-theoretic..." and hypermatrices following
-Gelfand-Kapranov-Zelevinsky to prove the local relative geometric Langlands
-conjecture of <a href =
-"https://math.jhu.edu/~sakellar/BZSVpaperV1.pdf">BZSV</a> for the spherical
-variety $$\mathrm{PGL}_2^{\times 3}/\mathrm{PGL}_2^\mathrm{diag}$$, whose dual
-is $$\mathrm{SL}_2^{\times 3}$$ acting on $$(\mathbf{C}^2)^{\otimes 3}$$. This
-is also pretty much finished, and I will upload a draft soon.
--->
-
 <ul>
   <li>
-    <p><script type="math/tex">\mathrm{ku}</script>-theoretic spectral decompositions for spheres and projective
-spaces (2023). <br />
+    <p><a href="/files/PGL2-cubes.pdf">Geometric Langlands duality for
+<script type="math/tex">\mathrm{PGL}_2</script> on the nodal curve (2023).</a> Last update: Sept 2023. <br />
+Uses the methods of “<script type="math/tex">\mathrm{ku}</script>-theoretic…” and hypermatrices following
+Gelfand-Kapranov-Zelevinsky and Bhargava to prove the local relative geometric
+Langlands conjecture of <a href="https://math.jhu.edu/~sakellar/BZSVpaperV1.pdf">BZSV</a> for the spherical
+variety <script type="math/tex">\mathrm{PGL}_2^{\times 3}/\mathrm{PGL}_2^\mathrm{diag}</script>, whose dual
+is <script type="math/tex">\mathrm{SL}_2^{\times 3}</script> acting on <script type="math/tex">(\mathbf{C}^2)^{\otimes 3}</script>. Also
+studies the case of the spherical variety <script type="math/tex">\mathrm{PSO}_8/G_2</script>, and suggests
+an analogous story might exist if <script type="math/tex">\mathrm{PGL}_2</script> and <script type="math/tex">G_2</script> are replaced by
+the rank <script type="math/tex">3</script> Dwyer-Wilkerson exotic <script type="math/tex">2</script>-compact group.</p>
+  </li>
+  <li>
+    <p><a href="/files/hyperboloid_spectral_decomp.pdf"><script type="math/tex">\mathrm{ku}</script>-theoretic
+spectral decompositions for spheres and projective spaces (2023).</a> Last
+update: Sept 2023. <br />
 Studies the local relative geometric Langlands conjecture of <a href="https://math.jhu.edu/~sakellar/BZSVpaperV1.pdf">Ben-Zvi–Sakellaridis–Venkatesh</a>
-in the case of affine homogeneous spherical varieties of relative rank one, as
-well as an analogue for coefficients in connective complex K-theory. Pretty much
-finished, and I hope to upload a draft relatively soon.</p>
+in the case of affine homogeneous spherical varieties of relative rank one (as
+listed by Akhiezer), as well as an analogue for coefficients in connective
+complex K-theory <script type="math/tex">\mathrm{ku}</script>. (For instance, working with
+<script type="math/tex">\mathrm{ku}</script>-coefficients changes the spectral side
+<script type="math/tex">\check{\mathfrak{g}}/\check{G}</script> of derived geometric Satake to a stack
+encoding the Hochschild-Kostant-Rosenberg filtration on the free loop space of
+<script type="math/tex">B\check{G}</script>.) Most of the article is in fact about the relative geometric
+Langlands conjectures in the general case and its relationships to homotopy
+theory; when specialized to the rank <script type="math/tex">1</script> case, our results are “explained” by
+EHP sequences and Hopf fibrations.</p>
+  </li>
+  <li>
+    <p><a href="/files/p-typical-curves.pdf"><script type="math/tex">p</script>-typical curves on <script type="math/tex">p</script>-adic
+Tate twists and de Rham-Witt forms (2023),</a> joint with <a href="https://personal.math.ubc.ca/~smondal/">Shubhodip Mondal</a>. Last update: Sept
+2023.<br />
+Continuing early work of Bloch, Kato, Artin, and Mazur, shows that de Rham-Witt
+forms can be constructed via curves on <script type="math/tex">p</script>-adic syntomic cohomology (as
+constructed in Bhatt-Morrow-Scholze). The argument relies on refining a result
+of Hesselholt’s, as well as an evenness result of Darrell and Riggenbach (which
+we reprove using different methods).</p>
+  </li>
+  <li>
+    <p><a href="/files/anomaly-obstruction.pdf">A Long Exact Sequence in Symmetry
+Breaking (2023),</a> joint with <a href="https://www.math.purdue.edu/~adebray/">Arun Debray</a>, <a href="https://math.mit.edu/directory/profile.html?pid=2232">Cameron Krulewski</a>, <a href="https://leon2k2k2k.github.io/">Leon Liu</a>, <a href="https://math.mit.edu/directory/profile.html?pid=2242">Natalia
+Pacheco-Tallaj</a>, and <a href="https://math.berkeley.edu/~ragnar/">Ryan
+Thorngren</a>. Last update: Sept 2023. <br />
+Studies defects in symmetry breaking phases via the anomaly of their defects,
+and obstructions to the existence of symmetry breaking phases with a local
+defect using the Anderson dual of a cofiber sequence of Thom spectra.</p>
   </li>
   <li>
     <p><a href="/files/grG-regular.pdf">Chromatic aberrations of the geometric
@@ -147,7 +175,7 @@ and <a href="https://arxiv.org/abs/0707.3799">Bezrukavnikov-Finkelberg</a>
 equivalence) with coefficients in complex K-theory and elliptic cohomology.
 Shows, in the case of elliptic cohomology with associated elliptic curve <script type="math/tex">E</script>
 (for instance), that the quotient <script type="math/tex">\widetilde{\check{\mathfrak{g}}}/\check{G}</script>
-of the Grothendieck-Springer resolution in the right-hand side of the usual ABG
+of the Grothendieck-Springer resolution in the spectral side of the usual ABG
 equivalence is to be replaced by the semistable locus in (the degree zero
 component of) the Kontsevich-Mori compactification
 <script type="math/tex">\widetilde{\mathrm{Bun}}_{\check{G}}(E^\vee)</script>. (This version fixes an
@@ -339,10 +367,12 @@ USA</a>.</li>
   <li>In Fall 2021, I was a TA for <a href="https://canvas.harvard.edu/courses/90573">Math 223a (Algebraic number
 theory) at Harvard</a> (ideal class groups, local fields, basics of local class
 field theory), taught by Mark Shusterman.</li>
-  <li>Every semester since Fall 2020, I’ve been a mentor for the <a href="https://drp.math.harvard.edu/">directed reading program</a> at Harvard;
-in chronological order, I’ve mentored reading projects on surfaces and Chern
-classes in differential geometry, function fields and elliptic curves,
-topological K-theory, and the cobordism hypothesis.</li>
+  <li>Every semester from Fall 2020 through Fall 2022, and Fall 2023, I’ve been a
+mentor for the <a href="https://drp.math.harvard.edu/">directed reading
+program</a> at Harvard; in chronological order, I’ve mentored reading projects
+on surfaces and Chern classes in differential geometry, function fields and
+elliptic curves, topological K-theory, the cobordism hypothesis, and prismatic
+cohomology.</li>
 </ul>
 
 <hr />
