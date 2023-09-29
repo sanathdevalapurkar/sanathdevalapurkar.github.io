@@ -120,8 +120,8 @@ EHP sequences and Hopf fibrations.
 
 * <a href = "/files/p-typical-curves.pdf">$$p$$-typical curves on $$p$$-adic
   Tate twists and de Rham-Witt forms (2023),</a> joint with <a href =
-"https://personal.math.ubc.ca/~smondal/">Shubhodip Mondal</a>. Last update: Sept
-2023.<br>
+"https://personal.math.ubc.ca/~smondal/">Shubhodip Mondal</a>.  Last update:
+Sept 2023. <a href = "https://arxiv.org/abs/2309.16623">arXiv</a>.<<br>
 Continuing early work of Bloch, Kato, Artin, and Mazur, shows that de Rham-Witt
 forms can be constructed via curves on $$p$$-adic syntomic cohomology (as
 constructed in Bhatt-Morrow-Scholze). The argument relies on refining a result
