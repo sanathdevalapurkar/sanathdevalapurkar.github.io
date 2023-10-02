@@ -135,7 +135,8 @@ we reprove using different methods).
 href = "https://leon2k2k2k.github.io/">Leon Liu</a>, <a href =
 "https://math.mit.edu/directory/profile.html?pid=2242">Natalia
 Pacheco-Tallaj</a>, and <a href = "https://math.berkeley.edu/~ragnar/">Ryan
-Thorngren</a>. Last update: Sept 2023. <br>
+Thorngren</a>. Last update: Sept 2023. <a href =
+"https://arxiv.org/abs/2309.16749">arXiv</a>.<br>
 Studies defects in symmetry breaking phases via the anomaly of their defects,
 and obstructions to the existence of symmetry breaking phases with a local
 defect using the Anderson dual of a cofiber sequence of Thom spectra.
