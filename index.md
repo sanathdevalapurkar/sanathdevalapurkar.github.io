@@ -91,7 +91,8 @@ appreciated! (By request, I've updated some of the files below to have internal
 hyperlinks.)
 
 * <a href = "/files/PGL2-cubes.pdf">Geometric Langlands duality for
-  $$\mathrm{PGL}_2$$ on the nodal curve (2023).</a> Last update: Sept 2023. <br>
+  $$\mathrm{PGL}_2$$ on $$S^3$$ minus three points (2023).</a> Last update: 
+Sept 2023. <br>
 Uses the methods of "$$\mathrm{ku}$$-theoretic..." and hypermatrices following
 Gelfand-Kapranov-Zelevinsky and Bhargava to prove the local relative geometric
 Langlands conjecture of <a href =
