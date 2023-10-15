@@ -94,7 +94,7 @@ hyperlinks.)
   $$\mathrm{PGL}_2$$ on $$S^3$$ minus three points (2023).</a> Last update: 
 Sept 2023. <br>
 Uses the methods of "$$\mathrm{ku}$$-theoretic..." and hypermatrices following
-Gelfand-Kapranov-Zelevinsky and Bhargava to prove the local relative geometric
+Gelfand-Kapranov-Zelevinsky and Bhargava to prove the local geometric relative
 Langlands conjecture of <a href =
 "https://math.jhu.edu/~sakellar/BZSVpaperV1.pdf">BZSV</a> for the spherical
 variety $$\mathrm{PGL}_2^{\times 3}/\mathrm{PGL}_2^\mathrm{diag}$$, whose dual
@@ -106,7 +106,7 @@ the rank $$3$$ Dwyer-Wilkerson exotic $$2$$-compact group.
 * <a href = "/files/hyperboloid_spectral_decomp.pdf">$$\mathrm{ku}$$-theoretic
   spectral decompositions for spheres and projective spaces (2023).</a> Last
 update: Sept 2023. <br>
-Studies the local relative geometric Langlands conjecture of <a href =
+Studies the local geometric relative Langlands conjecture of <a href =
 "https://math.jhu.edu/~sakellar/BZSVpaperV1.pdf">Ben-Zvi--Sakellaridis--Venkatesh</a>
 in the case of affine homogeneous spherical varieties of relative rank one (as
 listed by Akhiezer), as well as an analogue for coefficients in connective
@@ -114,7 +114,7 @@ complex K-theory $$\mathrm{ku}$$. (For instance, working with
 $$\mathrm{ku}$$-coefficients changes the spectral side
 $$\check{\mathfrak{g}}/\check{G}$$ of derived geometric Satake to a stack
 encoding the Hochschild-Kostant-Rosenberg filtration on the free loop space of
-$$B\check{G}$$.) Most of the article is in fact about the relative geometric
+$$B\check{G}$$.) Most of the article is in fact about the geometric relative
 Langlands conjectures in the general case and its relationships to homotopy
 theory; when specialized to the rank $$1$$ case, our results are "explained" by
 EHP sequences and Hopf fibrations.
@@ -369,6 +369,10 @@ The usual warning holds: many of these documents have not been proofread, so
 there's a chance they contain mistakes. Caveat lector! Please send me an email
 if you have any comments.
 
+* <a href = "/files/princeton-fall-23-talk.pdf">Equivariant homotopy theory and
+  geometric Langlands</a>. Slides for a <a href =
+"https://www.math.princeton.edu/events/equivariant-homotopy-theory-and-geometric-langlands-2023-10-19t170000">talk
+at Princeton</a>. Last update: October 2023.
 * <a href = "/files/thursday-fall-2022-prismatization.pdf">Prismatization</a>.
   Notes for a talk at the Thursday seminar at Harvard. Last update: December
 2022.
