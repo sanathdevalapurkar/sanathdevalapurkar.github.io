@@ -92,7 +92,7 @@ hyperlinks.)
 
 * <a href = "/files/PGL2-cubes.pdf">Geometric Langlands duality for
   $$\mathrm{PGL}_2$$ on $$S^3$$ minus three points (2023).</a> Last update: 
-Sept 2023. <br>
+Oct 2023. <br>
 Uses the methods of "$$\mathrm{ku}$$-theoretic..." and hypermatrices following
 Gelfand-Kapranov-Zelevinsky and Bhargava to prove the local geometric relative
 Langlands conjecture of <a href =
@@ -105,7 +105,7 @@ the rank $$3$$ Dwyer-Wilkerson exotic $$2$$-compact group.
 
 * <a href = "/files/hyperboloid_spectral_decomp.pdf">$$\mathrm{ku}$$-theoretic
   spectral decompositions for spheres and projective spaces (2023).</a> Last
-update: Sept 2023. <br>
+update: Oct 2023. <br>
 Studies the local geometric relative Langlands conjecture of <a href =
 "https://math.jhu.edu/~sakellar/BZSVpaperV1.pdf">Ben-Zvi--Sakellaridis--Venkatesh</a>
 in the case of affine homogeneous spherical varieties of relative rank one (as
