@@ -370,6 +370,9 @@ The usual warning holds: many of these documents have not been proofread, so
 there's a chance they contain mistakes. Caveat lector! Please send me an email
 if you have any comments.
 
+* <a href = "/files/exceptional-iso.pdf">Exceptional isomorphisms</a>. Notes for
+  a talk at the Trivial Notions seminar at Harvard; currently incomplete near
+the end. Last update: October 2023.
 * <a href = "/files/princeton-fall-23-talk.pdf">Equivariant homotopy theory and
   geometric Langlands</a>. Slides for a <a href =
 "https://www.math.princeton.edu/events/equivariant-homotopy-theory-and-geometric-langlands-2023-10-19t170000">talk
