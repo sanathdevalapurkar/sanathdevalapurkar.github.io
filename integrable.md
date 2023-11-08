@@ -33,3 +33,9 @@ Toda integrable systems, and their construction due to
 Kazhdan-Kostant-Sternberg. A more detailed syllabus and schedule will be posted
 later. I will be typing up notes for the lectures and posting them on this
 webpage.
+
+Most of your grade will be based off a final paper (probably around 80% of the
+grade); and depending on the number of people who sign up, either a final 15-20
+minute presentation <b>or</b> biweekly problem sets (which will be of the form
+"explore the following topic", and not "here is a problem, do it in exactly this
+way").
