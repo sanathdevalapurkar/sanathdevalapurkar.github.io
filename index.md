@@ -108,8 +108,8 @@ EHP sequences and Hopf fibrations. (Added an appendix on the relationship to
 string topology.)
 
 * <a href = "/files/PGL2-cubes.pdf">Geometric Langlands duality for
-  $$\mathrm{PGL}_2$$ on $$S^3$$ minus three points (2023).</a> Last update: 
-Oct 2023. <br>
+  $$\mathrm{PGL}_2^{\times 3}/\mathrm{PGL}_2^\mathrm{diag}$$ (2023).</a> Last
+update: Oct 2023. <br>
 Uses the methods of "$$\mathrm{ku}$$-theoretic..." and hypermatrices following
 Gelfand-Kapranov-Zelevinsky and Bhargava to prove the local geometric relative
 Langlands conjecture of <a href =
