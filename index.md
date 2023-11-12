@@ -94,10 +94,10 @@ hyperlinks.)
   spectral decompositions for spheres and projective spaces (2023).</a> Last
 update: Nov 2023. <br>
 Studies the local geometric relative Langlands conjecture of <a href =
-"https://math.jhu.edu/~sakellar/BZSVpaperV1.pdf">Ben-Zvi--Sakellaridis--Venkatesh</a>
-in the case of affine homogeneous spherical varieties of relative rank one (as
-listed by Akhiezer), as well as an analogue for coefficients in connective
-complex K-theory $$\mathrm{ku}$$. (For instance, working with
+"https://math.jhu.edu/~sakellar/BZSVpaperV1.pdf">Ben-Zvi, Sakellaridis, and
+Venkatesh</a> in the case of affine homogeneous spherical varieties of relative
+rank one (as listed by Akhiezer), as well as an analogue for coefficients in
+connective complex K-theory $$\mathrm{ku}$$. (For instance, working with
 $$\mathrm{ku}$$-coefficients changes the spectral side
 $$\check{\mathfrak{g}}/\check{G}$$ of derived geometric Satake to a stack
 encoding the Hochschild-Kostant-Rosenberg filtration on the free loop space of
@@ -107,18 +107,19 @@ theory; when specialized to the rank $$1$$ case, our results are "explained" by
 EHP sequences and Hopf fibrations. (Added an appendix on the relationship to
 string topology.)
 
-* <a href = "/files/PGL2-cubes.pdf">Geometric Langlands duality for
+* <a href = "/files/PGL2-cubes.pdf">Derived geometric Satake for
   $$\mathrm{PGL}_2^{\times 3}/\mathrm{PGL}_2^\mathrm{diag}$$ (2023).</a> Last
 update: Oct 2023. <br>
 Uses the methods of "$$\mathrm{ku}$$-theoretic..." and hypermatrices following
 Gelfand-Kapranov-Zelevinsky and Bhargava to prove the local geometric relative
 Langlands conjecture of <a href =
-"https://math.jhu.edu/~sakellar/BZSVpaperV1.pdf">BZSV</a> for the spherical
-variety $$\mathrm{PGL}_2^{\times 3}/\mathrm{PGL}_2^\mathrm{diag}$$, whose dual
-is $$\mathrm{SL}_2^{\times 3}$$ acting on $$(\mathbf{C}^2)^{\otimes 3}$$. Also
-studies the case of the spherical variety $$\mathrm{PSO}_8/G_2$$, and suggests
-an analogous story might exist if $$\mathrm{PGL}_2$$ and $$G_2$$ are replaced by
-the rank $$3$$ Dwyer-Wilkerson exotic $$2$$-compact group.
+"https://math.jhu.edu/~sakellar/BZSVpaperV1.pdf">Ben-Zvi, Sakellaridis, and
+Venkatesh</a> for the spherical variety $$\mathrm{PGL}_2^{\times
+3}/\mathrm{PGL}_2^\mathrm{diag}$$, whose dual is $$\mathrm{SL}_2^{\times 3}$$
+acting on $$(\mathbf{C}^2)^{\otimes 3}$$. Also studies the case of the spherical
+variety $$\mathrm{PSO}_8/G_2$$, and suggests an analogous story might exist if
+$$\mathrm{PGL}_2$$ and $$G_2$$ are replaced by the rank $$3$$ Dwyer-Wilkerson
+exotic $$2$$-compact group.
 
 * <a href = "/files/thh-Xn.pdf">Topological Hochschild homology, truncated
   Brown-Peterson spectra, and a topological Sen operator (2023).</a> Last
