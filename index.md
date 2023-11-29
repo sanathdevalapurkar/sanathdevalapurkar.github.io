@@ -411,10 +411,10 @@ Last update: April 2021.
   Hopkins-Mahowald theorem</a>. Handwritten slides used for a talk at the <a
 href="http://www.sas.rochester.edu/mth/news-events/events/topology-seminars.html">Rochester
 topology seminar</a>. Last update: March 2021.
-* <a href="/files/nilp-hecke.pdf">Nilpotent singular support and the Hecke
+<!--* <a href="/files/nilp-hecke.pdf">Nilpotent singular support and the Hecke
   action</a>. Incomplete notes for two talks at the Langlands Support Group on
 <a href="https://arxiv.org/abs/1908.05420">GKRV</a> and <a
-href="https://arxiv.org/abs/2010.01906">AGKSRV</a>. Last update: March 2021.
+href="https://arxiv.org/abs/2010.01906">AGKSRV</a>. Last update: March 2021.-->
 * <a href="/files/adic.pdf">Discrete adic spaces</a>. Notes for a talk on
   discrete adic spaces for the <a href =
 "https://eldenelmanto.com/condensed-thursday/">Thursday seminar</a> on condensed
