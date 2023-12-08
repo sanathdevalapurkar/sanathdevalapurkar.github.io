@@ -111,8 +111,8 @@ string topology.)
   $$\mathrm{PGL}_2^{\times 3}/\mathrm{PGL}_2^\mathrm{diag}$$ (2023).</a> Last
 update: Oct 2023. <br>
 Uses the methods of "$$\mathrm{ku}$$-theoretic..." and hypermatrices following
-Gelfand-Kapranov-Zelevinsky and Bhargava to prove the local geometric relative
-Langlands conjecture of <a href =
+Cayley, Gelfand-Kapranov-Zelevinsky, and Bhargava to study the local geometric
+relative Langlands conjecture of <a href =
 "https://math.jhu.edu/~sakellar/BZSVpaperV1.pdf">Ben-Zvi, Sakellaridis, and
 Venkatesh</a> for the spherical variety $$\mathrm{PGL}_2^{\times
 3}/\mathrm{PGL}_2^\mathrm{diag}$$, whose dual is $$\mathrm{SL}_2^{\times 3}$$
