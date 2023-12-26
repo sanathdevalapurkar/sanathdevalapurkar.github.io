@@ -20,7 +20,7 @@ src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLor
 <table width="100%" cellspacing="0" cellpadding="0">
 <tbody><tr>
 <td width = "37.5%">
-<img style="display: block; margin: auto;" alt="photo" src="/assets/sailing.jpg">
+<img style="display: block; margin: auto;" alt="photo" src="/assets/book-circle.png">
 </td>
 <td>
 <p>
@@ -67,11 +67,11 @@ This spring, I'm giving talks at <a href =
 Institute</a>.
 </p>-->
 <p>
-In Fall 2023, I'm organizing a seminar on relative Langlands duality with <a
-href = "https://people.math.harvard.edu/~gammage/">Ben Gammage</a>; the website
-is <b><a href =
+In Fall 2023, I organized a seminar on relative Langlands duality with <a href =
+"https://people.math.harvard.edu/~gammage/">Ben Gammage</a>; the website is
+<b><a href =
 "https://people.math.harvard.edu/~gammage/relative-fall23.html">here</a></b>. We
-meet Tuesdays at 1 pm in SC 232.
+(used to) meet Tuesdays at 1 pm in SC 232.
 </p>
 <p>
 In Spring 2024, I'm teaching an undergraduate course (Math 99r) on integrable
@@ -92,7 +92,7 @@ hyperlinks.)
 
 * <a href = "/files/hyperboloid_spectral_decomp.pdf">$$\mathrm{ku}$$-theoretic
   spectral decompositions for spheres and projective spaces (2023).</a> Last
-update: Nov 2023. <br>
+update: Dec 2023. <br>
 Studies the local geometric relative Langlands conjecture of <a href =
 "https://math.jhu.edu/~sakellar/BZSVpaperV1.pdf">Ben-Zvi, Sakellaridis, and
 Venkatesh</a> in the case of affine homogeneous spherical varieties of relative
@@ -109,17 +109,17 @@ string topology.)
 
 * <a href = "/files/PGL2-cubes.pdf">Derived geometric Satake for
   $$\mathrm{PGL}_2^{\times 3}/\mathrm{PGL}_2^\mathrm{diag}$$ (2023).</a> Last
-update: Oct 2023. <br>
+update: Dec 2023. <br>
 Uses the methods of "$$\mathrm{ku}$$-theoretic..." and hypermatrices following
 Cayley, Gelfand-Kapranov-Zelevinsky, and Bhargava to study the local geometric
 relative Langlands conjecture of <a href =
 "https://math.jhu.edu/~sakellar/BZSVpaperV1.pdf">Ben-Zvi, Sakellaridis, and
 Venkatesh</a> for the spherical variety $$\mathrm{PGL}_2^{\times
 3}/\mathrm{PGL}_2^\mathrm{diag}$$, whose dual is $$\mathrm{SL}_2^{\times 3}$$
-acting on $$(\mathbf{C}^2)^{\otimes 3}$$. Also studies the case of the spherical
-variety $$\mathrm{PSO}_8/G_2$$, and suggests an analogous story might exist if
-$$\mathrm{PGL}_2$$ and $$G_2$$ are replaced by the rank $$3$$ Dwyer-Wilkerson
-exotic $$2$$-compact group.
+acting on $$(\mathbf{A}^2)^{\otimes 3}$$. Also studies the case of the spherical
+variety $$\mathrm{PSO}_8/\mathrm{G}_2$$, and suggests an analogous story might
+exist if $$\mathrm{PGL}_2$$ and $$\mathrm{G}_2$$ are replaced by the rank $$3$$
+Dwyer-Wilkerson exotic $$2$$-compact group.
 
 * <a href = "/files/thh-Xn.pdf">Topological Hochschild homology, truncated
   Brown-Peterson spectra, and a topological Sen operator (2023).</a> Last
