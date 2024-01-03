@@ -104,8 +104,7 @@ encoding the Hochschild-Kostant-Rosenberg filtration on the free loop space of
 $$B\check{G}$$.) Most of the article is in fact about the geometric relative
 Langlands conjectures in the general case and its relationships to homotopy
 theory; when specialized to the rank $$1$$ case, our results are "explained" by
-EHP sequences and Hopf fibrations. (Added an appendix on the relationship to
-string topology.)
+EHP sequences and Hopf fibrations. (Did some reorganization.)
 
 * <a href = "/files/PGL2-cubes.pdf">Derived geometric Satake for
   $$\mathrm{PGL}_2^{\times 3}/\mathrm{PGL}_2^\mathrm{diag}$$ (2023).</a> Last
