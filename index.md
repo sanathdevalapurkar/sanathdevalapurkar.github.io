@@ -92,7 +92,7 @@ hyperlinks.)
 
 * <a href = "/files/hyperboloid_spectral_decomp.pdf">$$\mathrm{ku}$$-theoretic
   spectral decompositions for spheres and projective spaces (2023).</a> Last
-update: Dec 2023. <br>
+update: Jan 2024. <br>
 Studies the local geometric relative Langlands conjecture of <a href =
 "https://math.jhu.edu/~sakellar/BZSVpaperV1.pdf">Ben-Zvi, Sakellaridis, and
 Venkatesh</a> in the case of affine homogeneous spherical varieties of relative
@@ -109,7 +109,7 @@ string topology.)
 
 * <a href = "/files/PGL2-cubes.pdf">Derived geometric Satake for
   $$\mathrm{PGL}_2^{\times 3}/\mathrm{PGL}_2^\mathrm{diag}$$ (2023).</a> Last
-update: Dec 2023. <br>
+update: Jan 2024. <br>
 Uses the methods of "$$\mathrm{ku}$$-theoretic..." and hypermatrices following
 Cayley, Gelfand-Kapranov-Zelevinsky, and Bhargava to study the local geometric
 relative Langlands conjecture of <a href =
