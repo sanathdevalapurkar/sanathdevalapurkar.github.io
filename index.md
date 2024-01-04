@@ -159,7 +159,8 @@ defect using the Anderson dual of a cofiber sequence of Thom spectra.
 
 * <a href = "/files/grG-regular.pdf">Chromatic aberrations of the geometric
   Satake equivalence over the regular locus (2023).</a> Last update: June 2023.
-<a href = "https://arxiv.org/abs/2303.09432">arXiv</a>.<br> 
+<a href = "https://arxiv.org/abs/2303.09432">arXiv</a>. (I am in the process of
+rewriting this article.)<br> 
 Studies the question of proving an analogue of the derived geometric Satake
 equivalence of <a href = "https://arxiv.org/abs/alg-geom/9511007">Ginzburg</a>
 and <a href = "https://arxiv.org/abs/0707.3799">Bezrukavnikov-Finkelberg</a>
