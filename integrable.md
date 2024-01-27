@@ -38,8 +38,13 @@ references for later parts as we go along.
 
 Most of your grade will be based off a final paper (probably around 80% of the
 grade); and depending on the number of people who sign up, either a final 15-20
-minute presentation <b>or</b> biweekly problem sets (which will be of the form
-"explore the following topic", and not "here is a problem, do it in exactly this
-way").
+minute presentation <b>and</b> a few problems which will be due in the middle of
+the semester (these problems will be of the form "explore the following topic",
+and not "here is a problem, do it in exactly this way").
 
 At least for now, we will meet in <b>SC 232</b> on <b>Tuesdays, 4-5:30 pm</b>.
+
+<h2>Lectures</h2>
+
+<a href = "/files/math-99/lec1-math-99.pdf">Lecture 1: Introduction</a> (Jan
+26). I have uploaded a recording of the lecture on Canvas.
