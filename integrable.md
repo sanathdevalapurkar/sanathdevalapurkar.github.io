@@ -31,7 +31,9 @@ for the theory of Lie algebras!).
 The main focus in the second half of this course will be the Calogero-Moser and
 Toda integrable systems, and their construction due to
 Kazhdan-Kostant-Sternberg. A more detailed syllabus and schedule will be posted
-later. I will be typing up notes for (some of) the lectures and posting them on
+later. 
+
+I will be typing up notes for (some of) the lectures and posting them on
 this webpage. For the most part, I will follow Arnold's "Mathematical Methods of
 Classical Mechanics" in the beginning of the course, and will decide on
 references for later parts as we go along.
@@ -42,7 +44,8 @@ minute presentation <b>and</b> a few problems which will be due in the middle of
 the semester (these problems will be of the form "explore the following topic",
 and not "here is a problem, do it in exactly this way").
 
-At least for now, we will meet in <b>SC 232</b> on <b>Tuesdays, 4-5:30 pm</b>.
+We will meet in <b>SC 232</b> on <b>Tuesdays, 4:30 - 6 pm</b> and <b>Fridays, 2
+- 3 pm</b>.
 
 <h2>Lectures</h2>
 

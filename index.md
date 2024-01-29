@@ -66,13 +66,13 @@ This spring, I'm giving talks at <a href =
 "https://perimeterinstitute.ca/events/chromatic-aberrations-geometric-satake-equivalence">Perimeter
 Institute</a>.
 </p>-->
-<p>
+<!--<p>
 In Fall 2023, I organized a seminar on relative Langlands duality with <a href =
 "https://people.math.harvard.edu/~gammage/">Ben Gammage</a>; the website is
 <b><a href =
 "https://people.math.harvard.edu/~gammage/relative-fall23.html">here</a></b>. We
 (used to) meet Tuesdays at 1 pm in SC 232.
-</p>
+</p>-->
 <p>
 In Spring 2024, I'm teaching an undergraduate course (Math 99r) on integrable
 systems. The website is <b><a href = "/integrable.html">here</a></b>.
