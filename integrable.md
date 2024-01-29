@@ -44,8 +44,8 @@ minute presentation <b>and</b> a few problems which will be due in the middle of
 the semester (these problems will be of the form "explore the following topic",
 and not "here is a problem, do it in exactly this way").
 
-We will meet in <b>SC 232</b> on <b>Tuesdays, 4:30 - 6 pm</b> and <b>Fridays, 2
-- 3 pm</b>.
+We will meet in <b>SC 232</b> on <b>Tuesdays, 4:30-6 pm</b> and <b>Fridays, 2-3
+pm</b>.
 
 <h2>Lectures</h2>
 
