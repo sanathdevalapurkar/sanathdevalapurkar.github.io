@@ -92,7 +92,7 @@ hyperlinks.)
 
 * <a href = "/files/hyperboloid_spectral_decomp.pdf">$$\mathrm{ku}$$-theoretic
   spectral decompositions for spheres and projective spaces (2023).</a> Last
-update: Jan 2024. <br>
+update: Feb 2024. <br>
 Studies the local geometric relative Langlands conjecture of <a href =
 "https://math.jhu.edu/~sakellar/BZSVpaperV1.pdf">Ben-Zvi, Sakellaridis, and
 Venkatesh</a> in the case of affine homogeneous spherical varieties of relative

@@ -49,5 +49,14 @@ pm</b>.
 
 <h2>Lectures</h2>
 
-<a href = "/files/math-99/lec1-math-99.pdf">Lecture 1: Introduction</a> (Jan
+These notes were written hastily, so you should be sure to check what I have
+written and supplement it through other sources.
+
+<a href = "/files/math-99/lec0-math-99.pdf">Lecture 0: Introduction</a> (Jan
 26). I have uploaded a recording of the lecture on Canvas.
+
+<a href = "/files/math-99/lec1-math-99.pdf">Lecture 1: The Lagrangian
+formalism</a> (Jan 30).
+
+<a href = "/files/math-99/lec2-math-99.pdf">Lecture 2: The Legendre transform
+and Hamiltonian mechanics</a> (Feb 2).
