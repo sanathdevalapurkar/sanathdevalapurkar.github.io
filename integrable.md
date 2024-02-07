@@ -44,8 +44,8 @@ minute presentation <b>and</b> a few problems which will be due in the middle of
 the semester (these problems will be of the form "explore the following topic",
 and not "here is a problem, do it in exactly this way").
 
-We will meet in <b>SC 232</b> on <b>Tuesdays, 4:30-6 pm</b> and <b>Fridays, 2-3
-pm</b>.
+We will meet in <b>SC 232</b> on <b>Tuesdays, 4:30-6 pm</b> and in <b> SC
+530</b> on <b>Fridays, 2-3 pm</b>.
 
 <h2>Lectures</h2>
 
@@ -60,3 +60,10 @@ formalism</a> (Jan 30).
 
 <a href = "/files/math-99/lec2-math-99.pdf">Lecture 2: The Legendre transform
 and Hamiltonian mechanics</a> (Feb 2).
+
+<a href = "/files/math-99/lec3-math-99.pdf">Lecture 3: Symplectic geometry</a>
+(Feb 6).
+
+No lecture on Feb 9 (<a href =
+"https://cmsa.fas.harvard.edu/events-archive/category/aqft-lecture-series/">CMSA
+lecture series</a>).
