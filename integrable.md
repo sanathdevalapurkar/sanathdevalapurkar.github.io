@@ -35,8 +35,10 @@ later.
 
 I will be typing up notes for (some of) the lectures and posting them on
 this webpage. For the most part, I will follow Arnold's "Mathematical Methods of
-Classical Mechanics" in the beginning of the course, and will decide on
-references for later parts as we go along.
+Classical Mechanics" in the beginning of the course. I also like
+Libermann-Marle's "Symplectic Geometry and Analytical Mechanics", as well as
+Abraham-Marsden's "Foundations of Mechanics".
+I will add further references for later parts as we go along.
 
 Most of your grade will be based off a final paper (probably around 80% of the
 grade); and depending on the number of people who sign up, either a final 15-20
@@ -67,3 +69,8 @@ and Hamiltonian mechanics</a> (Feb 2).
 No lecture on Feb 9 (<a href =
 "https://cmsa.fas.harvard.edu/events-archive/category/aqft-lecture-series/">CMSA
 lecture series</a>).
+
+Also no lecture on Feb 13 (snowstorm).
+
+<a href = "/files/math-99/lec4-math-99.pdf">Lecture 4: Hamiltonian reduction</a>
+(Feb 16).
