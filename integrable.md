@@ -70,7 +70,7 @@ No lecture on Feb 9 (<a href =
 "https://cmsa.fas.harvard.edu/events-archive/category/aqft-lecture-series/">CMSA
 lecture series</a>).
 
-Also no lecture on Feb 13 (snowstorm).
+No lecture on Feb 13 (snowstorm).
 
 <a href = "/files/math-99/lec4-math-99.pdf">Lecture 4: Hamiltonian reduction</a>
 (Feb 16).
