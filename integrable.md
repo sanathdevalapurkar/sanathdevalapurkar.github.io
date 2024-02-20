@@ -73,4 +73,8 @@ lecture series</a>).
 No lecture on Feb 13 (snowstorm).
 
 <a href = "/files/math-99/lec4-math-99.pdf">Lecture 4: Hamiltonian reduction</a>
-(Feb 16).
+(Feb 16). (This spills over into the next lecture, and I expect that I've
+started a domino effect...)
+
+<a href = "/files/math-99/lec5-math-99.pdf">Lecture 5: Rigid body motion</a>
+(Feb 20).
