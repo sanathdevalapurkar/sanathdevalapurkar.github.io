@@ -78,3 +78,6 @@ started a domino effect...)
 
 <a href = "/files/math-99/lec5-math-99.pdf">Lecture 5: Rigid body motion</a>
 (Feb 20).
+
+<a href = "/files/math-99/lec6-math-99.pdf">Lecture 6: Lax pairs</a> (Feb 23).
+(Incomplete)
