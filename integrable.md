@@ -41,10 +41,8 @@ Abraham-Marsden's "Foundations of Mechanics".
 I will add further references for later parts as we go along.
 
 Most of your grade will be based off a final paper (probably around 80% of the
-grade); and depending on the number of people who sign up, either a final 15-20
-minute presentation <b>and</b> a few problems which will be due in the middle of
-the semester (these problems will be of the form "explore the following topic",
-and not "here is a problem, do it in exactly this way").
+grade); and a few problems which will be due towards the end of the semester
+(second week of April).
 
 We will meet in <b>SC 232</b> on <b>Tuesdays, 4:30-6 pm</b> and in <b> SC
 530</b> on <b>Fridays, 2-3 pm</b>.
@@ -81,3 +79,10 @@ started a domino effect...)
 
 <a href = "/files/math-99/lec6-math-99.pdf">Lecture 6: Lax pairs</a> (Feb 23).
 (Incomplete)
+
+<h2>Problems</h2>
+
+Here are <a href = "/files/math-99/psets-math-99.pdf">some problems</a>. I will
+keep updating this file throughout the semester. Please try to do at least a
+third of the problems, and submit them to me by email by the second week of
+April.
