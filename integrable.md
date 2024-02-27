@@ -80,6 +80,9 @@ started a domino effect...)
 <a href = "/files/math-99/lec6-math-99.pdf">Lecture 6: Lax pairs</a> (Feb 23).
 (Incomplete)
 
+<a href = "/files/math-99/lec7-math-99.pdf">Lecture 7: Integrability</a>
+(Feb 27).
+
 <h2>Problems</h2>
 
 Here are <a href = "/files/math-99/psets-math-99.pdf">some problems</a>. I will
