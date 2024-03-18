@@ -90,9 +90,9 @@ Comments or suggestions for improving any of these documents are greatly
 appreciated! (By request, I've updated some of the files below to have internal
 hyperlinks.)
 
-* <a href = "/files/hyperboloid_spectral_decomp.pdf">$$\mathrm{ku}$$-theoretic
-  spectral decompositions for spheres and projective spaces (2023).</a> Last
-update: Feb 2024. <a href = "https://arxiv.org/abs/2402.03995">arXiv.</a> <br>
+* <a href = "/files/hyperboloid_spectral_decomp.pdf">ku-theoretic spectral
+  decompositions for spheres and projective spaces (2023).</a> Last update: 
+Feb 2024. <a href = "https://arxiv.org/abs/2402.03995">arXiv.</a> <br>
 Studies the local geometric relative Langlands conjecture of <a href =
 "https://math.jhu.edu/~sakellar/BZSVpaperV1.pdf">Ben-Zvi, Sakellaridis, and
 Venkatesh</a> in the case of affine homogeneous spherical varieties of relative
