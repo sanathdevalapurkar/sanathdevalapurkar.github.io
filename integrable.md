@@ -83,6 +83,8 @@ started a domino effect...)
 <a href = "/files/math-99/lec7-math-99.pdf">Lecture 7: Integrability</a>
 (Feb 27).
 
+Lecture 8: The Calogero-Moser system; see the first few chapters of <a href = "https://arxiv.org/abs/math/0606233">Etingof's notes</a>.
+
 <h2>Problems</h2>
 
 Here are <a href = "/files/math-99/psets-math-99.pdf">some problems</a>. I will
