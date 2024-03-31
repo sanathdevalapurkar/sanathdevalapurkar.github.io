@@ -106,7 +106,7 @@ Dwyer-Wilkerson exotic $$2$$-compact group.
 
 * <a href = "/files/hyperboloid_spectral_decomp.pdf">ku-theoretic spectral
   decompositions for spheres and projective spaces (2023).</a> Last update: 
-Feb 2024. <a href = "https://arxiv.org/abs/2402.03995">arXiv.</a> <br>
+March 2024. <a href = "https://arxiv.org/abs/2402.03995">arXiv.</a> <br>
 Studies the local geometric relative Langlands conjecture of <a href =
 "https://math.jhu.edu/~sakellar/BZSVpaperV1.pdf">Ben-Zvi, Sakellaridis, and
 Venkatesh</a> in the case of affine homogeneous spherical varieties of relative
@@ -119,7 +119,7 @@ $$B\check{G}$$.) Most of the article is in fact about the geometric relative
 Langlands conjectures in the general case and its relationships to homotopy
 theory; when specialized to the rank $$1$$ case, our results are "explained" by
 EHP sequences and Hopf fibrations. (Fixed some typos present in the arXiv
-version)
+version.)
 
 * <a href = "/files/thh-Xn.pdf">Topological Hochschild homology, truncated
   Brown-Peterson spectra, and a topological Sen operator (2023).</a> Last
