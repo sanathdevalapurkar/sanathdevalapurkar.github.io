@@ -91,7 +91,7 @@ appreciated! (By request, I've updated some of the files below to have internal
 hyperlinks.)
 
 * <a href = "/files/PGL2-cubes.pdf">Derived geometric Satake for
-  $$\mathrm{PGL}_2^{\times 3}/\mathrm{PGL}_2^\mathrm{diag}$$ (2023).</a> Last
+  $$\mathrm{PGL}_2^{\times 3}/\mathrm{PGL}_2^\mathrm{diag}$$ (2024).</a> Last
 update: March 2024. <br>
 Uses the methods of "$$\mathrm{ku}$$-theoretic..." and hypermatrices following
 Cayley, Gelfand-Kapranov-Zelevinsky, and Bhargava to study the local geometric
@@ -105,8 +105,8 @@ exist if $$\mathrm{PGL}_2$$ and $$\mathrm{G}_2$$ are replaced by the rank $$3$$
 Dwyer-Wilkerson exotic $$2$$-compact group.
 
 * <a href = "/files/hyperboloid_spectral_decomp.pdf">ku-theoretic spectral
-  decompositions for spheres and projective spaces (2023).</a> Last update: 
-March 2024. <a href = "https://arxiv.org/abs/2402.03995">arXiv.</a> <br>
+  decompositions for spheres and projective spaces (2024).</a> Last update: 
+April 2024. <a href = "https://arxiv.org/abs/2402.03995">arXiv.</a> <br>
 Studies the local geometric relative Langlands conjecture of <a href =
 "https://math.jhu.edu/~sakellar/BZSVpaperV1.pdf">Ben-Zvi, Sakellaridis, and
 Venkatesh</a> in the case of affine homogeneous spherical varieties of relative
@@ -118,8 +118,7 @@ encoding the Hochschild-Kostant-Rosenberg filtration on the free loop space of
 $$B\check{G}$$.) Most of the article is in fact about the geometric relative
 Langlands conjectures in the general case and its relationships to homotopy
 theory; when specialized to the rank $$1$$ case, our results are "explained" by
-EHP sequences and Hopf fibrations. (Fixed some typos present in the arXiv
-version.)
+EHP sequences and Hopf fibrations. (Fixed some stuff about centers.)
 
 * <a href = "/files/thh-Xn.pdf">Topological Hochschild homology, truncated
   Brown-Peterson spectra, and a topological Sen operator (2023).</a> Last
