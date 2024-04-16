@@ -92,7 +92,7 @@ hyperlinks.)
 
 * <a href = "/files/PGL2-cubes.pdf">Derived geometric Satake for
   $$\mathrm{PGL}_2^{\times 3}/\mathrm{PGL}_2^\mathrm{diag}$$ (2024).</a> Last
-update: March 2024. <br>
+update: March 2024. <a href = "https://arxiv.org/abs/2404.09853">arXiv</a>. <br>
 Uses the methods of "$$\mathrm{ku}$$-theoretic..." and hypermatrices following
 Cayley, Gelfand-Kapranov-Zelevinsky, and Bhargava to study the local geometric
 relative Langlands conjecture of <a href =
