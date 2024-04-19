@@ -102,7 +102,8 @@ Venkatesh</a> for the spherical variety $$\mathrm{PGL}_2^{\times
 acting on $$(\mathbf{A}^2)^{\otimes 3}$$. Also studies the case of the spherical
 variety $$\mathrm{PSO}_8/\mathrm{G}_2$$, and suggests an analogous story might
 exist if $$\mathrm{PGL}_2$$ and $$\mathrm{G}_2$$ are replaced by the rank $$3$$
-Dwyer-Wilkerson exotic $$2$$-compact group.
+Dwyer-Wilkerson exotic $$2$$-compact group. (The link above has minor additions
+to the arXiv version.)
 
 * <a href = "/files/hyperboloid_spectral_decomp.pdf">ku-theoretic spectral
   decompositions for spheres and projective spaces (2024).</a> Last update: 
@@ -118,7 +119,8 @@ encoding the Hochschild-Kostant-Rosenberg filtration on the free loop space of
 $$B\check{G}$$.) Most of the article is in fact about the geometric relative
 Langlands conjectures in the general case and its relationships to homotopy
 theory; when specialized to the rank $$1$$ case, our results are "explained" by
-EHP sequences and Hopf fibrations. (Fixed some stuff about centers.)
+EHP sequences and Hopf fibrations. (Fixed some stuff about centers, and some
+minor additions to the arXiv version in the link above.)
 
 * <a href = "/files/thh-Xn.pdf">Topological Hochschild homology, truncated
   Brown-Peterson spectra, and a topological Sen operator (2023).</a> Last
