@@ -90,6 +90,14 @@ Comments or suggestions for improving any of these documents are greatly
 appreciated! (By request, I've updated some of the files below to have internal
 hyperlinks.)
 
+* <a href = "/files/anomaly-obstruction.pdf">The Smith fiber sequence and invertible field theories (2023),</a>
+and <a href = "/files/physics-anomaly.pdf">A Long Exact Sequence in Symmetry Breaking (2024);</a>;
+joint with <a href = "https://www.math.purdue.edu/~adebray/">Arun Debray</a>, <a href = "https://math.mit.edu/directory/profile.html?pid=2232">Cameron Krulewski</a>, <a href = "https://leon2k2k2k.github.io/">Leon Liu</a>, <a href = "https://math.mit.edu/directory/profile.html?pid=2242">Natalia Pacheco-Tallaj</a>, and <a href = "https://math.berkeley.edu/~ragnar/">Ryan Thorngren</a>. Last update: May 2024. <a href = "https://arxiv.org/abs/2309.16749">arXiv</a>.<br>
+Studies defects in symmetry breaking phases via the anomaly of their defects,
+and obstructions to the existence of symmetry breaking phases with a local
+defect using the Anderson dual of a cofiber sequence of Thom spectra. The second
+of these separates out the physics from the math.
+
 * <a href = "/files/PGL2-cubes.pdf">Derived geometric Satake for
   $$\mathrm{PGL}_2^{\times 3}/\mathrm{PGL}_2^\mathrm{diag}$$ (2024).</a> Last
 update: March 2024. <a href = "https://arxiv.org/abs/2404.09853">arXiv</a>. <br>
@@ -144,20 +152,6 @@ forms can be constructed via curves on $$p$$-adic syntomic cohomology (as
 constructed in Bhatt-Morrow-Scholze). The argument relies on refining a result
 of Hesselholt's, as well as an evenness result of Darrell and Riggenbach (which
 we reprove using different methods).
-
-* <a href = "/files/anomaly-obstruction.pdf">A Long Exact Sequence in Symmetry
-  Breaking (2023),</a> joint with <a href =
-"https://www.math.purdue.edu/~adebray/">Arun Debray</a>, <a href =
-"https://math.mit.edu/directory/profile.html?pid=2232">Cameron Krulewski</a>, <a
-href = "https://leon2k2k2k.github.io/">Leon Liu</a>, <a href =
-"https://math.mit.edu/directory/profile.html?pid=2242">Natalia
-Pacheco-Tallaj</a>, and <a href = "https://math.berkeley.edu/~ragnar/">Ryan
-Thorngren</a>. Last update: Sept 2023. <a href =
-"https://arxiv.org/abs/2309.16749">arXiv</a>.<br>
-Studies defects in symmetry breaking phases via the anomaly of their defects,
-and obstructions to the existence of symmetry breaking phases with a local
-defect using the Anderson dual of a cofiber sequence of Thom spectra.
-
 
 * <a href = "/files/grG-regular.pdf">Chromatic aberrations of the geometric
   Satake equivalence over the regular locus (2023).</a> Last update: June 2023.
