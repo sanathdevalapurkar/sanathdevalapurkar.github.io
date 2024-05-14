@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-04-02T11:41:17-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Sanath Devalapurkar’s home page</title><subtitle>Graduate student in math at Harvard.</subtitle><entry><title type="html">A restart/some updates</title><link href="http://localhost:4000/blog/algebraic-geometry/2024/04/02/reintro.html" rel="alternate" type="text/html" title="A restart/some updates" /><published>2024-04-02T00:00:00-04:00</published><updated>2024-04-02T00:00:00-04:00</updated><id>http://localhost:4000/blog/algebraic-geometry/2024/04/02/reintro</id><content type="html" xml:base="http://localhost:4000/blog/algebraic-geometry/2024/04/02/reintro.html">&lt;script type=&quot;text/javascript&quot; async=&quot;&quot; src=&quot;https://www.google-analytics.com/analytics.js&quot;&gt;&lt;/script&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-05-09T08:31:13-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Sanath Devalapurkar’s home page</title><subtitle>Graduate student in math at Harvard.</subtitle><entry><title type="html">A restart/some updates</title><link href="http://localhost:4000/blog/algebraic-geometry/2024/04/02/reintro.html" rel="alternate" type="text/html" title="A restart/some updates" /><published>2024-04-02T00:00:00-04:00</published><updated>2024-04-02T00:00:00-04:00</updated><id>http://localhost:4000/blog/algebraic-geometry/2024/04/02/reintro</id><content type="html" xml:base="http://localhost:4000/blog/algebraic-geometry/2024/04/02/reintro.html">&lt;script type=&quot;text/javascript&quot; async=&quot;&quot; src=&quot;https://www.google-analytics.com/analytics.js&quot;&gt;&lt;/script&gt;
 
 &lt;script async=&quot;&quot; src=&quot;https://www.googletagmanager.com/gtag/js?id=UA-109004213-1&quot;&gt;&lt;/script&gt;
 
@@ -119,110 +119,8 @@
 &lt;p&gt;I used to post relatively frequently on this blog as an undergraduate, and
 essentially stopped once I started grad school. It seems fun to try to restart
 it (and post with far less frequency than I used to). (I have archived the old
-posts; if, for some reason, you want to see them, let me know.) In this post, I
-want to talk about a &lt;a href=&quot;/files/hyperboloid_spectral_decomp.pdf&quot;&gt;recent
-article&lt;/a&gt; that I finished. It is concerned with a few different, but related,
-topics, and I would like to illustrate some of them in the next few posts. In
-this one, I will focus on the results concerned with “ordinary coefficients”
-(i.e., no complex K-theory, etc.), and so I will phrase the discussion so as to
-try to appeal to algebraic topologists.&lt;/p&gt;
-
-&lt;p&gt;The basic question at hand is the following. Suppose &lt;script type=&quot;math/tex&quot;&gt;G&lt;/script&gt; is a complex
-reductive group, always assumed connected, and let &lt;script type=&quot;math/tex&quot;&gt;\ld{G}&lt;/script&gt; denote its
-Langlands dual group. This is the split reductive group over &lt;script type=&quot;math/tex&quot;&gt;\cc&lt;/script&gt; (and over
-&lt;script type=&quot;math/tex&quot;&gt;\Z&lt;/script&gt;, if one wants; I will try to address integrality questions later) whose
-root datum is dual to the root datum of &lt;script type=&quot;math/tex&quot;&gt;G&lt;/script&gt;. That such a thing even exists is
-an absolute miracle! One of the things learned from number theory/geometric
-representation theory is that the &lt;em&gt;topology&lt;/em&gt;/harmonic analysis of &lt;script type=&quot;math/tex&quot;&gt;G&lt;/script&gt; is
-described by the &lt;em&gt;algebraic geometry&lt;/em&gt; of the Langlands dual group. It is good
-to keep examples in mind, so here are a few important ones. If &lt;script type=&quot;math/tex&quot;&gt;G&lt;/script&gt; is a torus
-&lt;script type=&quot;math/tex&quot;&gt;T&lt;/script&gt; with character lattice &lt;script type=&quot;math/tex&quot;&gt;\Lambda&lt;/script&gt;, then &lt;script type=&quot;math/tex&quot;&gt;\ld{G}&lt;/script&gt; is the &lt;em&gt;dual&lt;/em&gt; torus
-with character lattice &lt;script type=&quot;math/tex&quot;&gt;\Lambda^\vee&lt;/script&gt;. If &lt;script type=&quot;math/tex&quot;&gt;G&lt;/script&gt; is &lt;script type=&quot;math/tex&quot;&gt;\GL_n&lt;/script&gt;, then &lt;script type=&quot;math/tex&quot;&gt;\ld{G} =
-\GL_n&lt;/script&gt; also; if &lt;script type=&quot;math/tex&quot;&gt;G&lt;/script&gt; is &lt;script type=&quot;math/tex&quot;&gt;\SL_n&lt;/script&gt;, then &lt;script type=&quot;math/tex&quot;&gt;\ld{G} = \PGL_n&lt;/script&gt;; if &lt;script type=&quot;math/tex&quot;&gt;G =
-\Sp_{2n}&lt;/script&gt;, then &lt;script type=&quot;math/tex&quot;&gt;\ld{G} = \SO_{2n+1}&lt;/script&gt;.&lt;/p&gt;
-
-&lt;p&gt;Number theorists are often interested, among many other things, in
-geometry/harmonic analysis on symmetric spaces like &lt;script type=&quot;math/tex&quot;&gt;G(\RR)/K&lt;/script&gt;, where &lt;script type=&quot;math/tex&quot;&gt;K&lt;/script&gt; is
-a maximal compact subgroup of &lt;script type=&quot;math/tex&quot;&gt;G(\RR)&lt;/script&gt;. For instance, if &lt;script type=&quot;math/tex&quot;&gt;G = \SL_2&lt;/script&gt;, then
-&lt;script type=&quot;math/tex&quot;&gt;K = \SO_2&lt;/script&gt;, and the quotient &lt;script type=&quot;math/tex&quot;&gt;\SL_2(\RR)/\SO_2&lt;/script&gt; is the upper half-plane.
-The theory of modular forms falls into the realm of harmonic analysis on this
-quotient. One can &lt;em&gt;geometrize&lt;/em&gt; this picture: this amounts to replacing the local
-field &lt;script type=&quot;math/tex&quot;&gt;\RR&lt;/script&gt; by &lt;script type=&quot;math/tex&quot;&gt;k\ls{t}&lt;/script&gt; with &lt;script type=&quot;math/tex&quot;&gt;k&lt;/script&gt; being a finite field, and the maximal
-compact subgroup &lt;script type=&quot;math/tex&quot;&gt;K \subseteq G(\RR)&lt;/script&gt; by &lt;script type=&quot;math/tex&quot;&gt;G(k\pw{t}) \subseteq G(k\ls{t})&lt;/script&gt;.
-Now, functions on &lt;script type=&quot;math/tex&quot;&gt;G(k\ls{t})/G(k\pw{t})&lt;/script&gt; can, by the sheaf-function
-dictionary, be viewed as arising via the trace of Frobenius acting on (the
-cohomology of) a sheaf on &lt;script type=&quot;math/tex&quot;&gt;G(\ol{k}\ls{t})/G(\ol{k}\pw{t})&lt;/script&gt;. Moreover, since
-“all algebraically closed fields have the same geometry”, we may as well replace
-&lt;script type=&quot;math/tex&quot;&gt;\ol{k}&lt;/script&gt; by the complex numbers &lt;script type=&quot;math/tex&quot;&gt;\cc&lt;/script&gt;. The quotient
-&lt;script type=&quot;math/tex&quot;&gt;G(\cc\ls{t})/G(\cc\pw{t})&lt;/script&gt; is called the &lt;em&gt;affine Grassmannian&lt;/em&gt; and denoted
-&lt;script type=&quot;math/tex&quot;&gt;\Gr_G&lt;/script&gt;, and it plays a crucial role in geometric representation theory.&lt;/p&gt;
-
-&lt;p&gt;One of the most important results in setting up the Langlands program is the
-Satake isomorphism, which is concerned with the algebra of (&lt;script type=&quot;math/tex&quot;&gt;\cc&lt;/script&gt;-valued, say)
-functions on &lt;script type=&quot;math/tex&quot;&gt;G(k\pw{t})\backslash G(k\ls{t})/G(k\pw{t})&lt;/script&gt;, made into an
-algebra via convolution. The theorem is that this algebra is isomorphic to the
-Grothendieck group of the category of representations of the dual group
-&lt;script type=&quot;math/tex&quot;&gt;\ld{G}&lt;/script&gt; base-changed to &lt;script type=&quot;math/tex&quot;&gt;\cc&lt;/script&gt;.&lt;/p&gt;
-
-&lt;p&gt;By our discussion in the preceding paragraph, one can hope that this might be
-categorified/geometrized: one can instead study the category
-&lt;script type=&quot;math/tex&quot;&gt;\Shv_{G(\cc\pw{t})}(\Gr_G; \cc)&lt;/script&gt; of sheaves on the double coset space
-&lt;script type=&quot;math/tex&quot;&gt;G(\cc\pw{t})\backslash G(\cc\ls{t})/G(\cc\pw{t})&lt;/script&gt;. The Satake isomorphism
-mentioned above admits a categorification. Namely, it turns out that there is a
-t-structure on &lt;script type=&quot;math/tex&quot;&gt;\Shv_{G(\cc\pw{t})}(\Gr_G; \cc)&lt;/script&gt; whose heart identifies with
-the abelian category &lt;script type=&quot;math/tex&quot;&gt;\Rep(\ld{G})&lt;/script&gt;. This is known as the geometric Satake
-equivalence, proved by Mirkovic and Vilonen. This theorem has a rather
-remarkable consequence in pure homotopy theory, and this is what I would like to
-explain in an example.&lt;/p&gt;
-
-&lt;p&gt;If &lt;script type=&quot;math/tex&quot;&gt;X&lt;/script&gt; is any space, taking the global sections of a sheaf on &lt;script type=&quot;math/tex&quot;&gt;X&lt;/script&gt; defines a
-functor &lt;script type=&quot;math/tex&quot;&gt;\Shv(X; \cc) \to \coMod(C_\ast(X; \cc))&lt;/script&gt; to the category of comodules
-over the cocommutative coalgebra of chains on &lt;script type=&quot;math/tex&quot;&gt;X&lt;/script&gt;. This works equivariantly,
-too: namely, if &lt;script type=&quot;math/tex&quot;&gt;C^G_\ast(X; \cc) = C_\ast(X; \cc)^{hG}&lt;/script&gt; denotes the coalgebra
-of equivariant chains on &lt;script type=&quot;math/tex&quot;&gt;X&lt;/script&gt;, taking global sections defines a functor
-&lt;script type=&quot;math/tex&quot;&gt;\Shv_G(X; \cc) \to \coMod_{C_\ast^G(X; \cc)}(\Mod_{C_G^\ast(\ast; \cc)})&lt;/script&gt;.
-The geometric Satake equivalence and the Tannakian formalism together give a map&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\co_{\ld{G}} \otimes_\cc C_{G\pw{t}}^\ast(\ast; \cc) \to
-C^{G\pw{t}}_\ast(\Gr_G; \cc)&lt;/script&gt;
-
-&lt;p&gt;of coalgebras over &lt;script type=&quot;math/tex&quot;&gt;C_{G\pw{t}}^\ast(\ast; \cc)&lt;/script&gt;. It is not hard to see that
-there is a homotopy equivalence &lt;script type=&quot;math/tex&quot;&gt;G\pw{t} \xrightarrow{\sim} G&lt;/script&gt;. A theorem of
-Quillen’s also gives a homotopy equivalence &lt;script type=&quot;math/tex&quot;&gt;\Gr_G \simeq \Omega G&lt;/script&gt;, where
-&lt;script type=&quot;math/tex&quot;&gt;\Omega G&lt;/script&gt; is the based loop space of &lt;script type=&quot;math/tex&quot;&gt;G&lt;/script&gt;. Moreover, the action of
-&lt;script type=&quot;math/tex&quot;&gt;G\pw{t}&lt;/script&gt; on &lt;script type=&quot;math/tex&quot;&gt;\Gr_G&lt;/script&gt; is homotopy equivalent to the conjugation action of
-&lt;script type=&quot;math/tex&quot;&gt;G&lt;/script&gt; on &lt;script type=&quot;math/tex&quot;&gt;\Omega G&lt;/script&gt;. So the preceding map can simply be identified as a map of
-coalgebras&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\co_{\ld{G}} \otimes_\cc C_{G}^\ast(\ast; \cc) \to
-C^{G}_\ast(\Omega G; \cc).&lt;/script&gt;
-
-&lt;p&gt;One interesting observation, which I studied in &lt;a href=&quot;/files/grG-regular.pdf&quot;&gt;this article&lt;/a&gt;, is that this map can in fact be
-defined even with ordinary cohomology replaced by connective complex K-theory
-and elliptic cohomology (at least if &lt;script type=&quot;math/tex&quot;&gt;G&lt;/script&gt; is simply-laced and semisimple). But
-more on that later.&lt;/p&gt;
-
-&lt;p&gt;The question at hand is: what is this map explicitly? I will describe what it
-does on homotopy in some examples, where it connects to a lot of classical and
-beautiful homotopy theory. It is convenient to note that &lt;script type=&quot;math/tex&quot;&gt;C^{G}_\ast(\Omega G;
-\cc)&lt;/script&gt; is actually an &lt;script type=&quot;math/tex&quot;&gt;\E_3&lt;/script&gt;-ring, which in particular means that
-&lt;script type=&quot;math/tex&quot;&gt;\H^G_\ast(\Omega G; \cc)&lt;/script&gt; is a graded-commutative ring. Moreover, if
-&lt;script type=&quot;math/tex&quot;&gt;\fr{t}&lt;/script&gt; denotes the Lie algebra of the torus of &lt;script type=&quot;math/tex&quot;&gt;T&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;W&lt;/script&gt; denotes the
-Weyl group, there is an isomorphism &lt;script type=&quot;math/tex&quot;&gt;\spec \H^\ast_G(\ast; \cc) \cong
-\ld{\fr{t}}^\ast\mmod W&lt;/script&gt;. We can therefore think of the map of interest as a
-homomorphism&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\spec \H^{G}_\ast(\Omega G; \cc) \to \ld{G} \times \ld{\fr{t}}^\ast\mmod W&lt;/script&gt;
-
-&lt;p&gt;of group schemes over &lt;script type=&quot;math/tex&quot;&gt;\ld{\fr{t}}^\ast\mmod W&lt;/script&gt;.&lt;/p&gt;
-
-&lt;p&gt;I will focus mostly on the case &lt;script type=&quot;math/tex&quot;&gt;G = \GL_n&lt;/script&gt;, just to keep the discussion
-light. (Also, the map we are interested in is defined even before
-Borel-completion, so I will not do a Borel-completion anywhere below.) In this
-case, &lt;script type=&quot;math/tex&quot;&gt;\ld{\fr{t}}^\ast \cong \AA^n&lt;/script&gt; with the Weyl group &lt;script type=&quot;math/tex&quot;&gt;W = \Sigma_n&lt;/script&gt;
-acting by permutation. Therefore &lt;script type=&quot;math/tex&quot;&gt;\ld{\fr{t}}^\ast\mmod W \cong \AA^n&lt;/script&gt; again,
-where the coordinates are given by the elementary symmetric polynomials &lt;script type=&quot;math/tex&quot;&gt;c_1,
-\cdots, c_n&lt;/script&gt;. When identified with &lt;script type=&quot;math/tex&quot;&gt;\spec \H^\ast_{\GL_n}(\ast; \cc)&lt;/script&gt;, the
-generator &lt;script type=&quot;math/tex&quot;&gt;c_j&lt;/script&gt; lives in &lt;script type=&quot;math/tex&quot;&gt;\H^{2j}&lt;/script&gt;.&lt;/p&gt;
-
-&lt;p&gt;So, what is &lt;script type=&quot;math/tex&quot;&gt;\H^{\GL_n}_\ast(\Omega \GL_n; \cc)&lt;/script&gt;?&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry></feed>
+posts; if, for some reason, you want to see them, let me know.) I will soon add
+to this post a discussion about a &lt;a href=&quot;/files/hyperboloid_spectral_decomp.pdf&quot;&gt;recent article&lt;/a&gt; 
+that I finished. It is concerned with a few different, but related, topics, and
+I would like to illustrate some of the pretty linear algebra and geometry
+surrounding them.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry></feed>

@@ -166,113 +166,11 @@
 <p>I used to post relatively frequently on this blog as an undergraduate, and
 essentially stopped once I started grad school. It seems fun to try to restart
 it (and post with far less frequency than I used to). (I have archived the old
-posts; if, for some reason, you want to see them, let me know.) In this post, I
-want to talk about a <a href="/files/hyperboloid_spectral_decomp.pdf">recent
-article</a> that I finished. It is concerned with a few different, but related,
-topics, and I would like to illustrate some of them in the next few posts. In
-this one, I will focus on the results concerned with “ordinary coefficients”
-(i.e., no complex K-theory, etc.), and so I will phrase the discussion so as to
-try to appeal to algebraic topologists.</p>
-
-<p>The basic question at hand is the following. Suppose <script type="math/tex">G</script> is a complex
-reductive group, always assumed connected, and let <script type="math/tex">\ld{G}</script> denote its
-Langlands dual group. This is the split reductive group over <script type="math/tex">\cc</script> (and over
-<script type="math/tex">\Z</script>, if one wants; I will try to address integrality questions later) whose
-root datum is dual to the root datum of <script type="math/tex">G</script>. That such a thing even exists is
-an absolute miracle! One of the things learned from number theory/geometric
-representation theory is that the <em>topology</em>/harmonic analysis of <script type="math/tex">G</script> is
-described by the <em>algebraic geometry</em> of the Langlands dual group. It is good
-to keep examples in mind, so here are a few important ones. If <script type="math/tex">G</script> is a torus
-<script type="math/tex">T</script> with character lattice <script type="math/tex">\Lambda</script>, then <script type="math/tex">\ld{G}</script> is the <em>dual</em> torus
-with character lattice <script type="math/tex">\Lambda^\vee</script>. If <script type="math/tex">G</script> is <script type="math/tex">\GL_n</script>, then <script type="math/tex">\ld{G} =
-\GL_n</script> also; if <script type="math/tex">G</script> is <script type="math/tex">\SL_n</script>, then <script type="math/tex">\ld{G} = \PGL_n</script>; if <script type="math/tex">G =
-\Sp_{2n}</script>, then <script type="math/tex">\ld{G} = \SO_{2n+1}</script>.</p>
-
-<p>Number theorists are often interested, among many other things, in
-geometry/harmonic analysis on symmetric spaces like <script type="math/tex">G(\RR)/K</script>, where <script type="math/tex">K</script> is
-a maximal compact subgroup of <script type="math/tex">G(\RR)</script>. For instance, if <script type="math/tex">G = \SL_2</script>, then
-<script type="math/tex">K = \SO_2</script>, and the quotient <script type="math/tex">\SL_2(\RR)/\SO_2</script> is the upper half-plane.
-The theory of modular forms falls into the realm of harmonic analysis on this
-quotient. One can <em>geometrize</em> this picture: this amounts to replacing the local
-field <script type="math/tex">\RR</script> by <script type="math/tex">k\ls{t}</script> with <script type="math/tex">k</script> being a finite field, and the maximal
-compact subgroup <script type="math/tex">K \subseteq G(\RR)</script> by <script type="math/tex">G(k\pw{t}) \subseteq G(k\ls{t})</script>.
-Now, functions on <script type="math/tex">G(k\ls{t})/G(k\pw{t})</script> can, by the sheaf-function
-dictionary, be viewed as arising via the trace of Frobenius acting on (the
-cohomology of) a sheaf on <script type="math/tex">G(\ol{k}\ls{t})/G(\ol{k}\pw{t})</script>. Moreover, since
-“all algebraically closed fields have the same geometry”, we may as well replace
-<script type="math/tex">\ol{k}</script> by the complex numbers <script type="math/tex">\cc</script>. The quotient
-<script type="math/tex">G(\cc\ls{t})/G(\cc\pw{t})</script> is called the <em>affine Grassmannian</em> and denoted
-<script type="math/tex">\Gr_G</script>, and it plays a crucial role in geometric representation theory.</p>
-
-<p>One of the most important results in setting up the Langlands program is the
-Satake isomorphism, which is concerned with the algebra of (<script type="math/tex">\cc</script>-valued, say)
-functions on <script type="math/tex">G(k\pw{t})\backslash G(k\ls{t})/G(k\pw{t})</script>, made into an
-algebra via convolution. The theorem is that this algebra is isomorphic to the
-Grothendieck group of the category of representations of the dual group
-<script type="math/tex">\ld{G}</script> base-changed to <script type="math/tex">\cc</script>.</p>
-
-<p>By our discussion in the preceding paragraph, one can hope that this might be
-categorified/geometrized: one can instead study the category
-<script type="math/tex">\Shv_{G(\cc\pw{t})}(\Gr_G; \cc)</script> of sheaves on the double coset space
-<script type="math/tex">G(\cc\pw{t})\backslash G(\cc\ls{t})/G(\cc\pw{t})</script>. The Satake isomorphism
-mentioned above admits a categorification. Namely, it turns out that there is a
-t-structure on <script type="math/tex">\Shv_{G(\cc\pw{t})}(\Gr_G; \cc)</script> whose heart identifies with
-the abelian category <script type="math/tex">\Rep(\ld{G})</script>. This is known as the geometric Satake
-equivalence, proved by Mirkovic and Vilonen. This theorem has a rather
-remarkable consequence in pure homotopy theory, and this is what I would like to
-explain in an example.</p>
-
-<p>If <script type="math/tex">X</script> is any space, taking the global sections of a sheaf on <script type="math/tex">X</script> defines a
-functor <script type="math/tex">\Shv(X; \cc) \to \coMod(C_\ast(X; \cc))</script> to the category of comodules
-over the cocommutative coalgebra of chains on <script type="math/tex">X</script>. This works equivariantly,
-too: namely, if <script type="math/tex">C^G_\ast(X; \cc) = C_\ast(X; \cc)^{hG}</script> denotes the coalgebra
-of equivariant chains on <script type="math/tex">X</script>, taking global sections defines a functor
-<script type="math/tex">\Shv_G(X; \cc) \to \coMod_{C_\ast^G(X; \cc)}(\Mod_{C_G^\ast(\ast; \cc)})</script>.
-The geometric Satake equivalence and the Tannakian formalism together give a map</p>
-
-<script type="math/tex; mode=display">\co_{\ld{G}} \otimes_\cc C_{G\pw{t}}^\ast(\ast; \cc) \to
-C^{G\pw{t}}_\ast(\Gr_G; \cc)</script>
-
-<p>of coalgebras over <script type="math/tex">C_{G\pw{t}}^\ast(\ast; \cc)</script>. It is not hard to see that
-there is a homotopy equivalence <script type="math/tex">G\pw{t} \xrightarrow{\sim} G</script>. A theorem of
-Quillen’s also gives a homotopy equivalence <script type="math/tex">\Gr_G \simeq \Omega G</script>, where
-<script type="math/tex">\Omega G</script> is the based loop space of <script type="math/tex">G</script>. Moreover, the action of
-<script type="math/tex">G\pw{t}</script> on <script type="math/tex">\Gr_G</script> is homotopy equivalent to the conjugation action of
-<script type="math/tex">G</script> on <script type="math/tex">\Omega G</script>. So the preceding map can simply be identified as a map of
-coalgebras</p>
-
-<script type="math/tex; mode=display">\co_{\ld{G}} \otimes_\cc C_{G}^\ast(\ast; \cc) \to
-C^{G}_\ast(\Omega G; \cc).</script>
-
-<p>One interesting observation, which I studied in <a href="/files/grG-regular.pdf">this article</a>, is that this map can in fact be
-defined even with ordinary cohomology replaced by connective complex K-theory
-and elliptic cohomology (at least if <script type="math/tex">G</script> is simply-laced and semisimple). But
-more on that later.</p>
-
-<p>The question at hand is: what is this map explicitly? I will describe what it
-does on homotopy in some examples, where it connects to a lot of classical and
-beautiful homotopy theory. It is convenient to note that <script type="math/tex">C^{G}_\ast(\Omega G;
-\cc)</script> is actually an <script type="math/tex">\E_3</script>-ring, which in particular means that
-<script type="math/tex">\H^G_\ast(\Omega G; \cc)</script> is a graded-commutative ring. Moreover, if
-<script type="math/tex">\fr{t}</script> denotes the Lie algebra of the torus of <script type="math/tex">T</script> and <script type="math/tex">W</script> denotes the
-Weyl group, there is an isomorphism <script type="math/tex">\spec \H^\ast_G(\ast; \cc) \cong
-\ld{\fr{t}}^\ast\mmod W</script>. We can therefore think of the map of interest as a
-homomorphism</p>
-
-<script type="math/tex; mode=display">\spec \H^{G}_\ast(\Omega G; \cc) \to \ld{G} \times \ld{\fr{t}}^\ast\mmod W</script>
-
-<p>of group schemes over <script type="math/tex">\ld{\fr{t}}^\ast\mmod W</script>.</p>
-
-<p>I will focus mostly on the case <script type="math/tex">G = \GL_n</script>, just to keep the discussion
-light. (Also, the map we are interested in is defined even before
-Borel-completion, so I will not do a Borel-completion anywhere below.) In this
-case, <script type="math/tex">\ld{\fr{t}}^\ast \cong \AA^n</script> with the Weyl group <script type="math/tex">W = \Sigma_n</script>
-acting by permutation. Therefore <script type="math/tex">\ld{\fr{t}}^\ast\mmod W \cong \AA^n</script> again,
-where the coordinates are given by the elementary symmetric polynomials <script type="math/tex">c_1,
-\cdots, c_n</script>. When identified with <script type="math/tex">\spec \H^\ast_{\GL_n}(\ast; \cc)</script>, the
-generator <script type="math/tex">c_j</script> lives in <script type="math/tex">\H^{2j}</script>.</p>
-
-<p>So, what is <script type="math/tex">\H^{\GL_n}_\ast(\Omega \GL_n; \cc)</script>?</p>
+posts; if, for some reason, you want to see them, let me know.) I will soon add
+to this post a discussion about a <a href="/files/hyperboloid_spectral_decomp.pdf">recent article</a> 
+that I finished. It is concerned with a few different, but related, topics, and
+I would like to illustrate some of the pretty linear algebra and geometry
+surrounding them.</p>
 
   </div><a class="u-url" href="/blog/algebraic-geometry/2024/04/02/reintro.html" hidden></a>
 </article>

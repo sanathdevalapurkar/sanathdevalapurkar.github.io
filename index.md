@@ -90,9 +90,35 @@ Comments or suggestions for improving any of these documents are greatly
 appreciated! (By request, I've updated some of the files below to have internal
 hyperlinks.)
 
-* <a href = "/files/anomaly-obstruction.pdf">The Smith fiber sequence and invertible field theories (2023),</a>
-and <a href = "/files/physics-anomaly.pdf">A Long Exact Sequence in Symmetry Breaking (2024);</a>;
-joint with <a href = "https://www.math.purdue.edu/~adebray/">Arun Debray</a>, <a href = "https://math.mit.edu/directory/profile.html?pid=2232">Cameron Krulewski</a>, <a href = "https://leon2k2k2k.github.io/">Leon Liu</a>, <a href = "https://math.mit.edu/directory/profile.html?pid=2242">Natalia Pacheco-Tallaj</a>, and <a href = "https://math.berkeley.edu/~ragnar/">Ryan Thorngren</a>. Last update: May 2024. <a href = "https://arxiv.org/abs/2309.16749">arXiv</a>.<br>
+* <a href = "/files/hyperboloid_spectral_decomp.pdf">ku-theoretic spectral
+  decompositions for spheres and projective spaces (2024).</a> Last update: 
+April 2024. <a href = "https://arxiv.org/abs/2402.03995">arXiv.</a> <br>
+Studies the local geometric relative Langlands conjecture of <a href =
+"https://math.jhu.edu/~sakellar/BZSVpaperV1.pdf">Ben-Zvi, Sakellaridis, and
+Venkatesh</a> in the case of affine homogeneous spherical varieties of relative
+rank one (as listed by Akhiezer), as well as an analogue for coefficients in
+connective complex K-theory $$\mathrm{ku}$$. (For instance, working with
+$$\mathrm{ku}$$-coefficients changes the spectral side
+$$\check{\mathfrak{g}}/\check{G}$$ of derived geometric Satake to a stack
+encoding the Hochschild-Kostant-Rosenberg filtration on the free loop space of
+$$B\check{G}$$.) Most of the article is in fact about the geometric relative
+Langlands conjectures in the general case and its relationships to homotopy
+theory; when specialized to the rank $$1$$ case, our results are "explained" by
+EHP sequences and Hopf fibrations. (Some simplifications added to the arXiv
+version in the link above.)
+
+* <a href = "/files/anomaly-obstruction.pdf">The Smith fiber sequence and
+  invertible field theories (2023),</a> and <a href =
+"/files/physics-anomaly.pdf">A Long Exact Sequence in Symmetry Breaking
+(2024);</a>; joint with <a href = "https://www.math.purdue.edu/~adebray/">Arun
+Debray</a>, <a href =
+"https://math.mit.edu/directory/profile.html?pid=2232">Cameron Krulewski</a>, <a
+href = "https://leon2k2k2k.github.io/">Leon Liu</a>, <a href =
+"https://math.mit.edu/directory/profile.html?pid=2242">Natalia
+Pacheco-Tallaj</a>, and <a href = "https://math.berkeley.edu/~ragnar/">Ryan
+Thorngren</a>.  Last update: May 2024. <a href =
+"https://arxiv.org/abs/2309.16749">arXiv</a> and <a href =
+"https://arxiv.org/abs/2405.04649">arXiv</a>.<br>
 Studies defects in symmetry breaking phases via the anomaly of their defects,
 and obstructions to the existence of symmetry breaking phases with a local
 defect using the Anderson dual of a cofiber sequence of Thom spectra. The second
@@ -112,23 +138,6 @@ variety $$\mathrm{PSO}_8/\mathrm{G}_2$$, and suggests an analogous story might
 exist if $$\mathrm{PGL}_2$$ and $$\mathrm{G}_2$$ are replaced by the rank $$3$$
 Dwyer-Wilkerson exotic $$2$$-compact group. (The link above has minor additions
 to the arXiv version.)
-
-* <a href = "/files/hyperboloid_spectral_decomp.pdf">ku-theoretic spectral
-  decompositions for spheres and projective spaces (2024).</a> Last update: 
-April 2024. <a href = "https://arxiv.org/abs/2402.03995">arXiv.</a> <br>
-Studies the local geometric relative Langlands conjecture of <a href =
-"https://math.jhu.edu/~sakellar/BZSVpaperV1.pdf">Ben-Zvi, Sakellaridis, and
-Venkatesh</a> in the case of affine homogeneous spherical varieties of relative
-rank one (as listed by Akhiezer), as well as an analogue for coefficients in
-connective complex K-theory $$\mathrm{ku}$$. (For instance, working with
-$$\mathrm{ku}$$-coefficients changes the spectral side
-$$\check{\mathfrak{g}}/\check{G}$$ of derived geometric Satake to a stack
-encoding the Hochschild-Kostant-Rosenberg filtration on the free loop space of
-$$B\check{G}$$.) Most of the article is in fact about the geometric relative
-Langlands conjectures in the general case and its relationships to homotopy
-theory; when specialized to the rank $$1$$ case, our results are "explained" by
-EHP sequences and Hopf fibrations. (Fixed some stuff about centers, and some
-minor additions to the arXiv version in the link above.)
 
 * <a href = "/files/thh-Xn.pdf">Topological Hochschild homology, truncated
   Brown-Peterson spectra, and a topological Sen operator (2023).</a> Last
