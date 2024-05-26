@@ -38,7 +38,7 @@ I was an undergraduate at MIT, where I majored in math (course 18) and minored
 in physics (course 8).
 </p>
 <ul>
-<li><b>Email address:</b> sdevalapurkar[at]math[dot]harvard[dot]edu.</li>
+<li><b>Email address:</b> skdevalapurkar[at]gmail[dot]com.</li>
 <li>My office is SC 333f.</li>
 <li><b>CV: </b><a href="/files/resume.pdf">[pdf]</a></li>
 <li>I'm also on <a
