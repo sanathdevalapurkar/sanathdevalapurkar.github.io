@@ -105,7 +105,7 @@ $$B\check{G}$$.) Most of the article is in fact about the geometric relative
 Langlands conjectures in the general case and its relationships to homotopy
 theory; when specialized to the rank $$1$$ case, our results are "explained" by
 EHP sequences and Hopf fibrations. (Some simplifications added to the arXiv
-version in the link above.)
+version in the link above; also lightly updated Conjecture 3.5.11.)
 
 * <a href = "/files/anomaly-obstruction.pdf">The Smith fiber sequence and
   invertible field theories (2023),</a> and <a href =
