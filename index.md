@@ -107,10 +107,21 @@ theory; when specialized to the rank $$1$$ case, our results are "explained" by
 EHP sequences and Hopf fibrations. (Some simplifications added to the arXiv
 version in the link above; also lightly updated Conjecture 3.5.11.)
 
+* <a href = "/files/higher-dim-hdR-degen.pdf">Lifting to truncated
+  Brown-Peterson spectra and Hodge-de Rham degeneration in characteristic $$p >
+0$$ (2023).</a> Last update: July 2024. <a href =
+"https://arxiv.org/abs/2303.00739">arXiv</a>.<br>
+Shows that if a smooth proper variety $$X$$ over $$\mathbf{F}_p$$ of dimension
+$$< p^n$$ has degenerating HKR spectral sequence, and $$\mathrm{QCoh}(X)$$ lifts
+to the truncated Brown-Peterson spectrum $$\mathrm{BP}\langle n-1\rangle$$, then
+the Hodge-de Rham spectral sequence degenerates at the $$E_1$$-page. This is
+contrast to recent <a href = "https://arxiv.org/abs/2302.11389">work</a> of
+Petrov, which proves a negative result in this direction.
+
 * <a href = "/files/anomaly-obstruction.pdf">The Smith fiber sequence and
   invertible field theories (2023),</a> and <a href =
 "/files/physics-anomaly.pdf">A Long Exact Sequence in Symmetry Breaking
-(2024);</a>; joint with <a href = "https://www.math.purdue.edu/~adebray/">Arun
+(2024)</a>; joint with <a href = "https://www.math.purdue.edu/~adebray/">Arun
 Debray</a>, <a href =
 "https://math.mit.edu/directory/profile.html?pid=2232">Cameron Krulewski</a>, <a
 href = "https://leon2k2k2k.github.io/">Leon Liu</a>, <a href =
@@ -195,17 +206,6 @@ formal group law. This latter construction appears in unpublished work of Arpon
 Raksit, and also arises naturally in my "Chromatic aberrations..." article (via
 the $$T \rtimes \mathbf{G}_m^\mathrm{rot}$$-equivariant homology of the affine
 Grassmannian $$\mathrm{Gr}_T$$ of a torus).
-
-* <a href = "/files/higher-dim-hdR-degen.pdf">Lifting to truncated
-  Brown-Peterson spectra and Hodge-de Rham degeneration in characteristic $$p >
-0$$ (2023).</a> Last update: Feb 2023. <a href =
-"https://arxiv.org/abs/2303.00739">arXiv</a>.<br>
-Shows that if a smooth proper variety $$X$$ over $$\mathbf{F}_p$$ of dimension
-$$< p^n$$ has degenerating HKR spectral sequence, and $$\mathrm{QCoh}(X)$$ lifts
-to the truncated Brown-Peterson spectrum $$\mathrm{BP}\langle n-1\rangle$$, then
-the Hodge-de Rham spectral sequence degenerates at the $$E_1$$-page. This is
-contrast to recent <a href = "https://arxiv.org/abs/2302.11389">work</a> of
-Petrov, which proves a negative result in this direction.
 
 * <a href="/files/FramedStructure.pdf">Examples of disk algebras (2023),</a>
   joint with <a href = "http://web.mit.edu/~jhahn01/www/">Jeremy Hahn</a>, <a
