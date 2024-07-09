@@ -107,6 +107,24 @@ theory; when specialized to the rank $$1$$ case, our results are "explained" by
 EHP sequences and Hopf fibrations. (Some simplifications added to the arXiv
 version in the link above; also lightly updated Conjecture 3.5.11.)
 
+* <a href = "/files/grG-regular.pdf">Chromatic aberrations of the geometric
+  Satake equivalence over the regular locus (2023).</a> Last update: July 2024.
+<a href = "https://arxiv.org/abs/2303.09432">arXiv</a>. (This is almost a
+complete rewrite of the first version.)<br> 
+Studies the question of proving an analogue of the derived geometric Satake
+equivalence of <a href = "https://arxiv.org/abs/alg-geom/9511007">Ginzburg</a>
+and <a href = "https://arxiv.org/abs/0707.3799">Bezrukavnikov-Finkelberg</a>
+(really, of the <a href =
+"https://arxiv.org/abs/math/0304173">Arkhipov-Bezrukavnikov-Ginzburg</a>
+equivalence) with coefficients in complex K-theory and elliptic cohomology.
+Shows, in the case of elliptic cohomology with associated elliptic curve $$E$$
+(for instance), that the quotient $$\widetilde{\check{\mathfrak{g}}}/\check{G}$$
+of the Grothendieck-Springer resolution in the spectral side of the usual ABG
+equivalence is to be replaced by the semistable locus in (the degree zero
+component of) the Kontsevich-Mori compactification
+$$\widetilde{\mathrm{Bun}}_{\check{G}}(E^\vee)$$. (This version is a major
+rewrite.)
+
 * <a href = "/files/higher-dim-hdR-degen.pdf">Lifting to truncated
   Brown-Peterson spectra and Hodge-de Rham degeneration in characteristic $$p >
 0$$ (2023).</a> Last update: July 2024. <a href =
@@ -172,25 +190,6 @@ forms can be constructed via curves on $$p$$-adic syntomic cohomology (as
 constructed in Bhatt-Morrow-Scholze). The argument relies on refining a result
 of Hesselholt's, as well as an evenness result of Darrell and Riggenbach (which
 we reprove using different methods).
-
-* <a href = "/files/grG-regular.pdf">Chromatic aberrations of the geometric
-  Satake equivalence over the regular locus (2023).</a> Last update: June 2023.
-<a href = "https://arxiv.org/abs/2303.09432">arXiv</a>. (I am in the process of
-rewriting this article.)<br> 
-Studies the question of proving an analogue of the derived geometric Satake
-equivalence of <a href = "https://arxiv.org/abs/alg-geom/9511007">Ginzburg</a>
-and <a href = "https://arxiv.org/abs/0707.3799">Bezrukavnikov-Finkelberg</a>
-(really, of the <a href =
-"https://arxiv.org/abs/math/0304173">Arkhipov-Bezrukavnikov-Ginzburg</a>
-equivalence) with coefficients in complex K-theory and elliptic cohomology.
-Shows, in the case of elliptic cohomology with associated elliptic curve $$E$$
-(for instance), that the quotient $$\widetilde{\check{\mathfrak{g}}}/\check{G}$$
-of the Grothendieck-Springer resolution in the spectral side of the usual ABG
-equivalence is to be replaced by the semistable locus in (the degree zero
-component of) the Kontsevich-Mori compactification
-$$\widetilde{\mathrm{Bun}}_{\check{G}}(E^\vee)$$. (This version fixes an
-important error: the proof of the main result requires $$G$$ to be
-simply-laced.)
 
 
 * <a href = "/files/fgls-and-dR-complexes.pdf">Generalized $$n$$-series and de
