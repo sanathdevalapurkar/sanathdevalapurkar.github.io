@@ -73,9 +73,16 @@ In Fall 2023, I organized a seminar on relative Langlands duality with <a href =
 "https://people.math.harvard.edu/~gammage/relative-fall23.html">here</a></b>. We
 (used to) meet Tuesdays at 1 pm in SC 232.
 </p>-->
-<p>
+<!--<p>
 In Spring 2024, I'm teaching an undergraduate course (Math 99r) on integrable
 systems. The website is <b><a href = "/integrable.html">here</a></b>.
+</p>-->
+<p>
+In Summer 2024, I'm visiting <a href =
+"https://cse.umn.edu/math/events/summer-school-and-workshop-relative-langlands-duality">Minnesota</a>
+and <a href = "https://sites.google.com/view/lawrge2024/local-information?authuser=0">USC</a>
+in June, and <a href = "https://www.mfo.de/occasion/2429/www_view">Oberwolfach</a> and 
+<a href = "https://www.mpim-bonn.mpg.de/">Bonn</a> in July.
 </p>
 </td>
 </tr>
@@ -376,6 +383,8 @@ The usual warning holds: many of these documents have not been proofread, so
 there's a chance they contain mistakes. Caveat lector! Please send me an email
 if you have any comments.
 
+* <a href = "/files/string-analogue-spinc.pdf">A String analogue of Spin-C</a>.
+  Miscellaneous notes I wrote a while back. Last update: August 2022.
 * <a href = "/files/exceptional-iso.pdf">Exceptional isomorphisms</a>. Notes for
   a talk at the Trivial Notions seminar at Harvard; currently incomplete near
 the end. Last update: October 2023.
