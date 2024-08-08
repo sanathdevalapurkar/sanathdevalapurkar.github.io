@@ -115,7 +115,7 @@ EHP sequences and Hopf fibrations. (Some simplifications added to the arXiv
 version in the link above; also lightly updated Conjecture 3.5.11.)
 
 * <a href = "/files/grG-regular.pdf">Chromatic aberrations of the geometric
-  Satake equivalence over the regular locus (2023).</a> Last update: July 2024.
+  Satake equivalence over the regular locus (2023).</a> Last update: Aug 2024.
 <a href = "https://arxiv.org/abs/2303.09432">arXiv</a>. (This is almost a
 complete rewrite of the first version.)<br> 
 Studies the question of proving an analogue of the derived geometric Satake
@@ -129,8 +129,8 @@ Shows, in the case of elliptic cohomology with associated elliptic curve $$E$$
 of the Grothendieck-Springer resolution in the spectral side of the usual ABG
 equivalence is to be replaced by the semistable locus in (the degree zero
 component of) the Kontsevich-Mori compactification
-$$\widetilde{\mathrm{Bun}}_{\check{G}}(E^\vee)$$. (This version is a major
-rewrite.)
+$$\widetilde{\mathrm{Bun}}_{\check{G}}(E^\vee)$$. (Added some new material on
+the interaction with power operations.)
 
 * <a href = "/files/higher-dim-hdR-degen.pdf">Lifting to truncated
   Brown-Peterson spectra and Hodge-de Rham degeneration in characteristic $$p >
