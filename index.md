@@ -78,7 +78,7 @@ In Spring 2024, I'm teaching an undergraduate course (Math 99r) on integrable
 systems. The website is <b><a href = "/integrable.html">here</a></b>.
 </p>-->
 <p>
-In Summer 2024, I'm visiting <a href =
+In Summer 2024, I was visiting <a href =
 "https://cse.umn.edu/math/events/summer-school-and-workshop-relative-langlands-duality">Minnesota</a>
 and <a href = "https://sites.google.com/view/lawrge2024/local-information?authuser=0">USC</a>
 in June, and <a href = "https://www.mfo.de/occasion/2429/www_view">Oberwolfach</a> and 
