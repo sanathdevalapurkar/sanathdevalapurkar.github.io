@@ -24,11 +24,12 @@ src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLor
 </td>
 <td>
 <p>
-I'm a fourth-year graduate student at Harvard, fortunate to be advised by <a
+I'm a fifth-year graduate student at Harvard, fortunate to be advised by <a
 href = "https://people.math.harvard.edu/~mjh/">Mike Hopkins</a> and <a href =
 "https://people.math.harvard.edu/~gaitsgde/">Dennis Gaitsgory</a>. I'm broadly
 interested in algebraic topology, characteristic p (and v1, v2, ...) geometry,
-and geometric representation theory, but my interests are constantly changing. 
+and geometric representation theory, but my interests are constantly changing.
+I'll be applying for postdocs during fall 2024.
 </p>
 <p>
 Outside of math, I spend a bunch of time playing the drums, listening to (mostly
