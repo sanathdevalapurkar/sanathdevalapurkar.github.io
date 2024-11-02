@@ -20,7 +20,10 @@ src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLor
 <table width="100%" cellspacing="0" cellpadding="0">
 <tbody><tr>
 <td width = "37.5%">
+<figure>
 <img style="display: block; margin: auto;" alt="photo" src="/assets/book-circle.png">
+<figcaption>At "The Last Bookstore" in Los Angeles</figcaption>
+</figure>
 </td>
 <td>
 <p>
@@ -78,13 +81,13 @@ In Fall 2023, I organized a seminar on relative Langlands duality with <a href =
 In Spring 2024, I'm teaching an undergraduate course (Math 99r) on integrable
 systems. The website is <b><a href = "/integrable.html">here</a></b>.
 </p>-->
-<p>
+<!--<p>
 In Summer 2024, I was visiting <a href =
 "https://cse.umn.edu/math/events/summer-school-and-workshop-relative-langlands-duality">Minnesota</a>
 and <a href = "https://sites.google.com/view/lawrge2024/local-information?authuser=0">USC</a>
 in June, and <a href = "https://www.mfo.de/occasion/2429/www_view">Oberwolfach</a> and 
 <a href = "https://www.mpim-bonn.mpg.de/">Bonn</a> in July.
-</p>
+</p>-->
 </td>
 </tr>
 </tbody></table>
