@@ -76,7 +76,7 @@ the space of pairs $$(x,y) \in T^\ast(V \otimes W^\ast)$$ such that $$I + \beta
 \langle x,y\rangle$$ is invertible; when $$\beta = 1$$, this is a multiplicative
 quiver variety.
 
-| $$G$$ | $$X$$ | $$\check{G}$$ | $$\check{M}_\beta$$ | Moment map $$\check{M}_\beta \to {G}_\beta$$ |
+| $$G$$ | $$X$$ | $$\check{G}$$ | (Affinization of) $$\check{M}_\beta$$ | Moment map $$\check{M}_\beta \to {G}_\beta$$ |
 | -- | -- | -- | -- | -- |
 | $$H \times H$$ | $$H$$ | $$\check{H} \times \check{H}$$ | $${H}_\beta$$ | Chevalley-twisted diagonal |
 | $$G$$ | $$G/_\psi N$$ | $$\check{G}$$ | $$\ast$$ | Identity |
@@ -112,8 +112,8 @@ The above table isn't comprehensive; there are other examples, like some rank
 one spherical varieties, which can be found in <a href =
 "https://sanathdevalapurkar.github.io/files/hyperboloid_spectral_decomp.pdf">this
 article</a>. Also, the table clearly mostly contains only homogeneous
-$$G$$-spaces, and is missing Whittaker-induced examples; this is not a
-mathematical problem, but is rather due to my laziness.
+$$G$$-spaces, and is missing Whittaker-induced examples; this is not because
+there is any mathematical problem, but is rather due to my laziness.
 
 For the examples in the above table, I have verified the
 $$\mathrm{ku}$$-theoretic analogue of the first conjecture of <a href =
