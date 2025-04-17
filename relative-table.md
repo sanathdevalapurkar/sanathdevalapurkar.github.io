@@ -74,7 +74,8 @@ $$n\times n$$-matrices $$A$$ such that $$\frac{\det(I + \beta A) - 1}{\beta} =
 0$$. If $$V$$ and $$W$$ are vector spaces, let $$\mathcal{B}_\beta(V,W)$$ denote
 the space of pairs $$(x,y) \in T^\ast(V \otimes W^\ast)$$ such that $$I + \beta
 \langle x,y\rangle$$ is invertible; when $$\beta = 1$$, this is a multiplicative
-quiver variety.
+quiver variety. The moment map associated to a $$\mathrm{ku}$$-Hamiltonian space
+goes $$\check{M}_\beta \to G_\beta.$$
 
 | $$G$$ | $$X$$ | $$\check{G}$$ | (Affinization of) $$\check{M}_\beta$$ | Moment map $$\check{M}_\beta \to {G}_\beta$$ |
 | -- | -- | -- | -- | -- |
@@ -94,26 +95,21 @@ quiver variety.
 | (Nonsplit) $$G(\!(t)\!)$$ for $$G = \mathrm{PGL}_2$$ | $$G(\!(t)\!)/G(\!(t^n)\!)$$, $$n>1$$ odd | $$\mathrm{SL}_2$$ | Affine cone on secant variety of rational normal curve $$\mathbf{P}^1 \hookrightarrow \mathbf{P}^n$$ (for ordinary cohomology) | Moment map on $$\mathrm{Sym}^n(\mathbf{A}^2)$$ |
 
 **Some comments:**
-I expect the Whittaker line to be true, but have not worked it out. In the line
-involving $$H \times T$$ acting on $$H$$,
+In the line involving $$H \times T$$ acting on $$H$$,
 $$\mathrm{QCoh}(\check{M}_\beta/\check{G})$$ is only equivalent to the full
 subcategory of the corresponding geometric sheaf category which is generated
 under the spherical Hecke action by the $$\delta$$-sheaf of $$X_O \subseteq
-X_F$$. Similarly for the nonsplit examples above. Some of these
-$$\mathrm{ku}$$-theoretic analogues, like the Gan-Gross-Prasad period
-(concerning $$\mathrm{SO}_{2n} \times \mathrm{SO}_{2n+1}$$ acting on
-$$\mathrm{SO}_{2n+1}$$), have not yet been written up in any public document;
-but they can be deduced using techniques similar to those used in some of my
-work (e.g., in <a href =
+X_F$$. Similarly for the nonsplit examples above; so in these cases, we are only
+talking about the *affinization* of the true ($$\mathrm{ku}$$-)Hamiltonian
+space. Some of these $$\mathrm{ku}$$-theoretic analogues, like the
+Gan-Gross-Prasad period (concerning $$\mathrm{SO}_{2n} \times
+\mathrm{SO}_{2n+1}$$ acting on $$\mathrm{SO}_{2n+1}$$), have not yet been
+written up in any public document; but they can be deduced using techniques
+similar to those used in some of my work (e.g., in <a href =
 "https://sanathdevalapurkar.github.io/files/PGL2-cubes.pdf">this article</a>).
 The "triple product period" is a special case of the Gan-Gross-Prasad period,
-corresponding to $$n=2$$.
-The above table isn't comprehensive; there are other examples, like some rank
-one spherical varieties, which can be found in <a href =
-"https://sanathdevalapurkar.github.io/files/hyperboloid_spectral_decomp.pdf">this
-article</a>. Also, the table clearly mostly contains only homogeneous
-$$G$$-spaces, and is missing Whittaker-induced examples; this is not because
-there is any mathematical problem, but is rather due to my laziness.
+corresponding to $$n=2$$.  The above table isn't comprehensive; there are other
+examples, like some rank one spherical varieties, which can be found in <a href = "https://sanathdevalapurkar.github.io/files/hyperboloid_spectral_decomp.pdf">this article</a>. Also, the table clearly mostly contains only homogeneous $$G$$-spaces, and is missing other Whittaker-induced examples; this is not because there is any mathematical problem, but is rather due to my laziness.
 
 For the examples in the above table, I have verified the
 $$\mathrm{ku}$$-theoretic analogue of the first conjecture of <a href =

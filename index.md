@@ -32,7 +32,9 @@ href = "https://people.math.harvard.edu/~mjh/">Mike Hopkins</a> and <a href =
 "https://people.math.harvard.edu/~gaitsgde/">Dennis Gaitsgory</a>. I'm broadly
 interested in algebraic topology, characteristic p (and v1, v2, ...) geometry,
 and geometric representation theory, but my interests are constantly changing.
-I'll be applying for postdocs during fall 2024.
+I'm starting as a Dickson instructor at the University of Chicago for the
+2025-26 academic year; then I will be at the IAS in Fall 2026; and I will then
+head to Johns Hopkins as an assistant professor.
 </p>
 <p>
 Outside of math, I spend a bunch of time playing the drums, listening to (mostly
@@ -58,38 +60,6 @@ studied in some of my writings below.
 In <b>Spring 2022</b>, I helped organize the <b><a
 href="thursday-spring-2022.html">Thursday seminar</a></b> at Harvard with Mike
 Hopkins.
-</p>-->
-<!--<p>
-During parts of March and April 2022, I was at the <a href =
-"https://www.math.arizona.edu/~swc/index.html">Arizona Winter School</a>, and
-then <a href = "https://sites.northwestern.edu/hmgp/">visiting Northwestern</a>
-for a few weeks, where I gave a <a href =
-"https://antieau.github.io/seminars/202202-topology.html">talk</a>.
-</p>
-<p>
-This spring, I'm giving talks at <a href =
-"http://math.uchicago.edu/~algtop/">UChicago</a>, <a href =
-"https://jhu-top-seminar.github.io/">Johns Hopkins</a>, and the <a href =
-"https://perimeterinstitute.ca/events/chromatic-aberrations-geometric-satake-equivalence">Perimeter
-Institute</a>.
-</p>-->
-<!--<p>
-In Fall 2023, I organized a seminar on relative Langlands duality with <a href =
-"https://people.math.harvard.edu/~gammage/">Ben Gammage</a>; the website is
-<b><a href =
-"https://people.math.harvard.edu/~gammage/relative-fall23.html">here</a></b>. We
-(used to) meet Tuesdays at 1 pm in SC 232.
-</p>-->
-<!--<p>
-In Spring 2024, I'm teaching an undergraduate course (Math 99r) on integrable
-systems. The website is <b><a href = "/integrable.html">here</a></b>.
-</p>-->
-<!--<p>
-In Summer 2024, I was visiting <a href =
-"https://cse.umn.edu/math/events/summer-school-and-workshop-relative-langlands-duality">Minnesota</a>
-and <a href = "https://sites.google.com/view/lawrge2024/local-information?authuser=0">USC</a>
-in June, and <a href = "https://www.mfo.de/occasion/2429/www_view">Oberwolfach</a> and 
-<a href = "https://www.mpim-bonn.mpg.de/">Bonn</a> in July.
 </p>-->
 </td>
 </tr>
@@ -198,7 +168,7 @@ nilpotence/Ravenel filtration of $$\mathrm{MU}$$.
 * <a href = "/files/p-typical-curves.pdf">$$p$$-typical curves on $$p$$-adic
   Tate twists and de Rham-Witt forms (2023),</a> joint with <a href =
 "https://personal.math.ubc.ca/~smondal/">Shubhodip Mondal</a>.  Last update:
-Sept 2023. <a href = "https://arxiv.org/abs/2309.16623">arXiv</a>.<br>
+March 2025. <a href = "https://arxiv.org/abs/2309.16623">arXiv</a>.<br>
 Continuing early work of Bloch, Kato, Artin, and Mazur, shows that de Rham-Witt
 forms can be constructed via curves on $$p$$-adic syntomic cohomology (as
 constructed in Bhatt-Morrow-Scholze). The argument relies on refining a result
