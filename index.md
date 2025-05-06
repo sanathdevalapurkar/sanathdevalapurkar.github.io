@@ -56,6 +56,11 @@ and <a href = "/relative-table.html">here</a> is a table of examples of relative
 Langlands duality in the context of generalized cohomology theories that I
 studied in some of my writings below.
 </p>
+<p>
+Here is a <a href = "https://tbrazel.github.io/trinities.html">seminar</a> on
+"Arnold's trinities" that I'm organizing with <a href =
+"https://tbrazel.github.io/index.html">Thomas Brazelton</a>.
+</p>
 <!--<p>
 In <b>Spring 2022</b>, I helped organize the <b><a
 href="thursday-spring-2022.html">Thursday seminar</a></b> at Harvard with Mike
@@ -74,6 +79,30 @@ Comments or suggestions for improving any of these documents are greatly
 appreciated! (By request, I've updated some of the files below to have internal
 hyperlinks.)
 
+* <a href = "/files/thesis.pdf">Spherochromatism in representation theory and
+  arithmetic geometry (2025).</a> Last update: May 2025.<br>
+This is my PhD thesis (it's a bit rough in some places!). The word
+"spherochromatism" in the title is a term from optics, which refers to when a
+lens (in this case, interpreted as the notion of "linearization" through the
+homotopy theorist's notion of spectra) to focus all the wavelengths of color (in
+this case, interpreted as the various chromatic strata in homotopy theory) to
+the same point. (See <a href =
+"https://richardbarron.net/cameras/2021/07/25/spherochromatism/">here</a> for a
+vivid example in photography.) Some, but not all, of this work appears in the
+documents below; but some of the parts that have already appeared in the
+documents below have also been edited and refined.
+
+* <a href = "/files/j-thh-Z.pdf">$$\mathrm{THH}(\mathbf{Z})$$ and the image of J
+  (2025),</a> joint with <a href = "https://www.mit.edu/~arpon/">Arpon
+Raksit</a>. Last update: May 2025. <a href =
+"https://arxiv.org/abs/2505.02218">arXiv.</a><br>
+Building on work of Bokstedt-Madsen, we identify the $$p$$-complete topological
+Hochschild homology of the integers with the Frobenius twist of the connective
+image of J spectrum (for odd $$p$$). This has various applications, like a new
+take on the work of Bokstedt-Madsen, height 1 analogues of the Beilinson fiber
+square, calculations of the $$K(1)$$-local algebraic K-theory of various ring
+spectra, etc.
+
 * <a href = "/files/hyperboloid_spectral_decomp.pdf">ku-theoretic spectral
   decompositions for spheres and projective spaces (2024).</a> Last update: 
 April 2024. <a href = "https://arxiv.org/abs/2402.03995">arXiv.</a> <br>
@@ -83,7 +112,7 @@ Venkatesh</a> in the case of affine homogeneous spherical varieties of relative
 rank one (as listed by Akhiezer), as well as an analogue for coefficients in
 connective complex K-theory $$\mathrm{ku}$$. (For instance, working with
 $$\mathrm{ku}$$-coefficients changes the spectral side
-$$\check{\mathfrak{g}}/\check{G}$$ of derived geometric Satake to a stack
+$$\check{\mathfrak{g}}^\ast/\check{G}$$ of derived geometric Satake to a stack
 encoding the Hochschild-Kostant-Rosenberg filtration on the free loop space of
 $$B\check{G}$$.) Most of the article is in fact about the geometric relative
 Langlands conjectures in the general case and its relationships to homotopy

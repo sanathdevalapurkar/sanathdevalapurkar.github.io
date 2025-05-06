@@ -1,5 +1,6 @@
 ---
 layout: default
+classes: wide
 ---
 <script type="text/javascript" async=""
 src="https://www.google-analytics.com/analytics.js"></script>
@@ -88,6 +89,7 @@ goes $$\check{M}_\beta \to G_\beta.$$
 | $$\mathrm{GL}_n \times \mathrm{GL}_n$$ | $$\mathrm{GL}_n \times \mathbf{A}^n$$ | $$\mathrm{GL}_n \times \mathrm{GL}_n$$ | $$\mathcal{B}_\beta(\mathbf{A}^n, \mathbf{A}^n)$$ | $$(u,v)$$ is sent to $$(I + \beta uv, I + \beta vu)$$ |
 | $$\mathrm{GL}_n \times \mathrm{GL}_{n-1}$$ | $$\mathrm{GL}_n$$ | $$\mathrm{GL}_n \times \mathrm{GL}_{n-1}$$ | $$\mathcal{B}_\beta(\mathbf{A}^n, \mathbf{A}^{n-1})$$ | $$(u,v)$$ is sent to $$(I + \beta uv, I + \beta vu)$$ |
 | $$\mathrm{GL}_{2n}$$ | $$\mathrm{GL}_{2n}/\mathrm{Sp}_{2n}$$ | $$\mathrm{GL}_{2n}$$ | $$\mathrm{GL}_{2n} \times^{\mathrm{GL}_n} \mathfrak{gl}_n$$, where $$\mathrm{GL}_n$$ is embedded into $$\mathrm{GL}_{2n}$$ by $$\mathrm{diag}(g,g)$$ | $$g \mapsto \begin{pmatrix} I + \beta^2 g & \beta I \\ \beta g & I \end{pmatrix}$$ |
+| $$\mathrm{GL}_{2n+1}$$ | $$\mathrm{GL}_{2n+1}/\mathrm{Sp}_{2n}$$ | $$\mathrm{GL}_{2n+1}$$ | $$T^\ast(\mathrm{GL}_{2n+1}/(\mathrm{GL}_n \times \mathrm{GL}_{n+1})) \times \mathbf{A}^1_\beta$$ | "Checkerboard" matrix |
  $$\mathrm{PSO}_{2n} \times \mathrm{SO}_{2n+1}$$ | $$\mathrm{SO}_{2n+1}$$ | $$\mathrm{Spin}_{2n} \times \mathrm{Sp}_{2n}$$ | $$u\in \mathrm{Hom}(\mathbf{A}^{2n}, \mathbf{A}^{2n})$$ such that $$I + \beta u u^\ast$$ is invertible | $$(u,v)$$ is sent to $$(I + \beta u u^\ast, I + \beta u^\ast u)$$ |
 | $$\mathrm{PSO}_{2n} \times \mathrm{SO}_{2n-1}$$ | $$\mathrm{PSO}_{2n}$$ | $$\mathrm{Spin}_{2n} \times \mathrm{Sp}_{2n-2}$$ | $$u\in \mathrm{Hom}(\mathbf{A}^{2n-2}, \mathbf{A}^{2n})$$ such that $$I + \beta u u^\ast$$ is orthogonal and $$I+\beta u^\ast u$$ is symplectic | $$(u,v)$$ is sent to $$(I + \beta u u^\ast, I + \beta u^\ast u)$$ |
 | $$\mathrm{SO}_3^{\times 3}$$ | $$\mathrm{SO}_3^{\times 3}/\mathrm{SO}_3^\mathrm{diag}$$ | $$\mathrm{SL}_2^{\times 3}$$ | $$u\in \mathrm{Hom}(\mathbf{A}^2, (\mathbf{A}^2)^{\otimes 2})$$ such that $$I + \beta u u^\ast$$ is orthogonal and $$I+\beta u^\ast u$$ is symplectic | <a href = "https://annals.math.princeton.edu/wp-content/uploads/annals-v159-n1-p03.pdf">Bhargava cubes</a> (see <a href = "https://sanathdevalapurkar.github.io/files/PGL2-cubes.pdf">here</a> for elaboration) |
