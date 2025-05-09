@@ -95,6 +95,7 @@ goes $$\check{M}_\beta \to G_\beta.$$
 | $$\mathrm{SO}_3^{\times 3}$$ | $$\mathrm{SO}_3^{\times 3}/\mathrm{SO}_3^\mathrm{diag}$$ | $$\mathrm{SL}_2^{\times 3}$$ | $$u\in \mathrm{Hom}(\mathbf{A}^2, (\mathbf{A}^2)^{\otimes 2})$$ such that $$I + \beta u u^\ast$$ is orthogonal and $$I+\beta u^\ast u$$ is symplectic | <a href = "https://annals.math.princeton.edu/wp-content/uploads/annals-v159-n1-p03.pdf">Bhargava cubes</a> (see <a href = "https://sanathdevalapurkar.github.io/files/PGL2-cubes.pdf">here</a> for elaboration) |
 | (Nonsplit) $$G(\!(t)\!)$$ for $$G = \mathrm{PGL}_2$$ | $$G(\!(t)\!)/G(\!(t^3)\!)$$ | $$\mathrm{SL}_2$$ | Orbit closure in $$\mathrm{Sym}^3(\mathbf{A}^2)$$ of the parametric family $$a\mapsto ax^3+3xy^2-\beta y^3$$ | Quadratic resolvent |
 | (Nonsplit) $$G(\!(t)\!)$$ for $$G = \mathrm{PGL}_2$$ | $$G(\!(t)\!)/G(\!(t^n)\!)$$, $$n>1$$ odd | $$\mathrm{SL}_2$$ | Affine cone on secant variety of rational normal curve $$\mathbf{P}^1 \hookrightarrow \mathbf{P}^n$$ (for ordinary cohomology) | Moment map on $$\mathrm{Sym}^n(\mathbf{A}^2)$$ |
+| $$\mathrm{E}_6$$ | $$\mathrm{E}_6/\mathrm{F}_4$$ | $$\mathrm{SL}_3$$ | $$\mathfrak{sl}_3^\ast/\mathrm{SL}_3 \times \mathfrak{g}_2^\ast /\!\!/ \mathrm{G}_2$$ (for ordinary cohomology; also see <a href = "https://arxiv.org/abs/2409.03969">here</a>) | |
 
 **Some comments:**
 In the line involving $$H \times T$$ acting on $$H$$,
@@ -111,7 +112,11 @@ similar to those used in some of my work (e.g., in <a href =
 "https://sanathdevalapurkar.github.io/files/PGL2-cubes.pdf">this article</a>).
 The "triple product period" is a special case of the Gan-Gross-Prasad period,
 corresponding to $$n=2$$.  The above table isn't comprehensive; there are other
-examples, like some rank one spherical varieties, which can be found in <a href = "https://sanathdevalapurkar.github.io/files/hyperboloid_spectral_decomp.pdf">this article</a>. Also, the table clearly mostly contains only homogeneous $$G$$-spaces, and is missing other Whittaker-induced examples; this is not because there is any mathematical problem, but is rather due to my laziness.
+examples, like some rank one spherical varieties, which can be found in <a href
+= "https://sanathdevalapurkar.github.io/files/hyperboloid_spectral_decomp.pdf">this
+article</a>. Also, the table clearly mostly contains only homogeneous
+$$G$$-spaces, and is missing other Whittaker-induced examples; this is not
+because there is any mathematical problem, but is rather due to my laziness.
 
 For the examples in the above table, I have verified the
 $$\mathrm{ku}$$-theoretic analogue of the first conjecture of <a href =
