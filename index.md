@@ -96,12 +96,12 @@ documents below have also been edited and refined.
   (2025),</a> joint with <a href = "https://www.mit.edu/~arpon/">Arpon
 Raksit</a>. Last update: May 2025. <a href =
 "https://arxiv.org/abs/2505.02218">arXiv.</a><br>
-Building on work of Bokstedt-Madsen, we identify the $$p$$-complete topological
+Building on work of Bokstedt-Madsen, identifies the $$p$$-complete topological
 Hochschild homology of the integers with the Frobenius twist of the connective
-image of J spectrum (for odd $$p$$). This has various applications, like a new
-take on the work of Bokstedt-Madsen, height 1 analogues of the Beilinson fiber
-square, calculations of the $$K(1)$$-local algebraic K-theory of various ring
-spectra, etc.
+image of J spectrum (for odd $$p$$). Various applications are presented, like a
+new take on the work of Bokstedt-Madsen, height 1 analogues of the Beilinson
+fiber square, calculations of the $$K(1)$$-local algebraic K-theory of various
+ring spectra, etc.
 
 * <a href = "/files/hyperboloid_spectral_decomp.pdf">ku-theoretic spectral
   decompositions for spheres and projective spaces (2024).</a> Last update: 
