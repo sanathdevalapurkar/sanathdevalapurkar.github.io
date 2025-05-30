@@ -78,7 +78,7 @@ the space of pairs $$(x,y) \in T^\ast(V \otimes W^\ast)$$ such that $$I + \beta
 quiver variety. The moment map associated to a $$\mathrm{ku}$$-Hamiltonian space
 goes $$\check{M}_\beta \to G_\beta.$$
 
-| $$G$$ | $$X$$ | $$\check{G}$$ | (Affinization of) $$\check{M}_\beta$$ | Moment map $$\check{M}_\beta \to {G}_\beta$$ |
+| $$G$$ | $$X$$ | $$\check{G}_X$$ | (Affinization of) $$\check{M}_\beta$$ | Moment map $$\check{M}_\beta \to {G}_\beta$$ |
 | -- | -- | -- | -- | -- |
 | $$H \times H$$ | $$H$$ | $$\check{H} \times \check{H}$$ | $$\check{H} \times {H}_\beta$$ | $$(\mathrm{projection}, \mathrm{conjugation})$$ |
 | $$G$$ | $$G/_\psi N$$ | $$\check{G}$$ | $$\ast$$ | Identity |
@@ -88,14 +88,15 @@ goes $$\check{M}_\beta \to G_\beta.$$
 | $$\mathrm{PGL}_2$$ | $$\mathrm{PGL}_2/\mathbf{G}_m$$ | $$\mathrm{SL}_2$$ | $$\mathcal{B}_\beta(\mathbf{A}^1, \mathbf{A}^2)$$ | $$(u,v)$$ is sent to $$I + \beta u \otimes v$$ |
 | $$\mathrm{GL}_n \times \mathrm{GL}_n$$ | $$\mathrm{GL}_n \times \mathbf{A}^n$$ | $$\mathrm{GL}_n \times \mathrm{GL}_n$$ | $$\mathcal{B}_\beta(\mathbf{A}^n, \mathbf{A}^n)$$ | $$(u,v)$$ is sent to $$(I + \beta uv, I + \beta vu)$$ |
 | $$\mathrm{GL}_n \times \mathrm{GL}_{n-1}$$ | $$\mathrm{GL}_n$$ | $$\mathrm{GL}_n \times \mathrm{GL}_{n-1}$$ | $$\mathcal{B}_\beta(\mathbf{A}^n, \mathbf{A}^{n-1})$$ | $$(u,v)$$ is sent to $$(I + \beta uv, I + \beta vu)$$ |
-| $$\mathrm{GL}_{2n}$$ | $$\mathrm{GL}_{2n}/\mathrm{Sp}_{2n}$$ | $$\mathrm{GL}_{2n}$$ | $$\mathrm{GL}_{2n} \times^{\mathrm{GL}_n} \mathfrak{gl}_n$$, where $$\mathrm{GL}_n$$ is embedded into $$\mathrm{GL}_{2n}$$ by $$\mathrm{diag}(g,g)$$ | $$g \mapsto \begin{pmatrix} I + \beta^2 g & \beta I \\ \beta g & I \end{pmatrix}$$ |
-| $$\mathrm{GL}_{2n+1}$$ | $$\mathrm{GL}_{2n+1}/\mathrm{Sp}_{2n}$$ | $$\mathrm{GL}_{2n+1}$$ | $$T^\ast(\mathrm{GL}_{2n+1}/(\mathrm{GL}_n \times \mathrm{GL}_{n+1})) \times \mathbf{A}^1_\beta$$ | "Checkerboard" matrix |
+| $$\mathrm{GL}_{2n}$$ | $$\mathrm{GL}_{2n}/\mathrm{Sp}_{2n}$$ | $$\mathrm{GL}_{n}$$ | $$(\mathrm{GL}_{2n} \times^{\mathrm{GL}_n} \mathfrak{gl}_n) \times \mathbf{A}^1_\beta$$, where $$\mathrm{GL}_n$$ is embedded into $$\mathrm{GL}_{2n}$$ by $$\mathrm{diag}(g,g)$$ | $$g \mapsto \begin{pmatrix} I + \beta^2 g & \beta I \\ \beta g & I \end{pmatrix}$$ |
+| $$\mathrm{GL}_{2n+1}$$ | $$\mathrm{GL}_{2n+1}/\mathrm{Sp}_{2n}$$ | $$\mathrm{GL}_n \times \mathrm{GL}_{n+1}$$ | $$T^\ast(\mathrm{GL}_{2n+1}/(\mathrm{GL}_n \times \mathrm{GL}_{n+1})) \times \mathbf{A}^1_\beta$$ | "Checkerboard" matrix |
  $$\mathrm{PSO}_{2n} \times \mathrm{SO}_{2n+1}$$ | $$\mathrm{SO}_{2n+1}$$ | $$\mathrm{Spin}_{2n} \times \mathrm{Sp}_{2n}$$ | $$u\in \mathrm{Hom}(\mathbf{A}^{2n}, \mathbf{A}^{2n})$$ such that $$I + \beta u u^\ast$$ is invertible | $$(u,v)$$ is sent to $$(I + \beta u u^\ast, I + \beta u^\ast u)$$ |
 | $$\mathrm{PSO}_{2n} \times \mathrm{SO}_{2n-1}$$ | $$\mathrm{PSO}_{2n}$$ | $$\mathrm{Spin}_{2n} \times \mathrm{Sp}_{2n-2}$$ | $$u\in \mathrm{Hom}(\mathbf{A}^{2n-2}, \mathbf{A}^{2n})$$ such that $$I + \beta u u^\ast$$ is orthogonal and $$I+\beta u^\ast u$$ is symplectic | $$(u,v)$$ is sent to $$(I + \beta u u^\ast, I + \beta u^\ast u)$$ |
 | $$\mathrm{SO}_3^{\times 3}$$ | $$\mathrm{SO}_3^{\times 3}/\mathrm{SO}_3^\mathrm{diag}$$ | $$\mathrm{SL}_2^{\times 3}$$ | $$u\in \mathrm{Hom}(\mathbf{A}^2, (\mathbf{A}^2)^{\otimes 2})$$ such that $$I + \beta u u^\ast$$ is orthogonal and $$I+\beta u^\ast u$$ is symplectic | <a href = "https://annals.math.princeton.edu/wp-content/uploads/annals-v159-n1-p03.pdf">Bhargava cubes</a> (see <a href = "https://sanathdevalapurkar.github.io/files/PGL2-cubes.pdf">here</a> for elaboration) |
 | (Nonsplit) $$G(\!(t)\!)$$ for $$G = \mathrm{PGL}_2$$ | $$G(\!(t)\!)/G(\!(t^3)\!)$$ | $$\mathrm{SL}_2$$ | Orbit closure in $$\mathrm{Sym}^3(\mathbf{A}^2)$$ of the parametric family $$a\mapsto ax^3+3xy^2-\beta y^3$$ | Quadratic resolvent |
 | (Nonsplit) $$G(\!(t)\!)$$ for $$G = \mathrm{PGL}_2$$ | $$G(\!(t)\!)/G(\!(t^n)\!)$$, $$n>1$$ odd | $$\mathrm{SL}_2$$ | Affine cone on secant variety of rational normal curve $$\mathbf{P}^1 \hookrightarrow \mathbf{P}^n$$ (for ordinary cohomology) | Moment map on $$\mathrm{Sym}^n(\mathbf{A}^2)$$ |
-| $$\mathrm{E}_6$$ | $$\mathrm{E}_6/\mathrm{F}_4$$ | $$\mathrm{SL}_3$$ | $$\mathfrak{sl}_3^\ast/\mathrm{SL}_3 \times \mathfrak{g}_2^\ast /\!\!/ \mathrm{G}_2$$ (for ordinary cohomology; also see <a href = "https://arxiv.org/abs/2409.03969">here</a>) | |
+| $$\mathrm{PSO}_8$$ | $$\mathrm{PSO}_8/\mathrm{G}_2$$ | $$\mathrm{SL}_2^{\times 3}$$ | $$(\mathrm{PSO}_8 \times^{\mathrm{SL}_2^{\times 3}} (\mathbf{A}^2)^{\otimes 3}) \times \mathfrak{sl}_2^\ast /\!\!/ \mathrm{SL}_2$$ (for ordinary cohomology) | |
+| $$\mathrm{E}_6$$ | $$\mathrm{E}_6/\mathrm{F}_4$$ | $$\mathrm{SL}_3$$ | $$(\mathrm{E}_6 \times^{\mathrm{SL}_3} \mathfrak{sl}_3^\ast) \times \mathfrak{g}_2^\ast /\!\!/ \mathrm{G}_2$$ (for ordinary cohomology; also see <a href = "https://arxiv.org/abs/2409.03969">here</a>) | |
 
 **Some comments:**
 In the line involving $$H \times T$$ acting on $$H$$,
