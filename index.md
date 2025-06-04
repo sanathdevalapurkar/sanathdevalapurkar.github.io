@@ -21,9 +21,8 @@ src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLor
 <tbody><tr>
 <td width = "37.5%">
 <figure>
-<img style="display: block; margin: auto;" alt="photo" src="/assets/museum.jpg">
-<figcaption>At the Isabella Stewart Gardner museum in Boston.</figcaption>
-<!--<figcaption>At "The Last Bookstore" in Los Angeles</figcaption>-->
+<img style="display: block; margin: auto;" alt="photo" src="/assets/book-circle.png">
+<figcaption>At "The Last Bookstore" in Los Angeles</figcaption>
 </figure>
 </td>
 <td>
@@ -45,7 +44,8 @@ I was an undergraduate at MIT, where I majored in math (course 18) and minored
 in physics (course 8).
 </p>
 <ul>
-<li><b>Email address:</b> skdevalapurkar[at]gmail[dot]com.</li>
+<li><b>Email address:</b> skdevalapurkar[at]gmail[dot]com. (My Harvard email is
+now decommissioned.)</li>
 <li>My office is SC 333f.</li>
 <li><b>CV: </b><a href="/files/resume.pdf">[pdf]</a></li>
 <li>I'm also on <a
