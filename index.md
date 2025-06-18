@@ -142,7 +142,7 @@ the interaction with power operations, and fixed a minor mistake.)
 * <a href = "/files/higher-dim-hdR-degen.pdf">Lifting to truncated
   Brown-Peterson spectra and Hodge-de Rham degeneration in characteristic $$p >
 0$$ (2023).</a> Last update: July 2024. <a href =
-"https://arxiv.org/abs/2303.00739">arXiv</a>.<br>
+"https://arxiv.org/abs/2303.00739">arXiv</a>. <i>Forum of Math, Sigma.</i><br>
 Shows that if a smooth proper variety $$X$$ over $$\mathbf{F}_p$$ of dimension
 $$< p^n$$ has degenerating HKR spectral sequence, and $$\mathrm{QCoh}(X)$$ lifts
 to the truncated Brown-Peterson spectrum $$\mathrm{BP}\langle n-1\rangle$$, then
@@ -233,8 +233,7 @@ allows one to define $$\mathrm{THH}$$ relative to these ring spectra.
 
 * <a href="/files/thom.pdf">Higher chromatic Thom spectra via unstable homotopy
   theory (2020).</a> Last update: August 2022. <a
-href="https://arxiv.org/abs/2004.08951">arXiv</a>. To appear in <i>Algebr. Geom.
-Topol.</i><br>
+href="https://arxiv.org/abs/2004.08951">arXiv</a>. <i>Algebr. Geom. Topol.</i><br>
 Proves that a conjecture in unstable homotopy theory related to the
 Cohen-Moore-Neisendorfer theorem, coupled with a conjecture about the
 $$\mathbf{E}_3$$-centrality of a certain element in the homotopy of Ravenel's
@@ -252,7 +251,7 @@ papers.
   element $$\nu$$ (2019).</a> Last update: August 2022. <a
 href="https://arxiv.org/abs/1912.02548">arXiv</a>, but the arXiv is having
 issues with the spectralsequences TeX package that I've used in the newer
-version; so the version on the arXiv is currently out-of-date. Published in
+version; so the version on the arXiv is currently out-of-date. 
 <i><a href =
 "https://londmathsoc.onlinelibrary.wiley.com/doi/10.1112/blms.12759">Bull. Lond.
 Math. Soc.</a></i><br>
@@ -277,8 +276,7 @@ $$\mathrm{Diff}^+(S^1)$$. Edited by the indicated authors of the book on arXiv.
 * <a href="/files/ehp.pdf">On the James and Hilton-Milnor Splittings, and the
   metastable EHP sequence (2019)</a>, joint with <a
 href="http://math.mit.edu/~phaine/">Peter Haine</a>. Last update: November 2020.
-<a href="https://arxiv.org/abs/1912.04130">arXiv</a>. Published in <i><a
-href="https://www.elibm.org/article/10012158">Doc. Math.</a></i><br>
+<a href="https://arxiv.org/abs/1912.04130">arXiv</a>. <i><a href="https://www.elibm.org/article/10012158">Doc. Math.</a></i><br>
 Studies the James and Hilton-Milnor splittings and the metastable EHP sequences
 in higher category theory; this allows a generalization of the James and
 Hilton-Milnor splittings to motivic spaces over any base scheme.  Two proofs of
@@ -298,7 +296,7 @@ via Hood Chatham's <a
 href="https://spectralsequences.github.io/rust_webserver/">Ext calculator</a>.
 
 * <a href="/files/roots-of-unity.pdf">Roots of unity in $$K(n)$$-local rings
-  (2017).</a> Published in <i><a href="https://doi.org/10.1090/proc/14960">Proc.
+  (2017).</a> <i><a href="https://doi.org/10.1090/proc/14960">Proc.
 Amer. Math.  Soc</a></i>.  Last update: November 2019. <a
 href="https://arxiv.org/abs/1707.09957">arXiv</a>.<br>
 Shows that for $$n>0$$, any $$K(n)$$-local $$H_\infty$$-ring $$R$$ with a
@@ -390,6 +388,10 @@ The usual warning holds: many of these documents have not been proofread, so
 there's a chance they contain mistakes. Caveat lector! Please send me an email
 if you have any comments.
 
+* <a href = "/files/cambridge-2025.pdf">Geometric Langlands duality with
+  generalized coefficients</a>. Slides from a talk at <a href =
+"https://www.newton.ac.uk/event/ehtw04/">conference at Cambridge University</a>.
+Last update: June 2025.
 * <a href = "/files/string-analogue-spinc.pdf">A String analogue of Spin-C</a>.
   Miscellaneous notes I wrote a while back. Last update: August 2022.
 * <a href = "/files/exceptional-iso.pdf">Exceptional isomorphisms</a>. Notes for
