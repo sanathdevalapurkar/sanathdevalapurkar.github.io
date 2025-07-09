@@ -27,21 +27,20 @@ src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLor
 </td>
 <td>
 <p>
-I'm a fifth-year graduate student at Harvard, fortunate to be advised by <a
-href = "https://people.math.harvard.edu/~mjh/">Mike Hopkins</a> and <a href =
-"https://people.math.harvard.edu/~gaitsgde/">Dennis Gaitsgory</a>. I'm broadly
+I'm a Dickson instructor at the University of Chicago during the
+2025-26 academic year; I will then be at the IAS in Fall 2026; and I will then
+head to Johns Hopkins University as an assistant professor. I'm broadly
 interested in algebraic topology, characteristic p (and v1, v2, ...) geometry,
 and geometric representation theory, but my interests are constantly changing.
-I'm starting as a Dickson instructor at the University of Chicago for the
-2025-26 academic year; then I will be at the IAS in Fall 2026; and I will then
-head to Johns Hopkins as an assistant professor.
-</p>
-<p>
 Outside of math, I spend a bunch of time playing the drums, listening to (mostly
 instrumental) prog metal, and playing basketball.
-
-I was an undergraduate at MIT, where I majored in math (course 18) and minored
-in physics (course 8).
+</p>
+<p>
+I was a graduate student at Harvard, fortunate to be advised by <a
+href = "https://people.math.harvard.edu/~mjh/">Mike Hopkins</a> and <a href =
+"https://people.math.harvard.edu/~gaitsgde/">Dennis Gaitsgory</a>.
+Before that, I was an undergraduate at MIT, where I majored in math (course 18)
+and minored in physics (course 8).
 </p>
 <ul>
 <li><b>Email address:</b> sanathd[at]uchicago[dot]edu.</li>
@@ -160,7 +159,7 @@ href = "https://leon2k2k2k.github.io/">Leon Liu</a>, <a href =
 Pacheco-Tallaj</a>, and <a href = "https://math.berkeley.edu/~ragnar/">Ryan
 Thorngren</a>.  Last update: May 2024. <a href =
 "https://arxiv.org/abs/2309.16749">arXiv</a> and <a href =
-"https://arxiv.org/abs/2405.04649">arXiv</a>.<br>
+"https://arxiv.org/abs/2405.04649">arXiv</a>. <i>JHEP.</i><br>
 Studies defects in symmetry breaking phases via the anomaly of their defects,
 and obstructions to the existence of symmetry breaking phases with a local
 defect using the Anderson dual of a cofiber sequence of Thom spectra. The second
