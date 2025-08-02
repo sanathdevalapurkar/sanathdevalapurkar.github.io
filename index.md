@@ -36,11 +36,11 @@ Outside of math, I spend a bunch of time playing the drums, listening to (mostly
 instrumental) prog metal, and playing basketball.
 </p>
 <p>
-I was a graduate student at Harvard, fortunate to be advised by <a
-href = "https://people.math.harvard.edu/~mjh/">Mike Hopkins</a> and <a href =
-"https://people.math.harvard.edu/~gaitsgde/">Dennis Gaitsgory</a>.
-Before that, I was an undergraduate at MIT, where I majored in math (course 18)
-and minored in physics (course 8).
+I was a graduate student at Harvard until 2025, where I was fortunate to be
+advised by <a href = "https://people.math.harvard.edu/~mjh/">Mike Hopkins</a>
+and <a href = "https://people.math.harvard.edu/~gaitsgde/">Dennis Gaitsgory</a>.
+Before that, I was an undergraduate at MIT until 2020, where I majored in math
+(course 18) and minored in physics (course 8).
 </p>
 <ul>
 <li><b>Email address:</b> sanathd[at]uchicago[dot]edu.</li>
@@ -196,7 +196,8 @@ nilpotence/Ravenel filtration of $$\mathrm{MU}$$.
 * <a href = "/files/p-typical-curves.pdf">$$p$$-typical curves on $$p$$-adic
   Tate twists and de Rham-Witt forms (2023),</a> joint with <a href =
 "https://personal.math.ubc.ca/~smondal/">Shubhodip Mondal</a>.  Last update:
-March 2025. <a href = "https://arxiv.org/abs/2309.16623">arXiv</a>.<br>
+March 2025. <a href = "https://arxiv.org/abs/2309.16623">arXiv</a>.
+<i>Advances.</i><br>
 Continuing early work of Bloch, Kato, Artin, and Mazur, shows that de Rham-Witt
 forms can be constructed via curves on $$p$$-adic syntomic cohomology (as
 constructed in Bhatt-Morrow-Scholze). The argument relies on refining a result
