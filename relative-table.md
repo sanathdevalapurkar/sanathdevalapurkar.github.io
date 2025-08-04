@@ -97,6 +97,9 @@ goes $$\check{M}_\beta \to G_\beta.$$
 | (Nonsplit) $$G(\!(t)\!)$$ for $$G = \mathrm{PGL}_2$$ | $$G(\!(t)\!)/G(\!(t^n)\!)$$, $$n>1$$ odd | $$\mathrm{SL}_2$$ | Affine cone on secant variety of rational normal curve $$\mathbf{P}^1 \hookrightarrow \mathbf{P}^n$$ (for ordinary cohomology) | Moment map on $$\mathrm{Sym}^n(\mathbf{A}^2)$$ |
 | $$\mathrm{PSO}_8$$ | $$\mathrm{PSO}_8/\mathrm{G}_2$$ | $$\mathrm{SL}_2^{\times 3}$$ | $$(\mathrm{PSO}_8 \times^{\mathrm{SL}_2^{\times 3}} (\mathbf{A}^2)^{\otimes 3}) \times \mathfrak{sl}_2^\ast /\!\!/ \mathrm{SL}_2$$ (for ordinary cohomology) | |
 | $$\mathrm{E}_6$$ | $$\mathrm{E}_6/\mathrm{F}_4$$ | $$\mathrm{SL}_3$$ | $$(\mathrm{E}_6 \times^{\mathrm{SL}_3} \mathfrak{sl}_3^\ast) \times \mathfrak{g}_2^\ast /\!\!/ \mathrm{G}_2$$ (for ordinary cohomology; also see <a href = "https://arxiv.org/abs/2409.03969">here</a>) | |
+| $$\mathrm{GL}_{2n+1}$$ | $$\mathrm{GL}_{2n+1}/(\mathrm{GL}_n \times \mathrm{GL}_{n+1})$$ | $$\mathrm{Sp}_{2n}$$ | $$(\omega,u,v,y)$$ in $$\mathbf{A}^1_\beta \times \mathrm{GL}_{2n+1} \times^{\mathrm{Sp}_{2n}} (\wedge^2(\mathbf{A}^{2n}) \times T^\ast(\mathbf{A}^{2n}) \times \mathbf{A}^1)$$ such that $$\begin{pmatrix}I+\beta \omega & \beta u \\ \beta v & 1+\beta y\end{pmatrix}$$ is invertible | $$(\omega,u,v,y)$$ is sent to $$\begin{pmatrix}I+\beta \omega & \beta u \\ \beta v & 1+\beta y\end{pmatrix}$$ |
+| $$\mathrm{SO}_{4n+2}$$ | $$\mathrm{SO}_{4n+2}/\mathrm{GL}_{2n+1}$$ | $$\mathrm{Sp}_{2n}$$ | $$\mathrm{SO}_{4n+2} \times^{\mathrm{Sp}_{2n}} (\wedge^2(\mathbf{A}^{2n}) \times T^\ast(\mathbf{A}^{2n}) \times \mathbf{A}^1)$$ | |
+| $$\mathrm{SO}_{4n}$$ | $$\mathrm{SO}_{4n}/\mathrm{GL}_{2n}$$ | $$\mathrm{Sp}_{2n}$$ | $$\mathrm{SO}_{4n} \times^{\mathrm{Sp}_{2n}} (\wedge^2(\mathbf{A}^{2n}) \times T^\ast(\mathbf{A}^{2n}))$$ | |
 
 **Some comments:**
 In the line involving $$H \times T$$ acting on $$H$$,
@@ -112,12 +115,23 @@ written up in any public document; but they can be deduced using techniques
 similar to those used in some of my work (e.g., in <a href =
 "https://sanathdevalapurkar.github.io/files/PGL2-cubes.pdf">this article</a>).
 The "triple product period" is a special case of the Gan-Gross-Prasad period,
-corresponding to $$n=2$$.  The above table isn't comprehensive; there are other
-examples, like some rank one spherical varieties, which can be found in <a href
-= "https://sanathdevalapurkar.github.io/files/hyperboloid_spectral_decomp.pdf">this
+corresponding to $$n=2$$.  
+
+The above table isn't comprehensive; there are other examples, like some rank
+one spherical varieties, which can be found in <a href =
+"https://sanathdevalapurkar.github.io/files/hyperboloid_spectral_decomp.pdf">this
 article</a>. Also, the table clearly mostly contains only homogeneous
 $$G$$-spaces, and is missing other Whittaker-induced examples; this is not
 because there is any mathematical problem, but is rather due to my laziness.
+
+Note, also, that the examples of $$\mathrm{GL}_{2n+1}$$ acting on
+$$\mathrm{GL}_{2n+1}/\mathrm{Sp}_{2n}$$ and $$\mathrm{GL}_{2n+1}/(\mathrm{GL}_n
+\times \mathrm{GL}_{n+1})$$ provide -- for ordinary cohomology only! -- an
+infinite collection of examples of relative Langlands "biduality" (even over
+$$\mathbf{Z}$$), where the relative Langlands dual of $$M$$ is $$\check{M}$$,
+and the relative Langlands dual of $$\check{M}$$ is $$M$$. (Other than the group
+case, I do not have such an infinite family in the $$\mathrm{ku}$$-theoretic
+situation.)
 
 For the examples in the above table, I have verified the
 $$\mathrm{ku}$$-theoretic analogue of the first conjecture of <a href =

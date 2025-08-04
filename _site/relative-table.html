@@ -233,6 +233,29 @@ g \mapsto \begin{pmatrix} I + \beta^2 g & \beta I \\ \beta g & I \end{pmatrix} %
       <td><script type="math/tex">(\mathrm{E}_6 \times^{\mathrm{SL}_3} \mathfrak{sl}_3^\ast) \times \mathfrak{g}_2^\ast /\!\!/ \mathrm{G}_2</script> (for ordinary cohomology; also see <a href="https://arxiv.org/abs/2409.03969">here</a>)</td>
       <td> </td>
     </tr>
+    <tr>
+      <td><script type="math/tex">\mathrm{GL}_{2n+1}</script></td>
+      <td><script type="math/tex">\mathrm{GL}_{2n+1}/(\mathrm{GL}_n \times \mathrm{GL}_{n+1})</script></td>
+      <td><script type="math/tex">\mathrm{Sp}_{2n}</script></td>
+      <td><script type="math/tex">(\omega,u,v,y)</script> in <script type="math/tex">\mathbf{A}^1_\beta \times \mathrm{GL}_{2n+1} \times^{\mathrm{Sp}_{2n}} (\wedge^2(\mathbf{A}^{2n}) \times T^\ast(\mathbf{A}^{2n}) \times \mathbf{A}^1)</script> such that <script type="math/tex">% <![CDATA[
+\begin{pmatrix}I+\beta \omega & \beta u \\ \beta v & 1+\beta y\end{pmatrix} %]]></script> is invertible</td>
+      <td><script type="math/tex">(\omega,u,v,y)</script> is sent to <script type="math/tex">% <![CDATA[
+\begin{pmatrix}I+\beta \omega & \beta u \\ \beta v & 1+\beta y\end{pmatrix} %]]></script></td>
+    </tr>
+    <tr>
+      <td><script type="math/tex">\mathrm{SO}_{4n+2}</script></td>
+      <td><script type="math/tex">\mathrm{SO}_{4n+2}/\mathrm{GL}_{2n+1}</script></td>
+      <td><script type="math/tex">\mathrm{Sp}_{2n}</script></td>
+      <td><script type="math/tex">\mathrm{SO}_{4n+2} \times^{\mathrm{Sp}_{2n}} (\wedge^2(\mathbf{A}^{2n}) \times T^\ast(\mathbf{A}^{2n}) \times \mathbf{A}^1)</script></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><script type="math/tex">\mathrm{SO}_{4n}</script></td>
+      <td><script type="math/tex">\mathrm{SO}_{4n}/\mathrm{GL}_{2n}</script></td>
+      <td><script type="math/tex">\mathrm{Sp}_{2n}</script></td>
+      <td><script type="math/tex">\mathrm{SO}_{4n} \times^{\mathrm{Sp}_{2n}} (\wedge^2(\mathbf{A}^{2n}) \times T^\ast(\mathbf{A}^{2n}))</script></td>
+      <td> </td>
+    </tr>
   </tbody>
 </table>
 
@@ -249,11 +272,22 @@ Gan-Gross-Prasad period (concerning <script type="math/tex">\mathrm{SO}_{2n} \ti
 written up in any public document; but they can be deduced using techniques
 similar to those used in some of my work (e.g., in <a href="https://sanathdevalapurkar.github.io/files/PGL2-cubes.pdf">this article</a>).
 The “triple product period” is a special case of the Gan-Gross-Prasad period,
-corresponding to <script type="math/tex">n=2</script>.  The above table isn’t comprehensive; there are other
-examples, like some rank one spherical varieties, which can be found in <a href="https://sanathdevalapurkar.github.io/files/hyperboloid_spectral_decomp.pdf">this
+corresponding to <script type="math/tex">n=2</script>.</p>
+
+<p>The above table isn’t comprehensive; there are other examples, like some rank
+one spherical varieties, which can be found in <a href="https://sanathdevalapurkar.github.io/files/hyperboloid_spectral_decomp.pdf">this
 article</a>. Also, the table clearly mostly contains only homogeneous
 <script type="math/tex">G</script>-spaces, and is missing other Whittaker-induced examples; this is not
 because there is any mathematical problem, but is rather due to my laziness.</p>
+
+<p>Note, also, that the examples of <script type="math/tex">\mathrm{GL}_{2n+1}</script> acting on
+<script type="math/tex">\mathrm{GL}_{2n+1}/\mathrm{Sp}_{2n}</script> and <script type="math/tex">\mathrm{GL}_{2n+1}/(\mathrm{GL}_n
+\times \mathrm{GL}_{n+1})</script> provide – for ordinary cohomology only! – an
+infinite collection of examples of relative Langlands “biduality” (even over
+<script type="math/tex">\mathbf{Z}</script>), where the relative Langlands dual of <script type="math/tex">M</script> is <script type="math/tex">\check{M}</script>,
+and the relative Langlands dual of <script type="math/tex">\check{M}</script> is <script type="math/tex">M</script>. (Other than the group
+case, I do not have such an infinite family in the <script type="math/tex">\mathrm{ku}</script>-theoretic
+situation.)</p>
 
 <p>For the examples in the above table, I have verified the
 <script type="math/tex">\mathrm{ku}</script>-theoretic analogue of the first conjecture of <a href="https://arxiv.org/abs/2310.19770">this paper</a> (which corresponds to a part
