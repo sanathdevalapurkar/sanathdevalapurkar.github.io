@@ -27,13 +27,13 @@ src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLor
 </td>
 <td>
 <p>
-I'm a Dickson instructor at the University of Chicago during the
-2025-26 academic year; I will then be at the IAS in Fall 2026; and I will then
-head to Johns Hopkins University as an assistant professor. I'm broadly
-interested in algebraic topology, characteristic p (and v1, v2, ...) geometry,
-and geometric representation theory, but my interests are constantly changing.
-Outside of math, I spend a bunch of time playing the drums, listening to (mostly
-instrumental) prog metal, and playing basketball.
+I'm an NSF Postdoc, Simons Postdoc, and Dickson instructor at the University of
+Chicago during the 2025-26 academic year; I will then be at the IAS in Fall
+2026; and I will then head to Johns Hopkins University as an assistant
+professor in Jan 2027. I'm broadly interested in algebraic topology, characteristic p (and
+v1, v2, ...) geometry, and geometric representation theory, but my interests
+are constantly changing.  Outside of math, I spend a bunch of time playing the
+drums, listening to (mostly instrumental) prog metal, and playing basketball.
 </p>
 <p>
 I was a graduate student at Harvard until 2025, where I was fortunate to be
@@ -50,10 +50,9 @@ Before that, I was an undergraduate at MIT until 2020, where I majored in math
 href="https://mathoverflow.net/users/102390/skd">MathOverflow</a>.</li>
 </ul>
 <p>
-Here is a <a href="/blog/">blog</a> (which I have been horrible about updating),
-and <a href = "/relative-table.html">here</a> is a table of examples of relative
+<a href = "/relative-table.html">Here</a> is a table of examples of relative
 Langlands duality in the context of generalized cohomology theories that I
-studied in some of my writings below.
+studied in some of my writings below. I used to have a blog but never ended up updating it!
 </p>
 <p>
 Here is a <a href = "https://tbrazel.github.io/trinities.html">seminar</a> on
@@ -77,6 +76,13 @@ Hopkins.
 Comments or suggestions for improving any of these documents are greatly
 appreciated! (By request, I've updated some of the files below to have internal
 hyperlinks.)
+
+* <a href = "/files/calculus-and-cohomology.pdf">Calculus and cohomology (or, nonlinear numbers) (2026).</a> Last update: Jan 2026.<br>
+Survey/announcement of some recent work (partly from my thesis and from some of the documents below) on calculus built from 1-dimensional formal groups. This is a draft; comments are very welcome!
+
+* <a href = "/files/perverse-microsheaves.pdf">Appendix to Perverse Microsheaves (2025)</a> by <a href = "https://www.math.uni-bonn.de/~lcote/">Laurent Côté</a>, <a href = "https://chriskuo0.github.io/homepage/">Christopher Kuo</a>, <a href = "https://math.berkeley.edu/~nadler/">David Nadler</a>, and <a href = "https://sites.google.com/view/vivek-shende/">Vivek Shende</a>. <a href =
+"https://arxiv.org/abs/2209.12998v3">arXiv.</a><br>
+Appendix discussing orientation data for symplectic manifolds.
 
 * <a href = "/files/thesis.pdf">Spherochromatism in representation theory and
   arithmetic geometry (2025).</a> Last update: May 2025.<br>
