@@ -85,7 +85,7 @@ Survey/announcement of some recent work (partly from my thesis and from some of 
 Appendix discussing orientation data for symplectic manifolds.
 
 * <a href = "/files/thesis.pdf">Spherochromatism in representation theory and
-  arithmetic geometry (2025).</a> Last update: May 2025.<br>
+  arithmetic geometry (2025).</a> Last update: Jan 2026.<br>
 This is my PhD thesis (it's a bit rough in some places!). The word
 "spherochromatism" in the title is a term from optics, which refers to when a
 lens (in this case, interpreted as the notion of "linearization" through the
@@ -95,7 +95,7 @@ the same point. (See <a href =
 "https://richardbarron.net/cameras/2021/07/25/spherochromatism/">here</a> for a
 vivid example in photography.) Some, but not all, of this work appears in the
 documents below; but some of the parts that have already appeared in the
-documents below have also been edited and refined.
+documents below have also been edited and refined. (Fixed small errors in Jan 2026)
 
 * <a href = "/files/j-thh-Z.pdf">$$\mathrm{THH}(\mathbf{Z})$$ and the image of J
   (2025),</a> joint with <a href = "https://www.mit.edu/~arpon/">Arpon
