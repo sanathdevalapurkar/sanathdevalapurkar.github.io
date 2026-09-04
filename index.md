@@ -27,15 +27,10 @@ src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLor
 </td>
 <td>
 <p>
-I'm an NSF Postdoc, Simons Postdoc, and Dickson instructor at the University of
-Chicago during the 2025-26 academic year; I will then be at the IAS in Fall
-2026; and I will then head to Johns Hopkins University as an assistant
-professor in Jan 2027. I'm broadly interested in algebraic topology, characteristic p (and
-v1, v2, ...) geometry, and geometric representation theory, but my interests
-are constantly changing.  Outside of math, I spend a bunch of time playing the
-drums, listening to (mostly instrumental) prog metal, and playing basketball.
+I'm a member at the IAS in fall 2026; I will then head to Johns Hopkins University as an assistant professor in Jan 2027. I'm broadly interested in algebraic topology, characteristic p (and v1, v2, ...) geometry, and geometric representation theory, but my interests are constantly changing.  Outside of math, I spend a bunch of time playing the drums, listening to (mostly instrumental) prog metal, and playing basketball.
 </p>
 <p>
+I was a Dickson instructor at UChicago during the 2025-26 academic year.
 I was a graduate student at Harvard until 2025, where I was fortunate to be
 advised by <a href = "https://people.math.harvard.edu/~mjh/">Mike Hopkins</a>
 and <a href = "https://people.math.harvard.edu/~gaitsgde/">Dennis Gaitsgory</a>.
@@ -43,8 +38,8 @@ Before that, I was an undergraduate at MIT until 2020, where I majored in math
 (course 18) and minored in physics (course 8).
 </p>
 <ul>
-<li><b>Email address:</b> sanathd[at]uchicago[dot]edu.</li>
-<li>My office is Eckhart 309.</li>
+<li><b>Email address:</b> sanathd[at]ias[dot]edu. But you should probably just email s+k+[my-last-name]@gmail.com (removing all symbols and making the appropriate substitution) because my email will likely expire next year.</li>
+<li>My office is Fuld 223.</li>
 <li><b>CV: </b><a href="/files/resume.pdf">[pdf]</a></li>
 <li>I'm also on <a
 href="https://mathoverflow.net/users/102390/skd">MathOverflow</a>.</li>
