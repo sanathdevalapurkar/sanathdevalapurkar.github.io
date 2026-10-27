@@ -67,7 +67,10 @@ Comments or suggestions for improving any of these documents are greatly
 appreciated! (By request, I've updated some of the files below to have internal
 hyperlinks.)
 
-* <a href = "/files/levi-rel-sat.pdf">Relative Langlands duality for linear periods (2026),</a> joint with <a href = "https://sites.google.com/site/tsaohsienchen/">Tsao-Hsien Chen</a>, <a href = "https://math.berkeley.edu/~nadler/">David Nadler</a>, and Mark Macerato. Last update: Oct 2026.<br>
+* <a href = "/files/en-ram.pdf">Ramification in $$\mathbf{E}_n$$-algebras (2026),</a> joint with <a href = "https://ishanina.github.io/">Ishan Levy</a>. Last update: Oct 2026. <a href = "https://arxiv.org/abs/2610.33754">arXiv</a>.<br>
+Studies $$\mathbf{E}_n$$-algebras with ramification in their $$\pi_0$$ and in particular show that the existence of ramification places strong limitations on their chromatic behavior.
+
+* <a href = "/files/levi-rel-sat.pdf">Relative Langlands duality for linear periods (2026),</a> joint with <a href = "https://sites.google.com/site/tsaohsienchen/">Tsao-Hsien Chen</a>, <a href = "https://math.berkeley.edu/~nadler/">David Nadler</a>, and Mark Macerato. Last update: Oct 2026. <a href = "https://arxiv.org/abs/2610.31771">arXiv</a>.<br>
 Studies local relative Langlands duality for $$\mathrm{GL}_{p+q}/(\mathrm{GL}_p \times \mathrm{GL}_q)$$.
 
 * <a href = "/files/grG-regular.pdf">Chromatic variants of geometric
